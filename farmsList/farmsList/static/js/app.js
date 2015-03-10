@@ -19,6 +19,13 @@ angular.module('listApp', [])
       "phone": "530-555-1234",
       "address": "Km 41.2 West Sacramento, CA 95605",
       "image": "http://www.farmsunday.org/resources/000/746/284/Rowley_Farm.JPG"
+    },{
+      "title": "Jordan Valley",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, nostrum, quis. Eos labore dignissimos provident illum quisquam tempora quasi nemo magnam at beatae consequatur debitis eum modi molestiae, temporibus accusamus! ",
+      "contact": "Jordan Gregory",
+      "phone": "530-555-1234",
+      "address": "Km 41.2 West Sacramento, CA 95605",
+      "image": "http://broadrundairyfarm.com/farmimages/farm%20pics%20%282%29_edited.jpg"
     }
   ];
 });
