@@ -10,8 +10,10 @@ css = Bundle(
 
 js = Bundle(
     "libs/jQuery/dist/jquery.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js",
     "libs/bootstrap/dist/js/bootstrap.js",
     "js/plugins.js",
+    "js/app.js",
     filters='jsmin',
     output="public/js/common.js"
 )

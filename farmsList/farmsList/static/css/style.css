@@ -32,6 +32,10 @@ textarea {
   width: 180px;
 }
 
+.navbar-fixed-top {
+  border-bottom: 1px solid orange;
+}
+
 
 .form-register {
   width: 50%;

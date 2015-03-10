@@ -1,33 +1,84 @@
 
 {% extends "layout.html" %}
 {% block content %}
-<!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="jumbotron">
 
-  <h1>Welcome to "Farms List"</h1>
 
-  <p>This is a starter Flask template. It includes Bootstrap 3, jQuery 2, Flask-SQLAlchemy, WTForms, and various testing utilities out of the box.</p>
-  <p><a href="https://github.com/sloria/cookiecutter-flask" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-</div><!-- /.jumbotron -->
 
-<div class="body-content">
+<!-- Modal login -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Login</h4>
+      </div>
+      <div class="modal-body">
+        {% if current_user and current_user.is_authenticated() %}
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <p class="navbar-text"><a class="navbar-link" href="{{ url_for('user.members') }}">Logged in as {{ current_user.username }}</a></p>
+            </li>
+            <li><a class="navbar-link" href="{{ url_for('public.logout') }}"><i class="fa fa-sign-out"></i></a></li>
+
+        </ul>
+        {% elif form %}
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="{{ url_for('public.register') }}">Create account</a></li>
+        </ul>
+        <form id="loginForm" method="POST" class="navbar-form form-inline navbar-right" action="/" role="login">
+          {{ form.hidden_tag() }}
+          <div class="form-group">
+            {{ form.username(placeholder="Username", class_="form-control") }}
+            {{ form.password(placeholder="Password", class_="form-control") }}
+          </div>
+          <button type="submit" class="btn btn-default">Log in</button>
+        </form>
+        {% endif %}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal login -->
+<div class="modal fade" id="create" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div ng-controller="MainController">
   <div class="row">
-    <div class="col-lg-4">
-      <h2><i class="fa fa-code"></i> Bootstrap 3</h2>
-      <p>Sleek, intuitive, and powerful mobile-first front-end framework for faster and easier web development.</p>
-      <p><a class="btn btn-default" href="http://getbootstrap.com/">Official website &raquo;</a></p>
-    </div>
-    <div class="col-lg-4">
-      <h2><i class="fa fa-flask"></i> SQLAlchemy</h2>
-      <p>SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL.</p>
-      <p><a href="http://www.sqlalchemy.org/" class="btn btn-default" href="#">Official website &raquo;</a></p>
-   </div>
-    <div class="col-lg-4">
-      <h2><i class="fa fa-edit"></i> WTForms</h2>
-      <p>WTForms is a flexible forms validation and rendering library for python web development.</p>
-      <p><a href="http://wtforms.simplecodes.com/" class="btn btn-default" href="#">Official website &raquo;</a></p>
-    </div>
-  </div><!-- /.row -->
+      <div class="col-md-2">
+        <img src="http://placekitten.com/g/150/150" alt="">
+      </div>
+      <div class="col-md-6">
+          <h2>nombre</h2>
+          <h4>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, nostrum, quis. Eos labore dignissimos provident illum quisquam tempora quasi nemo magnam at beatae consequatur debitis eum modi molestiae, temporibus accusamus!</h4>
+      </div>
+      <div class="col-md-4">
+          <ul>
+            <li>water</li>
+            <li>size</li>
+            <li>energy</li>
+            <li>housing</li>
+          </ul>
+      </div>
+  </div>
 </div>
 {% endblock %}
-

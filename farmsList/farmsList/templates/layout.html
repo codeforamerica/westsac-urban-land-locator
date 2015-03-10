@@ -9,9 +9,9 @@
   <meta charset="utf-8">
 
   <title>{% block page_title %}
-  
+
     "Farms List"
-  
+
     {% endblock %}
   </title>
   <meta name="description" content="{% block meta_description %}{% endblock %}">
@@ -28,7 +28,7 @@
   {% block css %}{% endblock %}
 
 </head>
-<body class="{% block body_class %}{% endblock %}">
+<body ng-app="listApp" class="{% block body_class %}{% endblock %}">
 {% block body %}
 {% with form=form  %}
 {% include "nav.html" %}
@@ -56,6 +56,10 @@
     {% block content %}{% endblock %}
   </div>
 
+
+
+
+
 </div><!-- end container -->
 
 {% include "footer.html" %}
@@ -69,4 +73,3 @@
 {% endblock %}
 </body>
 </html>
-
