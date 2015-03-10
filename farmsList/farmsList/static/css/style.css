@@ -10,6 +10,7 @@ html {
 
 body {
   padding-top: 60px;
+  font-family: 'Roboto';
 }
 
 section {
@@ -50,6 +51,34 @@ textarea {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+
+/* list row */
+.title {
+  color: DimGray;
+}
+
+.farm-image {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  width: 175px;
+}
+
+ul.info-icons {
+  padding: 0;
+  list-style: none;
+}
+
+ul.info-icons > li {
+  display: inline;
+}
+
+ul.info-icons > li > span.glyphicon {
+  color: LightSlateGray;
+  font-size: 30px;
+}
+
 
 /* footer */
 
