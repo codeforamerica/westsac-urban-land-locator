@@ -64,21 +64,35 @@
 
 <div ng-controller="MainController">
   <div class="row">
-      <div class="col-md-2">
-        <img class="farm-image" src="http://placekitten.com/g/150/150" alt="">
-      </div>
-      <div class="col-md-6">
-        <ul class="info-icons">
-          <li><span class="glyphicon glyphicon-flash" aria-hidden="true"></li>
-          <li><span class="glyphicon glyphicon-tint" aria-hidden="true"></li>
-          <li><span class="glyphicon glyphicon-home" aria-hidden="true"></li>
-          <li><span class="glyphicon glyphicon-fire" aria-hidden="true"></li>
-        </ul>
-          <h2 class="title">nombre</h2>
-          <h4>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, nostrum, quis. Eos labore dignissimos provident illum quisquam tempora quasi nemo magnam at beatae consequatur debitis eum modi molestiae, temporibus accusamus!</h4>
-      </div>
-      <div class="col-md-4">
+      <div class="col-sm-8">
+        <div class="row" ng-repeat="farm in farms">
+            <div class="col-md-4">
+              <img class="farm-image" ng-src="{[ farm.image ]}" alt="">
+            </div>
+            <div class="col-md-8">
+              <ul class="info-icons pull-right">
+                <li><span class="glyphicon glyphicon-flash" aria-hidden="true"></li>
+                <li><span class="glyphicon glyphicon-tint" aria-hidden="true"></li>
+                <li><span class="glyphicon glyphicon-home" aria-hidden="true"></li>
+                <li><span class="glyphicon glyphicon-fire" aria-hidden="true"></li>
+              </ul>
+                <h2 class="title">{[ farm.title ]}</h2>
+                <p class="description">{[ farm.description ]}</h4>
+                <div class="contact">
+                  <span class="name">{[ farm.contact ]}</span><br>
+                  <span class="phone">{[ farm.phone ]}</span><br>
+                  <span class="address">{[ farm.address ]}</span>
+                </div>
+                <hr>
+            </div>
 
+        </div>
+      </div>
+      <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+        <div class="sidebar-module sidebar-module-inset">
+          <h4>About</h4>
+          <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+        </div>
       </div>
   </div>
 </div>

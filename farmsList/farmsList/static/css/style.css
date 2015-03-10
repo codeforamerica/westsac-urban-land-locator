@@ -63,10 +63,22 @@ textarea {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   width: 175px;
+  height: 175px;
+  margin-top: 25px;
+}
+
+/* side bar */
+.sidebar-module {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  background-color: AliceBlue;
+  padding: 3px 10px;
 }
 
 ul.info-icons {
   padding: 0;
+  margin-top: 15px;
   list-style: none;
 }
 
