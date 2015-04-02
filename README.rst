@@ -20,8 +20,8 @@ Then run the following commands to bootstrap your environment.
 
 ::
 
-    git clone https://github.com/inaki/farmsList
-    cd farmsList
+    git clone https://github.com/inaki/farms-list.git
+    cd farms-list/farmsList/
     pip install -r requirements/dev.txt
     python manage.py server
 
