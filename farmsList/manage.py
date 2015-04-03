@@ -34,7 +34,7 @@ def test():
     exit_code = pytest.main([TEST_PATH, '--verbose'])
     return exit_code
 
-manager.add_command('server', Server())
+manager.add_command('server', Server(port=5001))
 manager.add_command('shell', Shell(make_context=_make_context))
 manager.add_command('db', MigrateCommand)
 
