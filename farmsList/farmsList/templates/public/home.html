@@ -58,23 +58,20 @@
 <div ng-controller="MainController">
   <div class="row">
       <div class="col-sm-8">
-        <div class="row" ng-repeat="farm in farms">
+        <div class="row" ng-repeat="farm in farms | filter:searchText">
             <div class="col-md-4">
               <img class="farm-image" ng-src="{[ farm.image ]}" alt="">
             </div>
             <div class="col-md-8">
-              <ul class="info-icons pull-right">
-                <li><img src="http://res.cloudinary.com/iaranzadi/image/upload/c_scale,w_35/v1426019828/no-luz_aa48xp.png" alt=""></li>
-                <li><img src="http://res.cloudinary.com/iaranzadi/image/upload/c_scale,w_30/v1426019828/agua_p3xrij.png" alt=""></li>
-                <li><img src="http://res.cloudinary.com/iaranzadi/image/upload/c_scale,w_35/v1426019828/home_uipig6.png" alt=""></li>
-              </ul>
                 <h2 class="title">{[ farm.title ]}</h2>
-                <p class="description">{[ farm.description ]}</h4>
-                <div class="contact">
-                  <span class="name">{[ farm.contact ]}</span><br>
-                  <span class="phone">{[ farm.phone ]}</span><br>
-                  <span class="address">{[ farm.address ]}</span>
-                </div>
+                <ul class="info">
+                  <li>size: {[ farm.size]} acres</li>
+                  <li>water: {[ farm.water]}</li>
+                  <li>zone: {[ farm.zone]}</li>
+                  <li>dev-plans: {[ farm.developmentPlans]} years</li>
+                </ul>
+                <button class="btn btn-warning pull-right">contact</button>
+                <br>
                 <hr>
             </div>
 

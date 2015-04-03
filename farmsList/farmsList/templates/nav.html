@@ -11,9 +11,7 @@
       <span class="icon-bar"></span>
     </button>
     <a class="navbar-brand" href="{{ url_for('public.home') }}">
-
       "Farms List"
-
     </a>
   </div>
   <!-- Collect the nav links, forms, and other content for toggling -->
@@ -21,6 +19,11 @@
     <ul class="nav navbar-nav">
       <li><a href="{{ url_for('public.home') }}">Home</a></li>
       <li><a href="{{ url_for('public.about') }}">About</a></li>
+      <li>
+        <form class="navbar-form">
+            <input type="search" class="form-control" ng-model="searchText" placeholder="Search for land">
+        </form>
+      </li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li>

@@ -73,10 +73,19 @@ textarea {
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
-  width: 175px;
-  height: 175px;
+  width: 90% ;
   margin-top: 25px;
 }
+
+ul.info {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+ul.info > li {
+
+}
+
 
 /* side bar */
 .sidebar-module {
