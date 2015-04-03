@@ -14,29 +14,29 @@
       </div>
       <div class="modal-body">
 
-        <div class="container-narrow">
-          <!-- {% if current_user and current_user.is_authenticated() %}
+          <div class="container-narrow">
+            {% if current_user and current_user.is_authenticated() %}
+              <!--
+              <p class="navbar-text"><a class="navbar-link" href="{{ url_for('user.members') }}">Logged in as {{ current_user.username }}</a>
+              <a class="navbar-link" href="{{ url_for('public.logout') }}"><i class="fa fa-sign-out"></i></a>
+               -->
+            {% elif form %}
 
-            <p class="navbar-text"><a class="navbar-link" href="{{ url_for('user.members') }}">Logged in as {{ current_user.username }}</a>
-            <a class="navbar-link" href="{{ url_for('public.logout') }}"><i class="fa fa-sign-out"></i></a>
-
-          {% elif form %} -->
-
-          <form id="loginForm" method="POST" class="form form-register" action="/" role="login">
-            {{ form.hidden_tag() }}
-            <div class="form-group">
-              {{form.username.label}}
-              {{ form.username(placeholder="Username", class_="form-control") }}
-            </div>
-            <div class="form-group">
-              {{form.password.label}}
-              {{ form.password(placeholder="Password", class_="form-control") }}
-            </div>
-            <button type="submit" class="btn btn-default">Log in</button>
-          </form>
-          {% endif %}
-        </div>
-        </div>
+            <form id="loginForm" method="POST" class="form form-register" action="/" role="login">
+              {{ form.hidden_tag() }}
+              <div class="form-group">
+                {{form.username.label}}
+                {{ form.username(placeholder="Username", class_="form-control") }}
+              </div>
+              <div class="form-group">
+                {{form.password.label}}
+                {{ form.password(placeholder="Password", class_="form-control") }}
+              </div>
+              <button type="submit" class="btn btn-default">Log in</button>
+            </form>
+            {% endif %}
+          </div>
+      </div>
 
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
