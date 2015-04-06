@@ -15,7 +15,7 @@ angular.module('listApp', [])
       "zone": "type of zone",
       "water": "Yes - potable",
       "developmentPlans": 2,
-      "image": "http://www.moraitis.com.au/media/images/North-Queensland-Potato-Farm-e37f75d1-b49f-4a7a-954a-5daf8ac8fd56-0-2080x1544.JPG"
+      "image": "/static/public/images/cow-farm.png"
     },{
       "title": "Yolo Valley",
       "contact": "Ivan Matos",
@@ -26,7 +26,7 @@ angular.module('listApp', [])
       "zone": "type of zone",
       "water": "Yes - potable",
       "developmentPlans": 2,
-      "image": "http://www.farmsunday.org/resources/000/746/284/Rowley_Farm.JPG"
+      "image": "/static/public/images/cow-farm.png"
     },{
       "title": "Old McDonald Farm",
       "contact": "Felix Colón",
@@ -37,7 +37,7 @@ angular.module('listApp', [])
       "zone": "type of zone",
       "water": "Yes - potable",
       "developmentPlans": 2,
-      "image": "http://broadrundairyfarm.com/farmimages/farm%20pics%20%282%29_edited.jpg"
+      "image": "/static/public/images/cow-farm.png"
     }
   ];
 });
