@@ -12,9 +12,13 @@ from farmsList.database import (
 class Parcel(SurrogatePK, Model):
     __tablename__ = 'parcels'
     name = Column(db.String(80), unique=True, nullable=False)
+    size = Column(db.Numeric(precision=4, scale=2), nullable = False)
+    water = Column(db.Boolean(), default=False)
+    zoning = Column(db.String(80), nullable=False)
+    development_plan = Column(db.String(400), nullable=True)
 
     def __init__(self, name, **kwargs):
         db.Model.__init__(self, name=name, **kwargs)
 
     def __repr__(self):
-        return '<Role({name})>'.format(name=self.name)
+        return '<Parcel({name})>'.format(name=self.name)
