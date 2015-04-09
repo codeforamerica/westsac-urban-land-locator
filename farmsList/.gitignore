@@ -45,3 +45,9 @@ docs/_build
 # Virtualenvs
 env
 env*
+venv
+venv*
+
+# Migrations
+migrations/
+

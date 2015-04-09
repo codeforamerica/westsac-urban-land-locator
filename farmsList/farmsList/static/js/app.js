@@ -3,7 +3,7 @@ angular.module('listApp', [])
     $interpolateProvider.startSymbol('{[');
     $interpolateProvider.endSymbol(']}');
   })
-.controller('MainController', function($scope){
+.controller('MainController', function($scope, $http){
   $scope.farms = [
     {
       "title": "Jordan Valley",
@@ -40,4 +40,11 @@ angular.module('listApp', [])
       "image": "/static/public/images/cow-farm.png"
     }
   ];
+  $http.get('/api/parcel/').
+    success(function(data, status, headers, config) {
+      $scope.farms = data;
+    }).
+    error(function(data, status, headers, config) {
+      console.log('error getting parcel data from server');
+    });
 });
