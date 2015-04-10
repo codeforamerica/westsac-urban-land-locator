@@ -59,22 +59,21 @@
   <div class="row">
       <div class="col-sm-6">
         <div class="row" ng-repeat="farm in farms | filter:searchText">
-            <div class="col-md-4">
-              <img class="farm-image" ng-src="{[ farm.image ]}" alt="">
-            </div>
-            <div class="col-md-8">
-                <h2 class="title">{[ farm.name ]}</h2>
-                <ul class="info">
-                  <li>size: {[ farm.size]} acres</li>
-                  <li>water: {[ farm.water]}</li>
-                  <li>zone: {[ farm.zoning]}</li>
-                  <li>dev-plans: {[ farm.developmentPlan]} years</li>
-                </ul>
-                <button class="btn btn-warning pull-right">contact</button>
-                <br>
-                <hr>
-            </div>
-
+          <div class="col-md-4">
+            <img class="farm-image" ng-src="{[farm.image]}" alt="">
+          </div>
+          <div class="col-md-8">
+            <h2 class="title">{[farm.name]}</h2>
+            <ul class="info">
+              <li>size: {[farm.size]} acres</li>
+              <li>water: {[farm.water]}</li>
+              <li>zone: {[farm.zoning]}</li>
+              <li>dev-plans: {[farm.developmentPlan]}</li>
+            </ul>
+            <button class="btn btn-warning pull-right">contact</button>
+            <br>
+            <hr>
+          </div>
         </div>
       </div>
       <div class="col-sm-5 col-sm-offset-1 blog-sidebar">
