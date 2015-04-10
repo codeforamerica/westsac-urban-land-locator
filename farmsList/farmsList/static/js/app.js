@@ -6,35 +6,35 @@ angular.module('listApp', [])
 .controller('MainController', function($scope, $http){
   $scope.farms = [
     {
-      "title": "Jordan Valley",
+      "name": "Jordan Valley",
       "contact": "Diego Aranzadi",
       "phone": "530-555-1234",
       "address": "Km 41.2 West Sacramento, CA 95605",
       "geolocation": ['longitude', 'latitutde'],
       "size": 2.1,
-      "zone": "type of zone",
+      "zoning": "type of zone",
       "water": "Yes - potable",
       "developmentPlans": 2,
       "image": "/static/public/images/cow-farm.png"
     },{
-      "title": "Yolo Valley",
+      "name": "Yolo Valley",
       "contact": "Ivan Matos",
       "phone": "530-555-1234",
       "address": "Km 41.2 West Sacramento, CA 95605",
       "geolocation": ['longitude', 'latitutde'],
       "size": 2.3,
-      "zone": "type of zone",
+      "zoning": "type of zone",
       "water": "Yes - potable",
       "developmentPlans": 2,
       "image": "/static/public/images/cow-farm.png"
     },{
-      "title": "Old McDonald Farm",
+      "name": "Old McDonald Farm",
       "contact": "Felix Colón",
       "phone": "530-555-1234",
       "address": "Km 41.2 West Sacramento, CA 95605",
       "geolocation": ['longitude', 'latitutde'],
       "size": 1.8,
-      "zone": "type of zone",
+      "zoning": "type of zone",
       "water": "Yes - potable",
       "developmentPlans": 2,
       "image": "/static/public/images/cow-farm.png"
@@ -42,7 +42,11 @@ angular.module('listApp', [])
   ];
   $http.get('/api/parcel/').
     success(function(data, status, headers, config) {
-      $scope.farms = data;
+      $scope.farms = [];
+      angular.forEach(data, function(parcel) {
+        parcel.size = parcel.size['py/reduce'][1]['py/tuple'][0];
+        $scope.farms.push(parcel);
+      });
     }).
     error(function(data, status, headers, config) {
       console.log('error getting parcel data from server');
