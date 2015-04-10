@@ -15,7 +15,7 @@ class Parcel(SurrogatePK, Model):
     size = Column(db.Numeric(precision=4, scale=2), nullable = False)
     water = Column(db.Boolean(), default=False)
     zoning = Column(db.String(80), nullable=False)
-    development_plan = Column(db.String(400), nullable=True)
+    developmentPlan = Column(db.String(400), nullable=True)
 
     def __init__(self, name, **kwargs):
         db.Model.__init__(self, name=name, **kwargs)
