@@ -44,7 +44,16 @@ angular.module('listApp', [])
     success(function(data, status, headers, config) {
       $scope.farms = [];
       angular.forEach(data, function(parcel) {
-        parcel.size = parcel.size['py/reduce'][1]['py/tuple'][0];
+        // This conversion is needed because the jsonpickle
+        // serialization seems forced to maintain type references
+        try {
+          parcel.size = parcel.size['py/reduce'][1][0]
+        } catch (e0) {
+          try {
+            parcel.size = parcel.size['py/reduce'][1]['py/tuple'][0];
+          } catch (e1) { console.log(e1); }
+          console.log(e0); 
+        }
         $scope.farms.push(parcel);
       });
     }).
