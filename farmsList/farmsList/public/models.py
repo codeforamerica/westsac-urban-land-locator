@@ -16,7 +16,10 @@ class Parcel(SurrogatePK, Model):
     water = Column(db.Boolean(), default=False)
     zoning = Column(db.String(80), nullable=False)
     developmentPlan = Column(db.String(400), nullable=True)
+    restrictions = Column(db.String(400), nullable=True)
     image = Column(db.String(400), nullable=True)
+    address = Column(db.String(400), nullable=True)
+    email = Column(db.String(80), nullable=True)
 
     def __init__(self, name, **kwargs):
         db.Model.__init__(self, name=name, **kwargs)

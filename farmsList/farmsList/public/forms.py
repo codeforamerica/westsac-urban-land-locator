@@ -1,5 +1,5 @@
 from flask_wtf import Form
-from wtforms import TextField, PasswordField
+from wtforms import TextField, PasswordField, BooleanField, DecimalField
 from wtforms.validators import DataRequired
 
 from farmsList.user.models import User
@@ -29,4 +29,26 @@ class LoginForm(Form):
         if not self.user.active:
             self.username.errors.append('User not activated')
             return False
+        return True
+
+class NewParcel1Form(Form):
+    address = TextField('Address', validators=[DataRequired()])
+    water = BooleanField('Water', validators=[DataRequired()])
+    size = DecimalField('Size (in acres)', validators=[DataRequired()])
+    zoning = TextField('Zoning', validators=[DataRequired()])
+    developmentPlan = TextField('Minimum Availability', validators=[DataRequired()])
+    restrictions = TextField('Use Restrictions', validators=[DataRequired()])
+    email = TextField('Contact e-mail', validators=[DataRequired()])
+
+    def __init__(self, *args, **kwargs):
+        super(NewParcel1Form, self).__init__(*args, **kwargs)
+        self.parcel = None
+
+    def validate(self):
+        initial_validation = super(NewParcel1Form, self).validate()
+        if not initial_validation:
+            return False
+
+        # For now, assume that the parcel is not a duplicate
+        # Duplicate checking code would go here
         return True
