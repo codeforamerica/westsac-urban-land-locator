@@ -1,10 +1,22 @@
 
 {% extends "layout.html" %}
 {% block content %}
-    <h1>City Parcels</h1>
-    <h3>Post a New Parcel</h3>
-    <form id="editParcelForm" class="form form-register" method="POST" action="" role="form">
-        {{ form.hidden_tag() }}
+    <div class="row parcel-title">
+      <div class="col-md-4">
+        <span class="title">Post a New Parcel</span >
+      </div>
+      <div class="col-md-8">
+        <span  class="pull-right submit-buttons">
+          <input class="btn btn-default btn-submit" type="submit" value="Post Parcel">
+          <input class="btn btn-cancel" type="button" value="Cancel">
+        </span >
+      </div>
+  </div>
+
+    <div class="row parcel-fields">
+      <form id="editParcelForm" class="form form-register" method="POST" action="" role="form">
+          {{ form.hidden_tag() }}
+      <div class="col-md-4">
         <div class="form-group">
             {{form.address.label}}
             {{form.address(placeholder="100 Bryte St. West Sacramento, CA 95605", class_="form-control")}}
@@ -32,14 +44,19 @@
         <div class="form-group">
             {{form.email.label}}
             {{form.email(placeholder="john@gmail.com", class_="form-control")}}
-        	<p>We won't post your email address on this website, but people interested in the land will be able to contact you via a form.</p>
+          <p>We won't post your email address on this website, but people interested in the land will be able to contact you via a form.</p>
         </div>
+      </div>
+
+      <div class="col-md-8">
         <div id='map'></div>
-        <p>
-        	<input class="btn btn-default btn-submit" type="submit" value="Post Parcel">
-        	<input class="btn btn-cancel" type="button" value="Cancel">
-        </p>
-        <script>
+      </div>
+
+      </form>
+
+    </div>
+<!-- Code for adding location of the parcel using leaflet:draw plugin (mapbox.js) -->
+    <script>
         L.mapbox.accessToken = 'pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q';
         var map = L.mapbox.map('map', 'mapbox.streets')
           .setView([38.58024, -121.5305], 15);
@@ -61,6 +78,6 @@
         map.on('draw:created', function(e) {
           featureGroup.addLayer(e.layer);
         });
-        </script>
-    </form>
+    </script>
+
 {% endblock %}
