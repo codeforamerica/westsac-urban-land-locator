@@ -34,9 +34,33 @@
             {{form.email(placeholder="john@gmail.com", class_="form-control")}}
         	<p>We won't post your email address on this website, but people interested in the land will be able to contact you via a form.</p>
         </div>
+        <div id='map'></div>
         <p>
         	<input class="btn btn-default btn-submit" type="submit" value="Post Parcel">
         	<input class="btn btn-cancel" type="button" value="Cancel">
         </p>
+        <script>
+        L.mapbox.accessToken = 'pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q';
+        var map = L.mapbox.map('map', 'mapbox.streets')
+          .setView([38.58024, -121.5305], 15);
+
+        var featureGroup = L.featureGroup().addTo(map);
+
+        var drawControl = new L.Control.Draw({
+        draw: {
+          circle: false,
+          rectangle: false,
+          marker: false,
+          polyline: false
+        },
+        edit: {
+          featureGroup: featureGroup
+        }
+        }).addTo(map);
+
+        map.on('draw:created', function(e) {
+          featureGroup.addLayer(e.layer);
+        });
+        </script>
     </form>
 {% endblock %}
