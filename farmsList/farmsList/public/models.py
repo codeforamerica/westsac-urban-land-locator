@@ -11,7 +11,7 @@ from farmsList.database import (
 
 class Parcel(SurrogatePK, Model):
     __tablename__ = 'parcels'
-    name = Column(db.String(80), unique=True, nullable=False)
+    name = Column(db.String(80), unique=False, nullable=False)
     size = Column(db.Numeric(precision=4, scale=2), nullable = False)
     water = Column(db.Boolean(), default=False)
     zoning = Column(db.String(80), nullable=False)

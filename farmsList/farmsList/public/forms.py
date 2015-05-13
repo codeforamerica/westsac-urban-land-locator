@@ -39,6 +39,7 @@ class NewParcel1Form(Form):
     developmentPlan = TextField('Minimum Availability', validators=[DataRequired()])
     restrictions = TextField('Use Restrictions', validators=[DataRequired()])
     email = TextField('Contact e-mail', validators=[DataRequired()])
+    geometry = TextField('Geometry', validators=[DataRequired()])
 
     def __init__(self, *args, **kwargs):
         super(NewParcel1Form, self).__init__(*args, **kwargs)

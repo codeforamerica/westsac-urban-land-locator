@@ -12,48 +12,46 @@
           <input class="btn btn-cancel" type="button" value="Cancel">
         </span >
       </div>
-  </div>
+    </div>
 
     <div class="row parcel-fields">
 
           {{ form.hidden_tag() }}
-      <div class="col-md-4">
-        <div class="form-group">
-            {{form.address.label}}
-            {{form.address(placeholder="100 Bryte St. West Sacramento, CA 95605", class_="form-control")}}
-        </div>
-        <div class="form-group">
-            {{form.water.label}}
-            {{form.water(placeholder="False", class_="form-control")}}
-        </div>
-        <div class="form-group">
-            {{form.size.label}}
-            {{form.size(placeholder="3.5", class_="form-control")}}
-        </div>
-        <div class="form-group">
-            {{form.zoning.label}}
-            {{form.zoning(placeholder="Ag", class_="form-control")}}
-        </div>
-        <div class="form-group">
-            {{form.developmentPlan.label}}
-            {{form.developmentPlan(placeholder=">5 years", class_="form-control")}}
-        </div>
-        <div class="form-group">
-            {{form.restrictions.label}}
-            {{form.restrictions(placeholder="None", class_="form-control")}}
-        </div>
-        <div class="form-group">
-            {{form.email.label}}
-            {{form.email(placeholder="john@gmail.com", class_="form-control")}}
-          <p>We won't post your email address on this website, but people interested in the land will be able to contact you via a form.</p>
-        </div>
-      </div>
-
-      <div class="col-md-8">
-       	<input type="text" id="newParcelGeometry" class="ng-hide">
-	    <div id='map'></div>
-      </div>
-
+	      <div class="col-md-4">
+	        <div class="form-group">
+	            {{form.address.label}}
+	            {{form.address(placeholder="100 Bryte St. West Sacramento, CA 95605", class_="form-control")}}
+	        </div>
+	        <div class="form-group">
+	            {{form.water.label}}
+	            {{form.water(placeholder="False", class_="form-control")}}
+	        </div>
+	        <div class="form-group">
+	            {{form.size.label}}
+	            {{form.size(placeholder="3.5", class_="form-control")}}
+	        </div>
+	        <div class="form-group">
+	            {{form.zoning.label}}
+	            {{form.zoning(placeholder="Ag", class_="form-control")}}
+	        </div>
+	        <div class="form-group">
+	            {{form.developmentPlan.label}}
+	            {{form.developmentPlan(placeholder=">5 years", class_="form-control")}}
+	        </div>
+	        <div class="form-group">
+	            {{form.restrictions.label}}
+	            {{form.restrictions(placeholder="None", class_="form-control")}}
+	        </div>
+	        <div class="form-group">
+	            {{form.email.label}}
+	            {{form.email(placeholder="john@gmail.com", class_="form-control")}}
+	        	<p>We won't post your email address on this website, but people interested in the land will be able to contact you via a form.</p>
+	        </div>
+	      </div>
+	      <div class="col-md-8">
+	       	<input type="text" id="newParcelGeometry" name="geometry" class="ng-hide">
+		    <div id='map'></div>
+	      </div>
     </div>
 </form>
 

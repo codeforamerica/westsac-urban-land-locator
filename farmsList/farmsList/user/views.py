@@ -29,6 +29,7 @@ def new_parcel_1():
 					    geometry=form.geometry.data,
 					    image='/static/public/images/cow-farm.png')
         flash("Thank you for adding a parcel. You can now view it in the list.", 'success')
+        print form.geometry.data
         return redirect(url_for('public.home'))
     else:
         flash_errors(form)
