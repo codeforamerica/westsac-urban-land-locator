@@ -1,7 +1,8 @@
 
 {% extends "layout.html" %}
 {% block content %}
-    <div class="row parcel-title">
+<form id="editParcelForm" class="form form-register" method="POST" action="" role="form">
+  <div class="row parcel-title">
       <div class="col-md-4">
         <span class="title">Post a New Parcel</span >
       </div>
@@ -14,7 +15,7 @@
   </div>
 
     <div class="row parcel-fields">
-      <form id="editParcelForm" class="form form-register" method="POST" action="" role="form">
+
           {{ form.hidden_tag() }}
       <div class="col-md-4">
         <div class="form-group">
@@ -52,9 +53,10 @@
         <div id='map'></div>
       </div>
 
-      </form>
-
     </div>
+</form>
+
+
 <!-- Code for adding location of the parcel using leaflet:draw plugin (mapbox.js) -->
     <script>
         L.mapbox.accessToken = 'pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q';
