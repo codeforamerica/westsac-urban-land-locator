@@ -15,6 +15,7 @@ class Parcel(SurrogatePK, Model):
     size = Column(db.Numeric(precision=4, scale=2), nullable = False)
     water = Column(db.Boolean(), default=False)
     zoning = Column(db.String(80), nullable=False)
+    geometry = Column(db.String(5000), nullable=False)
     developmentPlan = Column(db.String(400), nullable=True)
     restrictions = Column(db.String(400), nullable=True)
     image = Column(db.String(400), nullable=True)

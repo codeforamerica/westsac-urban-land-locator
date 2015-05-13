@@ -50,7 +50,8 @@
       </div>
 
       <div class="col-md-8">
-        <div id='map'></div>
+       	<input type="text" id="newParcelGeometry" class="ng-hide">
+	    <div id='map'></div>
       </div>
 
     </div>
@@ -79,6 +80,7 @@
 
         map.on('draw:created', function(e) {
           featureGroup.addLayer(e.layer);
+          document.findElementById('newParcelGeometry').value = JSON.stringify(featureGroup.toGeoJson());
         });
     </script>
 
