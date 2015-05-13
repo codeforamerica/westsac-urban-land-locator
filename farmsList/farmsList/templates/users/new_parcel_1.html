@@ -78,7 +78,7 @@
 
         map.on('draw:created', function(e) {
           featureGroup.addLayer(e.layer);
-          document.getElementById('newParcelGeometry').value = JSON.stringify(featureGroup.toGeoJson());
+          document.getElementById('newParcelGeometry').value = JSON.stringify(featureGroup.toGeoJSON());
         });
     </script>
 

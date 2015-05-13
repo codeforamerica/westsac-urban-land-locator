@@ -60,9 +60,4 @@ angular.module('listApp', [])
     error(function(data, status, headers, config) {
       console.log('error getting parcel data from server');
     });
-  })
-.controller('ParcelController', function($scope, $http){
-  $scope.parcel = {
-    geometry: "{}"
-  };
 });
