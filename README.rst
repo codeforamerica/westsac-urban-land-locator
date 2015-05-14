@@ -12,7 +12,7 @@ You will need to have Postgres SQL Installed on your machine (`You can get it he
 
 .. code-block:: psql
 
-    CREATE USER FarmsListAdmin;
+    CREATE USER farmslistadmin;
     GRANT ALL ON ALL TABLES IN SCHEMA public TO farmslistadmin;
 
 
