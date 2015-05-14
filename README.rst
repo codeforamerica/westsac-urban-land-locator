@@ -12,7 +12,7 @@ You will need to have Postgres SQL Installed on your machine (`You can get it he
 
 .. code-block:: psql
 
-    createuser FarmsListAdmin
+    CREATE USER FarmsListAdmin;
 
 
 Quickstart
