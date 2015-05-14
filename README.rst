@@ -5,6 +5,16 @@
 "mvp"
 
 
+Before You Start
+----------------
+
+You will need to have Postgres SQL Installed on your machine (`You can get it here <http://www.postgresql.org/download/>`_.) and you will need to have it started and create a FarmsListAdmin user.
+
+.. code-block:: psql
+
+    createuser FarmsListAdmin
+
+
 Quickstart
 ----------
 
