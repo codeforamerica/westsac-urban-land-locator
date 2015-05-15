@@ -84,22 +84,12 @@
           <h4>About</h4>
           <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
         </div>
-        <div id="mapTogether"></div>
+        <mapbox map-id="mapbox.streets" lat="38.58024" lng="-121.5305" zoom="13">
+          <div ng-repeat="farm in farms | filter:searchText">
+            <feature-layer data="{[farm.geometry]}"></featureLayer>
+          </div>
+        </mapbox>
       </div>
   </div>
 </div>
-
-<!-- Code for adding location of the parcel using leaflet:draw plugin (mapbox.js) -->
-    <script>
-        L.mapbox.accessToken = 'pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q';
-        var map = L.mapbox.map('mapTogether', 'mapbox.streets')
-          .setView([38.58024, -121.5305], 15);
-
-
-
-
-
-    </script>
-
-
 {% endblock %}

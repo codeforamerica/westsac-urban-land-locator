@@ -1,7 +1,10 @@
-angular.module('listApp', [])
+angular.module('listApp', ['angular-mapbox'])
 .config(function($interpolateProvider) {
     $interpolateProvider.startSymbol('{[');
     $interpolateProvider.endSymbol(']}');
+  })
+.run(function(mapboxService) {
+    mapboxService.init({ accessToken: 'pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q' });
   })
 .controller('MainController', function($scope, $http){
   $scope.farms = [
