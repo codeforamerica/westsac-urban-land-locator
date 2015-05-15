@@ -5,6 +5,17 @@
 "mvp"
 
 
+Before You Start
+----------------
+
+You will need to have Postgres SQL Installed on your machine (`You can get it here <http://www.postgresql.org/download/>`_.) and you will need to have it started and create a farmslistadmin user with priviledges.
+
+.. code-block:: psql
+
+    CREATE USER farmslistadmin;
+    GRANT ALL ON ALL TABLES IN SCHEMA public TO farmslistadmin;
+
+
 Quickstart
 ----------
 

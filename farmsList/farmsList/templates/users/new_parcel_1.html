@@ -1,85 +1,75 @@
-
 {% extends "layout.html" %}
 {% block content %}
 <form id="editParcelForm" class="form form-register" method="POST" action="" role="form">
   <div class="row parcel-title">
-      <div class="col-md-4">
-        <span class="title">Post a New Parcel</span >
+    <div class="col-md-4">
+      <span class="title">Post a New Parcel</span >
+    </div>
+    <div class="col-md-8">
+      <span  class="pull-right submit-buttons">
+        <input class="btn btn-default btn-submit" type="submit" value="Post Parcel">
+        <input class="btn btn-cancel" type="button" value="Cancel">
+      </span >
+    </div>
+  </div>
+  <div class="row parcel-fields">
+    {{ form.hidden_tag() }}
+    <div class="col-md-4">
+      <div class="form-group">
+        {{form.address.label}}
+        {{form.address(placeholder="100 Bryte St. West Sacramento, CA 95605", class_="form-control")}}
       </div>
-      <div class="col-md-8">
-        <span  class="pull-right submit-buttons">
-          <input class="btn btn-default btn-submit" type="submit" value="Post Parcel">
-          <input class="btn btn-cancel" type="button" value="Cancel">
-        </span >
+      <div class="form-group">
+        {{form.water.label}}
+        {{form.water(placeholder="False", class_="form-control")}}
+      </div>
+      <div class="form-group">
+        {{form.size.label}}
+        {{form.size(placeholder="3.5", class_="form-control")}}
+      </div>
+      <div class="form-group">
+        {{form.zoning.label}}
+        {{form.zoning(placeholder="Ag", class_="form-control")}}
+      </div>
+      <div class="form-group">
+        {{form.developmentPlan.label}}
+        {{form.developmentPlan(placeholder=">5 years", class_="form-control")}}
+      </div>
+      <div class="form-group">
+        {{form.restrictions.label}}
+        {{form.restrictions(placeholder="None", class_="form-control")}}
+      </div>
+      <div class="form-group">
+        {{form.email.label}}
+        {{form.email(placeholder="john@gmail.com", class_="form-control")}}
+        <p>We won't post your email address on this website, but people interested in the land will be able to contact you via a form.</p>
       </div>
     </div>
-
-    <div class="row parcel-fields">
-
-          {{ form.hidden_tag() }}
-	      <div class="col-md-4">
-	        <div class="form-group">
-	            {{form.address.label}}
-	            {{form.address(placeholder="100 Bryte St. West Sacramento, CA 95605", class_="form-control")}}
-	        </div>
-	        <div class="form-group">
-	            {{form.water.label}}
-	            {{form.water(placeholder="False", class_="form-control")}}
-	        </div>
-	        <div class="form-group">
-	            {{form.size.label}}
-	            {{form.size(placeholder="3.5", class_="form-control")}}
-	        </div>
-	        <div class="form-group">
-	            {{form.zoning.label}}
-	            {{form.zoning(placeholder="Ag", class_="form-control")}}
-	        </div>
-	        <div class="form-group">
-	            {{form.developmentPlan.label}}
-	            {{form.developmentPlan(placeholder=">5 years", class_="form-control")}}
-	        </div>
-	        <div class="form-group">
-	            {{form.restrictions.label}}
-	            {{form.restrictions(placeholder="None", class_="form-control")}}
-	        </div>
-	        <div class="form-group">
-	            {{form.email.label}}
-	            {{form.email(placeholder="john@gmail.com", class_="form-control")}}
-	        	<p>We won't post your email address on this website, but people interested in the land will be able to contact you via a form.</p>
-	        </div>
-	      </div>
-	      <div class="col-md-8">
-	       	<input type="text" id="newParcelGeometry" name="geometry" class="ng-hide">
-		    <div id='map'></div>
-	      </div>
+    <div class="col-md-8">
+      <input type="text" id="newParcelGeometry" name="geometry" class="ng-hide">
+      <div id='map'></div>
     </div>
+  </div>
 </form>
-
-
 <!-- Code for adding location of the parcel using leaflet:draw plugin (mapbox.js) -->
-    <script>
-        L.mapbox.accessToken = 'pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q';
-        var map = L.mapbox.map('map', 'mapbox.streets')
-          .setView([38.58024, -121.5305], 15);
-
-        var featureGroup = L.featureGroup().addTo(map);
-
-        var drawControl = new L.Control.Draw({
-        draw: {
-          circle: false,
-          rectangle: false,
-          marker: false,
-          polyline: false
-        },
-        edit: {
-          featureGroup: featureGroup
-        }
-        }).addTo(map);
-
-        map.on('draw:created', function(e) {
-          featureGroup.addLayer(e.layer);
-          document.getElementById('newParcelGeometry').value = JSON.stringify(featureGroup.toGeoJSON());
-        });
-    </script>
-
+<script>
+  L.mapbox.accessToken = 'pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q';
+  var map = L.mapbox.map('map', 'mapbox.streets').setView([38.58024, -121.5305], 15);
+  var featureGroup = L.featureGroup().addTo(map);
+  var drawControl = new L.Control.Draw({
+    draw: {
+      circle: false,
+      rectangle: false,
+      marker: false,
+      polyline: false
+    },
+    edit: {
+      featureGroup: featureGroup
+    }
+  }).addTo(map);
+  map.on('draw:created', function(e) {
+    featureGroup.addLayer(e.layer);
+    document.getElementById('newParcelGeometry').value = JSON.stringify(featureGroup.toGeoJSON());
+  });
+</script>
 {% endblock %}
