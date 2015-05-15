@@ -1,0 +1,1 @@
+/Users/grantsmith/Documents/Workspaces/personal/angular-mapbox/dist/angular-mapbox.js
