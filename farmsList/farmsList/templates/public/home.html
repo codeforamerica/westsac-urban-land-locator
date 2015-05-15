@@ -57,7 +57,10 @@
 
 <div ng-controller="MainController">
   <div class="row">
-      <div class="col-sm-6">
+      <div class="col-lg-4">
+        <div class="searchbox form-group">
+              <input type="search" class="form-control" ng-model="searchText" placeholder="Search for land">
+        </div>
         <div class="row" ng-repeat="farm in farms | filter:searchText">
           <div class="col-md-4">
             <img class="farm-image" ng-src="{[farm.image]}" alt="">
@@ -76,12 +79,27 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-5 col-sm-offset-1 blog-sidebar">
+      <div class="col-lg-7 col-sm-offset-1 blog-sidebar">
         <div class="sidebar-module sidebar-module-inset">
           <h4>About</h4>
           <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
         </div>
+        <div id="mapTogether"></div>
       </div>
   </div>
 </div>
+
+<!-- Code for adding location of the parcel using leaflet:draw plugin (mapbox.js) -->
+    <script>
+        L.mapbox.accessToken = 'pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q';
+        var map = L.mapbox.map('mapTogether', 'mapbox.streets')
+          .setView([38.58024, -121.5305], 15);
+
+
+
+
+
+    </script>
+
+
 {% endblock %}
