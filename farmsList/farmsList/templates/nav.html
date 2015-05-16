@@ -11,13 +11,12 @@
       <span class="icon-bar"></span>
     </button>
     <a class="navbar-brand" href="{{ url_for('public.home') }}">
-      "Farms List"
+      <h1>Farms Locator</h1>
     </a>
   </div>
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse navbar-ex1-collapse">
-    <ul class="nav navbar-nav">
-      <li><a href="{{ url_for('public.home') }}">Home</a></li>
+    <ul class="nav navbar-nav pull-right">
       <li><a href="{{ url_for('public.about') }}">About</a></li>
       <li><a href="{{ url_for('user.new_parcel_1') }}">Add Listing</a></li>
     </ul>

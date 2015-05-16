@@ -3,77 +3,25 @@
 {% block content %}
 
 
-
-<!-- Modal login -->
-<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Login</h4>
-      </div>
-      <div class="modal-body">
-
-          <div class="container-narrow">
-            {% if current_user and current_user.is_authenticated() %}
-              <!--
-              <p class="navbar-text"><a class="navbar-link" href="{{ url_for('user.members') }}">Logged in as {{ current_user.username }}</a>
-              <a class="navbar-link" href="{{ url_for('public.logout') }}"><i class="fa fa-sign-out"></i></a>
-               -->
-            {% elif form %}
-
-            <form id="loginForm" method="POST" class="form form-register" action="/" role="login">
-              {{ form.hidden_tag() }}
-              <div class="form-group">
-                {{form.username.label}}
-                {{ form.username(placeholder="Username", class_="form-control") }}
-              </div>
-              <div class="form-group">
-                {{form.password.label}}
-                {{ form.password(placeholder="Password", class_="form-control") }}
-              </div>
-              <button type="submit" class="btn btn-default">Log in</button>
-            </form>
-            {% endif %}
-          </div>
-      </div>
-
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal login -->
-<div class="modal fade" id="create" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-
-    </div>
-  </div>
-</div>
-
 <div ng-controller="MainController">
   <div class="row">
-      <div class="col-lg-4">
-        <div class="searchbox form-group">
-              <input type="search" class="form-control" ng-model="searchText" placeholder="Search for land">
+      <div class="col-lg-5">
+
+        <div class="search-box">
+          <span class="fa fa-search"></span>
+          <input type="text" class="search" ng-model="searchText" placeholder="enter name, size, etc ">
         </div>
+
         <div class="row" ng-repeat="farm in farms | filter:searchText">
-          <div class="col-md-4">
-            <img class="farm-image" ng-src="{[farm.image]}" alt="">
-          </div>
-          <div class="col-md-8">
-            <h2 class="title">{[farm.name]}</h2>
+          <div class="col-md-12">
+            <h2 class="title">{[farm.name]} <button id="contact-btn" class="btn btn-warning pull-right">contact</button></h2>
             <ul class="info">
-              <li>size: {[farm.size]} acres</li>
               <li>water: {[farm.water]}</li>
-              <li>zone: {[farm.zoning]}</li>
-              <li>dev-plans: {[farm.developmentPlan]}</li>
+              <li>size: {[farm.size]} acres</li>
+              <li>zoning: {[farm.zoning]}</li>
+              <li>availability: {[farm.developmentPlan]}</li>
+              <li>restrictions:</li>
             </ul>
-            <button class="btn btn-warning pull-right">contact</button>
             <br>
             <hr>
           </div>
@@ -95,11 +43,6 @@
         var map = L.mapbox.map('mapTogether', 'mapbox.streets')
           .setView([38.58024, -121.5305], 15);
 
-
-
-
-
     </script>
-
 
 {% endblock %}
