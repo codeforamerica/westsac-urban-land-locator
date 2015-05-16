@@ -2,27 +2,27 @@
 {% block content %}
 <div ng-controller="MainController">
   <div class="row">
-    <div class="col-lg-5">
+    <div class="col-lg-6">
       <div class="search-box">
         <span class="fa fa-search"></span>
         <input type="text" class="search" ng-model="searchText" placeholder="enter name, size, etc ">
       </div>
       <div class="row" ng-repeat="farm in farms | filter:searchText">
         <div class="col-md-12">
-          <h2 class="title">{[farm.name]} <button id="contact-btn" class="btn btn-warning pull-right">contact</button></h2>
+          <h2 class="title">{[farm.address]} <button id="contact-btn" class="btn btn-warning pull-right">contact</button></h2>
           <ul class="info">
             <li>water: {[farm.water]}</li>
             <li>size: {[farm.size]} acres</li>
             <li>zoning: {[farm.zoning]}</li>
             <li>availability: {[farm.developmentPlan]}</li>
-            <li>restrictions:</li>
+            <li>restrictions: {[farm.restrictions]}</li>
           </ul>
-          <br>
           <hr>
+          <br>
         </div>
       </div>
     </div>
-    <div class="col-lg-7 col-sm-offset-1 blog-sidebar" >
+    <div class="col-lg-4 col-sm-offset-1 blog-sidebar">
       <mapbox map-id="mapbox.streets" lat="38.58024" lng="-121.5305" zoom="13">
         <div ng-repeat="farm in farms | filter:searchText">
           <feature-layer data="{[farm.geometry]}"></featureLayer>
