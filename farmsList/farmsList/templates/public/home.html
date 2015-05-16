@@ -1,48 +1,34 @@
-
 {% extends "layout.html" %}
 {% block content %}
-
-
 <div ng-controller="MainController">
   <div class="row">
-      <div class="col-lg-5">
-
-        <div class="search-box">
-          <span class="fa fa-search"></span>
-          <input type="text" class="search" ng-model="searchText" placeholder="enter name, size, etc ">
-        </div>
-
-        <div class="row" ng-repeat="farm in farms | filter:searchText">
-          <div class="col-md-12">
-            <h2 class="title">{[farm.name]} <button id="contact-btn" class="btn btn-warning pull-right">contact</button></h2>
-            <ul class="info">
-              <li>water: {[farm.water]}</li>
-              <li>size: {[farm.size]} acres</li>
-              <li>zoning: {[farm.zoning]}</li>
-              <li>availability: {[farm.developmentPlan]}</li>
-              <li>restrictions:</li>
-            </ul>
-            <br>
-            <hr>
-          </div>
+    <div class="col-lg-5">
+      <div class="search-box">
+        <span class="fa fa-search"></span>
+        <input type="text" class="search" ng-model="searchText" placeholder="enter name, size, etc ">
+      </div>
+      <div class="row" ng-repeat="farm in farms | filter:searchText">
+        <div class="col-md-12">
+          <h2 class="title">{[farm.name]} <button id="contact-btn" class="btn btn-warning pull-right">contact</button></h2>
+          <ul class="info">
+            <li>water: {[farm.water]}</li>
+            <li>size: {[farm.size]} acres</li>
+            <li>zoning: {[farm.zoning]}</li>
+            <li>availability: {[farm.developmentPlan]}</li>
+            <li>restrictions:</li>
+          </ul>
+          <br>
+          <hr>
         </div>
       </div>
-      <div class="col-lg-7 col-sm-offset-1 blog-sidebar" >
-        <mapbox map-id="mapbox.streets" lat="38.58024" lng="-121.5305" zoom="13">
-          <div ng-repeat="farm in farms | filter:searchText">
-            <feature-layer data="{[farm.geometry]}"></featureLayer>
-          </div>
-        </mapbox>
-      </div>
+    </div>
+    <div class="col-lg-7 col-sm-offset-1 blog-sidebar" >
+      <mapbox map-id="mapbox.streets" lat="38.58024" lng="-121.5305" zoom="13">
+        <div ng-repeat="farm in farms | filter:searchText">
+          <feature-layer data="{[farm.geometry]}"></featureLayer>
+        </div>
+      </mapbox>
+    </div>
   </div>
 </div>
-
-<!-- Code for adding location of the parcel using leaflet:draw plugin (mapbox.js) -->
-    <script>
-        L.mapbox.accessToken = 'pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q';
-        var map = L.mapbox.map('mapTogether', 'mapbox.streets')
-          .setView([38.58024, -121.5305], 15);
-
-    </script>
-
 {% endblock %}
