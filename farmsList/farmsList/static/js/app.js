@@ -18,6 +18,10 @@ angular.module('listApp', ['angular-mapbox'])
       "zoning": "type of zone",
       "water": "Yes - potable",
       "developmentPlans": 2,
+      "center": {
+        "lat": 38.58843235229309,
+        "lng": -121.51247978210449,
+      },
       "image": "/static/public/images/cow-farm.png"
     },{
       "name": "Yolo Valley",
@@ -29,6 +33,10 @@ angular.module('listApp', ['angular-mapbox'])
       "zoning": "type of zone",
       "water": "Yes - potable",
       "developmentPlans": 2,
+      "center": {
+        "lat": 38.58843235229309,
+        "lng": -121.51247978210449,
+      },
       "image": "/static/public/images/cow-farm.png"
     },{
       "name": "Old McDonald Farm",
@@ -40,6 +48,10 @@ angular.module('listApp', ['angular-mapbox'])
       "zoning": "type of zone",
       "water": "Yes - potable",
       "developmentPlans": 2,
+      "center": {
+        "lat": 38.58843235229309,
+        "lng": -121.51247978210449,
+      },
       "image": "/static/public/images/cow-farm.png"
     }
   ];
@@ -51,6 +63,9 @@ angular.module('listApp', ['angular-mapbox'])
         // serialization seems forced to maintain type references
         try {
           parcel.size = parcel.size['py/reduce'][1][0]
+          parcel.center = JSON.parse(parcel.center);
+          parcel.center.lat = parcel.center.geometry.coordinates[1];
+          parcel.center.lng = parcel.center.geometry.coordinates[0];
         } catch (e0) {
           try {
             parcel.size = parcel.size['py/reduce'][1]['py/tuple'][0];

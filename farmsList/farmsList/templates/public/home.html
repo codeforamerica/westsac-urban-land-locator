@@ -23,9 +23,14 @@
       </div>
     </div>
     <div class="col-lg-4 col-sm-offset-1 blog-sidebar">
-      <mapbox map-id="mapbox.streets" lat="38.58024" lng="-121.5305" zoom="13">
+      <mapbox map-id="codeforamerica.m5m971km" lat="38.58024" lng="-121.5305" zoom="14">
         <div ng-repeat="farm in farms | filter:searchText">
           <feature-layer data="{[farm.geometry]}"></featureLayer>
+          <marker lat="{[farm.center.lat]}" lng="{[farm.center.lng]}">
+            <h1>{[farm.address]}</h1>
+            <p>{[farm.size]} acres</p>
+            <p>{[farm.costEstimate]}</p>
+          </marker>
         </div>
       </mapbox>
     </div>
