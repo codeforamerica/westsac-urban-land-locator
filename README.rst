@@ -15,6 +15,7 @@ You will need to have Postgres SQL Installed on your machine (`You can get it he
     CREATE USER farmslistadmin;
     GRANT ALL ON ALL TABLES IN SCHEMA public TO farmslistadmin;
     GRANT ALL ON ALL SEQUENCES IN SCHEMA public TO farmslistadmin;
+    CREATE DATABASE farms_list;
 
 
 Quickstart
