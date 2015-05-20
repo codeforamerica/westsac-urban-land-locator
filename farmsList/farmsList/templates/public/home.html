@@ -22,7 +22,7 @@
       </div>
     </div>
     <div class="col-lg-4 col-sm-offset-1 blog-sidebar">
-      <mapbox map-id="codeforamerica.m5m971km" lat="38.58024" lng="-121.5305" zoom="14">
+      <mapbox map-id="codeforamerica.m5m971km" lat="38.58024" lng="-121.5305" zoom="13">
         <div ng-repeat="farm in farms | filter:searchText">
           <feature-layer data="{[farm.geometry]}"></featureLayer>
           <marker lat="{[farm.center.lat]}" lng="{[farm.center.lng]}" color="f0ad4e">
