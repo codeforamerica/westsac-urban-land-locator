@@ -157,3 +157,19 @@ ul.info-icons > li > img {
   border: 1px solid #69579c;
   color: #69579c;
 }
+
+.form-control::-webkit-input-placeholder {
+   color: #ccc;
+}
+
+.form-control:-moz-placeholder { /* Firefox 18- */
+   color: #ccc;
+}
+
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+   color: #ccc;
+}
+
+.form-control:-ms-input-placeholder {
+   color: #ccc;
+}
