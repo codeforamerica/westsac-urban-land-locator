@@ -99,9 +99,10 @@ ul.info > li {
 }
 
 .parcel-listing:hover {
-  background-color: #f3bd6e
+  background-color: #E6E6FA;
+  max-width: 457px;
+  margin-left: 15px;
 }
-
 
 
 ul.info-icons{
