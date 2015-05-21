@@ -122,11 +122,14 @@
       restrict: 'E',
       require: '^mapbox',
       link: function(scope, element, attrs, controller) {
-        var featureLayer;
+        var featureLayer, style={};
         controller.getMap().then(function(map) {
+          if (attrs.color) {
+            style.color = attrs.color;
+          }
           if(attrs.data) {
             var geojsonObject = scope.$eval(attrs.data);
-            featureLayer = L.mapbox.featureLayer(geojsonObject).addTo(map);
+            featureLayer = L.mapbox.featureLayer(geojsonObject, {style: style}).addTo(map);
           } else if(attrs.url) {
             featureLayer = L.mapbox.featureLayer().addTo(map);
             featureLayer.loadURL(attrs.url);
