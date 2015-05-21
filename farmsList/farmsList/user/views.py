@@ -23,13 +23,13 @@ def new_parcel_1():
                         address=form.address.data,
                         size=form.size.data,
                         water=form.water.data,
-					    zoning=form.zoning.data,
-					    developmentPlan=form.developmentPlan.data,
-					    restrictions=form.restrictions.data,
-					    geometry=form.geometry.data,
-					    image='/static/public/images/cow-farm.png')
+                        zoning=form.zoning.data,
+                        developmentPlan=form.developmentPlan.data,
+                        restrictions=form.restrictions.data,
+                        geometry=form.geometry.data,
+                        center=form.center.data,
+                        image='/static/public/images/cow-farm.png')
         flash("Thank you for adding a parcel. You can now view it in the list.", 'success')
-        print form.geometry.data
         return redirect(url_for('public.home'))
     else:
         flash_errors(form)

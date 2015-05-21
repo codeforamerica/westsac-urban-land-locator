@@ -6,7 +6,32 @@ angular.module('listApp', ['angular-mapbox'])
 .run(function(mapboxService) {
     mapboxService.init({ accessToken: 'pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q' });
   })
-.controller('MainController', function($scope, $http){
+.controller('MainController', function($scope, $http, mapboxService){
+  var getFarm = function(farmId) {
+        var _farm;
+        angular.forEach($scope.farms, function(farm) {
+          if (!_farm && farm.id === farmId) {
+            _farm = farm;
+          }
+        });
+        return _farm;
+      },
+      zoomPanTo = function(farmId) {
+        var map = mapboxService.getMapInstances()[0],
+            farm = getFarm(farmId);
+        map.setView(L.latLng(farm.center.lat, farm.center.lng), 17, {
+          pan: {
+            animate: true,
+            duration: .5
+          },
+          zoom: {
+            animate: true
+          }
+        });
+      };
+  $scope.highlightParcel = function(farmId) {
+    zoomPanTo(farmId);
+  };
   $scope.farms = [
     {
       "name": "Jordan Valley",
@@ -17,7 +42,11 @@ angular.module('listApp', ['angular-mapbox'])
       "size": 2.1,
       "zoning": "type of zone",
       "water": "Yes - potable",
-      "developmentPlans": 2
+      "developmentPlans": 2,
+      "center": {
+        "lat": 38.58843235229309,
+        "lng": -121.51247978210449
+      }
     },{
       "name": "Yolo Valley",
       "contact": "Ivan Matos",
@@ -27,7 +56,11 @@ angular.module('listApp', ['angular-mapbox'])
       "size": 2.3,
       "zoning": "type of zone",
       "water": "Yes - potable",
-      "developmentPlans": 2
+      "developmentPlans": 2,
+      "center": {
+        "lat": 38.58843235229309,
+        "lng": -121.51247978210449,
+      }
     },{
       "name": "Old McDonald Farm",
       "contact": "Felix Colón",
@@ -37,13 +70,23 @@ angular.module('listApp', ['angular-mapbox'])
       "size": 1.8,
       "zoning": "type of zone",
       "water": "Yes - potable",
-      "developmentPlans": 2
+      "developmentPlans": 2,
+      "center": {
+        "lat": 38.58843235229309,
+        "lng": -121.51247978210449,
+      }
     }
   ];
   $http.get('/api/parcel/').
     success(function(data, status, headers, config) {
+      if (!data || data.length === 0) {
+        return;
+      }
       $scope.farms = [];
       angular.forEach(data, function(parcel) {
+        parcel.center = JSON.parse(parcel.center);
+        parcel.center.lat = parcel.center.geometry.coordinates[1];
+        parcel.center.lng = parcel.center.geometry.coordinates[0];
         // This conversion is needed because the jsonpickle
         // serialization seems forced to maintain type references
         try {

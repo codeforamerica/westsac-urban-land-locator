@@ -70,6 +70,7 @@ textarea {
 /* list row */
 .title {
   color: DimGray;
+  font-size: 1.3em;
 }
 
 .contact {
@@ -97,24 +98,10 @@ ul.info > li {
 
 }
 
-
-/* side bar */
-.sidebar-module {
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  background-color: AliceBlue;
-  padding: 3px 10px;
-  margin-top: 25px;
+.parcel-listing:hover {
+  background-color: #f3bd6e
 }
 
-.col-lg-offset-1 {
-  margin-left: 0px;
-}
-
-.col-sm-offset-1 {
-  margin-left: 0px;
-}
 
 
 ul.info-icons{

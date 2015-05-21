@@ -13,9 +13,10 @@ class Parcel(SurrogatePK, Model):
     __tablename__ = 'parcels'
     name = Column(db.String(80), unique=False, nullable=False)
     size = Column(db.Numeric(precision=4, scale=2), nullable = False)
-    water = Column(db.Boolean(), default=False)
+    water = Column(db.String(400), nullable=True)
     zoning = Column(db.String(80), nullable=False)
-    geometry = Column(db.String(5000), nullable=False)
+    geometry = Column(db.String(10000), nullable=False)
+    center = Column(db.String(2000), nullable=False)
     developmentPlan = Column(db.String(400), nullable=True)
     restrictions = Column(db.String(400), nullable=True)
     image = Column(db.String(400), nullable=True)
