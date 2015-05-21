@@ -17,8 +17,7 @@ angular.module('listApp', ['angular-mapbox'])
       "size": 2.1,
       "zoning": "type of zone",
       "water": "Yes - potable",
-      "developmentPlans": 2,
-      "image": "/static/public/images/cow-farm.png"
+      "developmentPlans": 2
     },{
       "name": "Yolo Valley",
       "contact": "Ivan Matos",
@@ -28,8 +27,7 @@ angular.module('listApp', ['angular-mapbox'])
       "size": 2.3,
       "zoning": "type of zone",
       "water": "Yes - potable",
-      "developmentPlans": 2,
-      "image": "/static/public/images/cow-farm.png"
+      "developmentPlans": 2
     },{
       "name": "Old McDonald Farm",
       "contact": "Felix Colón",
@@ -39,8 +37,7 @@ angular.module('listApp', ['angular-mapbox'])
       "size": 1.8,
       "zoning": "type of zone",
       "water": "Yes - potable",
-      "developmentPlans": 2,
-      "image": "/static/public/images/cow-farm.png"
+      "developmentPlans": 2
     }
   ];
   $http.get('/api/parcel/').
@@ -55,7 +52,7 @@ angular.module('listApp', ['angular-mapbox'])
           try {
             parcel.size = parcel.size['py/reduce'][1]['py/tuple'][0];
           } catch (e1) { console.log(e1); }
-          console.log(e0); 
+          console.log(e0);
         }
         $scope.farms.push(parcel);
       });
