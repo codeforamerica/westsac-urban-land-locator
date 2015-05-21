@@ -97,6 +97,10 @@ ul.info > li {
 
 }
 
+.parcel-listing:hover {
+  background-color: #f3bd6e
+}
+
 
 /* side bar */
 .sidebar-module {

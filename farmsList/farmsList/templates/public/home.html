@@ -8,7 +8,7 @@
         <input type="text" class="search" ng-model="searchText" placeholder="enter name, size, etc ">
       </div>
       <div class="row" ng-repeat="farm in farms | filter:searchText">
-        <div class="col-md-12">
+        <div class="col-md-12 parcel-listing" ng-click="highlightParcel(farm.id)">
           <h2 class="title">{[farm.address]} <button id="contact-btn" class="btn btn-warning pull-right">contact</button></h2>
           <ul class="info">
             <li>water: {[farm.water]}</li>

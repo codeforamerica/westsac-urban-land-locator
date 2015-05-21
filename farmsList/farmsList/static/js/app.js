@@ -6,18 +6,31 @@ angular.module('listApp', ['angular-mapbox'])
 .run(function(mapboxService) {
     mapboxService.init({ accessToken: 'pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q' });
   })
-.controller('MainController', function($scope, $http){
-  $scope.getFarm = function(farmId) {
-    var _farm;
-    angular.forEach($scope.farms, function(farm) {
-      if (!_farm && farm.id === farmId) {
-        _farm = farm;
-      }
-    });
-    return _farm;
-  };
+.controller('MainController', function($scope, $http, mapboxService){
+  var getFarm = function(farmId) {
+        var _farm;
+        angular.forEach($scope.farms, function(farm) {
+          if (!_farm && farm.id === farmId) {
+            _farm = farm;
+          }
+        });
+        return _farm;
+      },
+      zoomPanTo = function(farmId) {
+        var map = mapboxService.getMapInstances()[0],
+            farm = getFarm(farmId);
+        map.setView(L.latLng(farm.center.lat, farm.center.lng), 17, {
+          pan: {
+            animate: true,
+            duration: .5
+          },
+          zoom: {
+            animate: true
+          }
+        });
+      };
   $scope.highlightParcel = function(farmId) {
-
+    zoomPanTo(farmId);
   };
   $scope.farms = [
     {
