@@ -3,10 +3,6 @@
 <div ng-controller="MainController">
   <div class="row">
     <div class="col-md-5">
-      <div class="search-box">
-        <span class="fa fa-search"></span>
-        <input type="text" class="search" ng-model="searchText" placeholder="enter name, size, etc ">
-      </div>
       <div class="row" ng-repeat="farm in farms | filter:searchText">
         <div class="col-md-12 parcel-listing" ng-click="highlightParcel(farm.id)">
           <h2 class="title">
