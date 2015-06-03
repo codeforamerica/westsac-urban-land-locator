@@ -53,6 +53,7 @@ class ContactLandOwnerForm(Form):
 class NewParcel1Form(Form):
     address = TextField('Address', validators=[DataRequired()])
     water = TextField('Water', validators=[DataRequired()])
+    soil = TextField('Soil')
     size = DecimalField('Size (in acres)', validators=[DataRequired()])
     zoning = TextField('Zoning', validators=[DataRequired()])
     developmentPlan = TextField('Minimum Availability', validators=[DataRequired()])
