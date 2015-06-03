@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+{% block content %}
+<form id="editParcelForm" class="form form-register" method="POST" action="" role="form">
+  <div class="row parcel-title">
+    <div class="col-md-4">
+      <span class="title">Contact</span >
+    </div>
+    <div class="col-md-8"></div>
+  </div>
+  <div class="row parcel-fields">
+    {{ form.hidden_tag() }}
+    <div class="form-group">
+      {{form.name.label}}
+      {{form.name(placeholder="John Hansen", class_="form-control")}}
+    </div>
+    <div class="form-group">
+      {{form.email.label}}
+      {{form.email(placeholder='john@gmail.com', class_="form-control")}}
+    </div>
+    <div class="form-group">
+      {{form.phone.label}}
+      {{form.phone(placeholder="555-024-4032", class_="form-control")}}
+    </div>
+    <div class="form-group">
+      {{form.website.label}}
+      {{form.website(placeholder="facebook.com/blueth-farms", class_="form-control")}}
+    </div>
+    <div class="form-group">
+      {{form.cropPlan.label}}
+      {{form.cropPlan(class_="form-control")}}
+    </div>
+    <div class="form-group">
+      {{form.otherBackground.label}}
+      {{form.otherBackground(class_="form-control")}}
+    </div>
+    <div class="form-group">
+      {{form.additionalInfo.label}}
+      {{form.additionalInfo(placeholder="Please send me more information about the Barge Canal Access Property.", class_="form-control")}}
+    </div>
+  </div>
+  <div class="row parcel-submit">
+    <span class="pull-right submit-buttons">
+      <input class="btn btn-cancel" type="button" value="Cancel" onclick="document.location.href='/'">
+      <input class="btn btn-default btn-submit" type="button" value="Submit" onclick="document.location.href='/'">
+    </span>
+  </div>
+</form>
+{% endblock %}

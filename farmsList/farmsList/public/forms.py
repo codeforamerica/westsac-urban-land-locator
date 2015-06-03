@@ -31,6 +31,25 @@ class LoginForm(Form):
             return False
         return True
 
+class ContactLandOwnerForm(Form):
+    name = TextField('Name', validators=[DataRequired()])
+    email = TextField('Email', validators=[DataRequired()])
+    phone = TextField('Phone', validators=[DataRequired()])
+    website = TextField('Website', validators=[DataRequired()])
+    cropPlan = TextField('What do you plan to farm on the property?', validators=[DataRequired()])
+    otherBackground = TextField('Do you own any other farms? If so, where?', validators=[DataRequired()])
+    additionalInfo = TextField('Anything else?')
+
+    def __init__(self, *args, **kwargs):
+        super(ContactLandOwnerForm, self).__init__(*args, **kwargs)
+
+    def validate(self):
+        initial_validation = super(ContactLandOwnerForm, self).validate()
+        if not initial_validation:
+            return False
+
+        return True
+
 class NewParcel1Form(Form):
     address = TextField('Address', validators=[DataRequired()])
     water = TextField('Water', validators=[DataRequired()])
@@ -44,7 +63,6 @@ class NewParcel1Form(Form):
 
     def __init__(self, *args, **kwargs):
         super(NewParcel1Form, self).__init__(*args, **kwargs)
-        self.parcel = None
 
     def validate(self):
         initial_validation = super(NewParcel1Form, self).validate()

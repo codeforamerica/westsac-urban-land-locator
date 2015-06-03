@@ -6,7 +6,7 @@ from flask.ext.login import login_user, login_required, logout_user
 
 from farmsList.extensions import login_manager
 from farmsList.user.models import User
-from farmsList.public.forms import LoginForm
+from farmsList.public.forms import LoginForm, ContactLandOwnerForm
 from farmsList.user.forms import RegisterForm
 from farmsList.utils import flash_errors
 from farmsList.database import db
@@ -16,7 +16,6 @@ blueprint = Blueprint('public', __name__, static_folder="../static")
 @login_manager.user_loader
 def load_user(id):
     return User.get_by_id(int(id))
-
 
 @blueprint.route("/", methods=["GET", "POST"])
 def home():
@@ -52,6 +51,11 @@ def register():
     else:
         flash_errors(form)
     return render_template('public/register.html', form=form)
+
+@blueprint.route("/contact-land-owner/")
+def contactLandOwner():
+    form = ContactLandOwnerForm(request.form)
+    return render_template("public/contact-land-owner.html", form=form)
 
 @blueprint.route("/about/")
 def about():

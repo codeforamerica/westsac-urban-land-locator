@@ -9,7 +9,12 @@
       </div>
       <div class="row" ng-repeat="farm in farms | filter:searchText">
         <div class="col-md-12 parcel-listing" ng-click="highlightParcel(farm.id)">
-          <h2 class="title">{[farm.address]} <button id="contact-btn" class="btn btn-warning pull-right">contact</button></h2>
+          <h2 class="title">
+            {[farm.address]} 
+            <button onclick="document.location.href='/contact-land-owner/'" id="contact-btn" class="btn btn-warning pull-right">
+              contact
+            </button>
+          </h2>
           <ul class="info">
             <li>water: {[farm.water]}</li>
             <li>size: {[farm.size]} acres</li>
