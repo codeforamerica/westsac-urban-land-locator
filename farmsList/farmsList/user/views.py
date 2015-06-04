@@ -23,6 +23,7 @@ def new_parcel_1():
                         address=form.address.data,
                         size=form.size.data,
                         water=form.water.data,
+                        soil=form.soil.data,
                         zoning=form.zoning.data,
                         developmentPlan=form.developmentPlan.data,
                         restrictions=form.restrictions.data,
