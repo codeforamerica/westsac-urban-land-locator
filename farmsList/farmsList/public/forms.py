@@ -56,7 +56,7 @@ class NewParcel1Form(Form):
     soil = TextField('Soil')
     size = DecimalField('Size (in acres)', validators=[DataRequired()])
     zoning = TextField('Zoning', validators=[DataRequired()])
-    developmentPlan = TextField('Minimum Availability', validators=[DataRequired()])
+    developmentPlan = TextField('Maximum Lease', validators=[DataRequired()])
     restrictions = TextField('Use Restrictions', validators=[DataRequired()])
     email = TextField('Contact e-mail', validators=[DataRequired()])
     geometry = TextField('Geometry', validators=[DataRequired()])
