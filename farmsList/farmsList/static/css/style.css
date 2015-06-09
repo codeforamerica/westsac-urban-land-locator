@@ -9,8 +9,9 @@ html {
 }
 
 body {
-  padding-top: 60px;
-  font-family: 'Helvetica', sans-serif;
+  padding-top: 50px;
+  font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
+  font-size: 16px;
 }
 
 section {
@@ -69,8 +70,10 @@ textarea {
 
 /* list row */
 .title {
-  color: DimGray;
-  font-size: 1.3em;
+  //color: DimGray;
+  font-size: 17px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .contact {
@@ -78,7 +81,10 @@ textarea {
 }
 
 #contact-btn {
-  font-size: 22px;
+  font-size: 15px;
+  background-color: blue;
+  border-color: blue;
+  opacity: 0.75;
 }
 
 .farm-image {
@@ -92,6 +98,9 @@ textarea {
 ul.info {
   list-style-type: none;
   padding-left: 0px;
+  color: #aaa;
+  margin-bottom: 0;
+  font-size: 15px;
 }
 
 ul.info > li {
@@ -99,9 +108,9 @@ ul.info > li {
 }
 
 .parcel-listing:hover {
-  background-color: #E6E6FA;
-  max-width: 457px;
-  margin-left: 15px;
+  background-color: #f3f8fd;
+  //max-width: 457px;
+  //margin-left: 15px;
 }
 
 
@@ -120,24 +129,8 @@ ul.info-icons > li > img {
 }
 
 /* Add land form style */
-.parcel-fields {
-  background-color: ghostwhite;
-  padding: 10px;
-}
-
-.parcel-title {
-  background-color: ghostwhite;
-  height: 45px;
-  padding-top: 10px;
-}
-
-.parcel-title .title {
-  color: #69579C;
-  font-size: 2em;
-}
 
 .parcel-submit {
-  background-color: lavender;
   height: 65px;
   padding-top: 10px;
 }
@@ -148,8 +141,8 @@ ul.info-icons > li > img {
 }
 
 .parcel-submit .btn-submit {
-  background-color: #69579c;
-  border: 1px solid #69579c;
+  background-color: blue;
+  border: 1px solid blue;
   color: white;
 }
 
@@ -173,3 +166,27 @@ ul.info-icons > li > img {
 .form-control:-ms-input-placeholder {
    color: #ccc;
 }
+
+
+/* Natasha added these clunky styles. */
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-bottom: 4px;}
+
+.parcel-listing {
+  padding: 30px 25px;
+  border-bottom: 1px solid #eee;}
+
+.div-map {
+  padding: 0;
+}
+
+.page-header{  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;}

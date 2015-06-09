@@ -2,28 +2,32 @@
 {% block content %}
 <div ng-controller="MainController">
   <div class="row">
-    <div class="col-md-5">
-      <div class="row" ng-repeat="farm in farms | filter:searchText">
-        <div class="col-md-12 parcel-listing" ng-click="highlightParcel(farm.id)">
-          <h2 class="title">
-            {[farm.address]} 
-            <button onclick="document.location.href='/contact-land-owner/'" id="contact-btn" class="btn btn-warning pull-right">
-              contact
-            </button>
-          </h2>
-          <ul class="info">
-            <li>water: {[farm.water]}</li>
-            <li>soil: {[farm.soil || 'No known information']}
-            <li>size: {[farm.size]} acres</li>
-            <li>zoning: {[farm.zoning]}</li>
-            <li>availability: {[farm.developmentPlan]}</li>
-            <li>restrictions: {[farm.restrictions]}</li>
-          </ul>
-          <hr>
-        </div>
+    <div class="col-md-4">
+      <div class="row parcel-listing" ng-repeat="farm in farms | filter:searchText">
+
+          <div class="row" ng-click="highlightParcel(farm.id)">
+                <div class="col-md-8">
+                  <h3 class="title">{[farm.address]}</h3>
+                  <h2>{[farm.size]} acres</h2>
+                  <ul class="info">
+                    <li>Water: {[farm.water]}</li>
+                    <!--<li>soil: {[farm.soil || 'No known information']}
+                    <li>zoning: {[farm.zoning]}</li>
+                    <li>availability: {[farm.developmentPlan]}</li>
+                    <li>restrictions: {[farm.restrictions]}</li>-->
+                  </ul>
+                </div>
+
+                <div class="col-md-4">
+                  <button onclick="document.location.href='/contact-land-owner/'" id="contact-btn" class="btn btn-warning pull-right btn-contact">
+                    Submit Inquiry
+                  </button>
+                </div>
+          </div>
+
       </div>
     </div>
-    <div class="col-md-7 sidebar">
+    <div class="col-md-8 div-map">
       <mapbox class="mapTogether" map-id="codeforamerica.m5m971km" lat="38.58024" lng="-121.5305" zoom="13">
         <div ng-repeat="farm in farms | filter:searchText">
           <feature-layer data="{[farm.geometry]}" color="#f0ad4e"></featureLayer>

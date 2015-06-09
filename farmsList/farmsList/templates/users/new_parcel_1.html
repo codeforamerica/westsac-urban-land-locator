@@ -1,59 +1,75 @@
 {% extends "layout.html" %}
 {% block content %}
-<form id="editParcelForm" class="form form-register" method="POST" action="" role="form">
-  <div class="row parcel-title">
-    <div class="col-md-4">
-      <span class="title">Post a New Parcel</span >
+
+<div class="container"
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="page-header">List a New Parcel</h1>
+            <form id="editParcelForm" class="form form-register form-horizontal" method="POST" action="" role="form">
+
+                {{ form.hidden_tag() }}
+
+                  <div class="form-group">
+                    <div class="col-sm-2 control-label">{{form.address.label}}</div>
+                    <div class="col-sm-6">{{form.address(placeholder="Bryte St. and Main St.", class_="form-control")}}</div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="col-sm-2 control-label">{{form.water.label}}</div>
+                    <div class="col-xs-2">{{form.water(placeholder='20 gal/min', class_="form-control")}}</div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="col-sm-2 control-label">{{form.soil.label}}</div>
+                    <div class="col-sm-6">{{form.soil(placeholder='75% Clay; 25% Silty Loam', class_="form-control")}}</div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="col-sm-2 control-label">{{form.developmentPlan.label}} <br />(in years)</div>
+                    <div class="col-sm-2">{{form.developmentPlan(placeholder="5", class_="form-control")}}</div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="col-sm-2 control-label">{{form.zoning.label}}</div>
+                    <div class="col-sm-2">{{form.zoning(placeholder="Ag", class_="form-control")}}</div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="col-sm-2 control-label">{{form.restrictions.label}}</div>
+                    <div class="col-sm-6">{{form.restrictions(placeholder="None", class_="form-control")}}</div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="col-sm-2 control-label">{{form.email.label}}</div>
+                    <div class="col-sm-6">{{form.email(placeholder="john@gmail.com", class_="form-control")}}
+                      <span class="help-block">We won't post your email address on this website, but people interested in the land will be able to contact you via a form.</span>
+                      </div>
+
+                  </div>
+
+                  <div class="mapdiv">
+                    <p><strong>Parcel Location</strong></p>
+                    <p>Use the [shape tool image] tool to draw a shape around the location of the parcel.</p>
+                    <input type="text" id="newParcelGeometry" name="geometry" class="ng-hide">
+                    <input type="text" id="newParcelCenter" name="center" class="ng-hide">
+                    <input type="text" id="newParcelSize" name="size" class="ng-hide">
+                    <div id='map'></div>
+                  </div>
+
+                  <div class="form-group parcel-submit">
+                    <div class="col-sm-10">
+                      <button class="btn btn-primary btn-lg btn-submit" type="submit" value="Post Parcel">Post Parcel</button>
+
+                      <button class="btn btn-default btn-lg" type="button" value="Cancel">Cancel</button>
+
+                    </div>
+                  </div>
+            </form>
+
+        </div>
     </div>
-    <div class="col-md-8"></div>
-  </div>
-  <div class="row parcel-fields">
-    {{ form.hidden_tag() }}
-    <div class="col-md-4">
-      <div class="form-group">
-        {{form.address.label}}
-        {{form.address(placeholder="100 Bryte St. West Sacramento, CA 95605", class_="form-control")}}
-      </div>
-      <div class="form-group">
-        {{form.water.label}}
-        {{form.water(placeholder='20 gal/min', class_="form-control")}}
-      </div>
-      <div class="form-group">
-        {{form.soil.label}}
-        {{form.soil(placeholder='75% Clay; 25% Silty Loam', class_="form-control")}}
-      </div>
-      <div class="form-group">
-        {{form.zoning.label}}
-        {{form.zoning(placeholder="Ag", class_="form-control")}}
-      </div>
-      <div class="form-group">
-        {{form.developmentPlan.label}}
-        {{form.developmentPlan(placeholder=">5 years", class_="form-control")}}
-      </div>
-      <div class="form-group">
-        {{form.restrictions.label}}
-        {{form.restrictions(placeholder="None", class_="form-control")}}
-      </div>
-      <div class="form-group">
-        {{form.email.label}}
-        {{form.email(placeholder="john@gmail.com", class_="form-control")}}
-        <p>We won't post your email address on this website, but people interested in the land will be able to contact you via a form.</p>
-      </div>
-    </div>
-    <div class="col-md-8">
-      <input type="text" id="newParcelGeometry" name="geometry" class="ng-hide">
-      <input type="text" id="newParcelCenter" name="center" class="ng-hide">
-      <input type="text" id="newParcelSize" name="size" class="ng-hide">
-      <div id='map'></div>
-    </div>
-  </div>
-  <div class="row parcel-submit">
-      <span  class="pull-right submit-buttons">
-        <input class="btn btn-cancel" type="button" value="Cancel">
-        <input class="btn btn-default btn-submit" type="submit" value="Post Parcel">
-      </span >
-  </div>
-</form>
+</div>
+
 <!-- Code for adding location of the parcel using leaflet:draw plugin (mapbox.js) -->
 <script>
   L.mapbox.accessToken = 'pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q';

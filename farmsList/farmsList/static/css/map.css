@@ -8,9 +8,9 @@
 
 .mapTogether {
   position: fixed;
-  top: 60px;
+  top: 51px;
   bottom:0;
-  width:60% !important;
-  height: 635px !important;
-  border-radius: 8px;
+  width:66.66666667% !important;
+  height: 645px !important;
+  border-radius: 0px;
 }

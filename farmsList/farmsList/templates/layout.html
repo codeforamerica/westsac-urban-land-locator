@@ -10,7 +10,7 @@
   <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
   <title>{% block page_title %}
 
-    Farms Locator
+    Urban Farm Locator
 
     {% endblock %}
   </title>
@@ -40,7 +40,7 @@
 {% endwith %}
 
 <header>{% block header %}{% endblock %}</header>
-<div class="{% block content_class %}container{% endblock content_class %}">
+<div class="{% block content_class %}container-fluid{% endblock content_class %}">
 
   <div role="main">
     {% with messages = get_flashed_messages(with_categories=true) %}
@@ -67,7 +67,7 @@
 
 </div><!-- end container -->
 
-{% include "footer.html" %}
+<!--{% include "footer.html" %}-->
 
 <!-- JavaScript at the bottom for fast page loading -->
 {% assets "js_all" %}
