@@ -89,14 +89,8 @@ angular.module('listApp', ['angular-mapbox'])
         parcel.center.lng = parcel.center.geometry.coordinates[0];
         // This conversion is needed because the jsonpickle
         // serialization seems forced to maintain type references
-        try {
-          parcel.size = parcel.size['py/reduce'][1][0]
-        } catch (e0) {
-          try {
-            parcel.size = parcel.size['py/reduce'][1]['py/tuple'][0];
-          } catch (e1) { console.log(e1); }
-          console.log(e0);
-        }
+        parcel.size = parcel.size['py/reduce'][1][0]
+        parcel.water = parcel.water['py/reduce'][1][0] + ' gallons per minute'
         $scope.farms.push(parcel);
       });
     }).
