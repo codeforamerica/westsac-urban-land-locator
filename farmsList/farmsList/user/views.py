@@ -18,8 +18,7 @@ def members():
 def new_parcel_1():
     form = NewParcel1Form(request.form)
     if form.validate_on_submit():
-        new_parcel = Parcel.create(name="Test Parcel",
-                        email=form.email.data,
+        new_parcel = Parcel.create(email=form.email.data,
                         address=form.address.data,
                         size=form.size.data,
                         water=form.water.data,
@@ -29,7 +28,7 @@ def new_parcel_1():
                         restrictions=form.restrictions.data,
                         geometry=form.geometry.data,
                         center=form.center.data,
-                        image='/static/public/images/cow-farm.png')
+                        listedToPublic=True)
         flash("Thank you for adding a parcel. You can now view it in the list.", 'success')
         return redirect(url_for('public.home'))
     else:
