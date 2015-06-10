@@ -11,10 +11,10 @@ for x in range(0, 17):
 	array = json.loads(file.read())
 	for y in range(0, len(array)):
 		type = 'MultiPolygon' if len(array[y]['shape']['geometry']['rings']) > 1 else 'Polygon'
+		geojsonString = '{{"type":"{}","coordinates":{}}}'.format(type, array[y]['shape']['geometry']['rings'])
 		if type == 'MultiPolygon':
 			geojsonString = geojsonString.replace('[ [ ', '[ [ [ ')
 			geojsonString = geojsonString.replace(' ] ]', ' ] ] ]')
-		geojsonString = '{{"type":"{}","coordinates":{}}}'.format(type, array[y]['shape']['geometry']['rings'])
 		point = [float(array[y]['shape']['longitude']), float(array[y]['shape']['latitude'])]
 		centerString = '{{"geometry":{{"type":"Point","coordinates":{}}}}}'.format(point)
 		parcel = {}
