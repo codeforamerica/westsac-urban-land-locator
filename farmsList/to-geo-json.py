@@ -10,11 +10,9 @@ for x in range(0, 17):
 	file = open("parcels-pristine/" + filename)
 	array = json.loads(file.read())
 	for y in range(0, len(array)):
-		type = 'MultiPolygon' if len(array[y]['shape']['geometry']['rings']) > 1 else 'Polygon'
-		geojsonString = '{{"type":"{}","coordinates":{}}}'.format(type, array[y]['shape']['geometry']['rings'])
-		if type == 'MultiPolygon':
-			geojsonString = geojsonString.replace('[ [ ', '[ [ [ ')
-			geojsonString = geojsonString.replace(' ] ]', ' ] ] ]')
+		if int(array[y]['parcode']) != 1:
+			continue
+		geojsonString = '{{"type":"Polygon","coordinates":{}}}'.format(array[y]['shape']['geometry']['rings'])
 		point = [float(array[y]['shape']['longitude']), float(array[y]['shape']['latitude'])]
 		centerString = '{{"geometry":{{"type":"Point","coordinates":{}}}}}'.format(point)
 		parcel = {}
@@ -26,4 +24,4 @@ for x in range(0, 17):
 		parcels.append(parcel)
 
 for parcel in parcels:
-	conn.execute("INSERT INTO parcels (geometry, size, zoning, center) VALUES ('{}', {}, 'Ag', '{}')".format(parcel['geometry'], parcel['size'], parcel['center']))
+	conn.execute("INSERT INTO parcels (geometry, size, zoning, center, water) VALUES ('{}', {}, 'Ag', '{}', 0)".format(parcel['geometry'], parcel['size'], parcel['center']))
