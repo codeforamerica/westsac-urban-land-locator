@@ -1,0 +1,192 @@
+/* =============================================================================
+   App specific CSS file.
+   ========================================================================== */
+
+/* universal */
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  padding-top: 50px;
+  font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
+  font-size: 16px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.form-register .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Search Box*/
+.search-box{
+  background-color: RGBA(105, 87, 156, 0.5);
+  width: 100%;
+  height: 70px;
+  border-radius: 4px;
+  position: relative;
+  color: #aaa;
+  font-size: 16px;
+}
+
+.search {
+  width: 90%;
+  height: 45px;
+  background: white;
+  border: none;
+  font-size: 14pt;
+  color: dimgray;
+  padding-left: 15px;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  position: relative;
+  top: 17%;
+  left: 5%;
+  text-indent: 32px;
+}
+
+.search-box .fa-search {
+  position: absolute;
+  top: 37%;
+  left: 9%;
+  color: #666;
+  z-index: 99;
+}
+
+/* list row */
+.title {
+  //color: DimGray;
+  font-size: 17px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.contact {
+  color: DarkGray;
+}
+
+#contact-btn {
+  font-size: 15px;
+  background-color: blue;
+  border-color: blue;
+  opacity: 0.75;
+}
+
+.farm-image {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  width: 90% ;
+  margin-top: 25px;
+}
+
+ul.info {
+  list-style-type: none;
+  padding-left: 0px;
+  color: #aaa;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+ul.info > li {
+
+}
+
+.parcel-listing:hover {
+  background-color: #f3f8fd;
+  //max-width: 457px;
+  //margin-left: 15px;
+}
+
+
+ul.info-icons{
+  padding: 0;
+  margin-top: 15px;
+  list-style: none;
+}
+
+ul.info-icons > li {
+  display: inline;
+}
+
+ul.info-icons > li > img {
+  margin: 0px 5px;
+}
+
+/* Add land form style */
+
+.parcel-submit {
+  height: 65px;
+  padding-top: 10px;
+}
+
+.parcel-submit .btn {
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+.parcel-submit .btn-submit {
+  background-color: blue;
+  border: 1px solid blue;
+  color: white;
+}
+
+.parcel-submit .btn-cancel {
+  border: 1px solid #69579c;
+  color: #69579c;
+}
+
+.form-control::-webkit-input-placeholder {
+   color: #ccc;
+}
+
+.form-control:-moz-placeholder { /* Firefox 18- */
+   color: #ccc;
+}
+
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+   color: #ccc;
+}
+
+.form-control:-ms-input-placeholder {
+   color: #ccc;
+}
+
+
+/* Natasha added these clunky styles. */
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-bottom: 4px;}
+
+.parcel-listing {
+  padding: 30px 25px;
+  border-bottom: 1px solid #eee;}
+
+.div-map {
+  padding: 0;
+}
+
+.page-header{  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;}

@@ -1,0 +1,16 @@
+/* map in the add parcel template */
+
+#map {
+  height: 565px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.mapTogether {
+  position: fixed;
+  top: 51px;
+  bottom:0;
+  width:66.66666667% !important;
+  height: 645px !important;
+  border-radius: 0px;
+}
