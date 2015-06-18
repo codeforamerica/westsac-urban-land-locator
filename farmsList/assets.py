@@ -12,7 +12,7 @@ css = Bundle(
 )
 
 js = Bundle(
-    "libs/jQuery/dist/jquery.js",
+    "libs/jquery/dist/jquery.js",
     "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js",
     "https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v2.0.0/turf.min.js",
     # "libs/angular-mapbox/dist/angular-mapbox.min.js",  # <-- use this if they have accepted all of our changes
