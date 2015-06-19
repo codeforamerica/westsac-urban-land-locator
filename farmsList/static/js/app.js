@@ -3,9 +3,11 @@ angular.module('listApp', ['angular-mapbox'])
     $interpolateProvider.startSymbol('{[');
     $interpolateProvider.endSymbol(']}');
   })
+
 .run(function(mapboxService) {
     mapboxService.init({ accessToken: 'pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q' });
   })
+
 .controller('MainController', function($scope, $http, mapboxService){
   var getFarm = function(farmId) {
         var _farm;
@@ -59,7 +61,7 @@ angular.module('listApp', ['angular-mapbox'])
       "developmentPlans": 2,
       "center": {
         "lat": 38.58843235229309,
-        "lng": -121.51247978210449,
+        "lng": -121.52357978210449,
       }
     },{
       "name": "Old McDonald Farm",
@@ -73,7 +75,7 @@ angular.module('listApp', ['angular-mapbox'])
       "developmentPlans": 2,
       "center": {
         "lat": 38.58843235229309,
-        "lng": -121.51247978210449,
+        "lng": -121.53467978210449,
       }
     }
   ];
@@ -96,5 +98,29 @@ angular.module('listApp', ['angular-mapbox'])
     }).
     error(function(data, status, headers, config) {
       console.log('error getting parcel data from server');
+    });
+})
+
+.controller('PublishListingsController', function($scope, $http, mapboxService){
+  $scope.parcels = [];
+  $http.get('/api/parcel/vacant').
+    success(function(data, status, headers, config) {
+      if (!data || data.length === 0) {
+        return;
+      }
+      $scope.parcels = [];
+      angular.forEach(data, function(parcel) {
+        parcel.center = JSON.parse(parcel.center);
+        parcel.center.lat = parcel.center.geometry.coordinates[1];
+        parcel.center.lng = parcel.center.geometry.coordinates[0];
+        // This conversion is needed because the jsonpickle
+        // serialization seems forced to maintain type references
+        parcel.size = parcel.size['py/reduce'][1][0]
+        parcel.water = parcel.water['py/reduce'][1][0]
+        $scope.parcels.push(parcel);
+      });
+    }).
+    error(function(data, status, headers, config) {
+      console.log('error getting parcel data from server in PublishListingsController');
     });
 });
