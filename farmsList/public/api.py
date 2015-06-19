@@ -8,7 +8,5 @@ blueprint = Blueprint('api', __name__, url_prefix='/api',
 
 @blueprint.route("/parcel/", methods=["GET", "POST"])
 def api_parcel():
-	print "HELLO"
 	parcelData = Parcel.query.filter(Parcel.listedToPublic == True).all()
-	print "HELLO 2"
 	return jsonpickle.encode(parcelData, unpicklable=False, make_refs=False)
