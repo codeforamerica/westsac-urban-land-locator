@@ -7,12 +7,17 @@ Getting Started
 
 You will need to have Postgres SQL Installed on your machine (`You can get it here <http://www.postgresql.org/download/>`_.) and you will need to have it started and create a farmslistadmin user with priviledges:
 
-.. code-block:: psql template1
+::
 
-    CREATE USER urbanlandlocatoradmin;
-    CREATE DATABASE urban_land_locator;
-    ALTER DATABASE urban_land_locator OWNER TO urbanlandlocatoradmin;
-    \q
+    $ psql template1
+
+
+::
+
+    # CREATE USER urbanlandlocatoradmin;
+    # CREATE DATABASE urban_land_locator;
+    # ALTER DATABASE urban_land_locator OWNER TO urbanlandlocatoradmin;
+    # \q
 
 
 Then run the following commands to bootstrap your environment:
