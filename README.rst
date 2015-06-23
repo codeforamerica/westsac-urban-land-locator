@@ -1,46 +1,40 @@
 ===============================
-"Farms List"
+Farms List
 ===============================
 
-"mvp"
-
-
-Before You Start
+Getting Started
 ----------------
 
-You will need to have Postgres SQL Installed on your machine (`You can get it here <http://www.postgresql.org/download/>`_.) and you will need to have it started and create a farmslistadmin user with priviledges.
+You will need to have Postgres SQL Installed on your machine (`You can get it here <http://www.postgresql.org/download/>`_.) and you will need to have it started and create a farmslistadmin user with priviledges:
 
-.. code-block:: psql
+.. code-block:: psql template1
 
-    CREATE USER farmslistadmin;
-    GRANT ALL ON ALL TABLES IN SCHEMA public TO farmslistadmin;
-    GRANT ALL ON ALL SEQUENCES IN SCHEMA public TO farmslistadmin;
-    CREATE DATABASE farms_list;
-
-
-Quickstart
-----------
-
-First, set your app's secret key as an environment variable. For example, example add the following to ``.bashrc`` or ``.bash_profile``.
-
-.. code-block:: bash
-
-    export FARMSLIST_SECRET='something-really-secret'
+    CREATE USER urbanlandlocatoradmin;
+    CREATE DATABASE urban_land_locator;
+    ALTER DATABASE urban_land_locator OWNER TO urbanlandlocatoradmin;
+    \q
 
 
-Then run the following commands to bootstrap your environment.
+Then run the following commands to bootstrap your environment:
 
 
 ::
 
-    git clone https://github.com/inaki/farms-list.git
-    cd farms-list/farmsList/
+    git clone https://github.com/codeforamerica/westsac-urban-land-locator.git
+    cd westsac-urban-land-locator/
+
+
+Now, you'll need to install the virtualenv tool and then setup the environment:
+
+
+::
+
+    virtualenv venv
+    source venv/bin/activate
     pip install -r requirements/dev.txt
-    python manage.py server
 
-You will see a pretty welcome screen.
 
-Once you have installed your DBMS, run the following to create your app's database tables and perform the initial migration:
+Finally, you'll want to initialize the database and start the server:
 
 ::
 
@@ -49,6 +43,8 @@ Once you have installed your DBMS, run the following to create your app's databa
     python manage.py db upgrade
     python manage.py server
 
+
+You should then be able to view the app at localhost:5001 in your local web browser.
 
 
 Deployment
