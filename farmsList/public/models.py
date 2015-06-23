@@ -23,8 +23,8 @@ class Parcel(SurrogatePK, Model):
     address = Column(db.String(400), nullable=True)
     email = Column(db.String(80), nullable=True)
 
-    def __init__(self, name, **kwargs):
-        db.Model.__init__(self, name=name, **kwargs)
+    def __init__(self **kwargs):
+        db.Model.__init__(self, **kwargs)
 
     def __repr__(self):
         return '<Parcel({id})>'.format(id=self.id)

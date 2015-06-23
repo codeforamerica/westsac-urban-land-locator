@@ -29,7 +29,7 @@ def new_parcel_1():
                         geometry=form.geometry.data,
                         center=form.center.data,
                         listedToPublic=True)
-        flash("Thank you for adding a parcel. You can now view it in the list.", 'success')
+        # flash("Thank you for adding a parcel. You can now view it in the list.", 'success')
         return redirect(url_for('public.home'))
     else:
         flash_errors(form)
