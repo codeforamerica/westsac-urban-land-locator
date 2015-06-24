@@ -3,6 +3,7 @@
   "dependencies": {
     "bootstrap": "~3.2.0",
     "jQuery": "~2.1.0",
-    "angular-mapbox": "~0.1.4"
+    "angular-mapbox": "~0.1.4",
+    "angular-leaflet-directive": ""
   }
 }
