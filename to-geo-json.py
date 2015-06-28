@@ -1,7 +1,7 @@
 import json
 from sqlalchemy import create_engine
 
-engine = create_engine('postgresql://farmslistadmin:@localhost/farms_list')
+engine = create_engine('postgresql://urbanlandlocatoradmin:@localhost/urban_land_locator')
 conn = engine.connect()
 parcels = []
 

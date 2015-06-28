@@ -1,4 +1,4 @@
-angular.module('listApp', ['angular-mapbox'])
+angular.module('listApp', ['angular-mapbox','leaflet-directive'])
 .config(function($interpolateProvider) {
     $interpolateProvider.startSymbol('{[');
     $interpolateProvider.endSymbol(']}');
@@ -101,26 +101,121 @@ angular.module('listApp', ['angular-mapbox'])
     });
 })
 
-.controller('PublishListingsController', function($scope, $http, mapboxService){
+.controller('PublishListingsController', ['$scope', '$http', 'mapboxService', function($scope, $http, mapboxService){
   $scope.parcels = [];
   $http.get('/api/parcel/vacant').
     success(function(data, status, headers, config) {
       if (!data || data.length === 0) {
         return;
       }
-      $scope.parcels = [];
+      var features = [];
       angular.forEach(data, function(parcel) {
-        parcel.center = JSON.parse(parcel.center);
         parcel.center.lat = parcel.center.geometry.coordinates[1];
         parcel.center.lng = parcel.center.geometry.coordinates[0];
-        // This conversion is needed because the jsonpickle
-        // serialization seems forced to maintain type references
-        parcel.size = parcel.size['py/reduce'][1][0]
-        parcel.water = parcel.water['py/reduce'][1][0]
-        $scope.parcels.push(parcel);
+        features.push({
+          type: "Feature",
+          geometry: JSON.parse(parcel.geometry),
+          properties: {
+            parcel: parcel
+          }
+        });
+      });
+      data = {
+        type: "FeatureCollection",
+        features: features
+      };
+      angular.extend($scope, {
+        geojson: {
+          data: data,
+          style: {
+            fillColor: "green",
+            weight: 2,
+            opacity: 1,
+            color: 'white',
+            dashArray: '3',
+            fillOpacity: 0.7
+          },
+          onEachFeature: function (feature, layer) {
+            layer.on('click', function(){
+              $scope.parcel = feature.properties.parcel;
+              var geoJSON = feature.geometry;
+              document.getElementById('newParcelGeometry').value = JSON.stringify(geoJSON);
+              document.getElementById('newParcelSize').value = turf.area(geoJSON) / 4046.85642;
+              document.getElementById('newParcelCenter').value = JSON.stringify(turf.centroid(geoJSON));
+            });
+          }
+        }
       });
     }).
     error(function(data, status, headers, config) {
       console.log('error getting parcel data from server in PublishListingsController');
     });
-});
+
+  angular.extend($scope, {
+    center: {
+      lat: 38.58024,
+      lng: -121.5305,
+      zoom: 14
+    },
+    layers: {
+      baselayers: {
+        xyz: {
+          name: 'OpenStreetMap (XYZ)',
+          url: 'http://{s}.tiles.mapbox.com/v4/codeforamerica.m5m971km/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q',
+          type: 'xyz',
+          layerOptions: {
+            attribution: 'Mapbox | OpenStreetMap',
+            showOnSelector: false
+          }
+        }
+      },
+      overlays: {}
+    }
+  });
+/*
+  var tileLayer = {
+    name: 'Countries',
+    type: 'xyz',
+    url: 'http://{s}.tiles.mapbox.com/v3/milkator.press_freedom/{z}/{x}/{y}.png',
+    visible: true,
+    layerOptions: {
+      attribution: 'Mapbox and OpenStreetMap',
+      showOnSelector: false
+    }
+  };
+
+  var utfGrid = {
+    name: 'UtfGrid',
+    type: 'utfGrid',
+    url: 'http://{s}.tiles.mapbox.com/v3/milkator.press_freedom/{z}/{x}/{y}.grid.json?callback={cb}',
+    visible: true,
+    pluginOptions: {
+      maxZoom: 5,
+      resolution: 4
+    }
+  };
+
+  var group = {
+    name: 'Group Layer',
+    type: 'group',
+    visible: true,
+    layerOptions: {
+      layers: [ tileLayer, utfGrid],
+      maxZoom: 5
+    }
+  };
+
+  $scope.layers['overlays']['Group Layer'] = group;
+
+  $scope.$on('leafletDirectiveMap.utfgridMouseover', function(event, leafletEvent) {
+    $scope.country = leafletEvent.data.name;
+  });
+
+  $scope.$on('leafletDirectiveMap.utfgridClick', function(event, leafletEvent) {
+    console.log(leafletEvent.data.name);
+    if(leafletEvent.data.name === 'Ecuador') {
+      alert('You clicked on Ecuador. Congratulations; you win!');
+    }
+  });
+  */
+}]);

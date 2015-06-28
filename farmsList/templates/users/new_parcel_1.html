@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 {% block content %}
 
-<div class="container"
+<div class="container" ng-controller="PublishListingsController">
   <div class="row">
     <div class="col-md-12">
       <h1 class="page-header">List a New Parcel</h1>
@@ -9,11 +9,11 @@
         {{ form.hidden_tag() }}
         <div class="form-group">
           <div class="col-sm-2 control-label">{{form.address.label}}</div>
-          <div class="col-sm-6">{{form.address(placeholder="Bryte St. and Main St.", class_="form-control")}}</div>
+          <div class="col-sm-6">{{form.address(placeholder="Bryte St. and Main St.", class_="form-control", **{'ng-model':'parcel.address'})}}</div>
         </div>
         <div class="form-group">
           <div class="col-sm-2 control-label">{{form.water.label}}</div>
-          <div class="col-xs-2">{{form.water(placeholder='20 gal/min', class_="form-control")}}</div>
+          <div class="col-xs-2">{{form.water(placeholder='20 gal/min', class_="form-control", **{'ng-model':'parcel.water'})}}</div>
         </div>
         <div class="form-group">
           <div class="col-sm-2 control-label">{{form.soil.label}}</div>
@@ -43,8 +43,11 @@
           <input type="text" id="newParcelGeometry" name="geometry" class="ng-hide">
           <input type="text" id="newParcelCenter" name="center" class="ng-hide">
           <input type="text" id="newParcelSize" name="size" class="ng-hide">
-          <div id='map'></div>
+          <div ng-hide="true" id='map'></div>
         </div>
+
+        <leaflet center="center" layers="layers" geojson="geojson" width="100%" height="480px"></leaflet>
+
         <div class="form-group parcel-submit">
           <div class="col-sm-10">
             <button class="btn btn-primary btn-lg btn-submit" type="submit" value="Post Parcel">Post Parcel</button>
