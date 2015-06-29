@@ -18,6 +18,8 @@ for x in range(0, 17):
 	for y in range(0, len(array)):
 		if int(array[y]['parcode']) != 1:
 			continue
+		if 'apn' not in array[y]:
+			continue
 		geojsonString = '{{"type":"Polygon","coordinates":{}}}'.format(array[y]['shape']['geometry']['rings'])
 		point = [float(array[y]['shape']['longitude']), float(array[y]['shape']['latitude'])]
 		centerString = '{{"geometry":{{"type":"Point","coordinates":{}}}}}'.format(point)
