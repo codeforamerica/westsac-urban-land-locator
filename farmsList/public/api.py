@@ -22,7 +22,7 @@ def api_parcel():
 
 @blueprint.route("/parcel/vacant", methods=["GET", "POST"])
 def api_parcel_vacant():
-	parcelData = Parcel.query.filter(Parcel.listedToAdmin == True).all()
+	parcelData = Parcel.query.filter(Parcel.landType == 'Vacant').all()
 	for parcel in parcelData:
 		parcel.center = json.loads(str(parcel.center))
 		parcel = pre_json_encode(parcel)
