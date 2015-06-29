@@ -1,7 +1,13 @@
+import os
 import json
 from sqlalchemy import create_engine
+from farmsList.settings import ProdConfig, DevConfig
 
-engine = create_engine('postgresql://urbanlandlocatoradmin:@localhost/urban_land_locator')
+if os.environ.get("FARMSLIST_ENV") == 'prod':
+	engine = create_engine(ProdConfig().SQLALCHEMY_DATABASE_URI)
+else:
+	engine = create_engine(DevConfig().SQLALCHEMY_DATABASE_URI)
+
 conn = engine.connect()
 parcels = []
 
@@ -21,7 +27,8 @@ for x in range(0, 17):
 		size = round(float(array[y]['acres']), 2)
 		size = size if size >= 0.01 else 0.01
 		parcel['size'] = size
+		parcel['listedToAdmin'] = True if (y == 11110 or y == 2221) else False  # This is just for testing, shouldn't be committed code
 		parcels.append(parcel)
 
 for parcel in parcels:
-	conn.execute("INSERT INTO parcels (geometry, size, zoning, center, water) VALUES ('{}', {}, 'Ag', '{}', 0)".format(parcel['geometry'], parcel['size'], parcel['center']))
+	conn.execute("INSERT INTO parcels (geometry, size, zoning, center, water, \"listedToAdmin\") VALUES ('{}', {}, 'Ag', '{}', 0, {})".format(parcel['geometry'], parcel['size'], parcel['center'], parcel['listedToAdmin']))
