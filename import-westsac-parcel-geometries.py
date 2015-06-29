@@ -27,7 +27,8 @@ for x in range(0, 17):
 		size = round(float(array[y]['acres']), 2)
 		size = size if size >= 0.01 else 0.01
 		parcel['size'] = size
+		parcel['apn'] = int(array[y]['apn'])
 		parcels.append(parcel)
 
 for parcel in parcels:
-	conn.execute("INSERT INTO parcels (geometry, size, zoning, center, water) VALUES ('{}', {}, 'Ag', '{}', 0)".format(parcel['geometry'], parcel['size'], parcel['center']))
+	conn.execute("INSERT INTO parcels (geometry, size, zoning, center, water, apn) VALUES ('{}', {}, 'Ag', '{}', 0, {})".format(parcel['geometry'], parcel['size'], parcel['center'], parcel['apn']))

@@ -8,3 +8,6 @@ venv*
 # Database Migrations
 migrations*
 
+# Operating System
+.DS_Store
+
