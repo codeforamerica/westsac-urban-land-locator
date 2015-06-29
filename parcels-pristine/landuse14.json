@@ -1,0 +1,7994 @@
+[ {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "402",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058370037000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "488",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058370039000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "488",
+  "land_use" : "RMU",
+  "acreage" : "0.079000000000000001",
+  "apn" : "058370040000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "402",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058370041000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "488",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058370042000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "488",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058370043000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "402",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058370044000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "402",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058370045000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "402",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058370046000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "402",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058370047000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058370048000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058370049000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "402",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058370050000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "488",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058370051000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "402",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058370053000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.66300000000000003",
+  "apn" : "058370054000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.31900000000000001",
+  "apn" : "058370058000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "488",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058370059000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.159",
+  "apn" : "058370061000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "402",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058370062000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "610",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058380001000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "615",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058380002000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "393",
+  "land_use" : "RMU",
+  "acreage" : "0.019",
+  "apn" : "058380003000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "393",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058380004000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "610",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058380005000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "615",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058380006000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058380007000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058380008000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058380009000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058380010000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058380011000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058380012000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "402",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058380013000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "488",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058380014000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "402",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058380015000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "488",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058380016000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "402",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058380017000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "488",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058380018000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "488",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058380019000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "488",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058380020000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "402",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058380021000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "488",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058380022000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "488",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058380023000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "402",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058380024000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "402",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058380025000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "488",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058380026000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "488",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058380027000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "1.8560000000000001",
+  "apn" : "058380028000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.23400000000000001",
+  "apn" : "058380029000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "210",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058390001000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "633",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058390002000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058390003000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "210",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058390004000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "320",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390005000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "210",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390006000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "210",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390007000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "210",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058390008000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "210",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058390009000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "210",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390010000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "210",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390011000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "320",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390012000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "210",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390013000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "210",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390014000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "210",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390015000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "210",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058390016000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.058999999999999997",
+  "apn" : "058390017000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390018000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390019000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390020000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390021000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058390022000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058390023000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390024000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390025000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390026000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390027000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058390028000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058390029000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390030000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "162",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390031000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "383",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390032000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "838",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058390033000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "210",
+  "land_use" : "RMU",
+  "acreage" : "0.019",
+  "apn" : "058390034000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "610",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058390035000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "610",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058390036000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "610",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390037000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "615",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058390038000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "419",
+  "land_use" : "RMU",
+  "acreage" : "0.019",
+  "apn" : "058390039000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "419",
+  "land_use" : "RMU",
+  "acreage" : "0.019",
+  "apn" : "058390040000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "697",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390041000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "615",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390042000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "610",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058390043000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "615",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390044000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "615",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058390045000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "838",
+  "land_use" : "RMU",
+  "acreage" : "0.019",
+  "apn" : "058390046000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "838",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058390047000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "697",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390048000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "697",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390049000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "610",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390050000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "397",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390051000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "610",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390052000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "838",
+  "land_use" : "RMU",
+  "acreage" : "0.029000000000000001",
+  "apn" : "058390053000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "838",
+  "land_use" : "RMU",
+  "acreage" : "0.019",
+  "apn" : "058390054000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "397",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390055000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "610",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058390056000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "615",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058390057000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "615",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390058000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "697",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058390059000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058401001000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058401002000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058401003000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058401004000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058401005000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058401006000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.058999999999999997",
+  "apn" : "058401007000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential - Mutli-Family",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.23",
+  "apn" : "058401008000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential - Mutli-Family",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.28899999999999998",
+  "apn" : "058402001000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.058999999999999997",
+  "apn" : "058402002000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058402003000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058402004000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058402005000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058402006000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058402007000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058402008000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058402009000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058402010000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058402011000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential - Mutli-Family",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.20899999999999999",
+  "apn" : "058403001000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.058999999999999997",
+  "apn" : "058403002000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058403003000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058403004000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058403005000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058403006000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058403007000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058403008000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058403009000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.05",
+  "apn" : "058403010000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058404001000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058404002000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058404003000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058404004000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058404005000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.039",
+  "apn" : "058404006000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.23",
+  "apn" : "058404007000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "3653",
+  "land_use" : "HSC",
+  "acreage" : "1.0069999999999999",
+  "apn" : "067010001000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "12658",
+  "land_use" : "HSC",
+  "acreage" : "0.89700000000000002",
+  "apn" : "067010002000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HSC",
+  "acreage" : "4.2300000000000004",
+  "apn" : "067010007000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "3400",
+  "land_use" : "HSC",
+  "acreage" : "6.6790000000000003",
+  "apn" : "067010008000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HSC",
+  "acreage" : "0.115",
+  "apn" : "067010013000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "4500",
+  "land_use" : "HSC",
+  "acreage" : "1.08",
+  "apn" : "067010021000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "6550",
+  "land_use" : "HSC",
+  "acreage" : "0.94399999999999995",
+  "apn" : "067010022000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HSC",
+  "acreage" : "0.068000000000000005",
+  "apn" : "067010024000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HSC",
+  "acreage" : "0.312",
+  "apn" : "067010026000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HSC",
+  "acreage" : "0.0050000000000000001",
+  "apn" : "067010028000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HSC",
+  "acreage" : "0.32300000000000001",
+  "apn" : "067010030000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HSC",
+  "acreage" : "6.0990000000000002",
+  "apn" : "067010032000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HSC",
+  "acreage" : "0.92",
+  "apn" : "067010033000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HSC",
+  "acreage" : "0.32300000000000001",
+  "apn" : "067010035000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HSC",
+  "acreage" : "1.23",
+  "apn" : "067010037000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HSC",
+  "acreage" : "0.94699999999999995",
+  "apn" : "067010038000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "4861",
+  "land_use" : "HSC",
+  "acreage" : "0.92",
+  "apn" : "067010040000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HSC",
+  "acreage" : "1.379",
+  "apn" : "067010041000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "109520",
+  "land_use" : "HI",
+  "acreage" : "5.9889999999999999",
+  "apn" : "067020010000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "50000",
+  "land_use" : "HI",
+  "acreage" : "2.63",
+  "apn" : "067020013000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "26769",
+  "land_use" : "HI",
+  "acreage" : "1.679",
+  "apn" : "067020014000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "81000",
+  "land_use" : "HI",
+  "acreage" : "4.5389999999999997",
+  "apn" : "067020015000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "84000",
+  "land_use" : "HI",
+  "acreage" : "4.55",
+  "apn" : "067020016000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "105800",
+  "land_use" : "HI",
+  "acreage" : "4.96",
+  "apn" : "067020017000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "42000",
+  "land_use" : "HI",
+  "acreage" : "1.86",
+  "apn" : "067020018000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "120000",
+  "land_use" : "HI",
+  "acreage" : "6.1989999999999998",
+  "apn" : "067020019000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "42000",
+  "land_use" : "HI",
+  "acreage" : "1.86",
+  "apn" : "067020020000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "10000",
+  "land_use" : "BP",
+  "acreage" : "1.47",
+  "apn" : "067020023000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "50400",
+  "land_use" : "HI",
+  "acreage" : "3.18",
+  "apn" : "067020031000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "139200",
+  "land_use" : "HI",
+  "acreage" : "6.6989999999999998",
+  "apn" : "067020032000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "75600",
+  "land_use" : "HI",
+  "acreage" : "4.4400000000000004",
+  "apn" : "067020033000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "1000",
+  "land_use" : "BP",
+  "acreage" : "0.34300000000000003",
+  "apn" : "067020037000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "BP",
+  "acreage" : "2.1440000000000001",
+  "apn" : "067020038000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "11135",
+  "land_use" : "BP",
+  "acreage" : "0.85899999999999999",
+  "apn" : "067020047000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "62500",
+  "land_use" : "HI",
+  "acreage" : "3.67",
+  "apn" : "067020048000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "168979",
+  "land_use" : "HI",
+  "acreage" : "6.3",
+  "apn" : "067020049000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "73600",
+  "land_use" : "HI",
+  "acreage" : "8.9090000000000007",
+  "apn" : "067020051000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "6327",
+  "land_use" : "HI",
+  "acreage" : "4.6479999999999997",
+  "apn" : "067020053000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "148107",
+  "land_use" : "HI",
+  "acreage" : "8.56",
+  "apn" : "067020055000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Exempt",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HI,OS",
+  "acreage" : "8.26",
+  "apn" : "067020060000",
+  "zoning" : "POS,M-2"
+}
+, {
+  "land_type" : "Exempt",
+  "building_size_sq_ft" : "0",
+  "land_use" : "OS",
+  "acreage" : "19.36",
+  "apn" : "067020061000",
+  "zoning" : "POS"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "BP",
+  "acreage" : "2.9140000000000001",
+  "apn" : "067020067000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "76398",
+  "land_use" : "BP",
+  "acreage" : "5.73",
+  "apn" : "067020068000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "27679",
+  "land_use" : "HI",
+  "acreage" : "4.8140000000000001",
+  "apn" : "067020069000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "17960",
+  "land_use" : "BP",
+  "acreage" : "1.603",
+  "apn" : "067020072000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "OS",
+  "acreage" : "28.97",
+  "apn" : "067020074000",
+  "zoning" : "POS"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "29254",
+  "land_use" : "BP",
+  "acreage" : "2.8090000000000002",
+  "apn" : "067020075000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "OS",
+  "acreage" : "9.42",
+  "apn" : "067030001000",
+  "zoning" : "POS"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "38000",
+  "land_use" : "HI",
+  "acreage" : "2.7789999999999999",
+  "apn" : "067030004000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "36387",
+  "land_use" : "HI",
+  "acreage" : "1.879",
+  "apn" : "067030005000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "97400",
+  "land_use" : "HI",
+  "acreage" : "12.72",
+  "apn" : "067030006000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "175517",
+  "land_use" : "HI",
+  "acreage" : "9",
+  "apn" : "067030007000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "210214",
+  "land_use" : "HI",
+  "acreage" : "9.25",
+  "apn" : "067030008000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "67803",
+  "land_use" : "HI",
+  "acreage" : "6.1790000000000003",
+  "apn" : "067030012000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "12727",
+  "land_use" : "HI",
+  "acreage" : "0.97199999999999998",
+  "apn" : "067030031000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HI",
+  "acreage" : "0.159",
+  "apn" : "067030032000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "41400",
+  "land_use" : "HI,WRI",
+  "acreage" : "2.25",
+  "apn" : "067030037000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "13842",
+  "land_use" : "HI",
+  "acreage" : "0.97699999999999998",
+  "apn" : "067030038000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "6356",
+  "land_use" : "HI",
+  "acreage" : "0.99399999999999999",
+  "apn" : "067030039000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "5950",
+  "land_use" : "HI",
+  "acreage" : "5.0389999999999997",
+  "apn" : "067030042000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "2177",
+  "land_use" : "HI",
+  "acreage" : "1.95",
+  "apn" : "067030043000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HI",
+  "acreage" : "3.2989999999999999",
+  "apn" : "067030044000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "18083",
+  "land_use" : "HI",
+  "acreage" : "5",
+  "apn" : "067030045000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HI",
+  "acreage" : "1.84",
+  "apn" : "067030046000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "9801",
+  "land_use" : "HI",
+  "acreage" : "0.09",
+  "apn" : "067030047000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "92500",
+  "land_use" : "HI",
+  "acreage" : "5.55",
+  "apn" : "067030048000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "107996",
+  "land_use" : "WRI",
+  "acreage" : "36.700000000000003",
+  "apn" : "067040003000",
+  "zoning" : "M-3"
+}
+, {
+  "land_type" : "Exempt",
+  "building_size_sq_ft" : "0",
+  "land_use" : "OS",
+  "acreage" : "19.940000000000001",
+  "apn" : "067040008000",
+  "zoning" : "POS"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "42",
+  "land_use" : "WRI",
+  "acreage" : "15.05",
+  "apn" : "067040010000",
+  "zoning" : "M-3"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "150478",
+  "land_use" : "HI,WRI",
+  "acreage" : "23.54",
+  "apn" : "067040011000",
+  "zoning" : "M-3"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "41400",
+  "land_use" : "HI",
+  "acreage" : "2.0489999999999999",
+  "apn" : "067051001000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "11000",
+  "land_use" : "HI",
+  "acreage" : "2.3290000000000002",
+  "apn" : "067051002000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "77000",
+  "land_use" : "HI",
+  "acreage" : "7.8",
+  "apn" : "067051005000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "108000",
+  "land_use" : "HI",
+  "acreage" : "5.63",
+  "apn" : "067051006000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "142960",
+  "land_use" : "HI",
+  "acreage" : "7.2190000000000003",
+  "apn" : "067051007000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "178200",
+  "land_use" : "HI",
+  "acreage" : "9.25",
+  "apn" : "067051009000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "159500",
+  "land_use" : "HI",
+  "acreage" : "7.9889999999999999",
+  "apn" : "067052001000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "161200",
+  "land_use" : "HI",
+  "acreage" : "7.05",
+  "apn" : "067052002000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "134384",
+  "land_use" : "HI",
+  "acreage" : "6.1989999999999998",
+  "apn" : "067052003000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "96000",
+  "land_use" : "HI",
+  "acreage" : "5.1390000000000002",
+  "apn" : "067052004000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "99000",
+  "land_use" : "HI",
+  "acreage" : "5.5039999999999996",
+  "apn" : "067052005000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "15000",
+  "land_use" : "HI",
+  "acreage" : "1.0289999999999999",
+  "apn" : "067052006000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "10400",
+  "land_use" : "HI",
+  "acreage" : "1",
+  "apn" : "067052007000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "524376",
+  "land_use" : "HI",
+  "acreage" : "80.209999999999994",
+  "apn" : "067052010000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "30773",
+  "land_use" : "HI",
+  "acreage" : "4.4489999999999998",
+  "apn" : "067052011000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HI",
+  "acreage" : "0.0040000000000000001",
+  "apn" : "067052012000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "18067",
+  "land_use" : "HI",
+  "acreage" : "2.39",
+  "apn" : "067052013000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "29817",
+  "land_use" : "HI",
+  "acreage" : "0.0089999999999999993",
+  "apn" : "067052016000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "48227",
+  "land_use" : "HI",
+  "acreage" : "3.089",
+  "apn" : "067052017000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "74000",
+  "land_use" : "HI",
+  "acreage" : "4.96",
+  "apn" : "067052018000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HI",
+  "acreage" : "4.96",
+  "apn" : "067052019000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "20985",
+  "land_use" : "HI",
+  "acreage" : "1.94",
+  "apn" : "067052020000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HI",
+  "acreage" : "1.94",
+  "apn" : "067052021000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "27230",
+  "land_use" : "HI",
+  "acreage" : "2.4700000000000002",
+  "apn" : "067052022000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HI",
+  "acreage" : "2.0790000000000002",
+  "apn" : "067052023000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "46000",
+  "land_use" : "HI",
+  "acreage" : "2.14",
+  "apn" : "067052024000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "36400",
+  "land_use" : "HI",
+  "acreage" : "0.0040000000000000001",
+  "apn" : "067052025000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "199553",
+  "land_use" : "HI",
+  "acreage" : "9.4390000000000001",
+  "apn" : "067052029000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "28801",
+  "land_use" : "HI",
+  "acreage" : "3.089",
+  "apn" : "067052030000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "290000",
+  "land_use" : "HI",
+  "acreage" : "12.3",
+  "apn" : "067053001000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HI",
+  "acreage" : "5.92",
+  "apn" : "067053002000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "3859",
+  "land_use" : "HI",
+  "acreage" : "0.83799999999999997",
+  "apn" : "067053005000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "18307",
+  "land_use" : "HI",
+  "acreage" : "0.92500000000000004",
+  "apn" : "067053006000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "9693",
+  "land_use" : "HI",
+  "acreage" : "0.93899999999999995",
+  "apn" : "067053007000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HI",
+  "acreage" : "0.93899999999999995",
+  "apn" : "067053008000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HI",
+  "acreage" : "1.278",
+  "apn" : "067053009000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HI",
+  "acreage" : "1.099",
+  "apn" : "067053010000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "65931",
+  "land_use" : "HI",
+  "acreage" : "11.32",
+  "apn" : "067053011000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "6641",
+  "land_use" : "WRI",
+  "acreage" : "27.64",
+  "apn" : "067053012000",
+  "zoning" : "M-3"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "594920",
+  "land_use" : "WRI",
+  "acreage" : "49.04",
+  "apn" : "067053013000",
+  "zoning" : "M-3"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HI,WRI",
+  "acreage" : "2.2690000000000001",
+  "apn" : "067053016000",
+  "zoning" : "M-3,M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "925",
+  "land_use" : "HI",
+  "acreage" : "1.7889999999999999",
+  "apn" : "067053017000",
+  "zoning" : "M-3,M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "143907",
+  "land_use" : "HI",
+  "acreage" : "5.65",
+  "apn" : "067053018000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "92054",
+  "land_use" : "HI",
+  "acreage" : "5.0389999999999997",
+  "apn" : "067053019000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "54850",
+  "land_use" : "HI",
+  "acreage" : "3.339",
+  "apn" : "067053020000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "14400",
+  "land_use" : "HI",
+  "acreage" : "1.07",
+  "apn" : "067053021000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "12100",
+  "land_use" : "HI",
+  "acreage" : "1",
+  "apn" : "067053022000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HI",
+  "acreage" : "1.5009999999999999",
+  "apn" : "067053023000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "46200",
+  "land_use" : "HI",
+  "acreage" : "3.339",
+  "apn" : "067053024000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HI",
+  "acreage" : "1.97",
+  "apn" : "067053027000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "26400",
+  "land_use" : "HI",
+  "acreage" : "2.0089999999999999",
+  "apn" : "067053029000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "116246",
+  "land_use" : "HI",
+  "acreage" : "8.77",
+  "apn" : "067053030000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "22305",
+  "land_use" : "WRI",
+  "acreage" : "8.6",
+  "apn" : "067053031000",
+  "zoning" : "M-3"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "4200",
+  "land_use" : "MCI",
+  "acreage" : "1.33",
+  "apn" : "067060001000",
+  "zoning" : "ML"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "576",
+  "land_use" : "MCI",
+  "acreage" : "1.34",
+  "apn" : "067060002000",
+  "zoning" : "ML"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "12000",
+  "land_use" : "MCI",
+  "acreage" : "2.38",
+  "apn" : "067060003000",
+  "zoning" : "ML"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "1020",
+  "land_use" : "MCI",
+  "acreage" : "2.319",
+  "apn" : "067060004000",
+  "zoning" : "ML"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "37800",
+  "land_use" : "MCI",
+  "acreage" : "7.2889999999999997",
+  "apn" : "067060005000",
+  "zoning" : "ML"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "48043",
+  "land_use" : "MCI",
+  "acreage" : "7.59",
+  "apn" : "067060006000",
+  "zoning" : "ML"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "6400",
+  "land_use" : "MCI",
+  "acreage" : "1.629",
+  "apn" : "067060007000",
+  "zoning" : "ML"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "14300",
+  "land_use" : "MCI",
+  "acreage" : "8.4789999999999992",
+  "apn" : "067060008000",
+  "zoning" : "ML"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "54612",
+  "land_use" : "MCI",
+  "acreage" : "3.67",
+  "apn" : "067070001000",
+  "zoning" : "ML"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "35333",
+  "land_use" : "MCI",
+  "acreage" : "2.16",
+  "apn" : "067070002000",
+  "zoning" : "ML"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "8500",
+  "land_use" : "MCI",
+  "acreage" : "0.879",
+  "apn" : "067070003000",
+  "zoning" : "ML"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RP",
+  "acreage" : "3.0049999999999999",
+  "apn" : "067070005000",
+  "zoning" : "RP"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "BP",
+  "acreage" : "0.032000000000000001",
+  "apn" : "067070022000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "18000",
+  "land_use" : "BP",
+  "acreage" : "2.359",
+  "apn" : "067070026000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "56278",
+  "land_use" : "BP",
+  "acreage" : "6.84",
+  "apn" : "067070028000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "72900",
+  "land_use" : "BP",
+  "acreage" : "6.3890000000000002",
+  "apn" : "067070029000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "52850",
+  "land_use" : "BP",
+  "acreage" : "4.7300000000000004",
+  "apn" : "067070030000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "93941",
+  "land_use" : "BP",
+  "acreage" : "6.84",
+  "apn" : "067070031000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "NULL",
+  "building_size_sq_ft" : "0",
+  "land_use" : "NULL",
+  "apn" : "067070032000",
+  "zoning" : "NULL"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.224",
+  "apn" : "067080001000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080002000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080003000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080004000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080005000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080006000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080007000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080008000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080009000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080010000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080011000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080012000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080013000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080014000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080015000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080016000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080017000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080018000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.17699999999999999",
+  "apn" : "067080019000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.17",
+  "apn" : "067080020000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.20899999999999999",
+  "apn" : "067080021000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080022000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080023000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080024000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080025000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080026000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080027000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080028000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080029000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067080030000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067080031000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067080032000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067080033000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067080034000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067080035000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067080036000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067080037000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067080038000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067080039000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067080040000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.21199999999999999",
+  "apn" : "067080041000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.189",
+  "apn" : "067080042000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.245",
+  "apn" : "067080043000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.187",
+  "apn" : "067080044000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067080045000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067080046000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067080047000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067080048000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067080049000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR,HR",
+  "acreage" : "0.14599999999999999",
+  "apn" : "067080050000",
+  "zoning" : "R1-A,R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR,HR",
+  "acreage" : "0.14599999999999999",
+  "apn" : "067080051000",
+  "zoning" : "R1-A,R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR,HR",
+  "acreage" : "0.14599999999999999",
+  "apn" : "067080052000",
+  "zoning" : "R1-A,R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR,HR",
+  "acreage" : "0.14599999999999999",
+  "apn" : "067080053000",
+  "zoning" : "R1-A,R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR,HR",
+  "acreage" : "0.14599999999999999",
+  "apn" : "067080054000",
+  "zoning" : "R1-A,R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR,HR",
+  "acreage" : "0.14599999999999999",
+  "apn" : "067080055000",
+  "zoning" : "R1-A,R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR,HR",
+  "acreage" : "0.14599999999999999",
+  "apn" : "067080056000",
+  "zoning" : "R1-A,R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR,HR",
+  "acreage" : "0.14299999999999999",
+  "apn" : "067080057000",
+  "zoning" : "R1-A,R-3"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "LR,HR",
+  "acreage" : "0.024",
+  "apn" : "067080058000",
+  "zoning" : "R1-A,R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR,HR",
+  "acreage" : "0.19600000000000001",
+  "apn" : "067080059000",
+  "zoning" : "R1-A,R-3"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HR,RP",
+  "acreage" : "0.749",
+  "apn" : "067080060000",
+  "zoning" : "RP,R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090001000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090002000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090003000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090004000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090005000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090006000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090007000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090008000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090009000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.30299999999999999",
+  "apn" : "067090010000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.30299999999999999",
+  "apn" : "067090011000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090012000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090013000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090014000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090015000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090016000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090017000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090018000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090019000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.19400000000000001",
+  "apn" : "067090021000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.19400000000000001",
+  "apn" : "067090022000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.14399999999999999",
+  "apn" : "067090023000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.14399999999999999",
+  "apn" : "067090024000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.14399999999999999",
+  "apn" : "067090025000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.14399999999999999",
+  "apn" : "067090026000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.14399999999999999",
+  "apn" : "067090027000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.14399999999999999",
+  "apn" : "067090028000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.14399999999999999",
+  "apn" : "067090029000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.14399999999999999",
+  "apn" : "067090030000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.17899999999999999",
+  "apn" : "067090031000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.14399999999999999",
+  "apn" : "067090032000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.14399999999999999",
+  "apn" : "067090033000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.14399999999999999",
+  "apn" : "067090034000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.14399999999999999",
+  "apn" : "067090035000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.14399999999999999",
+  "apn" : "067090036000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.14399999999999999",
+  "apn" : "067090037000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.14399999999999999",
+  "apn" : "067090038000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.14399999999999999",
+  "apn" : "067090039000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.188",
+  "apn" : "067090040000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.151",
+  "apn" : "067090041000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.19",
+  "apn" : "067090042000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR,HR",
+  "acreage" : "0.184",
+  "apn" : "067090043000",
+  "zoning" : "R1-A,R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090044000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090045000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090046000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067090047000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.20699999999999999",
+  "apn" : "067090048000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.20699999999999999",
+  "apn" : "067090049000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.193",
+  "apn" : "067090050000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16800000000000001",
+  "apn" : "067090051000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.193",
+  "apn" : "067090052000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.20200000000000001",
+  "apn" : "067090053000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "LR",
+  "acreage" : "0.037999999999999999",
+  "apn" : "067090054000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "LR",
+  "acreage" : "0.10199999999999999",
+  "apn" : "067090055000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "59682",
+  "land_use" : "HR",
+  "acreage" : "3",
+  "apn" : "067100001000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "45200",
+  "land_use" : "HR",
+  "acreage" : "6.6390000000000002",
+  "apn" : "067100002000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HR",
+  "acreage" : "0.057000000000000002",
+  "apn" : "067100004000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "WRI,OS",
+  "acreage" : "174.4",
+  "apn" : "067110003000",
+  "zoning" : "M-3,POS"
+}
+, {
+  "land_type" : "Exempt",
+  "building_size_sq_ft" : "0",
+  "land_use" : "WRI",
+  "acreage" : "23.69",
+  "apn" : "067110005000",
+  "zoning" : "M-3"
+}
+, {
+  "land_type" : "Exempt",
+  "building_size_sq_ft" : "0",
+  "land_use" : "WRI",
+  "acreage" : "1.93",
+  "apn" : "067110006000",
+  "zoning" : "M-3"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "WRI",
+  "acreage" : "12.27",
+  "apn" : "067110022000",
+  "zoning" : "M-3"
+}
+, {
+  "land_type" : "NULL",
+  "building_size_sq_ft" : "0",
+  "land_use" : "NULL",
+  "apn" : "067110023000",
+  "zoning" : "NULL"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "13400",
+  "land_use" : "NULL",
+  "acreage" : "0.70699999999999996",
+  "apn" : "067120001000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "11818",
+  "land_use" : "NULL",
+  "acreage" : "1.47",
+  "apn" : "067120002000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "7800",
+  "land_use" : "CC",
+  "acreage" : "0.50800000000000001",
+  "apn" : "067120008000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "10857",
+  "land_use" : "CC",
+  "acreage" : "0.89300000000000002",
+  "apn" : "067120010000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "14100",
+  "land_use" : "GC",
+  "acreage" : "1.5289999999999999",
+  "apn" : "067120014000",
+  "zoning" : "C-3"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "5400",
+  "land_use" : "GC",
+  "acreage" : "0.8",
+  "apn" : "067120015000",
+  "zoning" : "C-3"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "4000",
+  "land_use" : "GC",
+  "acreage" : "0.82499999999999996",
+  "apn" : "067120017000",
+  "zoning" : "C-3"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "26073",
+  "land_use" : "GC",
+  "acreage" : "7.07",
+  "apn" : "067120018000",
+  "zoning" : "C-3"
+}
+, {
+  "land_type" : "Residential - Mobile Home Park",
+  "building_size_sq_ft" : "16500",
+  "land_use" : "GC",
+  "acreage" : "2.089",
+  "apn" : "067120019000",
+  "zoning" : "C-3"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "9680",
+  "land_use" : "GC",
+  "acreage" : "1.163",
+  "apn" : "067120020000",
+  "zoning" : "C-3"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "11600",
+  "land_use" : "GC",
+  "acreage" : "0.629",
+  "apn" : "067120021000",
+  "zoning" : "C-3"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "31689",
+  "land_use" : "HR",
+  "acreage" : "1.863",
+  "apn" : "067120022000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "HR",
+  "acreage" : "0.89700000000000002",
+  "apn" : "067120023000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HR",
+  "acreage" : "0.45200000000000001",
+  "apn" : "067120024000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "68467",
+  "land_use" : "LI",
+  "acreage" : "3.48",
+  "apn" : "067120026000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "26200",
+  "land_use" : "LI",
+  "acreage" : "6.26",
+  "apn" : "067120027000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "11600",
+  "land_use" : "LI",
+  "acreage" : "1.87",
+  "apn" : "067120028000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "9200",
+  "land_use" : "LI",
+  "acreage" : "0.49",
+  "apn" : "067120029000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "1536",
+  "land_use" : "CC",
+  "acreage" : "0.77900000000000003",
+  "apn" : "067120034000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "2704",
+  "land_use" : "CC",
+  "acreage" : "0.67900000000000005",
+  "apn" : "067120035000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "83772",
+  "land_use" : "LI",
+  "acreage" : "4.8289999999999997",
+  "apn" : "067120038000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "GC",
+  "acreage" : "0.87",
+  "apn" : "067120039000",
+  "zoning" : "C-3"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "57200",
+  "land_use" : "GC",
+  "acreage" : "4.01",
+  "apn" : "067120040000",
+  "zoning" : "C-3"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "2600",
+  "land_use" : "NULL",
+  "acreage" : "0.81",
+  "apn" : "067120045000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "15200",
+  "land_use" : "GC",
+  "acreage" : "0.94699999999999995",
+  "apn" : "067120047000",
+  "zoning" : "C-3"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "19530",
+  "land_use" : "NULL",
+  "acreage" : "0.58199999999999996",
+  "apn" : "067120055000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "2911",
+  "land_use" : "NULL",
+  "acreage" : "0.65800000000000003",
+  "apn" : "067120056000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "NULL",
+  "acreage" : "0.38400000000000001",
+  "apn" : "067120057000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "8518",
+  "land_use" : "NULL",
+  "acreage" : "0.65300000000000002",
+  "apn" : "067120058000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "29600",
+  "land_use" : "HSC",
+  "acreage" : "3.0270000000000001",
+  "apn" : "067120060000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "2400",
+  "land_use" : "NULL",
+  "acreage" : "0.47899999999999998",
+  "apn" : "067120062000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "23770",
+  "land_use" : "NULL",
+  "acreage" : "1.105",
+  "apn" : "067120063000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "8268",
+  "land_use" : "HSC",
+  "acreage" : "0.77900000000000003",
+  "apn" : "067120064000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "10787",
+  "land_use" : "HSC",
+  "acreage" : "0.66",
+  "apn" : "067120065000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "47150",
+  "land_use" : "LI",
+  "acreage" : "3.0990000000000002",
+  "apn" : "067120066000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "63000",
+  "land_use" : "LI",
+  "acreage" : "3.5990000000000002",
+  "apn" : "067120067000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "GC",
+  "acreage" : "1.48",
+  "apn" : "067120068000",
+  "zoning" : "C-3"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "123053",
+  "land_use" : "CC",
+  "acreage" : "5.6390000000000002",
+  "apn" : "067120070000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "5287",
+  "land_use" : "NULL",
+  "acreage" : "0.8",
+  "apn" : "067120071000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "16000",
+  "land_use" : "LI",
+  "acreage" : "3.5190000000000001",
+  "apn" : "067120072000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "LI",
+  "acreage" : "1.22",
+  "apn" : "067120073000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "18876",
+  "land_use" : "BP",
+  "acreage" : "1.49",
+  "apn" : "067131003000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "19733",
+  "land_use" : "BP",
+  "acreage" : "1.36",
+  "apn" : "067131004000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "9315",
+  "land_use" : "BP",
+  "acreage" : "1.139",
+  "apn" : "067131008000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "10000",
+  "land_use" : "BP",
+  "acreage" : "0.83299999999999996",
+  "apn" : "067131009000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "175067",
+  "land_use" : "BP",
+  "acreage" : "8.25",
+  "apn" : "067131010000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "10000",
+  "land_use" : "BP",
+  "acreage" : "1",
+  "apn" : "067132001000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "9800",
+  "land_use" : "BP",
+  "acreage" : "0.92800000000000005",
+  "apn" : "067132002000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "BP",
+  "acreage" : "0.0040000000000000001",
+  "apn" : "067132003000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "10818",
+  "land_use" : "BP",
+  "acreage" : "1.399",
+  "apn" : "067132004000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "18790",
+  "land_use" : "HSC",
+  "acreage" : "1.7989999999999999",
+  "apn" : "067132007000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "35632",
+  "land_use" : "HSC",
+  "acreage" : "2.67",
+  "apn" : "067132014000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HSC",
+  "acreage" : "0.8",
+  "apn" : "067132015000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "10566",
+  "land_use" : "BP",
+  "acreage" : "0.89900000000000002",
+  "apn" : "067132019000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "7300",
+  "land_use" : "BP",
+  "acreage" : "0.82899999999999996",
+  "apn" : "067132020000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "6715",
+  "land_use" : "BP",
+  "acreage" : "0.57899999999999996",
+  "apn" : "067133001000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "24915",
+  "land_use" : "BP",
+  "acreage" : "2.0590000000000002",
+  "apn" : "067133002000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HSC",
+  "acreage" : "0.73",
+  "apn" : "067133007000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "4700",
+  "land_use" : "HSC",
+  "acreage" : "0.8",
+  "apn" : "067133009000",
+  "zoning" : "CH"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "202898",
+  "land_use" : "HI",
+  "acreage" : "14.18",
+  "apn" : "067134003000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HI",
+  "acreage" : "1.21",
+  "apn" : "067134004000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "17772",
+  "land_use" : "HI",
+  "acreage" : "1.093",
+  "apn" : "067134005000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "24200",
+  "land_use" : "HI",
+  "acreage" : "2.4700000000000002",
+  "apn" : "067134006000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "13745",
+  "land_use" : "BP",
+  "acreage" : "1.5009999999999999",
+  "apn" : "067135008000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "16646",
+  "land_use" : "BP",
+  "acreage" : "1.25",
+  "apn" : "067135013000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "14443",
+  "land_use" : "BP",
+  "acreage" : "1.0289999999999999",
+  "apn" : "067135016000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "13568",
+  "land_use" : "BP",
+  "acreage" : "1.909",
+  "apn" : "067135017000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "6320",
+  "land_use" : "BP",
+  "acreage" : "0.66",
+  "apn" : "067136009000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "5622",
+  "land_use" : "BP",
+  "acreage" : "0.749",
+  "apn" : "067136010000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "18780",
+  "land_use" : "BP",
+  "acreage" : "1.389",
+  "apn" : "067136011000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "11400",
+  "land_use" : "BP",
+  "acreage" : "1.47",
+  "apn" : "067136014000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "17474",
+  "land_use" : "BP",
+  "acreage" : "1.8220000000000001",
+  "apn" : "067136017000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "19000",
+  "land_use" : "BP",
+  "acreage" : "1.399",
+  "apn" : "067136019000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "9480",
+  "land_use" : "BP",
+  "acreage" : "0.90200000000000002",
+  "apn" : "067136020000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "48518",
+  "land_use" : "BP",
+  "acreage" : "2.64",
+  "apn" : "067136021000",
+  "zoning" : "BP"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "7966",
+  "land_use" : "HI",
+  "acreage" : "0.43",
+  "apn" : "067140001000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "9000",
+  "land_use" : "HI",
+  "acreage" : "0.41699999999999998",
+  "apn" : "067140002000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "16307",
+  "land_use" : "HI",
+  "acreage" : "0.41799999999999998",
+  "apn" : "067140003000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "7700",
+  "land_use" : "HI",
+  "acreage" : "0.41399999999999998",
+  "apn" : "067140004000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "38050",
+  "land_use" : "HI",
+  "acreage" : "1.95",
+  "apn" : "067140005000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "8910",
+  "land_use" : "HI",
+  "acreage" : "0.5",
+  "apn" : "067140007000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "11201",
+  "land_use" : "HI",
+  "acreage" : "0.754",
+  "apn" : "067140008000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "10727",
+  "land_use" : "HI",
+  "acreage" : "0.59499999999999997",
+  "apn" : "067140009000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "9000",
+  "land_use" : "HI",
+  "acreage" : "0.47499999999999998",
+  "apn" : "067140010000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "11500",
+  "land_use" : "HI",
+  "acreage" : "0.61099999999999999",
+  "apn" : "067140011000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "8800",
+  "land_use" : "HI",
+  "acreage" : "0.49",
+  "apn" : "067140012000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "8800",
+  "land_use" : "HI",
+  "acreage" : "0.47699999999999998",
+  "apn" : "067140013000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "8800",
+  "land_use" : "HI",
+  "acreage" : "0.47599999999999998",
+  "apn" : "067140014000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "142900",
+  "land_use" : "HI",
+  "acreage" : "6.8040000000000003",
+  "apn" : "067140015000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "5500",
+  "land_use" : "HI",
+  "acreage" : "1.21",
+  "apn" : "067140017000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "24900",
+  "land_use" : "HI",
+  "acreage" : "1.7889999999999999",
+  "apn" : "067140018000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "4500",
+  "land_use" : "HI",
+  "acreage" : "0.75800000000000001",
+  "apn" : "067140020000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "85426",
+  "land_use" : "HI",
+  "acreage" : "7.23",
+  "apn" : "067140021000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "56200",
+  "land_use" : "HI",
+  "acreage" : "2.839",
+  "apn" : "067140022000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "75000",
+  "land_use" : "HI",
+  "acreage" : "3.64",
+  "apn" : "067140024000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "8600",
+  "land_use" : "HI",
+  "acreage" : "0.99299999999999999",
+  "apn" : "067140025000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HI",
+  "acreage" : "0.096000000000000002",
+  "apn" : "067140027000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "58800",
+  "land_use" : "HI",
+  "acreage" : "2.69",
+  "apn" : "067140028000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HI",
+  "acreage" : "0.88900000000000001",
+  "apn" : "067140029000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "20450",
+  "land_use" : "HI",
+  "acreage" : "1.389",
+  "apn" : "067140030000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HI",
+  "acreage" : "0.0040000000000000001",
+  "apn" : "067140031000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "158856",
+  "land_use" : "HI",
+  "acreage" : "7.5789999999999997",
+  "apn" : "067140032000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "13518",
+  "land_use" : "HI",
+  "acreage" : "0.75900000000000001",
+  "apn" : "067140033000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "86400",
+  "land_use" : "OS,LI",
+  "acreage" : "3.2",
+  "apn" : "067150001000",
+  "zoning" : "POS,M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "44000",
+  "land_use" : "LI",
+  "acreage" : "2.68",
+  "apn" : "067150002000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "12000",
+  "land_use" : "LI",
+  "acreage" : "0.98199999999999998",
+  "apn" : "067150003000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "14600",
+  "land_use" : "LI",
+  "acreage" : "1.0589999999999999",
+  "apn" : "067150004000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "32200",
+  "land_use" : "LI",
+  "acreage" : "2.7890000000000001",
+  "apn" : "067150007000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "46800",
+  "land_use" : "LI",
+  "acreage" : "2.339",
+  "apn" : "067150008000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "0",
+  "land_use" : "LI",
+  "acreage" : "0.0030000000000000001",
+  "apn" : "067150009000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "0",
+  "land_use" : "LI",
+  "acreage" : "0.0040000000000000001",
+  "apn" : "067150010000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "60900",
+  "land_use" : "HI,LI",
+  "acreage" : "2.88",
+  "apn" : "067150011000",
+  "zoning" : "M-2,M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "43800",
+  "land_use" : "HI",
+  "acreage" : "3.69",
+  "apn" : "067150012000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "44550",
+  "land_use" : "HI",
+  "acreage" : "2.5089999999999999",
+  "apn" : "067150013000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HI",
+  "acreage" : "0.104",
+  "apn" : "067150014000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "65500",
+  "land_use" : "HI",
+  "acreage" : "3.827",
+  "apn" : "067150015000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "56600",
+  "land_use" : "HI",
+  "acreage" : "2.4300000000000002",
+  "apn" : "067150016000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "35000",
+  "land_use" : "HI",
+  "acreage" : "1.649",
+  "apn" : "067150017000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "149500",
+  "land_use" : "HI",
+  "acreage" : "5.88",
+  "apn" : "067150018000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "12962",
+  "land_use" : "HI",
+  "acreage" : "0.76100000000000001",
+  "apn" : "067150019000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "22338",
+  "land_use" : "HI",
+  "acreage" : "0.46200000000000002",
+  "apn" : "067150020000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "13200",
+  "land_use" : "HI",
+  "acreage" : "0.71399999999999997",
+  "apn" : "067150021000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "23400",
+  "land_use" : "HI",
+  "acreage" : "1.45",
+  "apn" : "067150022000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "16800",
+  "land_use" : "HI",
+  "acreage" : "0.83799999999999997",
+  "apn" : "067150023000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "10098",
+  "land_use" : "HI",
+  "acreage" : "0.68799999999999994",
+  "apn" : "067150024000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "16302",
+  "land_use" : "HI",
+  "acreage" : "0.73499999999999999",
+  "apn" : "067150025000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "31600",
+  "land_use" : "HI",
+  "acreage" : "0.039",
+  "apn" : "067150026000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "78000",
+  "land_use" : "HI",
+  "acreage" : "3.64",
+  "apn" : "067150027000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "39500",
+  "land_use" : "HI",
+  "acreage" : "0.0040000000000000001",
+  "apn" : "067150028000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "78400",
+  "land_use" : "HI",
+  "acreage" : "4.4000000000000004",
+  "apn" : "067150033000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "100900",
+  "land_use" : "HI",
+  "acreage" : "4.28",
+  "apn" : "067150034000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "125600",
+  "land_use" : "HI",
+  "acreage" : "5.7690000000000001",
+  "apn" : "067150035000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "12400",
+  "land_use" : "LI",
+  "acreage" : "0.73599999999999999",
+  "apn" : "067150036000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "LI",
+  "acreage" : "0.90800000000000003",
+  "apn" : "067150038000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "30228",
+  "land_use" : "HI",
+  "acreage" : "1.7989999999999999",
+  "apn" : "067160001000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "152922",
+  "land_use" : "HI",
+  "acreage" : "12.64",
+  "apn" : "067160002000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "industrial",
+  "building_size_sq_ft" : "151832",
+  "land_use" : "HI",
+  "acreage" : "6.63",
+  "apn" : "067160003000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "industrial",
+  "building_size_sq_ft" : "15438",
+  "land_use" : "LI",
+  "acreage" : "4.5229999999999997",
+  "apn" : "067160007000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "62000",
+  "land_use" : "OS,LI",
+  "acreage" : "3",
+  "apn" : "067160009000",
+  "zoning" : "POS,M-1"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "OS",
+  "acreage" : "1.24",
+  "apn" : "067160011000",
+  "zoning" : "POS"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "40600",
+  "land_use" : "HI",
+  "acreage" : "3.49",
+  "apn" : "067170001000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "125400",
+  "land_use" : "HI",
+  "acreage" : "5.6589999999999998",
+  "apn" : "067170002000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "90000",
+  "land_use" : "HI",
+  "acreage" : "4.9800000000000004",
+  "apn" : "067170003000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "10199",
+  "land_use" : "HI",
+  "acreage" : "7.01",
+  "apn" : "067170004000",
+  "zoning" : "M-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "5000",
+  "land_use" : "LI",
+  "acreage" : "0.68",
+  "apn" : "067170008000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "23300",
+  "land_use" : "LI",
+  "acreage" : "2.9",
+  "apn" : "067170010000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "OS",
+  "acreage" : "0.62",
+  "apn" : "067170014000",
+  "zoning" : "POS"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "0",
+  "land_use" : "LI",
+  "acreage" : "1.5589999999999999",
+  "apn" : "067170015000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "LI",
+  "acreage" : "0.28000000000000003",
+  "apn" : "067170016000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "LI",
+  "acreage" : "2.8090000000000002",
+  "apn" : "067170017000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "LI",
+  "acreage" : "0.50900000000000001",
+  "apn" : "067170018000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "5.8",
+  "apn" : "067180001000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "MR,RMU,HR,RP,OS",
+  "acreage" : "23.9",
+  "apn" : "067180002000",
+  "zoning" : "POS,WF"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "MR,WRC,RMU,RP,OS",
+  "acreage" : "40.65",
+  "apn" : "067180003000",
+  "zoning" : "RP,POS,WF,CW"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "17.2",
+  "apn" : "067180004000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU,RP",
+  "acreage" : "2.0369999999999999",
+  "apn" : "067180005000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "22901",
+  "land_use" : "PQP,OS",
+  "acreage" : "25.79",
+  "apn" : "067180014000",
+  "zoning" : "POS,PQP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "160859",
+  "land_use" : "PQP,OS",
+  "acreage" : "12.17",
+  "apn" : "067180015000",
+  "zoning" : "POS,PQP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "17615",
+  "land_use" : "O",
+  "acreage" : "3.65",
+  "apn" : "067180031000",
+  "zoning" : "PO"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "2575",
+  "land_use" : "PQP",
+  "acreage" : "2.5350000000000001",
+  "apn" : "067180038000",
+  "zoning" : "PQP"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "80000",
+  "land_use" : "WRI",
+  "acreage" : "3.63",
+  "apn" : "067180039000",
+  "zoning" : "M-3"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "0",
+  "land_use" : "PQP,RP,OS",
+  "acreage" : "22.96",
+  "apn" : "067180041000",
+  "zoning" : "POS,RP,PQP"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "PQP",
+  "acreage" : "0.019",
+  "apn" : "067180042000",
+  "zoning" : "PQP"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU,OS",
+  "acreage" : "3.7989999999999999",
+  "apn" : "067180053000",
+  "zoning" : "POS,WF"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU,OS",
+  "acreage" : "35.159999999999997",
+  "apn" : "067180056000",
+  "zoning" : "POS,WF"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "WRI",
+  "acreage" : "8.0500000000000007",
+  "apn" : "067180059000",
+  "zoning" : "M-3"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "0",
+  "land_use" : "WRI,PQP",
+  "acreage" : "237.3",
+  "apn" : "067180060000",
+  "zoning" : "PQP,M-3"
+}
+, {
+  "land_type" : "NULL",
+  "building_size_sq_ft" : "0",
+  "land_use" : "NULL",
+  "apn" : "067180061000",
+  "zoning" : "NULL"
+}
+, {
+  "land_type" : "NULL",
+  "building_size_sq_ft" : "0",
+  "land_use" : "NULL",
+  "apn" : "067180062000",
+  "zoning" : "NULL"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "3500",
+  "land_use" : "LI",
+  "acreage" : "0.43",
+  "apn" : "067190005000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "36000",
+  "land_use" : "LI",
+  "acreage" : "2.7989999999999999",
+  "apn" : "067190006000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "29921",
+  "land_use" : "NULL",
+  "acreage" : "2.0190000000000001",
+  "apn" : "067190007000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "31005",
+  "land_use" : "LI",
+  "acreage" : "4.9400000000000004",
+  "apn" : "067190008000",
+  "zoning" : "C-2,M-1"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "LI",
+  "acreage" : "0.33",
+  "apn" : "067190011000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "NULL",
+  "building_size_sq_ft" : "0",
+  "land_use" : "NULL",
+  "apn" : "067190013000",
+  "zoning" : "NULL"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "33430",
+  "land_use" : "NULL",
+  "acreage" : "2.89",
+  "apn" : "067190014000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "11040",
+  "land_use" : "HR",
+  "acreage" : "0.93",
+  "apn" : "067190015000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "43200",
+  "land_use" : "LI",
+  "acreage" : "2.589",
+  "apn" : "067200001000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "30300",
+  "land_use" : "LI",
+  "acreage" : "4.0190000000000001",
+  "apn" : "067200003000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "8400",
+  "land_use" : "LI",
+  "acreage" : "0.73",
+  "apn" : "067200004000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "23400",
+  "land_use" : "LI",
+  "acreage" : "1.0940000000000001",
+  "apn" : "067200005000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "4965",
+  "land_use" : "LI",
+  "acreage" : "0.96699999999999997",
+  "apn" : "067200006000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "4200",
+  "land_use" : "LI",
+  "acreage" : "0.46200000000000002",
+  "apn" : "067200007000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "3206",
+  "land_use" : "LI",
+  "acreage" : "0.42499999999999999",
+  "apn" : "067200008000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "5994",
+  "land_use" : "LI",
+  "acreage" : "0.44400000000000001",
+  "apn" : "067200009000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "5000",
+  "land_use" : "HR,LI",
+  "acreage" : "0.86",
+  "apn" : "067200010000",
+  "zoning" : "R-3,M-1"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "12000",
+  "land_use" : "HR,LI",
+  "acreage" : "1.583",
+  "apn" : "067200013000",
+  "zoning" : "R-3,M-1"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "HR",
+  "acreage" : "0.13600000000000001",
+  "apn" : "067200014000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.182",
+  "apn" : "067200015000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "HR",
+  "acreage" : "0.115",
+  "apn" : "067200016000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.16200000000000001",
+  "apn" : "067200017000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "13000",
+  "land_use" : "LI",
+  "acreage" : "4.2300000000000004",
+  "apn" : "067200020000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Residential - Mobile Home Park",
+  "building_size_sq_ft" : "20000",
+  "land_use" : "NULL",
+  "acreage" : "2.17",
+  "apn" : "067210001000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.8",
+  "apn" : "067210002000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.17",
+  "apn" : "067210004000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.153",
+  "apn" : "067210005000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HR",
+  "acreage" : "0.185",
+  "apn" : "067210006000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.16900000000000001",
+  "apn" : "067210008000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "12034",
+  "land_use" : "HR",
+  "acreage" : "1.18",
+  "apn" : "067210010000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "NULL",
+  "acreage" : "0.60599999999999998",
+  "apn" : "067210011000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "3322",
+  "land_use" : "NULL",
+  "acreage" : "0.79100000000000004",
+  "apn" : "067210012000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "NULL",
+  "acreage" : "0.24299999999999999",
+  "apn" : "067210013000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.39500000000000002",
+  "apn" : "067210014000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.193",
+  "apn" : "067210015000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067210016000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067210017000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.17899999999999999",
+  "apn" : "067210018000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "HR",
+  "acreage" : "0.17899999999999999",
+  "apn" : "067210019000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.40600000000000003",
+  "apn" : "067210020000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "12800",
+  "land_use" : "LI",
+  "acreage" : "0.59099999999999997",
+  "apn" : "067210035000",
+  "zoning" : "M-1"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.32300000000000001",
+  "apn" : "067210041000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.38400000000000001",
+  "apn" : "067210042000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "15480",
+  "land_use" : "NULL",
+  "acreage" : "0.8",
+  "apn" : "067210051000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "4000",
+  "land_use" : "NULL",
+  "acreage" : "0.26400000000000001",
+  "apn" : "067210054000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "27328",
+  "land_use" : "HR,LI",
+  "acreage" : "2.839",
+  "apn" : "067210055000",
+  "zoning" : "R-3,C-2"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "CC",
+  "acreage" : "0.54900000000000004",
+  "apn" : "067220002000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "CC",
+  "acreage" : "0.185",
+  "apn" : "067220004000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "CC",
+  "acreage" : "0.45600000000000002",
+  "apn" : "067220005000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "CC",
+  "acreage" : "0.48",
+  "apn" : "067220006000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "1.143",
+  "apn" : "067220007000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.36299999999999999",
+  "apn" : "067220008000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.24099999999999999",
+  "apn" : "067220009000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HR",
+  "acreage" : "13.38",
+  "apn" : "067220010000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.17299999999999999",
+  "apn" : "067220011000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.24",
+  "apn" : "067220012000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential - Mobile Home Park",
+  "building_size_sq_ft" : "36500",
+  "land_use" : "CC,HR",
+  "acreage" : "4.5990000000000002",
+  "apn" : "067220014000",
+  "zoning" : "C-2,R-3"
+}
+, {
+  "land_type" : "Residential - Mobile Home Park",
+  "building_size_sq_ft" : "3000",
+  "land_use" : "CC",
+  "acreage" : "2.4500000000000002",
+  "apn" : "067220016000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.13700000000000001",
+  "apn" : "067220018000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "16212",
+  "land_use" : "HR",
+  "acreage" : "1.5389999999999999",
+  "apn" : "067220019000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "NULL",
+  "building_size_sq_ft" : "0",
+  "land_use" : "NULL",
+  "apn" : "067220030000",
+  "zoning" : "NULL"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "36810",
+  "land_use" : "HR",
+  "acreage" : "2.48",
+  "apn" : "067220033000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "CC",
+  "acreage" : "0.48799999999999999",
+  "apn" : "067220034000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "NULL",
+  "building_size_sq_ft" : "0",
+  "land_use" : "NULL",
+  "apn" : "067220036000",
+  "zoning" : "NULL"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "12093",
+  "land_use" : "CC",
+  "acreage" : "1.82",
+  "apn" : "067220038000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "CC",
+  "acreage" : "0.28000000000000003",
+  "apn" : "067220039000",
+  "zoning" : "C-2"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "CC,OS",
+  "acreage" : "2.5790000000000002",
+  "apn" : "067220040000",
+  "zoning" : "POS"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "9141",
+  "land_use" : "HR",
+  "acreage" : "1.228",
+  "apn" : "067230002000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "1574",
+  "land_use" : "HR",
+  "acreage" : "0.317",
+  "apn" : "067230003000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "1574",
+  "land_use" : "HR",
+  "acreage" : "0.19500000000000001",
+  "apn" : "067230005000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.20300000000000001",
+  "apn" : "067230006000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "1574",
+  "land_use" : "HR",
+  "acreage" : "0.185",
+  "apn" : "067230007000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "1574",
+  "land_use" : "HR",
+  "acreage" : "0.254",
+  "apn" : "067230008000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "1756",
+  "land_use" : "HR",
+  "acreage" : "0.17199999999999999",
+  "apn" : "067230009000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.16300000000000001",
+  "apn" : "067230010000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.16300000000000001",
+  "apn" : "067230011000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.16300000000000001",
+  "apn" : "067230012000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.16300000000000001",
+  "apn" : "067230013000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.16300000000000001",
+  "apn" : "067230014000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.14299999999999999",
+  "apn" : "067230015000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HR",
+  "acreage" : "0.14000000000000001",
+  "apn" : "067230016000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "NULL",
+  "acreage" : "0.001",
+  "apn" : "067230017000",
+  "zoning" : "NULL"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.183",
+  "apn" : "067230018000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "1756",
+  "land_use" : "HR",
+  "acreage" : "0.184",
+  "apn" : "067230019000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "1756",
+  "land_use" : "HR",
+  "acreage" : "0.184",
+  "apn" : "067230020000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "2004",
+  "land_use" : "HR",
+  "acreage" : "0.18",
+  "apn" : "067230021000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "2004",
+  "land_use" : "HR",
+  "acreage" : "0.18",
+  "apn" : "067230022000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.27500000000000002",
+  "apn" : "067230023000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.13700000000000001",
+  "apn" : "067230024000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.13700000000000001",
+  "apn" : "067230025000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "33933",
+  "land_use" : "HR",
+  "acreage" : "1.4359999999999999",
+  "apn" : "067230026000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "NULL",
+  "acreage" : "0.001",
+  "apn" : "067230028000",
+  "zoning" : "NULL"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.13900000000000001",
+  "apn" : "067230029000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.14199999999999999",
+  "apn" : "067230030000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HR",
+  "acreage" : "0.182",
+  "apn" : "067230031000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "2111",
+  "land_use" : "HR",
+  "acreage" : "0.182",
+  "apn" : "067230032000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "2111",
+  "land_use" : "HR",
+  "acreage" : "0.186",
+  "apn" : "067230033000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "2111",
+  "land_use" : "HR",
+  "acreage" : "0.19",
+  "apn" : "067230034000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "2586",
+  "land_use" : "HR",
+  "acreage" : "0.20200000000000001",
+  "apn" : "067230035000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "2111",
+  "land_use" : "HR",
+  "acreage" : "0.193",
+  "apn" : "067230036000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "2707",
+  "land_use" : "HR",
+  "acreage" : "0.23899999999999999",
+  "apn" : "067230037000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "2861",
+  "land_use" : "HR",
+  "acreage" : "0.19",
+  "apn" : "067230038000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.188",
+  "apn" : "067230039000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.16800000000000001",
+  "apn" : "067230040000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "HR",
+  "acreage" : "0.19400000000000001",
+  "apn" : "067230041000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.19700000000000001",
+  "apn" : "067230042000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "HR",
+  "acreage" : "0.24399999999999999",
+  "apn" : "067230043000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "HR",
+  "acreage" : "0.28199999999999997",
+  "apn" : "067230044000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "15516",
+  "land_use" : "HR",
+  "acreage" : "3.7789999999999999",
+  "apn" : "067230048000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "HR",
+  "acreage" : "0.029000000000000001",
+  "apn" : "067230049000",
+  "zoning" : "R-3"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "OS",
+  "acreage" : "0.14000000000000001",
+  "apn" : "067230050000",
+  "zoning" : "POS"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "OS",
+  "acreage" : "0.11899999999999999",
+  "apn" : "067230052000",
+  "zoning" : "POS"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "5407",
+  "land_use" : "CBD",
+  "acreage" : "0.47899999999999998",
+  "apn" : "067240001000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "2700",
+  "land_use" : "CBD",
+  "acreage" : "0.246",
+  "apn" : "067240002000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "2700",
+  "land_use" : "CBD",
+  "acreage" : "0.50700000000000001",
+  "apn" : "067240003000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "CBD",
+  "acreage" : "0.52300000000000002",
+  "apn" : "067240004000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "1750",
+  "land_use" : "CBD",
+  "acreage" : "0.54",
+  "apn" : "067240005000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "5586",
+  "land_use" : "CBD",
+  "acreage" : "0.28899999999999998",
+  "apn" : "067240007000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "11352",
+  "land_use" : "CBD",
+  "acreage" : "0.57899999999999996",
+  "apn" : "067240008000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240010000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240011000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240012000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240013000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.14899999999999999",
+  "apn" : "067240015000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240016000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240017000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240018000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240019000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240020000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240021000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.129",
+  "apn" : "067240022000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16",
+  "apn" : "067240023000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240024000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240025000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240026000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240027000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240028000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.129",
+  "apn" : "067240029000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240030000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.129",
+  "apn" : "067240031000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240032000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240033000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.13700000000000001",
+  "apn" : "067240034000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.129",
+  "apn" : "067240035000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.129",
+  "apn" : "067240036000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240037000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240038000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.41799999999999998",
+  "apn" : "067240039000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "1966",
+  "land_use" : "LR",
+  "acreage" : "0.129",
+  "apn" : "067240040000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "1966",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067240041000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "2496",
+  "land_use" : "CBD",
+  "acreage" : "0.28000000000000003",
+  "apn" : "067240042000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "1900",
+  "land_use" : "CBD",
+  "acreage" : "0.28000000000000003",
+  "apn" : "067240043000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "3150",
+  "land_use" : "CBD",
+  "acreage" : "0.6",
+  "apn" : "067240044000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250001000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250002000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250003000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250004000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250005000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250006000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.129",
+  "apn" : "067250007000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1389",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250008000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250009000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.129",
+  "apn" : "067250010000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250011000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250012000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.129",
+  "apn" : "067250013000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250014000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.129",
+  "apn" : "067250015000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250016000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250017000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250018000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250019000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.129",
+  "apn" : "067250020000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.129",
+  "apn" : "067250021000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1191",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250022000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.188",
+  "apn" : "067250023000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.188",
+  "apn" : "067250024000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250025000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250026000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250027000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250028000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.129",
+  "apn" : "067250029000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250030000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.129",
+  "apn" : "067250031000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250032000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250033000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.129",
+  "apn" : "067250034000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250035000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250036000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250037000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250038000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250039000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250040000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250041000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250042000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250043000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250044000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250045000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250046000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250047000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250048000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250049000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250050000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250051000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250052000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250053000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250054000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250055000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.129",
+  "apn" : "067250056000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250057000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.12",
+  "apn" : "067250058000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250059000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250060000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250061000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250062000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067250063000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.13300000000000001",
+  "apn" : "067260011000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.128",
+  "apn" : "067260012000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.127",
+  "apn" : "067260013000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.127",
+  "apn" : "067260014000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.127",
+  "apn" : "067260015000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.127",
+  "apn" : "067260016000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067260017000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.127",
+  "apn" : "067260018000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.127",
+  "apn" : "067260019000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.13400000000000001",
+  "apn" : "067260020000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.127",
+  "apn" : "067260021000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.127",
+  "apn" : "067260022000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067260023000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.13800000000000001",
+  "apn" : "067260024000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.216",
+  "apn" : "067260025000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16500000000000001",
+  "apn" : "067260026000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.127",
+  "apn" : "067260027000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.127",
+  "apn" : "067260028000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.13300000000000001",
+  "apn" : "067260029000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067260030000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.151",
+  "apn" : "067260031000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.13700000000000001",
+  "apn" : "067260032000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067260033000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067260034000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067260035000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.153",
+  "apn" : "067260036000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.13",
+  "apn" : "067260037000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.158",
+  "apn" : "067260038000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.14199999999999999",
+  "apn" : "067260039000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.13300000000000001",
+  "apn" : "067260040000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.13300000000000001",
+  "apn" : "067260041000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.14399999999999999",
+  "apn" : "067260042000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.13700000000000001",
+  "apn" : "067260043000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067260044000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067260045000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067260046000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067260047000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.17",
+  "apn" : "067260048000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.2",
+  "apn" : "067260049000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067260050000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067260051000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067260052000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067260053000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.14000000000000001",
+  "apn" : "067260054000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.14399999999999999",
+  "apn" : "067260055000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.13300000000000001",
+  "apn" : "067260056000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.13300000000000001",
+  "apn" : "067260057000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.13300000000000001",
+  "apn" : "067260058000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.13300000000000001",
+  "apn" : "067260059000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.17799999999999999",
+  "apn" : "067260060000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.14899999999999999",
+  "apn" : "067260061000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.185",
+  "apn" : "067260062000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067260063000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.127",
+  "apn" : "067260064000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.127",
+  "apn" : "067260065000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.127",
+  "apn" : "067260066000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.13800000000000001",
+  "apn" : "067260067000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR,OS",
+  "acreage" : "0.126",
+  "apn" : "067260070000",
+  "zoning" : "POS,R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR,OS",
+  "acreage" : "0.126",
+  "apn" : "067260072000",
+  "zoning" : "POS,R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR,OS",
+  "acreage" : "0.18",
+  "apn" : "067260074000",
+  "zoning" : "POS,R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR,OS",
+  "acreage" : "0.126",
+  "apn" : "067260075000",
+  "zoning" : "POS,R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR,OS",
+  "acreage" : "0.126",
+  "apn" : "067260077000",
+  "zoning" : "POS,R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR,OS",
+  "acreage" : "0.13700000000000001",
+  "apn" : "067260080000",
+  "zoning" : "POS,R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR,OS",
+  "acreage" : "0.15",
+  "apn" : "067260081000",
+  "zoning" : "POS,R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR,OS",
+  "acreage" : "0.25",
+  "apn" : "067260083000",
+  "zoning" : "POS,R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR,OS",
+  "acreage" : "0.15",
+  "apn" : "067260085000",
+  "zoning" : "POS,R1-A"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "OS",
+  "acreage" : "1.44",
+  "apn" : "067260089000",
+  "zoning" : "POS"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "9740",
+  "land_use" : "CBD",
+  "acreage" : "0.94099999999999995",
+  "apn" : "067270002000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "5545",
+  "land_use" : "CBD",
+  "acreage" : "0.67200000000000004",
+  "apn" : "067270003000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "CBD",
+  "acreage" : "1.0409999999999999",
+  "apn" : "067270004000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "CBD",
+  "acreage" : "0.71499999999999997",
+  "apn" : "067270005000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "5800",
+  "land_use" : "CBD",
+  "acreage" : "0.36399999999999999",
+  "apn" : "067270006000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "CBD",
+  "acreage" : "0.36799999999999999",
+  "apn" : "067270007000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "2800",
+  "land_use" : "CBD",
+  "acreage" : "0.245",
+  "apn" : "067270011000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "900",
+  "land_use" : "CBD",
+  "acreage" : "0.039",
+  "apn" : "067270012000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067270013000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067270014000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.124",
+  "apn" : "067270015000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067270016000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "3327",
+  "land_use" : "LR",
+  "acreage" : "0.252",
+  "apn" : "067270017000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067270018000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067270019000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067270020000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16",
+  "apn" : "067270021000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067270022000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16",
+  "apn" : "067270023000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067270024000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16",
+  "apn" : "067270025000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16",
+  "apn" : "067270026000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067270027000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.254",
+  "apn" : "067270028000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16400000000000001",
+  "apn" : "067270029000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "7700",
+  "land_use" : "LR",
+  "acreage" : "0.499",
+  "apn" : "067270030000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.125",
+  "apn" : "067270031000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16",
+  "apn" : "067270032000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067270033000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16",
+  "apn" : "067270034000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067270035000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16",
+  "apn" : "067270036000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.32100000000000001",
+  "apn" : "067270037000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16",
+  "apn" : "067270039000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16",
+  "apn" : "067270040000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16",
+  "apn" : "067270041000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067270042000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "6921",
+  "land_use" : "CBD",
+  "acreage" : "0.628",
+  "apn" : "067270043000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.252",
+  "apn" : "067270044000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067270045000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "3238",
+  "land_use" : "CBD",
+  "acreage" : "0.70899999999999996",
+  "apn" : "067270046000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "2250",
+  "land_use" : "CBD",
+  "acreage" : "0.54",
+  "apn" : "067270047000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.25600000000000001",
+  "apn" : "067280001000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.115",
+  "apn" : "067280002000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16",
+  "apn" : "067280003000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16",
+  "apn" : "067280004000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.16",
+  "apn" : "067280005000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.24",
+  "apn" : "067280007000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.188",
+  "apn" : "067280008000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.115",
+  "apn" : "067280009000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067280010000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067280011000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16",
+  "apn" : "067280012000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16",
+  "apn" : "067280013000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.11799999999999999",
+  "apn" : "067280014000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.25600000000000001",
+  "apn" : "067280015000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.25600000000000001",
+  "apn" : "067280016000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.11899999999999999",
+  "apn" : "067280017000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067280018000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16",
+  "apn" : "067280019000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.16",
+  "apn" : "067280020000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067280021000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067280022000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.121",
+  "apn" : "067280023000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.122",
+  "apn" : "067280024000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.155",
+  "apn" : "067280025000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.155",
+  "apn" : "067280026000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.13100000000000001",
+  "apn" : "067280027000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.13100000000000001",
+  "apn" : "067280028000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.155",
+  "apn" : "067280029000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "900",
+  "land_use" : "LR",
+  "acreage" : "0.126",
+  "apn" : "067280030000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.247",
+  "apn" : "067280031000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "57773",
+  "land_use" : "PQP",
+  "acreage" : "5.0999999999999996",
+  "apn" : "067280032000",
+  "zoning" : "PQP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "3387",
+  "land_use" : "RP",
+  "acreage" : "0.42499999999999999",
+  "apn" : "067280033000",
+  "zoning" : "RP"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RP",
+  "acreage" : "4.7990000000000004",
+  "apn" : "067280034000",
+  "zoning" : "RP"
+}
+, {
+  "land_type" : "Residential",
+  "building_size_sq_ft" : "1375",
+  "land_use" : "LR",
+  "acreage" : "0.252",
+  "apn" : "067280035000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "LR",
+  "acreage" : "0.16",
+  "apn" : "067280036000",
+  "zoning" : "R1-A"
+}
+, {
+  "land_type" : "Industrial",
+  "building_size_sq_ft" : "0",
+  "land_use" : "CBD",
+  "acreage" : "0.33900000000000002",
+  "apn" : "067290001000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "65100",
+  "land_use" : "CBD",
+  "acreage" : "4.0119999999999996",
+  "apn" : "067290002000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "11300",
+  "land_use" : "CBD",
+  "acreage" : "0.43099999999999999",
+  "apn" : "067290003000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "745",
+  "land_use" : "CBD",
+  "acreage" : "0.76400000000000001",
+  "apn" : "067290004000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "12549",
+  "land_use" : "CBD",
+  "acreage" : "0.52900000000000003",
+  "apn" : "067290005000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "13058",
+  "land_use" : "CBD",
+  "acreage" : "0.53400000000000003",
+  "apn" : "067290006000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "CBD",
+  "acreage" : "0.36699999999999999",
+  "apn" : "067290007000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "5246",
+  "land_use" : "CBD",
+  "acreage" : "0.36699999999999999",
+  "apn" : "067290010000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "CBD",
+  "acreage" : "0.36",
+  "apn" : "067290012000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "1366",
+  "land_use" : "CBD",
+  "acreage" : "0.115",
+  "apn" : "067290014000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "6928",
+  "land_use" : "CBD",
+  "acreage" : "0.503",
+  "apn" : "067300001000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "3200",
+  "land_use" : "PQP,CBD",
+  "acreage" : "0.22900000000000001",
+  "apn" : "067300002000",
+  "zoning" : "CBD,PQP"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "PQP,CBD",
+  "acreage" : "0.30599999999999999",
+  "apn" : "067300003000",
+  "zoning" : "CBD,PQP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "2000",
+  "land_use" : "PQP,CBD",
+  "acreage" : "0.46100000000000002",
+  "apn" : "067300004000",
+  "zoning" : "CBD,PQP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "11600",
+  "land_use" : "PQP,CBD",
+  "acreage" : "0.85299999999999998",
+  "apn" : "067300005000",
+  "zoning" : "CBD,PQP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "11100",
+  "land_use" : "CBD",
+  "acreage" : "0.623",
+  "apn" : "067300006000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "12000",
+  "land_use" : "CBD",
+  "acreage" : "0.72499999999999998",
+  "apn" : "067300007000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "4900",
+  "land_use" : "CBD",
+  "acreage" : "0.47299999999999998",
+  "apn" : "067300008000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "CBD",
+  "acreage" : "0.74299999999999999",
+  "apn" : "067300009000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "44394",
+  "land_use" : "PQP",
+  "acreage" : "8.6059999999999999",
+  "apn" : "067300011000",
+  "zoning" : "PQP"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "33438",
+  "land_use" : "PQP,CBD",
+  "acreage" : "3.14",
+  "apn" : "067300012000",
+  "zoning" : "CBD,PQP"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "3104",
+  "land_use" : "CBD",
+  "acreage" : "0.57399999999999995",
+  "apn" : "067310009000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "9371",
+  "land_use" : "CBD",
+  "acreage" : "0.54600000000000004",
+  "apn" : "067310010000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "14851",
+  "land_use" : "CBD",
+  "acreage" : "1.4750000000000001",
+  "apn" : "067310012000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "CBD",
+  "acreage" : "0.25600000000000001",
+  "apn" : "067310013000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "12497",
+  "land_use" : "CBD",
+  "acreage" : "0.82899999999999996",
+  "apn" : "067310015000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "5880",
+  "land_use" : "CBD",
+  "acreage" : "0.45600000000000002",
+  "apn" : "067310016000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "7202",
+  "land_use" : "CBD",
+  "acreage" : "0.53200000000000003",
+  "apn" : "067310017000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "6000",
+  "land_use" : "CBD",
+  "acreage" : "0.57799999999999996",
+  "apn" : "067310018000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "6400",
+  "land_use" : "CBD",
+  "acreage" : "0.109",
+  "apn" : "067310019000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "10300",
+  "land_use" : "CBD",
+  "acreage" : "0.91900000000000004",
+  "apn" : "067310020000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "9000",
+  "land_use" : "CBD",
+  "acreage" : "0.64",
+  "apn" : "067310025000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "7200",
+  "land_use" : "CBD",
+  "acreage" : "0.63900000000000001",
+  "apn" : "067310026000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "3600",
+  "land_use" : "CBD",
+  "acreage" : "0.318",
+  "apn" : "067310027000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "3600",
+  "land_use" : "CBD",
+  "acreage" : "0.312",
+  "apn" : "067310028000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "7200",
+  "land_use" : "CBD",
+  "acreage" : "0.53600000000000003",
+  "apn" : "067310029000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "3600",
+  "land_use" : "CBD",
+  "acreage" : "0.35099999999999998",
+  "apn" : "067310030000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "4600",
+  "land_use" : "CBD",
+  "acreage" : "0.27200000000000002",
+  "apn" : "067310031000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "2100",
+  "land_use" : "CBD",
+  "acreage" : "0.20699999999999999",
+  "apn" : "067310032000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "10200",
+  "land_use" : "CBD",
+  "acreage" : "0.46",
+  "apn" : "067310033000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "6000",
+  "land_use" : "CBD",
+  "acreage" : "0.84799999999999998",
+  "apn" : "067310034000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "9785",
+  "land_use" : "CBD",
+  "acreage" : "0.55600000000000005",
+  "apn" : "067310036000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "CBD",
+  "acreage" : "1.3779999999999999",
+  "apn" : "067310067000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "11700",
+  "land_use" : "CBD",
+  "acreage" : "0.74199999999999999",
+  "apn" : "067310068000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "CBD",
+  "acreage" : "0.076999999999999999",
+  "apn" : "067310069000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "CBD",
+  "acreage" : "0.025000000000000001",
+  "apn" : "067310072000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "CBD",
+  "acreage" : "0.066000000000000003",
+  "apn" : "067310073000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "11632",
+  "land_use" : "CBD",
+  "acreage" : "0.45900000000000002",
+  "apn" : "067310074000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "8000",
+  "land_use" : "CBD",
+  "acreage" : "1.23",
+  "apn" : "067310075000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "CBD",
+  "acreage" : "0.46",
+  "apn" : "067310076000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "NULL",
+  "building_size_sq_ft" : "0",
+  "land_use" : "CBD",
+  "acreage" : "0.37",
+  "apn" : "067310077000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "5112",
+  "land_use" : "CBD",
+  "acreage" : "2.5590000000000002",
+  "apn" : "067320002000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "CBD",
+  "acreage" : "0.68899999999999995",
+  "apn" : "067320004000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Residential - Multi-Family",
+  "building_size_sq_ft" : "105503",
+  "land_use" : "CBD",
+  "acreage" : "10.6",
+  "apn" : "067320005000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "11216",
+  "land_use" : "CBD",
+  "acreage" : "1.7989999999999999",
+  "apn" : "067320007000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Commercial",
+  "building_size_sq_ft" : "12000",
+  "land_use" : "RMU",
+  "acreage" : "1.34",
+  "apn" : "067330001000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "CBD",
+  "acreage" : "0.09",
+  "apn" : "067330002000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "CBD",
+  "acreage" : "0.63900000000000001",
+  "apn" : "067330017000",
+  "zoning" : "CBD"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.89900000000000002",
+  "apn" : "067330018000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.31900000000000001",
+  "apn" : "067330020000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "0.63900000000000001",
+  "apn" : "067330022000",
+  "zoning" : "WF"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "NULL",
+  "acreage" : "0.219",
+  "apn" : "067330023000",
+  "zoning" : "NULL"
+}
+, {
+  "land_type" : "Vacant",
+  "building_size_sq_ft" : "0",
+  "land_use" : "RMU",
+  "acreage" : "2.109",
+  "apn" : "067330024000",
+  "zoning" : "WF"
+}
+ ]
