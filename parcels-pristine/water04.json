@@ -1,0 +1,6001 @@
+[ {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014500028000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CDD",
+  "pipe_size" : "Additional Units 3/4\"",
+  "apn" : "014500028000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014500029000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "A7",
+  "pipe_size" : "Wtr. Meter 4\"",
+  "apn" : "014531001000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531012000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531013000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531014000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531015000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531016000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531017000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CDD",
+  "pipe_size" : "Additional Units 3/4\"",
+  "apn" : "014531017000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531018000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531019000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531020000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CDD",
+  "pipe_size" : "Additional Units 3/4\"",
+  "apn" : "014531020000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531021000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531023000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531024000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531026000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531027000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CDD",
+  "pipe_size" : "Additional Units 3/4\"",
+  "apn" : "014531027000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531028000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531029000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531030000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531031000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531032000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531035000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531036000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531037000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531038000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531039000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531040000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531041000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531042000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531060000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531061000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531063000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531064000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531065000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531066000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531067000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531068000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531069000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531070000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531071000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531072000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531073000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531074000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014531075000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014532003000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014532004000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014532005000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014532006000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CV",
+  "pipe_size" : "Residential Vacant",
+  "apn" : "014532007000",
+  "last_date" : "2014-11-17T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014532008000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014532012000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014532013000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014532015000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014532017000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014533001000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014533002000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014533003000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014533004000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014533005000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014533006000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014540017000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A4",
+  "pipe_size" : "Wtr. Meter 1 1/2\"",
+  "apn" : "014540017000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A3",
+  "pipe_size" : "Wtr Meter 1\"",
+  "apn" : "014540019000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540021000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "A3",
+  "pipe_size" : "Wtr Meter 1\"",
+  "apn" : "014540024000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014540025000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540026000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A2",
+  "pipe_size" : "Wtr. Meter  3/4\"",
+  "apn" : "014540030000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014540031000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014540031000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014540031000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014540031000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A2",
+  "pipe_size" : "Wtr. Meter  3/4\"",
+  "apn" : "014540031000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014540031000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014540031000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014540032000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014540033000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540047000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540048000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540049000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540050000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540051000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540052000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540053000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540054000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540055000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540056000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540057000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540058000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540059000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540060000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540061000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540062000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540063000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540064000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540065000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540066000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540067000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540068000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540069000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540070000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540071000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540073000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540074000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540075000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540076000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540077000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540078000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540079000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540080000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540081000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540082000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540083000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540084000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540085000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540086000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014540087000",
+  "last_date" : "2015-06-09T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014540087000",
+  "last_date" : "2015-06-09T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014551001000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014551002000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014551003000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014551004000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014551005000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014551006000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014551007000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014551008000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014551009000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014551010000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014551011000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552001000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552002000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552003000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552004000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552005000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552006000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552007000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552008000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552009000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552010000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552011000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552012000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552013000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552014000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552015000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552016000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552017000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552018000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552019000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552020000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552021000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014552022000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553001000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553002000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553003000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553004000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553005000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553006000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553007000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553008000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553009000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553010000",
+  "last_date" : "2014-08-08T00:00:00"
+}
+, {
+  "utility_type" : "CV",
+  "pipe_size" : "Residential Vacant",
+  "apn" : "014553010000",
+  "last_date" : "2014-08-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553011000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553012000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553013000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553014000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553015000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553016000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553017000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553018000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553019000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553020000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553021000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014553022000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014554001000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014554002000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014554003000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014554004000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014554005000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014554006000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014554007000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014554008000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014554009000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014554010000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014554011000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014561001000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014561002000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014561003000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014561004000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014561005000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014561006000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014561007000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014561008000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014561009000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014561010000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014561011000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014561012000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562001000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562002000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562003000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562004000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562005000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562006000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562007000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562008000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562009000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562010000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562011000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562012000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562013000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562014000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562015000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014562016000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562017000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562018000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562019000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014562020000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562021000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562022000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014562023000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563001000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563002000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563003000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563004000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563005000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563006000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563007000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563008000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563009000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563010000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563011000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563012000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563013000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563014000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563015000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563016000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563017000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563018000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563019000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563020000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563021000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563022000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014563023000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564001000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564002000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564003000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564004000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564005000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564006000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564007000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564008000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564009000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564010000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564011000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564012000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564013000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564014000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564015000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564016000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564017000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564018000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564019000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564020000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014564021000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014565001000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014566001000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014566002000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014566003000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014566004000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014566005000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014566006000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014566007000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571001000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571002000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571003000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571004000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571005000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571006000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571007000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571008000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571009000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571010000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571011000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571012000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571013000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571014000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571015000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571016000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571017000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571018000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571019000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571020000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571021000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014571022000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014572001000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014572003000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014572004000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014572005000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014572006000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014572007000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014572008000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014572010000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014580001000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014580001000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014580001000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014580001000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A8",
+  "pipe_size" : "Wtr. Meter 6\"",
+  "apn" : "014580001000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014580001000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "014580002000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A8",
+  "pipe_size" : "Wtr. Meter 6\"",
+  "apn" : "014580002000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014580002000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "014580002000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014580002000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "014580010000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "CZ",
+  "pipe_size" : "Wtr. Outside Zone",
+  "apn" : "014600034000",
+  "last_date" : "1998-11-18T00:00:00"
+}
+, {
+  "utility_type" : "A9",
+  "pipe_size" : "Wtr. Meter 8\"",
+  "apn" : "014600065000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "CW",
+  "pipe_size" : "Wtr. Disconnect/Shut-off",
+  "apn" : "014610004000",
+  "last_date" : "1998-11-18T00:00:00"
+}
+, {
+  "utility_type" : "J2",
+  "pipe_size" : "Medn/Irrig 3/4\" li",
+  "apn" : "014620008000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "014630012000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014630012000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014630012000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014630015000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014630016000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014630021000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014630021000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014630022000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014630023000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014630023000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A7",
+  "pipe_size" : "Wtr. Meter 4\"",
+  "apn" : "014630036000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014630038000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "014630045000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014630045000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014630045000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014650003000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A7",
+  "pipe_size" : "Wtr. Meter 4\"",
+  "apn" : "014650003000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "014650003000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014650006000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J4",
+  "pipe_size" : "Medn/Irrig 1 1/2\" li",
+  "apn" : "014650007000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014650007000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A7",
+  "pipe_size" : "Wtr. Meter 4\"",
+  "apn" : "014660009000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014660013000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014660014000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014660016000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014660016000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A7",
+  "pipe_size" : "Wtr. Meter 4\"",
+  "apn" : "014660017000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "014660017000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014660017000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A7",
+  "pipe_size" : "Wtr. Meter 4\"",
+  "apn" : "014660018000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A8",
+  "pipe_size" : "Wtr. Meter 6\"",
+  "apn" : "014670014000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014670021000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A4",
+  "pipe_size" : "Wtr. Meter 1 1/2\"",
+  "apn" : "014670022000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A4",
+  "pipe_size" : "Wtr. Meter 1 1/2\"",
+  "apn" : "014670023000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014680008000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A7",
+  "pipe_size" : "Wtr. Meter 4\"",
+  "apn" : "014680009000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J4",
+  "pipe_size" : "Medn/Irrig 1 1/2\" li",
+  "apn" : "014680010000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A7",
+  "pipe_size" : "Wtr. Meter 4\"",
+  "apn" : "014680010000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014680013000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J4",
+  "pipe_size" : "Medn/Irrig 1 1/2\" li",
+  "apn" : "014680013000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J3",
+  "pipe_size" : "Medn/Irrig 1\" line",
+  "apn" : "014680013000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014680013000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690045000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014690046000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690052000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690053000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690055000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014690056000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CDD",
+  "pipe_size" : "Additional Units 3/4\"",
+  "apn" : "014690057000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690058000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690059000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690060000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690061000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690062000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690063000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690064000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690065000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690066000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690067000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690068000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690069000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690070000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690071000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690075000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690076000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690077000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014690078000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014690079000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014690080000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690081000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690083000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690084000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690085000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014690086000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "A3",
+  "pipe_size" : "Wtr Meter 1\"",
+  "apn" : "014700026000",
+  "last_date" : "1998-11-18T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014700027000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014700028000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014700029000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014700030000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014700031000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014700032000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014700033000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014700034000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014700035000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014700036000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014700037000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014700038000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014700039000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014700040000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014700041000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014700042000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014700043000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014700044000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014700045000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710023000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710024000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710025000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710026000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710027000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710028000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710029000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710030000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710045000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710046000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710049000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710050000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710051000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710052000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710053000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710054000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710055000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710056000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014710057000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710060000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710061000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710064000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710065000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710066000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710067000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710068000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710069000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710070000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710071000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710072000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014710073000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "014720001000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720006000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720007000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720008000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720009000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720010000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720011000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720012000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720013000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720014000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720015000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720016000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720024000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720025000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720026000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720027000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720028000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720029000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720030000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720031000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720032000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720033000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720034000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720035000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720036000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720037000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720038000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720039000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720040000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720041000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720042000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720043000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720044000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720045000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720046000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720053000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720054000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720055000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720056000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720059000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720060000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720061000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720062000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720063000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720064000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720065000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720066000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720067000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720069000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720070000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720071000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720072000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720073000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720074000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014720075000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730001000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730002000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730003000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730004000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730005000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730006000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730007000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730008000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730009000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730010000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730011000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730012000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730013000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730014000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730015000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730028000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730029000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730030000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730031000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730032000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730033000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730035000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730036000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730037000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730038000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730041000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730042000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730043000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730044000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730045000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730046000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730047000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730048000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730049000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730050000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730051000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014730052000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "014740001000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740030000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740031000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740032000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740033000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740034000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740035000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740036000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740037000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740038000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740039000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740040000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740041000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740042000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740043000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740044000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740045000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740047000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740048000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740049000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740050000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740051000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740052000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740053000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740054000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740055000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014740056000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014750014000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014750015000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014750016000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014750017000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014750018000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014750019000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014750020000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014750021000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014750022000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014750023000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "014750024000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014750025000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014750066000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014750067000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014750071000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014750072000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014750073000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "014760010000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "014760028000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014760028000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014760034000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014771001000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014771002000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014771003000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014771004000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014771005000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014771006000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014771007000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014771008000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014771009000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014771010000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014771011000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014771012000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014771013000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014771014000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014771015000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014771016000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014771017000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014771018000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014771019000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014771020000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014771021000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014771022000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014781003000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014781004000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014781005000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014781006000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014781007000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014781008000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014781009000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014781010000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014781011000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014781012000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014781013000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014781014000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014781015000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014781016000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014782001000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014782002000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014782003000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014782004000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014782005000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014782006000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014782007000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014782008000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014782009000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014782010000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014782011000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014782012000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014782013000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014782014000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783003000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783004000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783005000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783006000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783007000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783008000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783009000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783010000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783011000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783012000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783013000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783014000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783015000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783016000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783017000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783018000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783019000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783020000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783021000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783022000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783023000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783025000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783026000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783027000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014783028000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CZ",
+  "pipe_size" : "Wtr. Outside Zone",
+  "apn" : "014791002000",
+  "last_date" : "1998-11-18T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014791004000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A7",
+  "pipe_size" : "Wtr. Meter 4\"",
+  "apn" : "014792004000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A7",
+  "pipe_size" : "Wtr. Meter 4\"",
+  "apn" : "014792005000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A6",
+  "pipe_size" : "Wtr. Meter 3\"",
+  "apn" : "014792006000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014792007000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014793001000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014793013000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J2",
+  "pipe_size" : "Medn/Irrig 3/4\" li",
+  "apn" : "014793029000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A7",
+  "pipe_size" : "Wtr. Meter 4\"",
+  "apn" : "014793029000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014793031000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014793038000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014793041000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014793052000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014793053000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014793054000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A3",
+  "pipe_size" : "Wtr Meter 1\"",
+  "apn" : "014793055000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J3",
+  "pipe_size" : "Medn/Irrig 1\" line",
+  "apn" : "014793055000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "014793056000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A4",
+  "pipe_size" : "Wtr. Meter 1 1/2\"",
+  "apn" : "014793056000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014793056000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014793063000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014793066000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A7",
+  "pipe_size" : "Wtr. Meter 4\"",
+  "apn" : "014793066000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J3",
+  "pipe_size" : "Medn/Irrig 1\" line",
+  "apn" : "014793066000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A3",
+  "pipe_size" : "Wtr Meter 1\"",
+  "apn" : "014793068000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014793069000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J4",
+  "pipe_size" : "Medn/Irrig 1 1/2\" li",
+  "apn" : "014793069000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A3",
+  "pipe_size" : "Wtr Meter 1\"",
+  "apn" : "014793071000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J3",
+  "pipe_size" : "Medn/Irrig 1\" line",
+  "apn" : "014793071000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014793072000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014793073000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014793074000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014793075000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A3",
+  "pipe_size" : "Wtr Meter 1\"",
+  "apn" : "014793077000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J3",
+  "pipe_size" : "Medn/Irrig 1\" line",
+  "apn" : "014793077000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A3",
+  "pipe_size" : "Wtr Meter 1\"",
+  "apn" : "014793087000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J3",
+  "pipe_size" : "Medn/Irrig 1\" line",
+  "apn" : "014793087000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014793088000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "014793088000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A4",
+  "pipe_size" : "Wtr. Meter 1 1/2\"",
+  "apn" : "014794001000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A3",
+  "pipe_size" : "Wtr Meter 1\"",
+  "apn" : "014794002000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A3",
+  "pipe_size" : "Wtr Meter 1\"",
+  "apn" : "014794003000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014794005000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A7",
+  "pipe_size" : "Wtr. Meter 4\"",
+  "apn" : "014794006000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014794007000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014794008000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "014794008000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014794009000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014794010000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014794011000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "014794012000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A4",
+  "pipe_size" : "Wtr. Meter 1 1/2\"",
+  "apn" : "014794014000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A3",
+  "pipe_size" : "Wtr Meter 1\"",
+  "apn" : "014794015000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014801001000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801002000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801003000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801004000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801005000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801006000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801007000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801008000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801009000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801010000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801011000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801012000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801013000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801014000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801015000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801016000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801017000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801018000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801019000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801020000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014801021000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801022000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801023000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014801024000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801025000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014801026000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801027000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801028000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801029000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014801030000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014801031000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014801032000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801033000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014801034000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014801035000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CE",
+  "pipe_size" : "Res. 1\" line",
+  "apn" : "014801036000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801037000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801038000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801039000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801040000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801041000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801042000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014801043000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "014801044000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014802009000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014802010000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014802011000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014802012000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014802013000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014802014000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014802015000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014802016000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014802017000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014802018000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014802019000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014802020000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014802021000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014802022000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "CRR",
+  "pipe_size" : "Residential meter Measure K cred",
+  "apn" : "014802023000",
+  "last_date" : "2015-05-12T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "014980002000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A7",
+  "pipe_size" : "Wtr. Meter 4\"",
+  "apn" : "014980002000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "045030019000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "045030022000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A4",
+  "pipe_size" : "Wtr. Meter 1 1/2\"",
+  "apn" : "045030023000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "045030023000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "045030024000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "045030027000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "045030028000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "045030029000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "045030029000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J3",
+  "pipe_size" : "Medn/Irrig 1\" line",
+  "apn" : "045030037000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A5",
+  "pipe_size" : "Wtr. Meter 2\"",
+  "apn" : "045030037000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "045030037000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A4",
+  "pipe_size" : "Wtr. Meter 1 1/2\"",
+  "apn" : "045030038000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "045030038000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "A4",
+  "pipe_size" : "Wtr. Meter 1 1/2\"",
+  "apn" : "045030042000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "045030042000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "J5",
+  "pipe_size" : "Medn/Irrig 2\" line",
+  "apn" : "045030042000",
+  "last_date" : "2015-05-15T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041001000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041002000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041003000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041004000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041005000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041006000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041007000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041008000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041009000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041010000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041011000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041012000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041013000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041014000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041015000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041016000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041017000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041018000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041019000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041020000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041021000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041022000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041023000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041024000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041025000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045041026000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042001000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042002000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042003000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042004000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042005000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042006000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042007000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042008000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042009000",
+  "last_date" : "2015-05-29T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042010000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042011000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042012000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042013000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042014000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042015000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042016000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042017000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042018000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042019000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042020000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042021000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042022000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042023000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042024000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045042025000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043001000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043002000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043003000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043004000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043005000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043006000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043007000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043008000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043009000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043010000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043011000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043012000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043013000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043014000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043015000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043016000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043017000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043018000",
+  "last_date" : "2015-05-21T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043019000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043020000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043021000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043022000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043023000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045043024000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045044001000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045044002000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045044003000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045044004000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045044005000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045044006000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045044007000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045044008000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045044009000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045044010000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045044011000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045044012000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045045001000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045045002000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045045003000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045045004000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045045005000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045045006000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045045007000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045045008000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045045009000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045045010000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045046001000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045046002000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045051001000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045051002000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045051003000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045051004000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045051005000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045051006000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045051007000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045051008000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045051009000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045051011000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045052001000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045052002000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045052003000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045053001000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045053002000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045053003000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045053004000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045053005000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045053006000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045053007000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045053008000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045053009000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045053010000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045053011000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045053012000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045054001000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045054002000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045054003000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045054004000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045054005000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045054006000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045054007000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045054008000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045054009000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045054010000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045054011000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045054012000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045054013000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045054014000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045054015000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055001000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055002000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055003000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055004000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055005000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055006000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055007000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055008000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055009000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055010000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055011000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055012000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055013000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055014000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055015000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055016000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055017000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055018000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055019000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055020000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055021000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055022000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055023000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055024000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055025000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055026000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055027000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055028000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055029000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055030000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055031000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055032000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055033000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055034000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055035000",
+  "last_date" : "2015-05-26T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055036000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055037000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045055038000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045056001000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045056002000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045056003000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045056004000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045056005000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045056006000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045056007000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045056008000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045056009000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045056010000",
+  "last_date" : "2004-12-15T00:00:00"
+}
+, {
+  "utility_type" : "CV",
+  "pipe_size" : "Residential Vacant",
+  "apn" : "045056010000",
+  "last_date" : "2004-12-15T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045056011000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045056012000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045056013000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045056014000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045111001000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045111002000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045111003000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045111004000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045111005000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045111006000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045111007000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045111008000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045111012000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045112001000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045112002000",
+  "last_date" : "2015-05-08T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045112003000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+, {
+  "utility_type" : "CD",
+  "pipe_size" : "Res.<= 3/4 \" line",
+  "apn" : "045112004000",
+  "last_date" : "2015-05-20T00:00:00"
+}
+ ]
