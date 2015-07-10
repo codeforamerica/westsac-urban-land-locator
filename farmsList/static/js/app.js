@@ -34,13 +34,28 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
   $scope.highlightParcel = function(farmId) {
     zoomPanTo(farmId);
   };
+  $scope.highlightParcelOnMap = function(farmId) {
+    var map = mapboxService.getMapInstances()[0],
+        farm = getFarm(farmId);
+    console.log(farm);
+    map.eachLayer(function (layer) {
+      if (layer.getLatLng !== undefined) {
+        var latLng = layer.getLatLng();
+        if (latLng.lat == farm.center.lat && latLng.lng == farm.center.lng) {
+          layer.setOpacity(1);
+        } else {
+          layer.setOpacity(.5);
+        }
+      }
+    });
+  };
   $scope.farms = [
     {
+      "id": 1,
       "name": "Jordan Valley",
       "contact": "Diego Aranzadi",
       "phone": "530-555-1234",
       "address": "Km 41.2 West Sacramento, CA 95605",
-      "geolocation": ['longitude', 'latitutde'],
       "size": 2.1,
       "zoning": "type of zone",
       "water": "Yes - potable",
@@ -50,11 +65,11 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
         "lng": -121.51247978210449
       }
     },{
+      "id": 2,
       "name": "Yolo Valley",
       "contact": "Ivan Matos",
       "phone": "530-555-1234",
       "address": "Km 41.2 West Sacramento, CA 95605",
-      "geolocation": ['longitude', 'latitutde'],
       "size": 2.3,
       "zoning": "type of zone",
       "water": "Yes - potable",
@@ -64,11 +79,11 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
         "lng": -121.52357978210449,
       }
     },{
+      "id": 3,
       "name": "Old McDonald Farm",
       "contact": "Felix Colón",
       "phone": "530-555-1234",
       "address": "Km 41.2 West Sacramento, CA 95605",
-      "geolocation": ['longitude', 'latitutde'],
       "size": 1.8,
       "zoning": "type of zone",
       "water": "Yes - potable",
