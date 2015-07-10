@@ -39,6 +39,9 @@ Flask-DebugToolbar==0.9.1
 # Postgres python pluggin
 psycopg2
 
+# JSRuntime
+PyExecJS
+
 # JSON Serialization
 jsonpickle
 simplejson
