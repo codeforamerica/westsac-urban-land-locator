@@ -4,7 +4,9 @@
 <div class="container" ng-controller="PublishListingsController">
   <div class="row">
     <div class="col-md-12">
-      <h1 class="page-header">List a New Parcel</h1>
+      <h1 class="page-header">List a Parcel</h1>
+        <leaflet center="center" layers="layers" geojson="geojson" width="100%" height="480px"></leaflet>
+      <h1 class="page-header">Parcel Information</h1>
       <form id="editParcelForm" class="form form-register form-horizontal" method="POST" action="" role="form">
         {{ form.hidden_tag() }}
         <div class="form-group">
@@ -45,9 +47,6 @@
           <input type="text" id="newParcelSize" name="size" class="ng-hide">
           <div ng-hide="true" id='map'></div>
         </div>
-
-        <leaflet center="center" layers="layers" geojson="geojson" width="100%" height="480px"></leaflet>
-
         <div class="form-group parcel-submit">
           <div class="col-sm-10">
             <button class="btn btn-primary btn-lg btn-submit" type="submit" value="Post Parcel">Post Parcel</button>
