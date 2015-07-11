@@ -116,8 +116,17 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
     });
 })
 
-.controller('PublishListingsController', ['$scope', '$http', 'mapboxService', function($scope, $http, mapboxService){
+.controller('PublishListingsController', ['$scope', '$http', 'leafletData', function($scope, $http, leafletData){
   $scope.parcels = [];
+  var previouslySelectedLayer,
+      unselectedParcelStyle = {
+        fillColor: "green",
+        weight: 2,
+        opacity: 1,
+        color: 'white',
+        dashArray: '3',
+        fillOpacity: 0.2
+      };
   $http.get('/api/parcel/vacant').
     success(function(data, status, headers, config) {
       if (!data || data.length === 0) {
@@ -142,16 +151,28 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
       angular.extend($scope, {
         geojson: {
           data: data,
-          style: {
-            fillColor: "green",
-            weight: 2,
-            opacity: 1,
-            color: 'white',
-            dashArray: '3',
-            fillOpacity: 0.7
-          },
+          style: unselectedParcelStyle,
           onEachFeature: function (feature, layer) {
-            layer.on('click', function(){
+            layer.on('click', function() {
+              // This is a dumb api failure, but this is the way to change the style of a feature layer...
+              leafletData.getMap('known-parcels-map').then(function(map) {
+                if (previouslySelectedLayer) {
+                  map.removeLayer(previouslySelectedLayer);
+                  previouslySelectedLayer.setStyle(unselectedParcelStyle);
+                  map.addLayer(previouslySelectedLayer);
+                }
+                map.removeLayer(layer);
+                layer.setStyle({
+                  fillColor: "green",
+                  weight: 2,
+                  opacity: 1,
+                  color: 'white',
+                  dashArray: '3',
+                  fillOpacity: 0.7
+                });
+                map.addLayer(layer);
+                previouslySelectedLayer = layer;
+              });
               $scope.parcel = feature.properties.parcel;
               var geoJSON = feature.geometry;
               document.getElementById('newParcelGeometry').value = JSON.stringify(geoJSON);
@@ -183,8 +204,7 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
             showOnSelector: false
           }
         }
-      },
-      overlays: {}
+      }
     }
   });
 /*

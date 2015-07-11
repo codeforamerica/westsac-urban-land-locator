@@ -5,7 +5,7 @@
   <div class="row">
     <div class="col-md-12">
       <h1 class="page-header">List a Parcel</h1>
-        <leaflet center="center" layers="layers" geojson="geojson" width="100%" height="480px"></leaflet>
+        <leaflet id="known-parcels-map" center="center" layers="layers" geojson="geojson" width="100%" height="480px"></leaflet>
       <h1 class="page-header">Parcel Information</h1>
       <form id="editParcelForm" class="form form-register form-horizontal" method="POST" action="" role="form">
         {{ form.hidden_tag() }}
