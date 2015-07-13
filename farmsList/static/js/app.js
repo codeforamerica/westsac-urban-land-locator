@@ -154,6 +154,12 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
           style: unselectedParcelStyle,
           onEachFeature: function (feature, layer) {
             layer.on('click', function() {
+              var applyParcelDefualts = function(parcel) {
+                parcel.email = parcel.email || 'aaronl@cityofwestsacramento.org';
+                parcel.zoning = parcel.zoning || 'Unspecified';
+                parcel.developmentPlan = parcel.developmentPlan || 5;
+                parcel.restrictions = parcel.restrictions || 'None';
+              };
               // This is a dumb api failure, but this is the way to change the style of a feature layer...
               leafletData.getMap('known-parcels-map').then(function(map) {
                 if (previouslySelectedLayer) {
@@ -173,10 +179,12 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
                 map.addLayer(layer);
                 previouslySelectedLayer = layer;
               });
+              // End dumb api failure compensation code
               $scope.parcel = feature.properties.parcel;
+              applyParcelDefualts($scope.parcel);
               var geoJSON = feature.geometry;
               document.getElementById('newParcelGeometry').value = JSON.stringify(geoJSON);
-              document.getElementById('newParcelSize').value = turf.area(geoJSON) / 4046.85642;
+              document.getElementById('newParcelSize').value = (turf.area(geoJSON) / 4046.85642).toFixed(2);
               document.getElementById('newParcelCenter').value = JSON.stringify(turf.centroid(geoJSON));
             });
           }
@@ -197,7 +205,7 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
       baselayers: {
         xyz: {
           name: 'OpenStreetMap (XYZ)',
-          url: 'http://{s}.tiles.mapbox.com/v4/codeforamerica.m5m971km/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q',
+          url: 'http://{s}.tiles.mapbox.com/v4/codeforamerica.m5m971km/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q',
           type: 'xyz',
           layerOptions: {
             attribution: 'Mapbox | OpenStreetMap',

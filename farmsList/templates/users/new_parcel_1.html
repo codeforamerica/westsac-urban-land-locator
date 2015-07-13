@@ -3,50 +3,64 @@
 
 <div class="container" ng-controller="PublishListingsController">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12" ng-init="activeMap='vacant-parcels'">
       <h1 class="page-header">List a Parcel</h1>
-        <leaflet id="known-parcels-map" center="center" layers="layers" geojson="geojson" width="100%" height="480px"></leaflet>
+      <button ng-click="activeMap='draw-parcel'" ng-show="activeMap==='vacant-parcels'">Draw Parcel Manually</button>
+      <button ng-click="activeMap='all-parcels'" ng-show="activeMap==='vacant-parcels'">See All Parcels</button>
+      <button ng-click="activeMap='vacant-parcels'" ng-show="activeMap!=='vacant-parcels'">Return to Vacant Parcels Map</button>
+      <div class="mapdiv">
+        <div ng-show="activeMap==='vacant-parcels'">
+          <leaflet id="known-parcels-map" center="center" layers="layers" geojson="geojson" class="leaflet-angular-map"></leaflet>
+        </div>
+        <div ng-show="activeMap==='draw-parcel'">
+          <div id='map'></div>
+          <p>Use the [shape tool image] tool to draw a shape around the location of the parcel.</p>
+        </div>
+      </div>
       <h1 class="page-header">Parcel Information</h1>
       <form id="editParcelForm" class="form form-register form-horizontal" method="POST" action="" role="form">
         {{ form.hidden_tag() }}
+        <div class="form-group">
+          <div class="col-sm-2 control-label">
+            <label for="newParcelSize">Area</label>
+            <br />(in acres)
+          </div>
+          <div class="col-sm-2">
+            <input type="text" id="newParcelSize" name="size" ng-readonly="true" class="readonly form-control">
+          </div>
+        </div>
         <div class="form-group">
           <div class="col-sm-2 control-label">{{form.address.label}}</div>
           <div class="col-sm-6">{{form.address(placeholder="Bryte St. and Main St.", class_="form-control", **{'ng-model':'parcel.address'})}}</div>
         </div>
         <div class="form-group">
-          <div class="col-sm-2 control-label">{{form.water.label}}</div>
-          <div class="col-xs-2">{{form.water(placeholder='20 gal/min', class_="form-control", **{'ng-model':'parcel.water'})}}</div>
+          <div class="col-sm-2 control-label">{{form.water.label}} <br />(in gal/min)</div>
+          <div class="col-xs-2">{{form.water(placeholder='20', class_="form-control", **{'ng-model':'parcel.water'})}}</div>
         </div>
         <div class="form-group">
           <div class="col-sm-2 control-label">{{form.soil.label}}</div>
-          <div class="col-sm-6">{{form.soil(placeholder='75% Clay; 25% Silty Loam', class_="form-control")}}</div>
+          <div class="col-sm-6">{{form.soil(placeholder='75% Clay; 25% Silty Loam', class_="form-control", **{'ng-model':'parcel.soil'})}}</div>
         </div>
         <div class="form-group">
           <div class="col-sm-2 control-label">{{form.developmentPlan.label}} <br />(in years)</div>
-          <div class="col-sm-2">{{form.developmentPlan(placeholder="5", class_="form-control")}}</div>
+          <div class="col-sm-2">{{form.developmentPlan(placeholder="5", class_="form-control", **{'ng-model':'parcel.developmentPlan'})}}</div>
         </div>
         <div class="form-group">
           <div class="col-sm-2 control-label">{{form.zoning.label}}</div>
-          <div class="col-sm-2">{{form.zoning(placeholder="Ag", class_="form-control")}}</div>
+          <div class="col-sm-6">{{form.zoning(placeholder="Ag", class_="form-control", **{'ng-model':'parcel.zoning'})}}</div>
         </div>
         <div class="form-group">
           <div class="col-sm-2 control-label">{{form.restrictions.label}}</div>
-          <div class="col-sm-6">{{form.restrictions(placeholder="None", class_="form-control")}}</div>
+          <div class="col-sm-6">{{form.restrictions(placeholder="None", class_="form-control", **{'ng-model':'parcel.restrictions'})}}</div>
         </div>
         <div class="form-group">
           <div class="col-sm-2 control-label">{{form.email.label}}</div>
-          <div class="col-sm-6">{{form.email(placeholder="john@gmail.com", class_="form-control")}}
+          <div class="col-sm-6">{{form.email(placeholder="john@gmail.com", class_="form-control", **{'ng-model':'parcel.email'})}}
             <span class="help-block">We won't post your email address on this website, but people interested in the land will be able to contact you via a form.</span>
           </div>
         </div>
-        <div class="mapdiv">
-          <p><strong>Parcel Location</strong></p>
-          <p>Use the [shape tool image] tool to draw a shape around the location of the parcel.</p>
-          <input type="text" id="newParcelGeometry" name="geometry" class="ng-hide">
-          <input type="text" id="newParcelCenter" name="center" class="ng-hide">
-          <input type="text" id="newParcelSize" name="size" class="ng-hide">
-          <div ng-hide="true" id='map'></div>
-        </div>
+        <input type="text" id="newParcelGeometry" name="geometry" class="ng-hide">
+        <input type="text" id="newParcelCenter" name="center" class="ng-hide">
         <div class="form-group parcel-submit">
           <div class="col-sm-10">
             <button class="btn btn-primary btn-lg btn-submit" type="submit" value="Post Parcel">Post Parcel</button>
