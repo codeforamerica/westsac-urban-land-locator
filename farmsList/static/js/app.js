@@ -118,7 +118,7 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
 
 .controller('PublishListingsController', ['$scope', '$http', 'leafletData', function($scope, $http, leafletData){
   $scope.parcels = [];
-  var previouslySelectedLayer,
+  var selectedLayers =[],
       unselectedParcelStyle = {
         fillColor: "green",
         weight: 2,
@@ -153,20 +153,8 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
           data: data,
           style: unselectedParcelStyle,
           onEachFeature: function (feature, layer) {
-            layer.on('click', function() {
-              var applyParcelDefualts = function(parcel) {
-                parcel.email = parcel.email || 'aaronl@cityofwestsacramento.org';
-                parcel.zoning = parcel.zoning || 'Unspecified';
-                parcel.developmentPlan = parcel.developmentPlan || 5;
-                parcel.restrictions = parcel.restrictions || 'None';
-              };
-              // This is a dumb api failure, but this is the way to change the style of a feature layer...
+            var highlightSelectedParcel = function(layer) {
               leafletData.getMap('known-parcels-map').then(function(map) {
-                if (previouslySelectedLayer) {
-                  map.removeLayer(previouslySelectedLayer);
-                  previouslySelectedLayer.setStyle(unselectedParcelStyle);
-                  map.addLayer(previouslySelectedLayer);
-                }
                 map.removeLayer(layer);
                 layer.setStyle({
                   fillColor: "green",
@@ -177,9 +165,58 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
                   fillOpacity: 0.7
                 });
                 map.addLayer(layer);
-                previouslySelectedLayer = layer;
+                selectedLayers.push(layer);
               });
-              // End dumb api failure compensation code
+            },
+            unhighlightSelectedParcel = function(layer) {
+              leafletData.getMap('known-parcels-map').then(function(map) {
+                map.removeLayer(layer);
+                layer.setStyle(unselectedParcelStyle);
+                map.addLayer(layer);
+              });
+            },
+            addToSelectedUrbanFarmLand = function(layer) {
+              highlightSelectedParcel(layer);
+              // Do something here to get the appropriate geoJSON for the combined polygons
+              
+              /* Then, update the geometry related fields accordingly
+              document.getElementById('newParcelGeometry').value = JSON.stringify(geoJSON);
+              document.getElementById('newParcelSize').value = (turf.area(geoJSON) / 4046.85642).toFixed(2);
+              document.getElementById('newParcelCenter').value = JSON.stringify(turf.centroid(geoJSON));
+              */
+            },
+            removeFromSelectedUrbanFarmLand = function(layer) {
+              unhighlightSelectedParcel(layer);
+              selectedLayers.splice(selectedLayers.indexOf(layer), 1);
+              // Do something here to get the appropriate geoJSON for the remaining combined polygons
+              /* Then, update the geometry related fields accordingly
+              document.getElementById('newParcelGeometry').value = JSON.stringify(geoJSON);
+              document.getElementById('newParcelSize').value = (turf.area(geoJSON) / 4046.85642).toFixed(2);
+              document.getElementById('newParcelCenter').value = JSON.stringify(turf.centroid(geoJSON));
+              */
+            };
+            layer.on('click', function(event) {
+              if (event.originalEvent.shiftKey && selectedLayers.length > 0) {
+                if (selectedLayers.indexOf(layer) === -1) {
+                  addToSelectedUrbanFarmLand(layer);
+                } else {
+                  removeFromSelectedUrbanFarmLand(layer);
+                }
+                return;
+              }
+              var applyParcelDefualts = function(parcel) {
+                parcel.email = parcel.email || 'aaronl@cityofwestsacramento.org';
+                parcel.zoning = parcel.zoning || 'Unspecified';
+                parcel.developmentPlan = parcel.developmentPlan || 5;
+                parcel.restrictions = parcel.restrictions || 'None';
+              };
+              leafletData.getMap('known-parcels-map').then(function(map) {
+                angular.forEach(selectedLayers, function(layer) {
+                  unhighlightSelectedParcel(layer);
+                });
+                selectedLayers = [];
+                highlightSelectedParcel(layer);  // This has to be inside the callback so order is always unhighlight, highlight.
+              });
               $scope.parcel = feature.properties.parcel;
               applyParcelDefualts($scope.parcel);
               var geoJSON = feature.geometry;
