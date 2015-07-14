@@ -6,7 +6,7 @@
     <div class="col-md-12" ng-init="activeMap='vacant-parcels'">
       <h1 class="page-header">List a Parcel</h1>
       <button ng-click="activeMap='draw-parcel'" ng-show="activeMap==='vacant-parcels'">Draw Parcel Manually</button>
-      <button ng-click="activeMap='all-parcels'" ng-show="activeMap==='vacant-parcels'">See All Parcels</button>
+      <button ng-click="activeMap='all-parcels'" ng-show="activeMap==='vacant-parcels' && false">See All Parcels</button>
       <button ng-click="activeMap='vacant-parcels'" ng-show="activeMap!=='vacant-parcels'">Return to Vacant Parcels Map</button>
       <div class="mapdiv">
         <div ng-show="activeMap==='vacant-parcels'">
