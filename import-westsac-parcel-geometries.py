@@ -24,6 +24,13 @@ turfWrapperCode = '''
 	function inside(point, polygon) {
 		return module.exports.inside(point, polygon);
 	}
+	function insideAll(points, polygons) {
+		var result = [],
+			numPoints = points.length;
+		for (var i = 0; i < numPoints; i++) {
+			// for (var j=0; j < )
+		}
+	}
 '''
 nodeContext = node.compile(turfSource + turfWrapperCode)
 
