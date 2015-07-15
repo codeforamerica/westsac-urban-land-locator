@@ -165,7 +165,6 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
                   fillOpacity: 0.7
                 });
                 map.addLayer(layer);
-                selectedLayers.push(layer);
               });
             },
             unhighlightSelectedParcel = function(layer) {
@@ -175,25 +174,36 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
                 map.addLayer(layer);
               });
             },
+            updateGeometryElements = function(geoJSON) {
+              var geometryString = '',
+                  area = 0,
+                  centerString = '';
+              if (geoJSON) {
+                geometryString = JSON.stringify(geoJSON);
+                area = (turf.area(geoJSON) / 4046.85642).toFixed(2);
+                centerString = JSON.stringify(turf.centroid(geoJSON));
+              }
+              document.getElementById('newParcelGeometry').value = geometryString;
+              document.getElementById('newParcelSize').value = area;
+              document.getElementById('newParcelCenter').value = centerString;
+            },
+            updateMultiParcelSelectionGeometry = function() {
+              var features = [];
+              angular.forEach(selectedLayers, function(layer) {
+                features.push(layer.feature);
+              });
+              var featureCollection = turf.featurecollection(features);
+              updateGeometryElements(turf.merge(featureCollection));
+            },
             addToSelectedUrbanFarmLand = function(layer) {
               highlightSelectedParcel(layer);
-              // Do something here to get the appropriate geoJSON for the combined polygons
-              
-              /* Then, update the geometry related fields accordingly
-              document.getElementById('newParcelGeometry').value = JSON.stringify(geoJSON);
-              document.getElementById('newParcelSize').value = (turf.area(geoJSON) / 4046.85642).toFixed(2);
-              document.getElementById('newParcelCenter').value = JSON.stringify(turf.centroid(geoJSON));
-              */
+              selectedLayers.push(layer);
+              updateMultiParcelSelectionGeometry();
             },
             removeFromSelectedUrbanFarmLand = function(layer) {
               unhighlightSelectedParcel(layer);
               selectedLayers.splice(selectedLayers.indexOf(layer), 1);
-              // Do something here to get the appropriate geoJSON for the remaining combined polygons
-              /* Then, update the geometry related fields accordingly
-              document.getElementById('newParcelGeometry').value = JSON.stringify(geoJSON);
-              document.getElementById('newParcelSize').value = (turf.area(geoJSON) / 4046.85642).toFixed(2);
-              document.getElementById('newParcelCenter').value = JSON.stringify(turf.centroid(geoJSON));
-              */
+              updateMultiParcelSelectionGeometry();
             };
             layer.on('click', function(event) {
               if (event.originalEvent.shiftKey && selectedLayers.length > 0) {
@@ -214,15 +224,12 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
                 angular.forEach(selectedLayers, function(layer) {
                   unhighlightSelectedParcel(layer);
                 });
-                selectedLayers = [];
+                selectedLayers = [layer];
                 highlightSelectedParcel(layer);  // This has to be inside the callback so order is always unhighlight, highlight.
               });
               $scope.parcel = feature.properties.parcel;
               applyParcelDefualts($scope.parcel);
-              var geoJSON = feature.geometry;
-              document.getElementById('newParcelGeometry').value = JSON.stringify(geoJSON);
-              document.getElementById('newParcelSize').value = (turf.area(geoJSON) / 4046.85642).toFixed(2);
-              document.getElementById('newParcelCenter').value = JSON.stringify(turf.centroid(geoJSON));
+              updateGeometryElements(feature.geometry);
             });
           }
         }
