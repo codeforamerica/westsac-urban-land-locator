@@ -4,7 +4,7 @@
   <div class="row">
     <div class="col-md-4">
       <div class="row parcel-listing" ng-mouseover="highlightParcelOnMap(farm.id)" ng-repeat="farm in farms | filter:searchText">
-        <div class="row" ng-click="highlightParcel(farm.id)">
+        <div class="row" ng-click="goToFarmlandDetailsPage(farm.id)">
           <div class="col-md-8">
             <h3 class="title">{[farm.address]}</h3>
             <h2>{[farm.size]} acres</h2>
@@ -17,7 +17,7 @@
             </ul>
           </div>
           <div class="col-md-4">
-            <button onclick="document.location.href='/contact-land-owner/'" id="contact-btn" class="btn btn-warning pull-right btn-contact">
+            <button onclick="document.location.href='/contact-land-owner'" id="contact-btn" class="btn btn-warning pull-right btn-contact">
               Submit Inquiry
             </button>
           </div>

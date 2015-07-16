@@ -31,13 +31,12 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
           }
         });
       };
-  $scope.highlightParcel = function(farmId) {
-    zoomPanTo(farmId);
+  $scope.goToFarmlandDetailsPage = function(farmId) {
+    document.location.href='/farmland-details?farmlandId='+farmId;
   };
   $scope.highlightParcelOnMap = function(farmId) {
     var map = mapboxService.getMapInstances()[0],
         farm = getFarm(farmId);
-    console.log(farm);
     map.eachLayer(function (layer) {
       if (layer.getLatLng !== undefined) {
         var latLng = layer.getLatLng();
