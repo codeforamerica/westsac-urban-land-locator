@@ -17,7 +17,7 @@
             </ul>
           </div>
           <div class="col-md-4">
-            <button onclick="document.location.href='/contact-land-owner'" id="contact-btn" class="btn btn-warning pull-right btn-contact">
+            <button onclick="document.location.href='/contact-land-owner'; event.stopPropagation()" id="contact-btn" class="btn btn-warning pull-right btn-contact">
               Submit Inquiry
             </button>
           </div>
@@ -27,8 +27,8 @@
     <div class="col-md-8 div-map">
       <mapbox class="mapTogether" map-id="codeforamerica.m5m971km" lat="38.58024" lng="-121.5305" zoom="13">
         <div ng-repeat="farm in farms | filter:searchText">
-          <feature-layer data="{[farm.geometry]}" color="#f0ad4e"></featureLayer>
-          <marker lat="{[farm.center.lat]}" lng="{[farm.center.lng]}" color="#f0ad4e" >
+          <feature-layer data="{[farm.geometry]}" color="green"></featureLayer>
+          <marker lat="{[farm.center.lat]}" lng="{[farm.center.lng]}" color="green" >
             <h1>{[farm.address]}</h1>
             <p>{[farm.size]} acres</p>
             <p>{[farm.costEstimate]}</p>

@@ -57,6 +57,10 @@ def contactLandOwner():
     form = ContactLandOwnerForm(request.form)
     return render_template("public/contact-land-owner.html", form=form)
 
+@blueprint.route("/farmland-details/")
+def farmlandDetails():
+    return render_template("public/farmland-details.html")
+
 @blueprint.route("/about/")
 def about():
     form = LoginForm(request.form)
