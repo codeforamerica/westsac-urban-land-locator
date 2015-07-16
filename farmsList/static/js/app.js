@@ -30,6 +30,22 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
             animate: true
           }
         });
+      },
+      unselectedParcelStyle = {
+        fillColor: "green",
+        weight: 2,
+        opacity: 1,
+        color: 'white',
+        dashArray: '3',
+        fillOpacity: 0.2
+      },
+      selectedParcelStyle = {
+        fillColor: "green",
+        weight: 2,
+        opacity: 1,
+        color: 'white',
+        dashArray: '3',
+        fillOpacity: 0.7
       };
   $scope.goToFarmlandDetailsPage = function(farmId) {
     document.location.href='/farmland-details?farmlandId='+farmId;
@@ -45,6 +61,14 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
         } else {
           layer.setOpacity(.5);
         }
+      } else if (layer.feature !== undefined) {
+        map.removeLayer(layer);
+        if (angular.equals(layer.feature, farm.geometry)) {
+          layer.setStyle(selectedParcelStyle);
+        } else {
+          layer.setStyle(unselectedParcelStyle);
+        }
+        map.addLayer(layer);
       }
     });
   };
