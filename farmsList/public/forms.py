@@ -1,5 +1,5 @@
 from flask_wtf import Form
-from wtforms import TextField, PasswordField, BooleanField, DecimalField
+from wtforms import TextField, PasswordField, BooleanField, DecimalField, IntegerField
 from wtforms.validators import DataRequired
 
 from farmsList.user.models import User
@@ -61,6 +61,7 @@ class NewParcel1Form(Form):
     email = TextField('Contact e-mail', validators=[DataRequired()])
     geometry = TextField('Geometry', validators=[DataRequired()])
     center = TextField('Center', validators=[DataRequired()])
+    apn = IntegerField('APN', validators=[DataRequired()])
 
     def __init__(self, *args, **kwargs):
         super(NewParcel1Form, self).__init__(*args, **kwargs)

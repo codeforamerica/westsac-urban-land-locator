@@ -28,6 +28,7 @@ def new_parcel_1():
                         restrictions=form.restrictions.data,
                         geometry=form.geometry.data,
                         center=form.center.data,
+                        apn=form.apn.data,
                         listedToPublic=True)
         # flash("Thank you for adding a parcel. You can now view it in the list.", 'success')
         return redirect(url_for('public.home'))

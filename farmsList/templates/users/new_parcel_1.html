@@ -61,6 +61,7 @@
         </div>
         <input type="text" id="newParcelGeometry" name="geometry" class="ng-hide">
         <input type="text" id="newParcelCenter" name="center" class="ng-hide">
+        {{form.apn(class_="ng-hide", **{'ng-model':'parcel.apn'})}}
         <div class="form-group parcel-submit">
           <div class="col-sm-10">
             <button class="btn btn-primary btn-lg btn-submit" type="submit" value="Post Parcel">Post Parcel</button>
