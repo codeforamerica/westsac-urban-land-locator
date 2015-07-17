@@ -48,7 +48,7 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
         fillOpacity: 0.7
       };
   $scope.goToFarmlandDetailsPage = function(farmId) {
-    document.location.href='/farmland-details?farmlandId='+farmId;
+    document.location.href = '/farmland-details/' + farmId;
   };
   $scope.highlightParcelOnMap = function(farmId) {
     var map = mapboxService.getMapInstances()[0],
@@ -294,50 +294,49 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
       }
     }
   });
-/*
-  var tileLayer = {
-    name: 'Countries',
-    type: 'xyz',
-    url: 'http://{s}.tiles.mapbox.com/v3/milkator.press_freedom/{z}/{x}/{y}.png',
-    visible: true,
-    layerOptions: {
-      attribution: 'Mapbox and OpenStreetMap',
-      showOnSelector: false
-    }
-  };
+}])
 
-  var utfGrid = {
-    name: 'UtfGrid',
-    type: 'utfGrid',
-    url: 'http://{s}.tiles.mapbox.com/v3/milkator.press_freedom/{z}/{x}/{y}.grid.json?callback={cb}',
-    visible: true,
-    pluginOptions: {
-      maxZoom: 5,
-      resolution: 4
-    }
-  };
-
-  var group = {
-    name: 'Group Layer',
-    type: 'group',
-    visible: true,
-    layerOptions: {
-      layers: [ tileLayer, utfGrid],
-      maxZoom: 5
-    }
-  };
-
-  $scope.layers['overlays']['Group Layer'] = group;
-
-  $scope.$on('leafletDirectiveMap.utfgridMouseover', function(event, leafletEvent) {
-    $scope.country = leafletEvent.data.name;
-  });
-
-  $scope.$on('leafletDirectiveMap.utfgridClick', function(event, leafletEvent) {
-    console.log(leafletEvent.data.name);
-    if(leafletEvent.data.name === 'Ecuador') {
-      alert('You clicked on Ecuador. Congratulations; you win!');
-    }
-  });
+.controller('FarmlandDetailsController', ['$scope', '$http', 'leafletData', '$location', function($scope, $http, leafletData, $location){
+  $scope.farmland = {};
+  /*
+  $http.get('/api/farmland/' + $location.absUrl().split('farmland-details/')[1]).
+    success(function(data, status, headers, config) {
+      if (!data || data.length === 0) {
+        return;
+      }
+      $scope.center = data.center;
+      angular.extend($scope, {
+        farmland: data,
+        geojson: {
+          data: data,
+          style: {
+            color: green
+          }
+        }
+      });
+    }).
+    error(function(data, status, headers, config) {
+      console.log('error getting farmland data from server in FarmlandDetailsController');
+    });
   */
+  angular.extend($scope, {
+    center: {
+      lat: 38.58024,
+      lng: -121.5305,
+      zoom: 14
+    },
+    layers: {
+      baselayers: {
+        xyz: {
+          name: 'OpenStreetMap (XYZ)',
+          url: 'http://{s}.tiles.mapbox.com/v4/codeforamerica.m5m971km/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q',
+          type: 'xyz',
+          layerOptions: {
+            attribution: 'Mapbox | OpenStreetMap',
+            showOnSelector: false
+          }
+        }
+      }
+    }
+  });
 }]);

@@ -1,11 +1,27 @@
 {% extends "layout.html" %}
 {% block content %}
-<div class="container"
-  <div class="row">
-    <div class="col-md-12">
-      <h1 class="page-header">Submit an Inquiry</h1>
-      <p>Are you interested in leasing this land for an urban farm? Send a message directly to the  Executive Director of Urban Lands, he's a really great guy.</p>
+<div class="container" ng-controller="FarmlandDetailsController">
+  <div class="col-md-6">
+    <button>&lt;</button>
+    <div>Address</div>
+    <div>Acreage</div>
+    <div>Water Availability</div>
+    <div>Maximum Lease</div>
+    <hr />
+    <p>This porperty is zoned for <b>{[farmland.zoning]}</b>. This means:</p>
+    <ul>
+      <li><img src=""></li>
+    </ul>
+    <hr />
+    <div>
+      Soil: <a href="" target="_blank">Soil Type</a> | 
+      <a href="" target="_blank">Google Street View</a> | 
+      <a href="/farmland-details/photos?farmlandId={[farmland.id]}">Other Pictures</a>
     </div>
+    <a id="contact-btn" class="btn btn-warning btn-contact" href="/contact-land-owner">Submit Inquiry</a>
+  </div>
+  <div class="col-md-6">
+    <leaflet center="center" layers="layers" geojson="geojson" class="leaflet-angular-map"></leaflet>
   </div>
 </div>
 {% endblock %}

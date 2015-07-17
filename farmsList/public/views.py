@@ -57,9 +57,10 @@ def contactLandOwner():
     form = ContactLandOwnerForm(request.form)
     return render_template("public/contact-land-owner.html", form=form)
 
-@blueprint.route("/farmland-details/")
-def farmlandDetails():
-    return render_template("public/farmland-details.html")
+@blueprint.route("/farmland-details/<int:farmlandId>")
+def farmlandDetails(farmlandId):
+    farmland=farmlandId  # actually it will be a query, but i haven't made the model yet
+    return render_template("public/farmland-details.html", farmland=farmland)
 
 @blueprint.route("/about/")
 def about():
