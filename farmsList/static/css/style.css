@@ -174,22 +174,26 @@ h2 {
   font-size: 24px;
   font-weight: bold;
   margin-top: 3px;
-  margin-bottom: 4px;}
+  margin-bottom: 4px;
+}
 
 .parcel-listing {
   padding: 30px 25px;
-  border-bottom: 1px solid #eee;}
+  border-bottom: 1px solid #eee;
+}
 
 .div-map {
   padding: 0;
 }
 
-.page-header{  font-size: 24px;
+.page-header {
+  font-size: 24px;
   font-weight: bold;
   border-bottom: 1px solid #eee;
   padding-bottom: 20px;
   margin-bottom: 30px;
-  margin-top: 30px;}
+  margin-top: 30px;
+}
 
 .leaflet-angular-map {
   height: 565px;
