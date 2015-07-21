@@ -103,7 +103,7 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
       "developmentPlans": 2,
       "center": {
         "lat": 38.58843235229309,
-        "lng": -121.52357978210449,
+        "lng": -121.52357978210449
       },
       "geometry": {
         "type":"Polygon",
@@ -121,7 +121,7 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
       "developmentPlans": 2,
       "center": {
         "lat": 38.58843235229309,
-        "lng": -121.53357978210449,
+        "lng": -121.53357978210449
       },
       "geometry": {
         "type":"Polygon",
