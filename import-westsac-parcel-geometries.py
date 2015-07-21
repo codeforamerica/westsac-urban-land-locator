@@ -82,5 +82,5 @@ for x in range(0, 17):
 
 '''
 for parcel in parcels:
-	conn.execute("INSERT INTO parcels (geometry, size, zoning, center, water, apn, soil) VALUES ('{}', {}, 'Ag', '{}', 0, {}, {})".format(parcel['geometry'], parcel['size'], parcel['center'], parcel['apn'], parcel['soil']))
+	conn.execute("INSERT INTO parcels (geometry, size, zoning, center, water, apn, soil) VALUES ('{}', {}, 'Ag', '{}', 0, {}, '{}')".format(parcel['geometry'], parcel['size'], parcel['center'], parcel['apn'], parcel['soil']))
 '''

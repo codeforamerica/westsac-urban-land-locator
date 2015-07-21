@@ -3,7 +3,7 @@ import jsonpickle
 from decimal import Decimal
 
 from flask import Blueprint
-from farmsList.public.models import Parcel
+from farmsList.public.models import Parcel, Farmland
 
 blueprint = Blueprint('api', __name__, url_prefix='/api',
 						static_folder="../static")
@@ -17,8 +17,8 @@ def pre_json_encode(obj):
 
 @blueprint.route("/parcel/", methods=["GET", "POST"])
 def api_parcel():
-	parcelData = Parcel.query.filter(Parcel.listedToPublic == True).all()
-	return jsonpickle.encode(parcelData, unpicklable=False, make_refs=False)
+	farmlandData = Farmland.query.all()
+	return jsonpickle.encode(farmlandData, unpicklable=False, make_refs=False)
 
 @blueprint.route("/parcel/vacant", methods=["GET", "POST"])
 def api_parcel_vacant():
