@@ -12,6 +12,7 @@ else:
 
 conn = engine.connect()
 parcels = []
+compiledAPNs = []
 
 soilsFile = open("parcels-pristine/yolo-soils-reduced-20.geojson")
 yoloSoils = json.loads(soilsFile.read())
@@ -39,7 +40,7 @@ for x in range(0, 17):
 	file = open("parcels-pristine/" + filename)
 	array = json.loads(file.read())
 	for y in range(0, len(array)):
-		if int(array[y]['parcode']) != 1:
+		if int(array[y]['parcode']) != 1 or int(array[y]['apn']) in compiledAPNs:
 			continue
 		if 'apn' not in array[y]:
 			continue
@@ -76,6 +77,7 @@ for x in range(0, 17):
 		size = size if size >= 0.01 else 0.01
 		parcel['size'] = size
 		parcel['apn'] = int(array[y]['apn'])
+		compiledAPNs.append(parcel['apn'])
 		parcels.append(parcel)
 
 '''
