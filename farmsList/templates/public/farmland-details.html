@@ -1,19 +1,21 @@
 {% extends "layout.html" %}
 {% block content %}
-<div class="container" ng-controller="FarmlandDetailsController">
+<div class="farmland-details container" ng-controller="FarmlandDetailsController">
   <div class="col-md-6">
-    <button>&lt;</button>
-    <div>Address</div>
-    <div>Acreage</div>
+    <button type="button" class="btn back-btn" id="farmland-details-back-btn">
+      <span class="fa fa-chevron-left"></span>
+    </button>
+    <div id="farm-details-address">Address</div>
+    <div id="farm-details-acreage"><b>Acreage</b></div>
     <div>Water Availability</div>
     <div>Maximum Lease</div>
     <hr />
     <p>This porperty is zoned for <b>{[farmland.zoning]}</b>. This means:</p>
-    <ul>
-      <li><img src=""></li>
+    <ul class="fa-ul">
+      <li><span class="fa fa-li fa-heart"></span>Content here</li>
     </ul>
     <hr />
-    <div>
+    <div id="farmland-details-links">
       Soil: <a href="" target="_blank">Soil Type</a> | 
       <a href="" target="_blank">Google Street View</a> | 
       <a href="/farmland-details/photos?farmlandId={[farmland.id]}">Other Pictures</a>

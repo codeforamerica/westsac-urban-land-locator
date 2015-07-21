@@ -32,42 +32,6 @@ textarea {
           box-sizing: border-box;
 }
 
-/* Search Box*/
-.search-box{
-  background-color: RGBA(105, 87, 156, 0.5);
-  width: 100%;
-  height: 70px;
-  border-radius: 4px;
-  position: relative;
-  color: #aaa;
-  font-size: 16px;
-}
-
-.search {
-  width: 90%;
-  height: 45px;
-  background: white;
-  border: none;
-  font-size: 14pt;
-  color: dimgray;
-  padding-left: 15px;
-  -webkit-border-radius: 28px;
-  -moz-border-radius: 28px;
-  border-radius: 28px;
-  position: relative;
-  top: 17%;
-  left: 5%;
-  text-indent: 32px;
-}
-
-.search-box .fa-search {
-  position: absolute;
-  top: 37%;
-  left: 9%;
-  color: #666;
-  z-index: 99;
-}
-
 /* list row */
 .title {
   //color: DimGray;
@@ -167,6 +131,32 @@ ul.info-icons > li > img {
    color: #ccc;
 }
 
+/* Farmland Details */
+
+#farmland-details-back-btn {
+  margin-left: -40px;
+  margin-top: 20px;
+  font-size: 24px;
+  background-color: white;
+  color: blue;
+}
+
+#farm-details-address {
+  margin-top: -40px;
+  font-size: 20px;
+}
+
+#farm-details-acreage {
+  font-size: 24px;
+}
+
+#farmland-details-links {
+  margin-bottom: 10px;
+}
+
+.farmland-details.container {
+  margin-top: 30px;
+}
 
 /* Natasha added these clunky styles. */
 
