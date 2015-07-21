@@ -8,6 +8,7 @@ from .extensions import db
 from .compat import basestring
 
 # Alias common SQLAlchemy names
+Table = db.Table
 Column = db.Column
 relationship = relationship
 
