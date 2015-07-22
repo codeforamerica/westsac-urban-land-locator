@@ -1,4 +1,4 @@
-angular.module('listApp', ['angular-mapbox','leaflet-directive'])
+var app = angular.module('listApp', ['angular-mapbox','leaflet-directive'])
 .config(function($interpolateProvider) {
     $interpolateProvider.startSymbol('{[');
     $interpolateProvider.endSymbol(']}');
@@ -8,7 +8,26 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
     mapboxService.init({ accessToken: 'pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q' });
   })
 
-.controller('MainController', function($scope, $http, mapboxService){
+.factory('parcelStyles', function() {
+    var parcelStyles = {
+      base: {
+        fillColor: "lawngreen",
+        weight: 2,
+        color: 'white',
+        dashArray: '3'
+      }
+    };
+    parcelStyles.unselected = angular.copy(parcelStyles.base);
+    parcelStyles.unselected.fillOpacity = 0.2;
+    parcelStyles.unselected.opacity = 0.7;
+    parcelStyles.selected = angular.copy(parcelStyles.base);
+    parcelStyles.selected.fillOpacity = 0.7;
+    parcelStyles.selected.opacity = 1;
+    delete parcelStyles.base;
+    return parcelStyles;
+  });
+
+app.controller('MainController', function($scope, $http, mapboxService, parcelStyles){
   var getFarm = function(farmId) {
         var _farm;
         angular.forEach($scope.farms, function(farm) {
@@ -31,22 +50,8 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
           }
         });
       },
-      unselectedParcelStyle = {
-        fillColor: "green",
-        weight: 2,
-        opacity: 1,
-        color: 'white',
-        dashArray: '3',
-        fillOpacity: 0.2
-      },
-      selectedParcelStyle = {
-        fillColor: "green",
-        weight: 2,
-        opacity: 1,
-        color: 'white',
-        dashArray: '3',
-        fillOpacity: 0.7
-      };
+      unselectedParcelStyle = parcelStyles.unselected,
+      selectedParcelStyle = parcelStyles.selected;
   $scope.goToFarmlandDetailsPage = function(farmId) {
     document.location.href = '/farmland-details/' + farmId;
   };
@@ -150,17 +155,10 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
     });
 })
 
-.controller('PublishListingsController', ['$scope', '$http', 'leafletData', function($scope, $http, leafletData){
+.controller('PublishListingsController', ['$scope', '$http', 'leafletData', 'parcelStyles', function($scope, $http, leafletData, parcelStyles){
   $scope.parcels = [];
   var selectedLayers =[],
-      unselectedParcelStyle = {
-        fillColor: "green",
-        weight: 2,
-        opacity: 1,
-        color: 'white',
-        dashArray: '3',
-        fillOpacity: 0.2
-      };
+      unselectedParcelStyle = parcelStyles.unselected;
   $http.get('/api/parcel/vacant').
     success(function(data, status, headers, config) {
       if (!data || data.length === 0) {
@@ -190,14 +188,7 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
             var highlightSelectedParcel = function(layer) {
               leafletData.getMap('known-parcels-map').then(function(map) {
                 map.removeLayer(layer);
-                layer.setStyle({
-                  fillColor: "green",
-                  weight: 2,
-                  opacity: 1,
-                  color: 'white',
-                  dashArray: '3',
-                  fillOpacity: 0.7
-                });
+                layer.setStyle(parcelStyles.selected);
                 map.addLayer(layer);
               });
             },
@@ -295,7 +286,7 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
   });
 }])
 
-.controller('FarmlandDetailsController', ['$scope', '$http', 'leafletData', '$location', function($scope, $http, leafletData, $location){
+.controller('FarmlandDetailsController', function($scope, $http, leafletData, $location, parcelStyles){
   $scope.farmland = {};
   $http.get('/api/farmland/' + $location.absUrl().split('farmland-details/')[1]).
     success(function(data, status, headers, config) {
@@ -312,9 +303,7 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
         farmland: data,
         geojson: {
           data: JSON.parse(data['geometry']),
-          style: {
-            color: 'green'
-          }
+          style: parcelStyles.selected
         }
       });
     }).
@@ -341,4 +330,4 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
       }
     }
   });
-}]);
+});

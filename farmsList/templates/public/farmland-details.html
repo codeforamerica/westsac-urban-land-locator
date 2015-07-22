@@ -3,10 +3,10 @@
 <div class="farmland-details container" ng-controller="FarmlandDetailsController">
   <div class="col-md-6">
     <button type="button" class="btn back-btn" id="farmland-details-back-btn">
-      <span class="fa fa-chevron-left"></span>
+      <a href="{{ url_for('public.home') }}"><span class="fa fa-chevron-left"></span></a>
     </button>
     <div id="farm-details-address">{[farmland.address || 'Unknown Address']}</div>
-    <div id="farm-details-acreage"><b>{[farmland.size]}</b></div>
+    <div id="farm-details-acreage"><b>{[farmland.size]} Acres</b></div>
     <div>{[farmland.water]} gallons per minute</div>
     <div>{[farmland.developmentPlan]}</div>
     <hr />
