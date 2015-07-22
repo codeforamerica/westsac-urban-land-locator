@@ -5,20 +5,18 @@
     <button type="button" class="btn back-btn" id="farmland-details-back-btn">
       <span class="fa fa-chevron-left"></span>
     </button>
-    <div id="farm-details-address">Address</div>
-    <div id="farm-details-acreage"><b>Acreage</b></div>
-    <div>Water Availability</div>
-    <div>Maximum Lease</div>
+    <div id="farm-details-address">{[farmland.address || 'Unknown Address']}</div>
+    <div id="farm-details-acreage"><b>{[farmland.size]}</b></div>
+    <div>{[farmland.water]} gallons per minute</div>
+    <div>{[farmland.developmentPlan]}</div>
     <hr />
     <p>This porperty is zoned for <b>{[farmland.zoning]}</b>. This means:</p>
     <ul class="fa-ul">
-      <li><span class="fa fa-li fa-heart"></span>Content here</li>
+      <li><span class="fa fa-li fa-check"></span>Content here</li>
     </ul>
     <hr />
     <div id="farmland-details-links">
-      Soil: <a href="" target="_blank">Soil Type</a> | 
-      <a href="" target="_blank">Google Street View</a> | 
-      <a href="/farmland-details/photos?farmlandId={[farmland.id]}">Other Pictures</a>
+      Soil: <a href="http://casoilresource.lawr.ucdavis.edu/sde/?series={[farmland.soil]}" target="_blank">{[farmland.soil]}</a> | <a href="https://maps.googleapis.com/maps/api/streetview?location={[center.lat]},{[center.lng]}&size=600x400" target="_blank">Google Street View</a> | <a href="/farmland-details/photos?farmlandId={[farmland.id]}">Other Pictures</a>
     </div>
     <a id="contact-btn" class="btn btn-warning btn-contact" href="/contact-land-owner">Submit Inquiry</a>
   </div>

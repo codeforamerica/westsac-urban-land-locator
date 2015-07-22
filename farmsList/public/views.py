@@ -7,6 +7,7 @@ from flask.ext.login import login_user, login_required, logout_user
 from farmsList.extensions import login_manager
 from farmsList.user.models import User
 from farmsList.public.forms import LoginForm, ContactLandOwnerForm
+from farmsList.public.models import Farmland
 from farmsList.user.forms import RegisterForm
 from farmsList.utils import flash_errors
 from farmsList.database import db
@@ -59,8 +60,7 @@ def contactLandOwner():
 
 @blueprint.route("/farmland-details/<int:farmlandId>")
 def farmlandDetails(farmlandId):
-    farmland=farmlandId  # actually it will be a query, but i haven't made the model yet
-    return render_template("public/farmland-details.html", farmland=farmland)
+    return render_template("public/farmland-details.html")
 
 @blueprint.route("/about/")
 def about():

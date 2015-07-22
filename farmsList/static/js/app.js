@@ -136,13 +136,12 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
       }
       $scope.farms = [];
       angular.forEach(data, function(parcel) {
-        parcel.center = JSON.parse(parcel.center);
-        parcel.center.lat = parcel.center.geometry.coordinates[1];
-        parcel.center.lng = parcel.center.geometry.coordinates[0];
+        var center = parcel.center.geometry.coordinates;
+        parcel.center.lat = center[1];
+        parcel.center.lng = center[0];
         // This conversion is needed because the jsonpickle
         // serialization seems forced to maintain type references
-        parcel.size = parcel.size['py/reduce'][1][0]
-        parcel.water = parcel.water['py/reduce'][1][0] + ' gallons per minute'
+        parcel.water = parcel.water + ' gallons per minute'
         $scope.farms.push(parcel);
       });
     }).
@@ -298,19 +297,23 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
 
 .controller('FarmlandDetailsController', ['$scope', '$http', 'leafletData', '$location', function($scope, $http, leafletData, $location){
   $scope.farmland = {};
-  /*
   $http.get('/api/farmland/' + $location.absUrl().split('farmland-details/')[1]).
     success(function(data, status, headers, config) {
       if (!data || data.length === 0) {
         return;
       }
-      $scope.center = data.center;
+      var center = data.center['geometry']['coordinates'];
+      $scope.center = {
+        lat: center[1],
+        lng: center[0],
+        zoom: 16
+      };
       angular.extend($scope, {
         farmland: data,
         geojson: {
-          data: data,
+          data: JSON.parse(data['geometry']),
           style: {
-            color: green
+            color: 'green'
           }
         }
       });
@@ -318,7 +321,6 @@ angular.module('listApp', ['angular-mapbox','leaflet-directive'])
     error(function(data, status, headers, config) {
       console.log('error getting farmland data from server in FarmlandDetailsController');
     });
-  */
   angular.extend($scope, {
     center: {
       lat: 38.58024,

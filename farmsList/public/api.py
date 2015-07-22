@@ -18,6 +18,9 @@ def pre_json_encode(obj):
 @blueprint.route("/parcel/", methods=["GET", "POST"])
 def api_parcel():
 	farmlandData = Farmland.query.all()
+	for farmland in farmlandData:
+		farmland.center = json.loads(str(farmland.center))
+		farmland = pre_json_encode(farmland)
 	return jsonpickle.encode(farmlandData, unpicklable=False, make_refs=False)
 
 @blueprint.route("/parcel/vacant", methods=["GET", "POST"])
@@ -27,3 +30,10 @@ def api_parcel_vacant():
 		parcel.center = json.loads(str(parcel.center))
 		parcel = pre_json_encode(parcel)
 	return jsonpickle.encode(parcelData, unpicklable=False, make_refs=False)
+
+@blueprint.route("/farmland/<int:farmlandId>", methods=["GET", "POST"])
+def api_farmland_by_id(farmlandId):
+	farmlandData = Farmland.query.filter_by(id=farmlandId).all()[0]
+	farmlandData.center = json.loads(str(farmlandData.center))
+	farmlandData = pre_json_encode(farmlandData)
+	return jsonpickle.encode(farmlandData, unpicklable=False, make_refs=False)
