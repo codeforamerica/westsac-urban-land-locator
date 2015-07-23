@@ -146,6 +146,10 @@ ul.info-icons > li > img {
   margin-top: 30px;
 }
 
+.gray {
+  color: gray;
+}
+
 /* Natasha added these clunky styles. */
 
 h2 {

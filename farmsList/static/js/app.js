@@ -20,8 +20,9 @@ var app = angular.module('listApp', ['angular-mapbox','leaflet-directive'])
     parcelStyles.unselected = angular.copy(parcelStyles.base);
     parcelStyles.unselected.fillOpacity = 0.2;
     parcelStyles.unselected.opacity = 0.7;
+    parcelStyles.unselected.fillColor = 'green';
     parcelStyles.selected = angular.copy(parcelStyles.base);
-    parcelStyles.selected.fillOpacity = 0.7;
+    parcelStyles.selected.fillOpacity = 0.45;
     parcelStyles.selected.opacity = 1;
     delete parcelStyles.base;
     return parcelStyles;

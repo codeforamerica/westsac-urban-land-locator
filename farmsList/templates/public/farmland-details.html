@@ -7,8 +7,8 @@
     </button>
     <div id="farm-details-address">{[farmland.address || 'Unknown Address']}</div>
     <div id="farm-details-acreage"><b>{[farmland.size]} Acres</b></div>
-    <div>{[farmland.water]} gallons per minute</div>
-    <div>{[farmland.developmentPlan]}</div>
+    <div class="gray">Estimated {[farmland.water]} gallons per minute</div>
+    <div class="gray">{[farmland.developmentPlan]} year maximum lease</div>
     <hr />
     <p>This porperty is zoned for <b>{[farmland.zoning]}</b>. This means:</p>
     <ul class="fa-ul">
