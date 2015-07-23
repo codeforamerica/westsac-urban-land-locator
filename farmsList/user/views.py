@@ -2,7 +2,7 @@
 from flask import Blueprint, render_template, request, redirect, url_for, flash
 from flask.ext.login import login_required
 
-from farmsList.public.models import Parcel
+from farmsList.public.models import Farmland
 from farmsList.public.forms import NewParcel1Form
 from farmsList.utils import flash_errors
 
@@ -18,7 +18,7 @@ def members():
 def new_parcel_1():
     form = NewParcel1Form(request.form)
     if form.validate_on_submit():
-        new_parcel = Parcel.create(email=form.email.data,
+        new_parcel = Farmland.create(email=form.email.data,
                         address=form.address.data,
                         size=form.size.data,
                         water=form.water.data,
@@ -27,10 +27,7 @@ def new_parcel_1():
                         developmentPlan=form.developmentPlan.data,
                         restrictions=form.restrictions.data,
                         geometry=form.geometry.data,
-                        center=form.center.data,
-                        apn=form.apn.data,
-                        listedToPublic=True)
-        # flash("Thank you for adding a parcel. You can now view it in the list.", 'success')
+                        center=form.center.data)
         return redirect(url_for('public.home'))
     else:
         flash_errors(form)
