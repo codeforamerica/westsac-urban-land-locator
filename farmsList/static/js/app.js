@@ -56,6 +56,10 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
   $scope.goToFarmlandDetailsPage = function(farmId) {
     document.location.href = '/farmland-details/' + farmId;
   };
+  $scope.gotoContactForm = function(farmId, $event) {
+    document.location.href='/contact-land-owner/' + farmId;
+    $event.stopPropagation();
+  };
   $scope.highlightParcelOnMap = function(farmId) {
     var map = mapboxService.getMapInstances()[0],
         farm = getFarm(farmId);

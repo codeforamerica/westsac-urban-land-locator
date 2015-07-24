@@ -34,8 +34,8 @@ class LoginForm(Form):
 class ContactLandOwnerForm(Form):
     name = TextField('Name', validators=[DataRequired()])
     email = TextField('Email', validators=[DataRequired()])
-    phone = TextField('Phone', validators=[DataRequired()])
-    website = TextField('Website', validators=[DataRequired()])
+    phone = TextField('Phone')
+    website = TextField('Website')
     cropPlan = TextField('What do you plan to farm on the property?', validators=[DataRequired()])
     otherBackground = TextField('Do you own any other farms? If so, where?', validators=[DataRequired()])
     additionalInfo = TextField('Anything else?')
@@ -47,7 +47,6 @@ class ContactLandOwnerForm(Form):
         initial_validation = super(ContactLandOwnerForm, self).validate()
         if not initial_validation:
             return False
-
         return True
 
 class NewParcel1Form(Form):
@@ -70,7 +69,4 @@ class NewParcel1Form(Form):
         initial_validation = super(NewParcel1Form, self).validate()
         if not initial_validation:
             return False
-
-        # For now, assume that the parcel is not a duplicate
-        # Duplicate checking code would go here
         return True

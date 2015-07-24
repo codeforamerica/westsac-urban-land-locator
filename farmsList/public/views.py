@@ -53,9 +53,17 @@ def register():
         flash_errors(form)
     return render_template('public/register.html', form=form)
 
-@blueprint.route("/contact-land-owner/")
-def contactLandOwner():
+@blueprint.route("/contact-land-owner/<int:farmlandId>", methods=["GET", "POST"])
+def contactLandOwner(farmlandId):
     form = ContactLandOwnerForm(request.form)
+    if form.validate_on_submit():
+        farmland = Farmland.query.filter_by(id=farmlandId).all()[0]
+        # send emails to these people...
+        print farmland.email
+        print form.email.data
+        return redirect(url_for('public.home'))
+    else:
+        flash_errors(form)
     return render_template("public/contact-land-owner.html", form=form)
 
 @blueprint.route("/farmland-details/<int:farmlandId>")

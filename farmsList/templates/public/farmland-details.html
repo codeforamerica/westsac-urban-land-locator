@@ -18,7 +18,7 @@
     <div id="farmland-details-links">
       Soil: <a href="http://casoilresource.lawr.ucdavis.edu/sde/?series={[farmland.soil]}" target="_blank">{[farmland.soil]}</a> | <a href="https://maps.googleapis.com/maps/api/streetview?location={[center.lat]},{[center.lng]}&size=600x400" target="_blank">Google Street View</a> | <a href="/farmland-details/photos?farmlandId={[farmland.id]}">Other Pictures</a>
     </div>
-    <a id="contact-btn" class="btn btn-warning btn-contact" href="/contact-land-owner">Submit Inquiry</a>
+    <a id="contact-btn" class="btn btn-warning btn-contact" href="/contact-land-owner/{[farmland.id]}">Submit Inquiry</a>
   </div>
   <div class="col-md-6">
     <leaflet center="center" layers="layers" geojson="geojson" class="leaflet-angular-map"></leaflet>
