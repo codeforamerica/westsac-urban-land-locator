@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 '''The app module, containing the app factory function.'''
 from flask import Flask, render_template
+from flask_mail import Mail
 
 from farmsList.settings import ProdConfig
 from farmsList.assets import assets
@@ -11,9 +12,9 @@ from farmsList.extensions import (
     login_manager,
     migrate,
     debug_toolbar,
+    mail
 )
 from farmsList import public, user
-
 
 def create_app(config_object=ProdConfig):
     '''An application factory, as explained here:
@@ -37,6 +38,7 @@ def register_extensions(app):
     login_manager.init_app(app)
     debug_toolbar.init_app(app)
     migrate.init_app(app, db)
+    mail.init_app(app)
     return None
 
 

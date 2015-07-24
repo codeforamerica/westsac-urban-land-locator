@@ -2,9 +2,10 @@
 '''Public section, including homepage and signup.'''
 from flask import (Blueprint, request, render_template, flash, url_for,
                     redirect, session)
+from flask_mail import Message
 from flask.ext.login import login_user, login_required, logout_user
 
-from farmsList.extensions import login_manager
+from farmsList.extensions import mail, login_manager
 from farmsList.user.models import User
 from farmsList.public.forms import LoginForm, ContactLandOwnerForm
 from farmsList.public.models import Farmland
@@ -58,9 +59,13 @@ def contactLandOwner(farmlandId):
     form = ContactLandOwnerForm(request.form)
     if form.validate_on_submit():
         farmland = Farmland.query.filter_by(id=farmlandId).all()[0]
-        # send emails to these people...
-        print farmland.email
-        print form.email.data
+        address = '' if farmland.address is None else farmland.address
+        msg = Message("Hello", recipients=[form.email.data])
+        msg.body = "Message body"
+        msg.html = "<html><body><b>HTML</b> message <i>body</i><p>Thanks for requesting information about the property at" + \
+                address + \
+                "</p></body></html>"
+        mail.send(msg)
         return redirect(url_for('public.home'))
     else:
         flash_errors(form)

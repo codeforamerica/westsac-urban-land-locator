@@ -12,7 +12,13 @@ class Config(object):
     DEBUG_TB_ENABLED = False  # Disable Debug toolbar
     DEBUG_TB_INTERCEPT_REDIRECTS = False
     CACHE_TYPE = 'simple'  # Can be "memcached", "redis", etc.
-
+    MAIL_SERVER = 'smtp.live.com'
+    MAIL_PORT = 25
+    MAIL_USE_TLS = True
+    MAIL_USE_SSL = False
+    MAIL_USERNAME = 'acres.webmaster@hotmail.com'
+    MAIL_PASSWORD = 'AcresWebmaster'
+    MAIL_DEFAULT_SENDER = "Acres Webmaster <acres.webmaster@hotmail.com>"
 
 class ProdConfig(Config):
     """Production configuration."""
@@ -20,7 +26,6 @@ class ProdConfig(Config):
     DEBUG = False
     SQLALCHEMY_DATABASE_URI = 'postgresql://wnoliqwyvuommh:ltosye5nVP6vmBSLtjGZvdXA2e@ec2-54-204-20-209.compute-1.amazonaws.com/d300eo2lo64mk'
     DEBUG_TB_ENABLED = False  # Disable Debug toolbar
-
 
 class DevConfig(Config):
     """Development configuration."""
@@ -32,8 +37,6 @@ class DevConfig(Config):
     SQLALCHEMY_DATABASE_URI = 'postgresql://urbanlandlocatoradmin:@localhost/urban_land_locator' #'sqlite:///{0}'.format(DB_PATH)
     DEBUG_TB_ENABLED = True
     ASSETS_DEBUG = True  # Don't bundle/minify static assets
-    CACHE_TYPE = 'simple'  # Can be "memcached", "redis", etc.
-
 
 class TestConfig(Config):
     TESTING = True
