@@ -5,7 +5,10 @@ import urllib2
 from sqlalchemy import create_engine
 from farmsList.settings import DevConfig
 
-engine = create_engine(DevConfig().SQLALCHEMY_DATABASE_URI)
+if os.environ.get("FARMSLIST_ENV") == 'prod':
+	engine = create_engine(ProdConfig().SQLALCHEMY_DATABASE_URI)
+else:
+	engine = create_engine(DevConfig().SQLALCHEMY_DATABASE_URI)
 
 conn = engine.connect()
 parcels = [{
