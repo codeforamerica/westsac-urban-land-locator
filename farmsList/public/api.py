@@ -33,7 +33,11 @@ def api_parcel_vacant():
 
 @blueprint.route("/farmland/<int:farmlandId>", methods=["GET", "POST"])
 def api_farmland_by_id(farmlandId):
+	print "1"
 	farmlandData = Farmland.query.filter_by(id=farmlandId).all()[0]
+	print "2"
 	farmlandData.center = json.loads(str(farmlandData.center))
+	print "3"
 	farmlandData = pre_json_encode(farmlandData)
+	print "4"
 	return jsonpickle.encode(farmlandData, unpicklable=False, make_refs=False)
