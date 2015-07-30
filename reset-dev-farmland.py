@@ -3,7 +3,7 @@ import json
 import execjs
 import urllib2
 from sqlalchemy import create_engine
-from farmsList.settings import DevConfig
+from farmsList.settings import DevConfig, ProdConfig
 
 if os.environ.get("FARMSLIST_ENV") == 'prod':
 	engine = create_engine(ProdConfig().SQLALCHEMY_DATABASE_URI)
