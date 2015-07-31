@@ -95,6 +95,7 @@
     document.getElementById('newParcelGeometry').value = JSON.stringify(geoJSON);
     document.getElementById('newParcelSize').value = turf.area(geoJSON) / 4046.85642;
     document.getElementById('newParcelCenter').value = JSON.stringify(turf.centroid(geoJSON));
+    document.getElementById('apn').value = 0;
   });
 </script>
 {% endblock %}
