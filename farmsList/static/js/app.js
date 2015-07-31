@@ -82,8 +82,8 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
       }
     });
   };
-  $scope.farms = [
-    {
+/*  $scope.farms = [
+/*    {
       "id": 1,
       "name": "Jordan Valley",
       "contact": "Diego Aranzadi",
@@ -137,8 +137,8 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
         "type":"Polygon",
         "coordinates":[[[-121.53367978210449,38.58853235229309],[-121.53347978210449,38.58853235229309],[-121.53347978210449,38.58833235229309],[-121.53367978210449,38.58833235229309],[-121.53367978210449,38.58853235229309]]]
       }
-    }
-  ];
+    } 
+  ]; */
   $http.get('/api/parcel/').
     success(function(data, status, headers, config) {
       if (!data || data.length === 0) {
