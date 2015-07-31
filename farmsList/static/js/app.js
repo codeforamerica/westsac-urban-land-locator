@@ -82,63 +82,6 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
       }
     });
   };
-/*  $scope.farms = [
-/*    {
-      "id": 1,
-      "name": "Jordan Valley",
-      "contact": "Diego Aranzadi",
-      "phone": "530-555-1234",
-      "address": "Km 41.2 West Sacramento, CA 95605",
-      "size": 2.1,
-      "zoning": "type of zone",
-      "water": "Yes - potable",
-      "developmentPlans": 2,
-      "center": {
-        "lat": 38.58843235229309,
-        "lng": -121.51357978210449
-      },
-      "geometry": {
-        "type":"Polygon",
-        "coordinates":[[[-121.51367978210449,38.58853235229309],[-121.51347978210449,38.58853235229309],[-121.51347978210449,38.58833235229309],[-121.51367978210449,38.58833235229309],[-121.51367978210449,38.58853235229309]]]
-      }
-    },{
-      "id": 2,
-      "name": "Yolo Valley",
-      "contact": "Ivan Matos",
-      "phone": "530-555-1234",
-      "address": "Km 41.2 West Sacramento, CA 95605",
-      "size": 2.3,
-      "zoning": "type of zone",
-      "water": "Yes - potable",
-      "developmentPlans": 2,
-      "center": {
-        "lat": 38.58843235229309,
-        "lng": -121.52357978210449
-      },
-      "geometry": {
-        "type":"Polygon",
-        "coordinates":[[[-121.52367978210449,38.58853235229309],[-121.52347978210449,38.58853235229309],[-121.52347978210449,38.58833235229309],[-121.52367978210449,38.58833235229309],[-121.52367978210449,38.58853235229309]]]
-      }
-    },{
-      "id": 3,
-      "name": "Old McDonald Farm",
-      "contact": "Felix Colón",
-      "phone": "530-555-1234",
-      "address": "Km 41.2 West Sacramento, CA 95605",
-      "size": 1.8,
-      "zoning": "type of zone",
-      "water": "Yes - potable",
-      "developmentPlans": 2,
-      "center": {
-        "lat": 38.58843235229309,
-        "lng": -121.53357978210449
-      },
-      "geometry": {
-        "type":"Polygon",
-        "coordinates":[[[-121.53367978210449,38.58853235229309],[-121.53347978210449,38.58853235229309],[-121.53347978210449,38.58833235229309],[-121.53367978210449,38.58833235229309],[-121.53367978210449,38.58853235229309]]]
-      }
-    } 
-  ]; */
   $http.get('/api/parcel/').
     success(function(data, status, headers, config) {
       if (!data || data.length === 0) {
