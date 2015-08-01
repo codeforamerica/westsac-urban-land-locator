@@ -116,7 +116,11 @@ ul.info-icons > li > img {
 }
 
 .form-control::-webkit-input-placeholder, .form-control:-moz-placeholder, .form-control::-moz-placeholder, .form-control:-ms-input-placeholder {
-   color: #ccc;
+  color: #ccc;
+}
+
+#draw-tool-img {
+  max-width: 18px;
 }
 
 /* Farmland Details */

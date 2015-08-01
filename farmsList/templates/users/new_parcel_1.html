@@ -3,18 +3,12 @@
 
 <div class="container" ng-controller="PublishListingsController">
   <div class="row">
-    <div class="col-md-12" ng-init="activeMap='vacant-parcels'">
+    <div class="col-md-12">
       <h1 class="page-header">List a Parcel</h1>
-      <button ng-click="activeMap='draw-parcel'" ng-show="activeMap==='vacant-parcels'">Draw Parcel Manually</button>
-      <button ng-click="activeMap='all-parcels'" ng-show="activeMap==='vacant-parcels' && false">See All Parcels</button>
-      <button ng-click="activeMap='vacant-parcels'" ng-show="activeMap!=='vacant-parcels'">Return to Vacant Parcels Map</button>
       <div class="mapdiv">
-        <div ng-show="activeMap==='vacant-parcels'">
-          <leaflet id="known-parcels-map" center="center" layers="layers" geojson="geojson" class="leaflet-angular-map"></leaflet>
-        </div>
-        <div ng-show="activeMap==='draw-parcel'">
+        <div>
+          <p>Use the <img id="draw-tool-img" src="/static/public/images/draw-tool.png"> tool to draw a shape around the location of the parcel.</p>
           <div id='map'></div>
-          <p>Use the [shape tool image] tool to draw a shape around the location of the parcel.</p>
         </div>
       </div>
       <h1 class="page-header">Parcel Information</h1>
@@ -76,7 +70,9 @@
 <!-- Code for adding location of the parcel using leaflet:draw plugin (mapbox.js) -->
 <script>
   L.mapbox.accessToken = 'pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q';
-  var map = L.mapbox.map('map', 'codeforamerica.m5m971km').setView([38.58024, -121.5305], 14);
+  var map = L.mapbox.map('map', 'codeforamerica.m5m971km', {
+    scrollWheelZoom: false
+  }).setView([38.58024, -121.5305], 14);
   var featureGroup = L.featureGroup().addTo(map);
   var drawControl = new L.Control.Draw({
     draw: {
