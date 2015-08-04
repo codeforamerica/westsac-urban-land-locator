@@ -162,7 +162,7 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
     } else {
       var tooltipElement = $('#AB551-tooltip')[0];
     }
-    tooltipElement.style.top = event.y - $('#AB551-tooltip').height() + 'px';
+    tooltipElement.style.top = event.y - 25 - $('#AB551-tooltip').height() + 'px';
     tooltipElement.style.left = event.x - 50 + 'px';
     tooltipElement.style.display = 'block';
   };
