@@ -3,7 +3,7 @@ import jsonpickle
 from decimal import Decimal
 
 from flask import Blueprint
-from farmsList.public.models import Parcel, Farmland
+from farmsList.public.models import Parcel, Farmland, AdditionalLayer
 
 blueprint = Blueprint('api', __name__, url_prefix='/api',
 						static_folder="../static")
@@ -37,3 +37,10 @@ def api_farmland_by_id(farmlandId):
 	farmlandData.center = json.loads(str(farmlandData.center))
 	farmlandData = pre_json_encode(farmlandData)
 	return jsonpickle.encode(farmlandData, unpicklable=False, make_refs=False)
+
+@blueprint.route("/tax-incentive-zones", methods=["GET", "POST"])
+def tax_incentive_zones():
+	taxIncentiveZones = AdditionalLayer.query.filter_by(name="taxIncentive").all()
+	if len(taxIncentiveZones) > 0:
+		taxIncentiveZones = taxIncentiveZones[0]
+	return jsonpickle.encode(taxIncentiveZones, unpicklable=False, make_refs=False)

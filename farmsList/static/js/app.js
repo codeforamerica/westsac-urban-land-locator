@@ -104,108 +104,96 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
 })
 
 .controller('PublishListingsController', ['$scope', '$http', 'leafletData', 'parcelStyles', function($scope, $http, leafletData, parcelStyles){
-  $scope.parcels = [];
-  var selectedLayers =[],
-      unselectedParcelStyle = parcelStyles.unselected;
-  $http.get('/api/parcel/vacant').
+  leafletData.getMap('list-parcels-map').then(function(map) {
+    map.scrollWheelZoom.disable();
+    var featureGroup = L.featureGroup().addTo(map),
+        drawControl = new L.Control.Draw({
+      draw: {
+        circle: false,
+        rectangle: false,
+        marker: false,
+        polyline: false
+      },
+      edit: {
+        featureGroup: featureGroup
+      }
+    }).addTo(map);
+    map.on('draw:created', function(e) {
+      featureGroup.addLayer(e.layer);
+      var geoJSON = featureGroup.toGeoJSON();
+      document.getElementById('newParcelGeometry').value = JSON.stringify(geoJSON);
+      document.getElementById('newParcelSize').value = turf.area(geoJSON) / 4046.85642;
+      document.getElementById('newParcelCenter').value = JSON.stringify(turf.centroid(geoJSON));
+      document.getElementById('apn').value = 0;
+    });
+  });
+
+  window.showTaxIncentiveZoneTooltip = function(event) {
+    var html = "<p>Land being used for farming in this area entitles the property owner to a tax write-off in accordance with <a href=\"http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201320140AB551\" target=\"_blank\">AB551</a>.</p>";
+    var mouseEnteredTooltip = false;
+    if ($('#AB551-tooltip')[0] === undefined) {
+      var hideTaxIncentiveZoneTooltip = function(event) {
+        setTimeout(function() {
+          if (!mouseEnteredTooltip || event.target === tooltipElement) {
+            mouseEnteredTooltip = false;
+            tooltipElement.style.display = 'none';
+          }
+        }, 10);
+      },
+      tooltipElement = document.createElement('div');
+      tooltipElement.id = 'AB551-tooltip';
+      tooltipElement.innerHTML = html;
+      tooltipElement.style.display = 'none';
+      tooltipElement.style.position = 'absolute';
+      tooltipElement.style.fontSize = '10px';
+      tooltipElement.style.width = '100px';
+      tooltipElement.style.backgroundColor = 'white';
+      tooltipElement.style.zIndex = '9999';
+      tooltipElement.style.borderStyle = 'solid';
+      tooltipElement.style.borderRadius = '5px';
+      tooltipElement.style.padding = '5px';
+      var leafletKeyElement = $('.leaflet-control-layers.leaflet-control-layers-expanded.leaflet-control')[0];
+      leafletKeyElement.addEventListener('mouseleave', hideTaxIncentiveZoneTooltip);
+      tooltipElement.addEventListener('mouseleave', hideTaxIncentiveZoneTooltip);
+      tooltipElement.addEventListener('mouseenter', function() {
+        mouseEnteredTooltip = true;
+      });
+      document.body.appendChild(tooltipElement);
+    } else {
+      var tooltipElement = $('#AB551-tooltip')[0];
+    }
+    tooltipElement.style.top = event.y - $('#AB551-tooltip').height() + 'px';
+    tooltipElement.style.left = event.x - 50 + 'px';
+    tooltipElement.style.display = 'block';
+  };
+
+  $http.get('/api/tax-incentive-zones').
     success(function(data, status, headers, config) {
       if (!data || data.length === 0) {
         return;
       }
-      var features = [];
-      angular.forEach(data, function(parcel) {
-        parcel.center.lat = parcel.center.geometry.coordinates[1];
-        parcel.center.lng = parcel.center.geometry.coordinates[0];
-        features.push({
-          type: "Feature",
-          geometry: JSON.parse(parcel.geometry),
-          properties: {
-            parcel: parcel
-          }
-        });
-      });
+      var taxIncentiveZones = {
+        type: "Feature",
+        geometry: JSON.parse(data.geometry),
+        properties: {
+          name: data.name
+        }
+      };
       data = {
         type: "FeatureCollection",
-        features: features
+        features: [taxIncentiveZones]
       };
-      angular.extend($scope, {
-        geojson: {
-          data: data,
-          style: unselectedParcelStyle,
-          onEachFeature: function (feature, layer) {
-            var highlightSelectedParcel = function(layer) {
-              leafletData.getMap('known-parcels-map').then(function(map) {
-                map.removeLayer(layer);
-                layer.setStyle(parcelStyles.selected);
-                map.addLayer(layer);
-              });
-            },
-            unhighlightSelectedParcel = function(layer) {
-              leafletData.getMap('known-parcels-map').then(function(map) {
-                map.removeLayer(layer);
-                layer.setStyle(unselectedParcelStyle);
-                map.addLayer(layer);
-              });
-            },
-            updateGeometryElements = function(geoJSON) {
-              var geometryString = '',
-                  area = 0,
-                  centerString = '';
-              if (geoJSON) {
-                geometryString = JSON.stringify(geoJSON);
-                area = (turf.area(geoJSON) / 4046.85642).toFixed(2);
-                centerString = JSON.stringify(turf.centroid(geoJSON));
-              }
-              document.getElementById('newParcelGeometry').value = geometryString;
-              document.getElementById('newParcelSize').value = area;
-              document.getElementById('newParcelCenter').value = centerString;
-            },
-            updateMultiParcelSelectionGeometry = function() {
-              var features = [];
-              angular.forEach(selectedLayers, function(layer) {
-                features.push(layer.feature);
-              });
-              var featureCollection = turf.featurecollection(features);
-              updateGeometryElements(turf.merge(featureCollection));
-            },
-            addToSelectedUrbanFarmLand = function(layer) {
-              highlightSelectedParcel(layer);
-              selectedLayers.push(layer);
-              updateMultiParcelSelectionGeometry();
-            },
-            removeFromSelectedUrbanFarmLand = function(layer) {
-              unhighlightSelectedParcel(layer);
-              selectedLayers.splice(selectedLayers.indexOf(layer), 1);
-              updateMultiParcelSelectionGeometry();
-            };
-            layer.on('click', function(event) {
-              if (event.originalEvent.shiftKey && selectedLayers.length > 0) {
-                if (selectedLayers.indexOf(layer) === -1) {
-                  addToSelectedUrbanFarmLand(layer);
-                } else {
-                  removeFromSelectedUrbanFarmLand(layer);
-                }
-                return;
-              }
-              var applyParcelDefualts = function(parcel) {
-                parcel.email = parcel.email || 'aaronl@cityofwestsacramento.org';
-                parcel.zoning = parcel.zoning || 'Unspecified';
-                parcel.developmentPlan = parcel.developmentPlan || 5;
-                parcel.restrictions = parcel.restrictions || 'None';
-              };
-              leafletData.getMap('known-parcels-map').then(function(map) {
-                angular.forEach(selectedLayers, function(layer) {
-                  unhighlightSelectedParcel(layer);
-                });
-                selectedLayers = [layer];
-                highlightSelectedParcel(layer);  // This has to be inside the callback so order is always unhighlight, highlight.
-              });
-              $scope.parcel = feature.properties.parcel;
-              applyParcelDefualts($scope.parcel);
-              updateGeometryElements(feature.geometry);
-            });
-          }
-        }
+      var style = parcelStyles.unselected;
+      style.clickable = false;
+      var taxIncentiveZonesLayer = L.geoJson(data, {
+        style: style
+      });
+      leafletData.getMap('list-parcels-map').then(function(map) {
+        var overlays = {
+          "<span class=\"text-green\">Urban Agriculture Tax Incentive Zones</span> <span class=\"fa fa-info-circle\" onmouseover=\"showTaxIncentiveZoneTooltip(event)\"></span>": taxIncentiveZonesLayer
+        };
+        var overlayControl = L.control.layers({}, overlays, {collapsed: false, position: "bottomright"}).addTo(map);
+        map.addLayer(taxIncentiveZonesLayer);
       });
     }).
     error(function(data, status, headers, config) {
@@ -214,19 +202,26 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
 
   angular.extend($scope, {
     center: {
-      lat: 38.58024,
-      lng: -121.5305,
+      lat: 38.585,
+      lng: -121.542,
       zoom: 14
     },
     layers: {
       baselayers: {
-        xyz: {
-          name: 'OpenStreetMap (XYZ)',
+        satellite: {
+          name: 'Satellite',
           url: 'http://{s}.tiles.mapbox.com/v4/codeforamerica.m5m971km/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q',
           type: 'xyz',
           layerOptions: {
             attribution: 'Mapbox | OpenStreetMap',
-            showOnSelector: false
+          }
+        },
+        street: {
+          name: 'Street',
+          url: 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+          type: 'xyz',
+          layerOptions: {
+            attribution: 'Mapbox | OpenStreetMap',
           }
         }
       }

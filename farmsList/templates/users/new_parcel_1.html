@@ -1,16 +1,11 @@
 {% extends "layout.html" %}
 {% block content %}
-
 <div class="container" ng-controller="PublishListingsController">
   <div class="row">
     <div class="col-md-12">
       <h1 class="page-header">List a Parcel</h1>
-      <div class="mapdiv">
-        <div>
-          <p>Use the <img id="draw-tool-img" src="/static/public/images/draw-tool.png"> tool to draw a shape around the location of the parcel.</p>
-          <div id='map'></div>
-        </div>
-      </div>
+      <p>Use the <img id="draw-tool-img" src="/static/public/images/draw-tool.png"> tool to draw a shape around the location of the parcel.</p>
+      <leaflet id="list-parcels-map" center="center" layers="layers" width="100%" height="480px"></leaflet>
       <h1 class="page-header">Parcel Information</h1>
       <form id="editParcelForm" class="form form-register form-horizontal" method="POST" action="" role="form">
         {{ form.hidden_tag() }}
@@ -66,32 +61,4 @@
     </div>
   </div>
 </div>
-
-<!-- Code for adding location of the parcel using leaflet:draw plugin (mapbox.js) -->
-<script>
-  L.mapbox.accessToken = 'pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q';
-  var map = L.mapbox.map('map', 'codeforamerica.m5m971km', {
-    scrollWheelZoom: false
-  }).setView([38.58024, -121.5305], 14);
-  var featureGroup = L.featureGroup().addTo(map);
-  var drawControl = new L.Control.Draw({
-    draw: {
-      circle: false,
-      rectangle: false,
-      marker: false,
-      polyline: false
-    },
-    edit: {
-      featureGroup: featureGroup
-    }
-  }).addTo(map);
-  map.on('draw:created', function(e) {
-    featureGroup.addLayer(e.layer);
-    var geoJSON = featureGroup.toGeoJSON();
-    document.getElementById('newParcelGeometry').value = JSON.stringify(geoJSON);
-    document.getElementById('newParcelSize').value = turf.area(geoJSON) / 4046.85642;
-    document.getElementById('newParcelCenter').value = JSON.stringify(turf.centroid(geoJSON));
-    document.getElementById('apn').value = 0;
-  });
-</script>
 {% endblock %}

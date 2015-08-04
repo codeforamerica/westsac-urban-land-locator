@@ -59,3 +59,14 @@ association_table = Table('parcel-farmland', Base.metadata,
     Column('parcel_apn', db.BigInteger(), db.ForeignKey('parcels.apn')),
     Column('farmland_id', db.Integer(), db.ForeignKey('farmlands.id'))
 )
+
+class AdditionalLayer(SurrogatePK, Model):
+    __tablename__ = 'additional_layers'
+    name = Column(db.String(400), nullable=False)
+    geometry = Column(db.String(6250000), nullable=False)
+
+    def __init__(self, **kwargs):
+        db.Model.__init__(self, **kwargs)
+
+    def __repr__(self):
+        return '<AdditionalLayer({id}, {name})>'.format(id=self.id, name=self.name)

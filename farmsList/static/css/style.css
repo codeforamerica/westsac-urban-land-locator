@@ -123,6 +123,10 @@ ul.info-icons > li > img {
   max-width: 18px;
 }
 
+.text-green {
+  color: green;
+}
+
 /* Farmland Details */
 
 #farmland-details-back-btn {
