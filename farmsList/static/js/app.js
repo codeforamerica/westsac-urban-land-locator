@@ -122,7 +122,7 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
       featureGroup.addLayer(e.layer);
       var geoJSON = featureGroup.toGeoJSON();
       document.getElementById('newParcelGeometry').value = JSON.stringify(geoJSON);
-      document.getElementById('newParcelSize').value = turf.area(geoJSON) / 4046.85642;
+      document.getElementById('newParcelSize').value = (turf.area(geoJSON) / 4046.85642).toFixed(2);
       document.getElementById('newParcelCenter').value = JSON.stringify(turf.centroid(geoJSON));
       document.getElementById('apn').value = 0;
     });

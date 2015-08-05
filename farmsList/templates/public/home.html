@@ -14,7 +14,7 @@
           </div>
           <div class="col-md-4">
             <button ng-click="gotoContactForm(farm.id, $event)" id="contact-btn" class="btn btn-warning pull-right btn-contact">
-              Submit Inquiry
+              Contact Owner
             </button>
           </div>
         </div>
@@ -27,7 +27,9 @@
           <marker lat="{[farm.center.lat]}" lng="{[farm.center.lng]}" color="green" >
             <h1>{[farm.address]}</h1>
             <p>{[farm.size]} acres</p>
-            <p>{[farm.costEstimate]}</p>
+            <a href="#" ng-click="goToFarmlandDetailsPage(farm.id)">Additional Info</a></br></br>
+            <a href="#" ng-click="gotoContactForm(farm.id, $event)">Contact Owner</a>
+            <p style="display: none">{[farm.costEstimate]}</p>
             <p style="display: none">{[farm.id]}</p>
           </marker>
         </div>
