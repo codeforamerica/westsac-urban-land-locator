@@ -4,7 +4,18 @@
   <div class="row">
     <div class="col-md-12">
       <h1 class="page-header">Submit an Inquiry</h1>
-      <p>Are you interested in leasing this land for an urban farm? Send a message directly to the  Executive Director of Urban Lands, he's a really great guy.</p>
+      <p>The property owner reviews each application. They will follow up with you. Below, <b>please provide your contact information.</b></p>
+      <table>
+        <tr>
+          <td><b>To:</b></td><td></td>
+          <td>{[farmland.ownerName]}</td>
+        </tr>
+        <tr>
+          <td><b>Subject:</b></td><td>&nbsp;</td>
+          <td>I'm interested in leasing the {[farmland.address]} property.</td>
+        </tr>
+      </table>
+      <br />
       <form id="contactLandOwnerForm" class="form form-register form-horizontal" method="POST" action="" role="form">
         {{ form.hidden_tag() }}
         <div class="form-group">
@@ -17,24 +28,13 @@
         </div>
         <div class="form-group">
           <div class="col-sm-2 control-label">{{form.phone.label}}</div>
-          <div class="col-sm-6">{{form.phone(placeholder="555-024-4032", class_="form-control")}}</div>
+          <div class="col-sm-6">{{form.phone(placeholder="", class_="form-control")}}</div>
         </div>
         <div class="form-group">
-          <div class="col-sm-2 control-label">{{form.website.label}}</div>
-          <div class="col-sm-6">{{form.website(placeholder="facebook.com/blueth-farms", class_="form-control")}}</div>
+          <div class="col-sm-2 control-label">{{form.experience.label}}</div>
+          <div class="col-sm-6">{{form.experience(class_="form-control")}}</div>
         </div>
-        <div class="form-group">
-          <div class="col-sm-2 control-label">{{form.cropPlan.label}}</div>
-          <div class="col-sm-6">{{form.cropPlan(class_="form-control")}}</div>
-        </div>
-        <div class="form-group">
-          <div class="col-sm-2 control-label">{{form.otherBackground.label}}</div>
-          <div class="col-sm-6">{{form.otherBackground(class_="form-control")}}</div>
-        </div>
-        <div class="form-group">
-          <div class="col-sm-2 control-label">{{form.additionalInfo.label}}</div>
-          <div class="col-sm-6">{{form.additionalInfo(placeholder="Please send me more information about the Barge Canal Access Property.", class_="form-control")}}</div>
-        </div>
+        <hr />
         <div class="row parcel-submit">
           <span class="submit-buttons">
             <button class="btn btn-primary btn-lg btn-submit" type="submit" value="Submit">Submit</button>

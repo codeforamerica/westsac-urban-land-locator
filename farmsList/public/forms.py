@@ -1,5 +1,5 @@
 from flask_wtf import Form
-from wtforms import TextField, PasswordField, BooleanField, DecimalField, IntegerField
+from wtforms import TextField, PasswordField, BooleanField, DecimalField, IntegerField, TextAreaField
 from wtforms.validators import DataRequired
 
 from farmsList.user.models import User
@@ -33,12 +33,9 @@ class LoginForm(Form):
 
 class ContactLandOwnerForm(Form):
     name = TextField('Name', validators=[DataRequired()])
-    email = TextField('Email', validators=[DataRequired()])
+    email = TextField('Email')
     phone = TextField('Phone')
-    website = TextField('Website')
-    cropPlan = TextField('What do you plan to farm on the property?', validators=[DataRequired()])
-    otherBackground = TextField('Do you own any other farms? If so, where?', validators=[DataRequired()])
-    additionalInfo = TextField('Anything else?')
+    experience = TextAreaField('Please, <b>describe your past experience farming</b>.', validators=[DataRequired()])
 
     def __init__(self, *args, **kwargs):
         super(ContactLandOwnerForm, self).__init__(*args, **kwargs)
