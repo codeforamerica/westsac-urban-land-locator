@@ -146,6 +146,10 @@ ul.info-icons > li > img {
   font-size: 24px;
 }
 
+#farm-details-cost {
+  font-size: 20px;
+}
+
 #farmland-details-links {
   margin-bottom: 10px;
 }
@@ -156,6 +160,10 @@ ul.info-icons > li > img {
 
 .gray {
   color: gray;
+}
+
+.green {
+  color: green;
 }
 
 /* Natasha added these clunky styles. */

@@ -30,29 +30,29 @@ var app = angular.module('listApp', ['angular-mapbox','leaflet-directive'])
 
 app.controller('MainController', function($scope, $http, mapboxService, parcelStyles){
   var getFarm = function(farmId) {
-        var _farm;
-        angular.forEach($scope.farms, function(farm) {
-          if (!_farm && farm.id === farmId) {
-            _farm = farm;
-          }
-        });
-        return _farm;
-      },
-      zoomPanTo = function(farmId) {
-        var map = mapboxService.getMapInstances()[0],
-            farm = getFarm(farmId);
-        map.setView(L.latLng(farm.center.lat, farm.center.lng), 17, {
-          pan: {
-            animate: true,
-            duration: .5
-          },
-          zoom: {
-            animate: true
-          }
-        });
-      },
-      unselectedParcelStyle = parcelStyles.unselected,
-      selectedParcelStyle = parcelStyles.selected;
+      var _farm;
+      angular.forEach($scope.farms, function(farm) {
+        if (!_farm && farm.id === farmId) {
+          _farm = farm;
+        }
+      });
+      return _farm;
+    },
+    zoomPanTo = function(farmId) {
+      var map = mapboxService.getMapInstances()[0],
+          farm = getFarm(farmId);
+      map.setView(L.latLng(farm.center.lat, farm.center.lng), 17, {
+        pan: {
+          animate: true,
+          duration: .5
+        },
+        zoom: {
+          animate: true
+        }
+      });
+    },
+    unselectedParcelStyle = parcelStyles.unselected,
+    selectedParcelStyle = parcelStyles.selected;
   $scope.goToFarmlandDetailsPage = function(farmId) {
     document.location.href = '/farmland-details/' + farmId;
   };
@@ -231,23 +231,43 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
 
 .controller('FarmlandDetailsController', function($scope, $http, leafletData, $location, parcelStyles){
   $scope.farmland = {};
+  $scope.listIconClass = function(check) {
+    var iconClass = 'fa fa-li ';
+    iconClass += check ? ' fa-check green' : 'fa-close';
+    return iconClass;
+  };
+  var processZoningData = function(data) {
+    var farmland = angular.extend({}, data);
+    farmland.farmstands = farmland.zoning === 'Residential' || farmland.zoning === 'Mixed Use';
+    farmland.parking = true;
+    farmland.events = true;
+    farmland.equipment = false;
+    farmland.pesticides = false;
+    return farmland;
+  }
   $http.get('/api/farmland/' + $location.absUrl().split('farmland-details/')[1]).
     success(function(data, status, headers, config) {
       if (!data || data.length === 0) {
         return;
       }
-      var center = data.center['geometry']['coordinates'];
+      var center = data.center['geometry']['coordinates'],
+          farmland = processZoningData(data);
       $scope.center = {
         lat: center[1],
         lng: center[0],
         zoom: 16
       };
       angular.extend($scope, {
-        farmland: data,
+        farmland: farmland,
         geojson: {
-          data: JSON.parse(data['geometry']),
+          data: JSON.parse(farmland['geometry']),
           style: parcelStyles.selected
-        }
+        },
+        farmstands: farmland.farmstands,
+        parking: farmland.parking,
+        events: farmland.events,
+        equipment: farmland.equipment,
+        pesticides: farmland.pesticides
       });
     }).
     error(function(data, status, headers, config) {

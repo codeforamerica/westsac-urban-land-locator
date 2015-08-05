@@ -31,8 +31,10 @@
   <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-draw/v0.2.2/leaflet.draw.css' rel='stylesheet' />
   <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-draw/v0.2.2/leaflet.draw.js'></script>
 
+  <!-- improve ng-cloak functionality -->
+  <style type="text/css">.ng-cloak { display:none; }</style>
 </head>
-<body ng-app="listApp" class="{% block body_class %}{% endblock %}">
+<body ng-app="listApp" class="{% block body_class %}{% endblock %} ng-cloak">
 {% block body %}
 {% with form=form  %}
 {% include "nav.html" %}
