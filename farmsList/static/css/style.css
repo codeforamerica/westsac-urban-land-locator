@@ -26,6 +26,10 @@ textarea.form-control {
   height: 200px !important;
 }
 
+.alert.alert-message {
+  z-index: 100;
+}
+
 .form-checkbox {
   margin-top: 10px !important;
   box-shadow: none;

@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+import os
+from farmsList.settings import ProdConfig, DevConfig
+
 from flask import Blueprint, render_template, request, redirect, url_for, flash
 from flask.ext.login import login_required
 from farmsList.extensions import mail
@@ -7,6 +10,11 @@ from flask_mail import Message
 from farmsList.public.models import Farmland
 from farmsList.public.forms import NewParcel1Form
 from farmsList.utils import flash_errors
+
+if os.environ.get("FARMSLIST_ENV") == 'prod':
+    server = ProdConfig().HTTP_SERVER
+else:
+    server = DevConfig().HTTP_SERVER
 
 blueprint = Blueprint("user", __name__, url_prefix='/users',
                         static_folder="../static")
@@ -33,11 +41,17 @@ def new_parcel_1():
                         center=form.center.data,
                         zoning='Unknown')
         flash("Thank you for listing a property. It will appear here after it has been reviewed by the city.")
-        # msg = Message("Hello", recipients=['aaronl@cityofwestsacramento.org'])
-        msg = Message("Hello", recipients=['grant@codeforamerica.org'])
-        msg.html = "<html><body><p>Someone tried to post property with address " + \
-                address + \
-                "</p></body></html>"
+        # msg = Message("Review a new property on Acres", recipients=['aaronl@cityofwestsacramento.org'])
+        msg = Message("Review a new property on Acres", recipients=['grantrobertsmith@gmail.com'])
+        anchorTagHtml = "<a href=\"http://" + server + "/farmland-approval/" + str(new_parcel.id) + "\">review a proerty</a>"
+        msg.html = ("<html>"
+                        "<body>"
+                            "<p>Please, " + anchorTagHtml + " to publish it on Acres.</p>"
+                            "<p>Thanks,<br>"
+                                "Acres"
+                            "</p>"
+                        "</body>"
+                    "</html>")
         mail.send(msg)
         return redirect(url_for('public.home'))
     else:

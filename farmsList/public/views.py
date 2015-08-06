@@ -75,6 +75,10 @@ def contactLandOwner(farmlandId):
 def farmlandDetails(farmlandId):
     return render_template("public/farmland-details.html")
 
+@blueprint.route("/farmland-approval/<int:farmlandId>")
+def farmlandApproval(farmlandId):
+    return render_template("public/farmland-approval.html")
+
 @blueprint.route("/about/")
 def about():
     form = LoginForm(request.form)
