@@ -293,4 +293,70 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
       }
     }
   });
+})
+
+.controller('FarmlandApprovalController', function($scope, $http, leafletData, $location, parcelStyles){
+  $scope.farmland = {};
+  $scope.listIconClass = function(check) {
+    var iconClass = 'fa fa-li ';
+    iconClass += check ? ' fa-check green' : 'fa-close';
+    return iconClass;
+  };
+  var processZoningData = function(data) {
+    var farmland = angular.extend({}, data);
+    farmland.farmstands = farmland.zoning === 'Residential' || farmland.zoning === 'Mixed Use';
+    farmland.parking = true;
+    farmland.events = true;
+    farmland.equipment = false;
+    farmland.pesticides = false;
+    return farmland;
+  }
+  $http.get('/api/farmland/' + $location.absUrl().split('farmland-details/')[1]).
+    success(function(data, status, headers, config) {
+      if (!data || data.length === 0) {
+        return;
+      }
+      var center = data.center['geometry']['coordinates'],
+          farmland = processZoningData(data);
+      $scope.center = {
+        lat: center[1],
+        lng: center[0],
+        zoom: 16
+      };
+      angular.extend($scope, {
+        farmland: farmland,
+        geojson: {
+          data: JSON.parse(farmland['geometry']),
+          style: parcelStyles.selected
+        },
+        farmstands: farmland.farmstands,
+        parking: farmland.parking,
+        events: farmland.events,
+        equipment: farmland.equipment,
+        pesticides: farmland.pesticides
+      });
+    }).
+    error(function(data, status, headers, config) {
+      console.log('error getting farmland data from server in FarmlandDetailsController');
+    });
+  angular.extend($scope, {
+    center: {
+      lat: 38.58024,
+      lng: -121.5305,
+      zoom: 14
+    },
+    layers: {
+      baselayers: {
+        xyz: {
+          name: 'OpenStreetMap (XYZ)',
+          url: 'http://{s}.tiles.mapbox.com/v4/codeforamerica.m5m971km/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q',
+          type: 'xyz',
+          layerOptions: {
+            attribution: 'Mapbox | OpenStreetMap',
+            showOnSelector: false
+          }
+        }
+      }
+    }
+  });
 });
