@@ -46,6 +46,7 @@ class Farmland(SurrogatePK, Model):
     ownerName = Column(db.String(400), nullable=True)
     address = Column(db.String(400), nullable=True)
     email = Column(db.String(80), nullable=True)
+    monthlyCost = Column(db.Numeric(precision=7, scale=2), nullable = False)
 
     def __init__(self, **kwargs):
         db.Model.__init__(self, **kwargs)

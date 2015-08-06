@@ -50,16 +50,13 @@ class NewParcel1Form(Form):
     address = TextField('Address', validators=[DataRequired()])
     hasWater = BooleanField('Water Meter Installed', validators=[DataRequired()])
     water = TextField('Meter Size', validators=[DataRequired()])
-    soil = TextField('Soil')
     size = DecimalField('Size (in acres)', validators=[DataRequired()])
-    zoning = TextField('Zoning', validators=[DataRequired()])
     developmentPlan = TextField('Maximum Lease', validators=[DataRequired()])
     monthlyCost = IntegerField('Monthly Cost to Lease', validators=[DataRequired()])
     ownerName = TextField('Name', validators=[DataRequired()])
     email = TextField('Contact e-mail', validators=[DataRequired()])
     geometry = TextField('Geometry', validators=[DataRequired()])
     center = TextField('Center', validators=[DataRequired()])
-    apn = IntegerField('APN', default=0)
 
     def __init__(self, *args, **kwargs):
         super(NewParcel1Form, self).__init__(*args, **kwargs)
