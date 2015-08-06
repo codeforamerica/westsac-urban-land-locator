@@ -26,6 +26,12 @@ textarea.form-control {
   height: 200px !important;
 }
 
+.form-checkbox {
+  margin-top: 10px !important;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
 .form-register .form-control {
   position: relative;
   font-size: 16px;
@@ -131,6 +137,10 @@ ul.info-icons > li > img {
   color: green;
 }
 
+.highlighted {
+  background-color: yellow;
+}
+
 /* Farmland Details */
 
 #farmland-details-back-btn {
@@ -192,8 +202,6 @@ h2 {
   font-size: 24px;
   font-weight: bold;
   border-bottom: 1px solid #eee;
-  padding-bottom: 20px;
-  margin-bottom: 30px;
   margin-top: 30px;
 }
 

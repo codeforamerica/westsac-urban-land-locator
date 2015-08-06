@@ -3,54 +3,62 @@
 <div class="container" ng-controller="PublishListingsController">
   <div class="row">
     <div class="col-md-12">
-      <h1 class="page-header">List a Parcel</h1>
+      <h1 class="page-header">List a Property</h1>
       <p>Use the <img id="draw-tool-img" src="/static/public/images/draw-tool.png"> tool to draw a shape around the location of the parcel.</p>
       <leaflet id="list-parcels-map" center="center" layers="layers" width="100%" height="480px"></leaflet>
-      <h1 class="page-header">Parcel Information</h1>
+      <hr>
+      <h3>Poperty Details</h3>
       <form id="editParcelForm" class="form form-register form-horizontal" method="POST" action="" role="form">
         {{ form.hidden_tag() }}
         <div class="form-group">
+          <div class="col-sm-2 control-label">{{form.address.label}}</div>
+          <div class="col-sm-6">
+            {{form.address(class_="form-control", **{'ng-model':'parcel.address'})}}
+            <span class="help-block"><i>This will also serve as the title of the listing.</i></span>
+          </div>
+        </div>
+        <div class="form-group">
           <div class="col-sm-2 control-label">
-            <label for="newParcelSize">Area</label>
-            <br />(in acres)
+            <label for="newParcelSize">Area</label> (in acres)
           </div>
           <div class="col-sm-2">
             <input type="text" id="newParcelSize" name="size" ng-readonly="true" class="readonly form-control">
+            <span class="help-block"><i>Auto-calculated based on your drawing.</i></span>
           </div>
         </div>
         <div class="form-group">
-          <div class="col-sm-2 control-label">{{form.address.label}}</div>
-          <div class="col-sm-6">{{form.address(placeholder="Bryte St. and Main St.", class_="form-control", **{'ng-model':'parcel.address'})}}</div>
-        </div>
-        <div class="form-group">
-          <div class="col-sm-2 control-label">{{form.water.label}} <br />(in gal/min)</div>
-          <div class="col-xs-2">{{form.water(placeholder='20', class_="form-control", **{'ng-model':'parcel.water'})}}</div>
-        </div>
-        <div class="form-group">
-          <div class="col-sm-2 control-label">{{form.soil.label}}</div>
-          <div class="col-sm-6">{{form.soil(placeholder='75% Clay; 25% Silty Loam', class_="form-control", **{'ng-model':'parcel.soil'})}}</div>
-        </div>
-        <div class="form-group">
           <div class="col-sm-2 control-label">{{form.developmentPlan.label}} <br />(in years)</div>
-          <div class="col-sm-2">{{form.developmentPlan(placeholder="5", class_="form-control", **{'ng-model':'parcel.developmentPlan'})}}</div>
+          <div class="col-sm-2">{{form.developmentPlan(placeholder="e.g. 5", class_="form-control", **{'ng-model':'parcel.developmentPlan'})}}</div>
         </div>
         <div class="form-group">
-          <div class="col-sm-2 control-label">{{form.zoning.label}}</div>
-          <div class="col-sm-6">{{form.zoning(placeholder="Ag", class_="form-control", **{'ng-model':'parcel.zoning'})}}</div>
+          <div class="col-sm-2 control-label">{{form.monthlyCost.label}} <br />(in US dollars)</div>
+          <div class="col-sm-2">{{form.monthlyCost(placeholder="e.g. 50", class_="form-control", **{'ng-model':'parcel.developmentPlan'})}}</div>
         </div>
         <div class="form-group">
-          <div class="col-sm-2 control-label">{{form.restrictions.label}}</div>
-          <div class="col-sm-6">{{form.restrictions(placeholder="None", class_="form-control", **{'ng-model':'parcel.restrictions'})}}</div>
+          <div class="col-sm-2 control-label">{{form.hasWater.label}}</div>
+          <div class="col-xs-2">{{form.hasWater(class_="form-control form-checkbox", **{'ng-model':'parcel.hasWater'})}}</div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-2 control-label">{{form.water.label}} <br />(in inches)</div>
+          <div class="col-xs-2">{{form.water(class_="form-control", **{'ng-model':'parcel.water'})}}</div>
+        </div>
+        <hr>
+        <h3>Owner Details</h3>
+        <div class="form-group">
+          <div class="col-sm-2 control-label">{{form.ownerName.label}}</div>
+          <div class="col-sm-6">{{form.ownerName(class_="form-control", **{'ng-model':'parcel.ownerName'})}}</div>
         </div>
         <div class="form-group">
           <div class="col-sm-2 control-label">{{form.email.label}}</div>
           <div class="col-sm-6">{{form.email(placeholder="john@gmail.com", class_="form-control", **{'ng-model':'parcel.email'})}}
-            <span class="help-block">We won't post your email address on this website, but people interested in the land will be able to contact you via a form.</span>
+            <span class="help-block"><i>Your e-mail will not be displayed publicly. It will only be used to send you updates from people interested in leasing your property.</i></span>
           </div>
         </div>
         <input type="text" id="newParcelGeometry" name="geometry" class="ng-hide">
         <input type="text" id="newParcelCenter" name="center" class="ng-hide">
         {{form.apn(class_="ng-hide", **{'ng-model':'parcel.apn'})}}
+        <hr>
+        <p class="highlighted"><strong>Please note that property listings are aproved by City staff before being published.</strong></p>
         <div class="form-group parcel-submit">
           <div class="col-sm-10">
             <button class="btn btn-primary btn-lg btn-submit" type="submit" value="Post Parcel">Post Parcel</button>
