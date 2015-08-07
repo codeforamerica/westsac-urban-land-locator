@@ -10,6 +10,7 @@ from flask_mail import Message
 from farmsList.public.models import Farmland
 from farmsList.public.forms import NewParcel1Form
 from farmsList.utils import flash_errors
+from farmsList.database import db
 
 if os.environ.get("FARMSLIST_ENV") == 'prod':
     server = ProdConfig().HTTP_SERVER
@@ -19,10 +20,11 @@ else:
 blueprint = Blueprint("user", __name__, url_prefix='/users',
                         static_folder="../static")
 
-@blueprint.route("/")
-@login_required
-def members():
-    return render_template("users/members.html")
+@blueprint.route("/approve/<int:farmlandId>")
+def approve(farmlandId):
+    db.session.query(Farmland).filter(Farmland.id == farmlandId).update({"public": True})
+    db.session.commit()
+    return redirect(url_for('public.home'))
 
 @blueprint.route("/new_parcel_1/", methods=['GET', 'POST'])
 def new_parcel_1():
