@@ -57,19 +57,47 @@ def register():
 @blueprint.route("/contact-land-owner/<int:farmlandId>", methods=["GET", "POST"])
 def contactLandOwner(farmlandId):
     form = ContactLandOwnerForm(request.form)
+    farmland = Farmland.query.filter(Farmland.id == farmlandId).all()[0]
     if form.validate_on_submit():
-        farmland = Farmland.query.filter_by(id=farmlandId).all()[0]
-        address = '' if farmland.address is None else farmland.address
-        msg = Message("Hello", recipients=[form.email.data])
-        msg.body = "Message body"
-        msg.html = "<html><body><b>HTML</b> message <i>body</i><p>Thanks for requesting information about the property at" + \
-                address + \
-                "</p></body></html>"
+        address = "Unknown" if farmland.address is None else farmland.address
+        headHtml = ("<head>"
+                        "<style>.indented { margin-left: 50px; }</style>"
+                    "</head>")
+        mainBodyContent = ("<p class=\"indented\">"
+                                "<b>Name:</b> " + form.name.data + "<br>"
+                                "<b>Email:</b> " + form.email.data + "<br>"
+                                "<b>Phone:</b> " + form.phone.data + "<br>"
+                            "</p>"
+                            "<p class=\"indented\">"
+                                "<b>What is your past experience farming?</b><br>"
+                                "" + form.experience.data + "</p>"
+                            "<p><br>Thanks,<br>"
+                                "Acres"
+                            "</p>")
+        # msg = Message("Inquiry: " + address + "Property", recipients=["aaronl@cityofwestsacramento.org")
+        msg = Message("Inquiry: " + address + "Property", recipients=[farmland.email])
+        msg.html = ("<html>"
+                        "" + headHtml + ""
+                        "<body>"
+                            "<p>Someone has contacted you about your " + address + " property:</p>"
+                            "" + mainBodyContent + ""
+                        "</body>"
+                    "</html>")
         mail.send(msg)
+        msg = Message("Inquiry: " + address + "Property", recipients=[form.email.data])
+        msg.html = ("<html>"
+                        "" + headHtml + ""
+                        "<body>"
+                            "<p>Just a note that we sent your request for more information about the " + address + " property to " + farmland.ownerName + ":</p>"
+                            "" + mainBodyContent + ""
+                        "</body>"
+                    "</html>")
+        mail.send(msg)        
+        flash("Thanks for your inquiry! We sent your email for more information about the property. " + farmland.ownerName + " will follow up with you shortly.", 'info')
         return redirect(url_for('public.home'))
     else:
         flash_errors(form)
-    return render_template("public/contact-land-owner.html", form=form)
+    return render_template("public/contact-land-owner.html", form=form, farmland=farmland)
 
 @blueprint.route("/farmland-details/<int:farmlandId>")
 def farmlandDetails(farmlandId):

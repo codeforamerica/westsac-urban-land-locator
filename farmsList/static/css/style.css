@@ -22,12 +22,16 @@ textarea {
   resize: vertical;
 }
 
+td {
+  padding-right: 30px;
+}
+
 textarea.form-control {
   height: 200px !important;
 }
 
-.alert.alert-message {
-  z-index: 100;
+.alert {
+  margin-top: 10px;
 }
 
 .form-checkbox {
@@ -139,6 +143,10 @@ ul.info-icons > li > img {
 
 .text-green {
   color: green;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
 
 .highlighted {

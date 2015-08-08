@@ -4,14 +4,15 @@
   <div class="row">
     <div class="col-md-12">
       <h1 class="page-header">List a Property</h1>
-      <p>Use the <img id="draw-tool-img" src="/static/public/images/draw-tool.png"> tool to draw a shape around the location of the parcel.</p>
+      <p>* denotes a required field.</p>
+      <p>Use the <img id="draw-tool-img" src="/static/public/images/draw-tool.png"> tool to draw a shape around the location of the parcel. *</p>
       <leaflet id="list-parcels-map" center="center" layers="layers" width="100%" height="480px"></leaflet>
       <hr>
       <h3>Poperty Details</h3>
       <form id="editParcelForm" class="form form-register form-horizontal" method="POST" action="" role="form">
         {{ form.hidden_tag() }}
         <div class="form-group">
-          <div class="col-sm-2 control-label">{{form.address.label}}</div>
+          <div class="col-sm-2 control-label">{{form.address.label}} {% if form.address.flags.required %}*{% endif %}</div>
           <div class="col-sm-6">
             {{form.address(class_="form-control", **{'ng-model':'parcel.address'})}}
             <span class="help-block"><i>This will also serve as the title of the listing.</i></span>
@@ -19,7 +20,7 @@
         </div>
         <div class="form-group">
           <div class="col-sm-2 control-label">
-            <label for="newParcelSize">Area</label> (in acres)
+            <label for="newParcelSize">Area</label> *<br>(in acres)
           </div>
           <div class="col-sm-2">
             <input type="text" id="newParcelSize" name="size" ng-readonly="true" class="readonly form-control">
@@ -27,30 +28,36 @@
           </div>
         </div>
         <div class="form-group">
-          <div class="col-sm-2 control-label">{{form.developmentPlan.label}} <br />(in years)</div>
-          <div class="col-sm-2">{{form.developmentPlan(placeholder="e.g. 5", class_="form-control", **{'ng-model':'parcel.developmentPlan'})}}</div>
+          <div class="col-sm-2 control-label">
+            {{form.developmentPlan.label}} {% if form.developmentPlan.flags.required %}*{% endif %}<br>
+            (in years)
+          </div>
+          <div class="col-sm-2">{{form.developmentPlan(placeholder="e.g. 5", class_="form-control")}}</div>
         </div>
         <div class="form-group">
-          <div class="col-sm-2 control-label">{{form.monthlyCost.label}} <br />(in US dollars)</div>
-          <div class="col-sm-2">{{form.monthlyCost(placeholder="e.g. 50", class_="form-control", **{'ng-model':'parcel.developmentPlan'})}}</div>
+          <div class="col-sm-2 control-label">
+            <span class="nowrap">{{form.monthlyCost.label}} {% if form.developmentPlan.flags.required %}*{% endif %}</span><br>
+            (in US dollars)
+          </div>
+          <div class="col-sm-2">{{form.monthlyCost(placeholder="e.g. 50", class_="form-control")}}</div>
         </div>
-        <div class="form-group">
+        <div class="form-group" ng-init="parcel.hasWater = false;">
           <div class="col-sm-2 control-label">{{form.hasWater.label}}</div>
           <div class="col-xs-2">{{form.hasWater(class_="form-control form-checkbox", **{'ng-model':'parcel.hasWater'})}}</div>
         </div>
         <div class="form-group">
-          <div class="col-sm-2 control-label">{{form.water.label}} <br />(in inches)</div>
+          <div class="col-sm-2 control-label">{{form.water.label}} <br>(in inches)</div>
           <div class="col-xs-2">{{form.water(class_="form-control", **{'ng-model':'parcel.water'})}}</div>
         </div>
         <hr>
         <h3>Owner Details</h3>
         <div class="form-group">
-          <div class="col-sm-2 control-label">{{form.ownerName.label}}</div>
+          <div class="col-sm-2 control-label">{{form.ownerName.label}} {% if form.ownerName.flags.required %}*{% endif %}</div>
           <div class="col-sm-6">{{form.ownerName(class_="form-control", **{'ng-model':'parcel.ownerName'})}}</div>
         </div>
         <div class="form-group">
-          <div class="col-sm-2 control-label">{{form.email.label}}</div>
-          <div class="col-sm-6">{{form.email(placeholder="john@gmail.com", class_="form-control", **{'ng-model':'parcel.email'})}}
+          <div class="col-sm-2 control-label">{{form.email.label}} {% if form.email.flags.required %}*{% endif %}</div>
+          <div class="col-sm-6">{{form.email(class_="form-control", **{'ng-model':'parcel.email'})}}
             <span class="help-block"><i>Your e-mail will not be displayed publicly. It will only be used to send you updates from people interested in leasing your property.</i></span>
           </div>
         </div>
@@ -58,6 +65,7 @@
         <input type="text" id="newParcelCenter" name="center" class="ng-hide">
         <hr>
         <p class="highlighted"><strong>Please note that property listings are aproved by City staff before being published.</strong></p>
+        <p>* denotes a required field.</p>
         <div class="form-group parcel-submit">
           <div class="col-sm-10">
             <button class="btn btn-primary btn-lg btn-submit" type="submit" value="Post Parcel">Post Parcel</button>

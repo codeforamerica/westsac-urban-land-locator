@@ -124,7 +124,6 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
       document.getElementById('newParcelGeometry').value = JSON.stringify(geoJSON);
       document.getElementById('newParcelSize').value = (turf.area(geoJSON) / 4046.85642).toFixed(2);
       document.getElementById('newParcelCenter').value = JSON.stringify(turf.centroid(geoJSON));
-      document.getElementById('apn').value = 0;
     });
   });
 
@@ -238,7 +237,7 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
   };
   var processZoningData = function(data) {
     var farmland = angular.extend({}, data);
-    farmland.farmstands = farmland.zoning === 'Residential' || farmland.zoning === 'Mixed Use';
+    farmland.farmstands = farmland.zoning === 'Commercial' || farmland.zoning === 'Mixed Use';
     farmland.parking = true;
     farmland.events = true;
     farmland.equipment = false;

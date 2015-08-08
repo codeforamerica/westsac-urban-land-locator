@@ -33,9 +33,9 @@ class LoginForm(Form):
 
 class ContactLandOwnerForm(Form):
     name = TextField('Name', validators=[DataRequired()])
-    email = TextField('Email')
-    phone = TextField('Phone')
-    experience = TextAreaField('Please, <b>describe your past experience farming</b>.', validators=[DataRequired()])
+    email = TextField('Email', validators=[DataRequired()])
+    phone = TextField('Phone', validators=[DataRequired()])
+    experience = TextAreaField('Please describe your past experience farming:', validators=[DataRequired()])
 
     def __init__(self, *args, **kwargs):
         super(ContactLandOwnerForm, self).__init__(*args, **kwargs)
@@ -48,8 +48,8 @@ class ContactLandOwnerForm(Form):
 
 class NewParcel1Form(Form):
     address = TextField('Address', validators=[DataRequired()])
-    hasWater = BooleanField('Water Meter Installed', validators=[DataRequired()])
-    water = TextField('Meter Size', validators=[DataRequired()])
+    hasWater = BooleanField('Water Meter Installed')
+    water = TextField('Meter Size')
     size = DecimalField('Size (in acres)', validators=[DataRequired()])
     developmentPlan = TextField('Maximum Lease', validators=[DataRequired()])
     monthlyCost = IntegerField('Monthly Cost to Lease', validators=[DataRequired()])

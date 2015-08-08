@@ -7,22 +7,50 @@
     </button>
     <div id="farm-details-address">{[farmland.address || 'Unknown Address']}</div>
     <div id="farm-details-acreage"><b>{[farmland.size]} Acres</b></div>
-    <div id="farm-details-cost">${[farmland.cost]} per month</div>
-    <div class="gray">Estimated {[farmland.water]} gallons per minute</div>
-    <div class="gray">{[farmland.developmentPlan]} year maximum lease</div>
+    <div class="gray">${[farmland.monthlyCost]} per month</div>
     <hr />
+    <h3>Zoning</h3>
     <p>This porperty is zoned for <b>{[farmland.zoning]}</b>. This means:</p>
     <ul class="fa-ul">
-      <li ng-class="{gray: !farmstands}"><span ng-class="listIconClass(farmstands)"></span>Comercial farm stands {[farmstands ? 'permitted' : 'restricted']}</li>
+      <li ng-class="{gray: !farmstands}"><span ng-class="listIconClass(farmstands)"></span>Commercial farm stands {[farmstands ? 'permitted' : 'restricted']}</li>
       <li ng-class="{gray: !parking}"><span ng-class="listIconClass(parking)"></span>Parking {[parking ? 'permitted' : 'restricted']}</li>
       <li ng-class="{gray: !events}"><span ng-class="listIconClass(events)"></span>Events {[events ? 'permitted' : 'restricted']}</li>
       <li ng-class="{gray: !equipment}"><span ng-class="listIconClass(equipment)"></span>Tractors and other large equipment {[equipment ? 'permitted' : 'restricted']}</li>
       <li ng-class="{gray: !pesticides}"><span ng-class="listIconClass(pesticides)"></span>Pesticide use restricted {[pesticides ? 'permitted' : 'restricted']}</li>
     </ul>
     <hr />
-    <div id="farmland-details-links">
+    <h3>Details</h3>
+    <table>
+      <tr>
+        <td>
+          Water
+        </td>
+        <td>
+          ~ {[farmland.water]} gallons per minute
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Maximum Lease
+        </td>
+        <td>
+          {[farmland.developmentPlan]} years
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Owner
+        </td>
+        <td>
+          {[farmland.ownerName]}
+        </td>
+      </tr>
+    </table>
+    <hr />
+    <div id="farmland-details-links" class="gray">
       <a ng-hide="farmland.soil === 'Made Land'" href="http://casoilresource.lawr.ucdavis.edu/sde/?series={[farmland.soil]}" target="_blank">Soil Survey</a> | <a href="https://maps.googleapis.com/maps/api/streetview?location={[center.lat]},{[center.lng]}&size=600x400" target="_blank">Google Street View</a><!-- | <a href="/farmland-details/photos?farmlandId={[farmland.id]}">Other Pictures</a>-->
     </div>
+    <hr />
     <a id="contact-btn" class="btn btn-warning btn-contact" href="/contact-land-owner/{[farmland.id]}">Contact Owner</a>
   </div>
   <div class="col-md-6">
