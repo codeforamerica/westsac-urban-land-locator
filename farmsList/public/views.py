@@ -60,33 +60,28 @@ def contactLandOwner(farmlandId):
     farmland = Farmland.query.filter(Farmland.id == farmlandId).all()[0]
     if form.validate_on_submit():
         address = "Unknown" if farmland.address is None else farmland.address
-        headHtml = ("<head>"
-                        "<style>.indented { margin-left: 50px; }</style>"
-                    "</head>")
-        mainBodyContent = ("<p class=\"indented\">"
+        mainBodyContent = ("<p style=\"margin-left: 50px;\">"
                                 "<b>Name:</b> " + form.name.data + "<br>"
                                 "<b>Email:</b> " + form.email.data + "<br>"
                                 "<b>Phone:</b> " + form.phone.data + "<br>"
                             "</p>"
-                            "<p class=\"indented\">"
+                            "<p style=\"margin-left: 50px;\">"
                                 "<b>What is your past experience farming?</b><br>"
                                 "" + form.experience.data + "</p>"
                             "<p><br>Thanks,<br>"
                                 "Acres"
                             "</p>")
-        # msg = Message("Inquiry: " + address + "Property", recipients=["aaronl@cityofwestsacramento.org")
-        msg = Message("Inquiry: " + address + "Property", recipients=[farmland.email])
+        # msg = Message("Inquiry: " + address + " Property", recipients=["aaronl@cityofwestsacramento.org")
+        msg = Message("Inquiry: " + address + " Property", recipients=[farmland.email])
         msg.html = ("<html>"
-                        "" + headHtml + ""
                         "<body>"
                             "<p>Someone has contacted you about your " + address + " property:</p>"
                             "" + mainBodyContent + ""
                         "</body>"
                     "</html>")
         mail.send(msg)
-        msg = Message("Inquiry: " + address + "Property", recipients=[form.email.data])
+        msg = Message("Inquiry: " + address + " Property", recipients=[form.email.data])
         msg.html = ("<html>"
-                        "" + headHtml + ""
                         "<body>"
                             "<p>Just a note that we sent your request for more information about the " + address + " property to " + farmland.ownerName + ":</p>"
                             "" + mainBodyContent + ""
