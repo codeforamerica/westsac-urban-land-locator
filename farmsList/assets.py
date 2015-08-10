@@ -4,7 +4,6 @@ from flask.ext.assets import Bundle, Environment
 css = Bundle(
     "libs/bootstrap/dist/css/bootstrap.css",
     "libs/leaflet/dist/leaflet.css",
-    "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css",
     "css/style.css",
     "css/nav.css",
     "css/footer.css",
