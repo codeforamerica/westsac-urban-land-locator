@@ -38,11 +38,12 @@
       <mapbox class="mapTogether" map-id="codeforamerica.m5m971km" lat="38.58024" lng="-121.5305" zoom="13">
         <div ng-repeat="farm in farms | filter:searchText">
           <feature-layer data="{[farm.geometry]}" color="green"></featureLayer>
-          <marker lat="{[farm.center.lat]}" lng="{[farm.center.lng]}" color="green" >
-            <h1>{[farm.address]}</h1>
-            <p>{[farm.size]} acres</p>
-            <a href="#" ng-click="goToFarmlandDetailsPage(farm.id)">Additional Info</a></br></br>
-            <a href="#" ng-click="gotoContactForm(farm.id, $event)">Contact Owner</a>
+          <marker lat="{[farm.center.lat]}" lng="{[farm.center.lng]}" color="green">
+            <p><strong>{[farm.address]}</strong><br>
+              <span>{[farm.size]} acres</span><br>
+              <a href="#" ng-click="goToFarmlandDetailsPage(farm.id)">Additional Info</a><br>
+              <a href="#" ng-click="gotoContactForm(farm.id, $event)">Contact Owner</a>
+            </p>
             <p style="display: none">{[farm.costEstimate]}</p>
             <p style="display: none">{[farm.id]}</p>
           </marker>
