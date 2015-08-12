@@ -19,7 +19,7 @@
         </div>
         <div class="form-group">
           <div class="col-sm-2 control-label">
-            <label for="newParcelSize">Area</label> *<br>(in acres)
+            <label for="newParcelSize">Area</label> <span class="required">*</span><br>(in acres)
           </div>
           <div class="col-sm-2">
             <input type="text" id="newParcelSize" name="size" ng-readonly="true" class="readonly form-control">
@@ -63,8 +63,7 @@
         <input type="text" id="newParcelGeometry" name="geometry" class="ng-hide">
         <input type="text" id="newParcelCenter" name="center" class="ng-hide">
         <hr>
-        <p class="highlighted"><strong>Please note that property listings are aproved by City staff before being published.</strong></p>
-        <p>* denotes a required field.</p>
+        <p><span class="highlighted"><strong>Please note that property listings are aproved by City staff before being published.</strong></span></p>
         <div class="form-group parcel-submit">
           <div class="col-sm-10">
             <button class="btn btn-primary btn-lg btn-submit" type="submit" value="Post Parcel">Submit Your Property</button>
