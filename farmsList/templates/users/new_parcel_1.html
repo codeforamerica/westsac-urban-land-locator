@@ -4,7 +4,6 @@
   <div class="row">
     <div class="col-md-12">
       <h1 class="page-header">List a Property</h1>
-      <p>* denotes a required field.</p>
       <p>Use the <img id="draw-tool-img" src="/static/public/images/draw-tool.png"> tool to draw a shape around the location of the property. *</p>
       <leaflet id="list-parcels-map" center="center" layers="layers" width="100%" height="480px"></leaflet>
       <hr>
@@ -12,7 +11,7 @@
       <form id="editParcelForm" class="form form-register form-horizontal" method="POST" action="" role="form">
         {{ form.hidden_tag() }}
         <div class="form-group">
-          <div class="col-sm-2 control-label">{{form.address.label}} {% if form.address.flags.required %}*{% endif %}</div>
+          <div class="col-sm-2 control-label">{{form.address.label}} {% if form.address.flags.required %}<span class="required">*</span>{% endif %}</div>
           <div class="col-sm-6">
             {{form.address(class_="form-control", **{'ng-model':'parcel.address'})}}
             <span class="help-block"><i>This will also serve as the title of the listing.</i></span>
@@ -29,14 +28,14 @@
         </div>
         <div class="form-group">
           <div class="col-sm-2 control-label">
-            {{form.developmentPlan.label}} {% if form.developmentPlan.flags.required %}*{% endif %}<br>
+            {{form.developmentPlan.label}} {% if form.developmentPlan.flags.required %}<span class="required">*</span>{% endif %}<br>
             (in years)
           </div>
           <div class="col-sm-2">{{form.developmentPlan(placeholder="e.g. 5", class_="form-control")}}</div>
         </div>
         <div class="form-group">
           <div class="col-sm-2 control-label">
-            <span class="nowrap">{{form.monthlyCost.label}} {% if form.developmentPlan.flags.required %}*{% endif %}</span><br>
+            <span class="nowrap">{{form.monthlyCost.label}} {% if form.developmentPlan.flags.required %}<span class="required">*</span>{% endif %}</span><br>
             (in US dollars)
           </div>
           <div class="col-sm-2">{{form.monthlyCost(placeholder="e.g. 50", class_="form-control")}}</div>
@@ -52,11 +51,11 @@
         <hr>
         <h3>Owner Details</h3>
         <div class="form-group">
-          <div class="col-sm-2 control-label">{{form.ownerName.label}} {% if form.ownerName.flags.required %}*{% endif %}</div>
+          <div class="col-sm-2 control-label">{{form.ownerName.label}} {% if form.ownerName.flags.required %}<span class="required">*</span>{% endif %}</div>
           <div class="col-sm-6">{{form.ownerName(class_="form-control", **{'ng-model':'parcel.ownerName'})}}</div>
         </div>
         <div class="form-group">
-          <div class="col-sm-2 control-label">{{form.email.label}} {% if form.email.flags.required %}*{% endif %}</div>
+          <div class="col-sm-2 control-label">{{form.email.label}} {% if form.email.flags.required %}<span class="required">*</span>{% endif %}</div>
           <div class="col-sm-6">{{form.email(class_="form-control", **{'ng-model':'parcel.email'})}}
             <span class="help-block"><i>Your e-mail will not be displayed publicly. It will only be used to send you updates from people interested in leasing your property.</i></span>
           </div>
