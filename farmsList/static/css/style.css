@@ -230,7 +230,13 @@ h2 {
   text-align: left;
 }
 
-label {font-weight: normal;}
+label {
+  font-weight: normal;}
 
-.help-block {font-size: 14px;
+.help-block {
+  font-size: 14px;
   color: #aaa;}
+
+h3 {    
+  font-size: 20px;
+  font-weight: bold;}
