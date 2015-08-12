@@ -226,3 +226,12 @@ h2 {
 .required {
   color: #d6373d;
 }
+
+.form-horizontal .control-label {
+  text-align: left;
+}
+
+label {font-weight: normal;}
+
+.help-block {font-size: 14px;
+  color: #aaa;}
