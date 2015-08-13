@@ -13,7 +13,6 @@ from farmsList.database import (
     SurrogatePK,
 )
 
-
 class Role(SurrogatePK, Model):
     __tablename__ = 'roles'
     name = Column(db.String(80), unique=True, nullable=False)
@@ -27,7 +26,6 @@ class Role(SurrogatePK, Model):
         return '<Role({name})>'.format(name=self.name)
 
 class User(UserMixin, SurrogatePK, Model):
-
     __tablename__ = 'users'
     username = Column(db.String(80), unique=True, nullable=False)
     email = Column(db.String(80), unique=True, nullable=False)
