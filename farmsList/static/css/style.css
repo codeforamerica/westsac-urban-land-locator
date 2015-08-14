@@ -163,7 +163,7 @@ ul.info-icons > li > img {
 }
 
 #farm-details-address {
-  margin-top: -40px;
+  /*margin-top: -40px;*/
   font-size: 20px;
 }
 
@@ -240,3 +240,7 @@ label {
 h3 {    
   font-size: 20px;
   font-weight: bold;}
+
+.btn-primary {
+  background-color: blue;
+  border: 1px solid blue;}

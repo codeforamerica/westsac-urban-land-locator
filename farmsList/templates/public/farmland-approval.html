@@ -2,9 +2,6 @@
 {% block content %}
 <div class="farmland-details container" ng-controller="FarmlandDetailsController">
   <div class="col-md-6">
-    <button type="button" class="btn back-btn" id="farmland-details-back-btn">
-      <a href="{{ url_for('public.home') }}"><span class="fa fa-chevron-left"></span></a>
-    </button>
     <div id="farm-details-address">{[farmland.address || 'Unknown Address']}</div>
     <div id="farm-details-acreage"><b>{[farmland.size]} Acres</b></div>
     <div id="farm-details-cost">${[farmland.monthlyCost]} per month</div>
@@ -23,8 +20,8 @@
     <div id="farmland-details-links">
       <a ng-hide="farmland.soil === 'Made Land'" href="http://casoilresource.lawr.ucdavis.edu/sde/?series={[farmland.soil]}" target="_blank">Soil Survey</a> | <a href="https://maps.googleapis.com/maps/api/streetview?location={[center.lat]},{[center.lng]}&size=600x400" target="_blank">Google Street View</a><!-- | <a href="/farmland-details/photos?farmlandId={[farmland.id]}">Other Pictures</a>-->
     </div>
-    <a id="contact-btn" class="btn btn-warning btn-contact" href="/users/approve/{[farmland.id]}">Approve</a>
-    <a id="contact-btn" class="btn btn-warning btn-contact pull-right" href="/users/request-changes/{[farmland.id]}">Request Changes</a>
+    <a class="btn btn-primary" href="/users/approve/{[farmland.id]}">Approve</a>
+    <a class="btn btn-default" href="/users/request-changes/{[farmland.id]}">Deny</a>
     <p class="help-block"><i>This property will be posted immediately if approved.</i></p>
   </div>
   <div class="col-md-6">
