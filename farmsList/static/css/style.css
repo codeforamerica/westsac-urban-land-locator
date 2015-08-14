@@ -163,8 +163,7 @@ ul.info-icons > li > img {
 }
 
 #farm-details-address {
-  /*margin-top: -40px;*/
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #farm-details-acreage {
@@ -172,7 +171,7 @@ ul.info-icons > li > img {
 }
 
 #farm-details-cost {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #farmland-details-links {
@@ -184,7 +183,7 @@ ul.info-icons > li > img {
 }
 
 .gray {
-  color: gray;
+  color: #aaa;
 }
 
 .green {
@@ -213,22 +212,18 @@ h2 {
   font-size: 24px;
   font-weight: bold;
   border-bottom: 1px solid #eee;
-  margin-top: 30px;
-}
+  margin-top: 30px;}
 
 .leaflet-angular-map {
   height: 565px;
   width: 100%;
-  margin-top: 20px;
-}
+  margin-top: 20px;}
 
 .required {
-  color: #d6373d;
-}
+  color: #d6373d;}
 
 .form-horizontal .control-label {
-  text-align: left;
-}
+  text-align: left;}
 
 label {
   font-weight: normal;}
@@ -247,5 +242,9 @@ h3 {
 
 h1, .h1 {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: bold;}
+
+a {
+    color: blue;
+    text-decoration: none;
 }
