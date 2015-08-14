@@ -1,6 +1,11 @@
 {% extends "layout.html" %}
 {% block content %}
 <div class="farmland-details container" ng-controller="FarmlandDetailsController">
+  <div class="col-md-12">
+    <h1>Review Property</h1>
+  <hr>
+  </div>
+  
   <div class="col-md-6">
     <div id="farm-details-address">{[farmland.address || 'Unknown Address']}</div>
     <div id="farm-details-acreage"><b>{[farmland.size]} Acres</b></div>
