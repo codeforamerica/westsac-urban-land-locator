@@ -24,7 +24,7 @@ class ProdConfig(Config):
     """Production configuration."""
     ENV = 'prod'
     DEBUG = False
-    SQLALCHEMY_DATABASE_URI = 'postgresql://wnoliqwyvuommh:ltosye5nVP6vmBSLtjGZvdXA2e@ec2-54-204-20-209.compute-1.amazonaws.com/d300eo2lo64mk'
+    SQLALCHEMY_DATABASE_URI = 'postgres://u6cd141psgburi:pfol6qf49366s85f8l56kbj3d4n@ec2-54-227-243-136.compute-1.amazonaws.com:5752/da98hsnk9qbjv0'
     DEBUG_TB_ENABLED = False  # Disable Debug toolbar
     HTTP_SERVER = "acres.herokuapp.com"
 
