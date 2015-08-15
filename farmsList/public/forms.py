@@ -54,7 +54,7 @@ class NewParcel1Form(Form):
     developmentPlan = TextField('Maximum Lease', validators=[DataRequired()])
     monthlyCost = IntegerField('Monthly Cost to Lease', validators=[DataRequired()])
     ownerName = TextField('Name', validators=[DataRequired()])
-    email = TextField('Contact e-mail', validators=[DataRequired()])
+    email = TextField('Contact E-mail', validators=[DataRequired()])
     geometry = TextField('Geometry', validators=[DataRequired()])
     center = TextField('Center', validators=[DataRequired()])
 
