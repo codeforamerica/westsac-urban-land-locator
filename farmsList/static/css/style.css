@@ -252,3 +252,6 @@ a {
 .has-water label {    
     margin-top: 5px;
     margin-bottom: 20px;}
+
+.control-label .help-block {
+margin-top:-5px;}

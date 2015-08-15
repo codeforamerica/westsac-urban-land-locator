@@ -19,7 +19,7 @@
         </div>
         <div class="form-group">
           <div class="col-sm-2 control-label">
-            <label for="newParcelSize">Area</label> <span class="required">*</span><br>(in acres)
+            <label for="newParcelSize">Area</label> <span class="required">*</span><br><span class="help-block">(in acres)</span>
           </div>
           <div class="col-sm-2">
             <input type="text" id="newParcelSize" name="size" ng-readonly="true" class="readonly form-control">
@@ -29,14 +29,14 @@
         <div class="form-group">
           <div class="col-sm-2 control-label">
             {{form.developmentPlan.label}} {% if form.developmentPlan.flags.required %}<span class="required">*</span>{% endif %}<br>
-            (in years)
+            <span class="help-block">(in years)</span>
           </div>
           <div class="col-sm-2">{{form.developmentPlan(placeholder="e.g. 5", class_="form-control")}}</div>
         </div>
         <div class="form-group">
           <div class="col-sm-2 control-label">
             <span class="nowrap">{{form.monthlyCost.label}} {% if form.developmentPlan.flags.required %}<span class="required">*</span>{% endif %}</span><br>
-            (in US dollars)
+            <span class="help-block">(in US dollars)</span>
           </div>
           <div class="col-sm-2">{{form.monthlyCost(placeholder="e.g. 50", class_="form-control")}}</div>
         </div>
