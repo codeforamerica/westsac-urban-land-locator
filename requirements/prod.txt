@@ -11,6 +11,7 @@ itsdangerous==0.24
 # Database
 Flask-SQLAlchemy==2.0
 SQLAlchemy==0.9.8
+GeoAlchemy2>=0.2.5
 
 # Migrations
 Flask-Migrate==1.3.0

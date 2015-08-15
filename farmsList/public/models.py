@@ -9,6 +9,7 @@ from farmsList.database import (
     SurrogatePK,
 )
 from sqlalchemy.ext.declarative import declarative_base
+from geoalchemy2.types import Geometry
 
 Base = declarative_base()
 
@@ -20,6 +21,8 @@ class Parcel(SurrogatePK, Model):
     zoning = Column(db.String(80), nullable=False)
     geometry = Column(db.String(6250000), nullable=False)
     center = Column(db.String(2000), nullable=False)
+    geom = Column(Geometry(geometry_type='MULTIPOLYGON'))
+    cent = Column(Geometry(geometry_type='POINT'))
     developmentPlan = Column(db.String(400), nullable=True)
     restrictions = Column(db.String(400), nullable=True)
     address = Column(db.String(400), nullable=True)
@@ -40,8 +43,8 @@ class Farmland(SurrogatePK, Model):
     public = Column(db.Boolean(), nullable=False, server_default='False')
     soil = Column(db.String(400), nullable=True)
     zoning = Column(db.String(80), nullable=False)
-    geometry = Column(db.String(6250000), nullable=False)
-    center = Column(db.String(2000), nullable=False)
+    geometry = Column(Geometry(geometry_type='MULTIPOLYGON'), nullable=False)
+    center = Column(Geometry(geometry_type='POINT'), nullable=False)
     developmentPlan = Column(db.String(400), nullable=True)
     ownerName = Column(db.String(400), nullable=True)
     address = Column(db.String(400), nullable=True)

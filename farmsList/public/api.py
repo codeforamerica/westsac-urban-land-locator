@@ -4,6 +4,9 @@ from decimal import Decimal
 
 from flask import Blueprint
 from farmsList.public.models import Parcel, Farmland, AdditionalLayer
+from farmsList.database import db
+from sqlalchemy import func
+
 
 blueprint = Blueprint('api', __name__, url_prefix='/api',
 						static_folder="../static")
@@ -19,6 +22,10 @@ def pre_json_encode(obj):
 def api_parcel():
 	farmlandData = Farmland.query.filter(Farmland.public == True).all()
 	for farmland in farmlandData:
+		farmland.geometry = db.session.query(func.ST_AsGeoJson(farmland.geometry)).all()[0][0]
+		db.session.close()
+		farmland.center = db.session.query(func.ST_AsGeoJson(farmland.center)).all()[0][0]
+		db.session.close()
 		farmland.center = json.loads(str(farmland.center))
 		farmland = pre_json_encode(farmland)
 	return jsonpickle.encode(farmlandData, unpicklable=False, make_refs=False)
@@ -26,6 +33,10 @@ def api_parcel():
 @blueprint.route("/farmland/<int:farmlandId>", methods=["GET", "POST"])
 def api_farmland_by_id(farmlandId):
 	farmlandData = Farmland.query.filter_by(id=farmlandId).all()[0]
+	farmlandData.center = db.session.query(func.ST_AsGeoJson(farmlandData.center)).all()[0][0]
+	db.session.close()
+	farmlandData.geometry = db.session.query(func.ST_AsGeoJson(farmlandData.geometry)).all()[0][0]
+	db.session.close()
 	farmlandData.center = json.loads(str(farmlandData.center))
 	farmlandData = pre_json_encode(farmlandData)
 	return jsonpickle.encode(farmlandData, unpicklable=False, make_refs=False)

@@ -89,7 +89,7 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
       }
       $scope.farms = [];
       angular.forEach(data, function(parcel) {
-        var center = parcel.center.geometry.coordinates;
+        var center = parcel.center.coordinates;
         parcel.center.lat = center[1];
         parcel.center.lng = center[0];
         // This conversion is needed because the jsonpickle
@@ -120,10 +120,18 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
     }).addTo(map);
     map.on('draw:created', function(e) {
       featureGroup.addLayer(e.layer);
-      var geoJSON = featureGroup.toGeoJSON();
-      document.getElementById('newParcelGeometry').value = JSON.stringify(geoJSON);
+      var geoJSON = featureGroup.toGeoJSON(),
+          features = geoJSON.features,
+          geometry = {
+            type: 'MultiPolygon',
+            coordinates: []
+          };
+      angular.forEach(features, function(feature) {
+        geometry.coordinates.push(feature.geometry.coordinates);
+      });
+      document.getElementById('newParcelGeometry').value = JSON.stringify(geometry);
       document.getElementById('newParcelSize').value = (turf.area(geoJSON) / 4046.85642).toFixed(2);
-      document.getElementById('newParcelCenter').value = JSON.stringify(turf.centroid(geoJSON));
+      document.getElementById('newParcelCenter').value = JSON.stringify(turf.centroid(geoJSON).geometry);
     });
   });
 
@@ -254,7 +262,7 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
       if (!data || data.length === 0) {
         return;
       }
-      var center = data.center['geometry']['coordinates'],
+      var center = data.center.coordinates,
           farmland = processZoningData(data);
       $scope.center = {
         lat: center[1],

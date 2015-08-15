@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
+from sqlalchemy import func
 from farmsList.settings import ProdConfig, DevConfig
 
 from flask import Blueprint, render_template, request, redirect, url_for, flash
@@ -7,7 +8,7 @@ from flask.ext.login import login_required
 from farmsList.extensions import mail
 from flask_mail import Message
 
-from farmsList.public.models import Farmland
+from farmsList.public.models import Farmland,Parcel
 from farmsList.public.forms import NewParcel1Form
 from farmsList.utils import flash_errors
 from farmsList.database import db
@@ -62,6 +63,19 @@ def new_parcel_1():
     if form.validate_on_submit():
         address = form.address.data
         water = 0 if form.water.data == '' else form.water.data
+        zoning = 'Unknown'
+        geometry = db.session.query(func.ST_GeomFromGeoJSON(form.geometry.data)).all()[0]
+        center = db.session.query(func.ST_GeomFromGeoJSON(form.center.data)).all()[0]
+        knownParcel = None
+        queryResult = db.session.query(Parcel).filter(func.ST_Contains(Parcel.geom, center)).all()
+        if len(queryResult) > 0:
+            knownParcel = queryResult[0]
+            zoning = knownParcel.zoning
+            if water == 0 and knownParcel.water > 0:
+                water = knownParcel.water
+            print knownParcel.water
+            print knownParcel.zoning
+        print knownParcel
         new_parcel = Farmland.create(email=form.email.data,
                         ownerName = form.ownerName.data,
                         address=address,
@@ -70,9 +84,9 @@ def new_parcel_1():
                         water=water,
                         developmentPlan=form.developmentPlan.data,
                         monthlyCost=form.monthlyCost.data,
-                        geometry=form.geometry.data,
-                        center=form.center.data,
-                        zoning='Unknown')
+                        geometry=geometry,
+                        center=center,
+                        zoning=zoning)
         flash("Thank you for listing a property. It will appear here after it has been reviewed by the city.", 'info')
         # msg = Message("Review a new property on Acres", recipients=['aaronl@cityofwestsacramento.org'])
         msg = Message("Review a new property on Acres", recipients=['grantrobertsmith@gmail.com'])
