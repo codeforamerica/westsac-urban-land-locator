@@ -248,3 +248,7 @@ a {
     color: blue;
     text-decoration: none;
 }
+
+.has-water label {    
+    margin-top: 5px;
+    margin-bottom: 20px;}

@@ -40,14 +40,18 @@
           </div>
           <div class="col-sm-2">{{form.monthlyCost(placeholder="e.g. 50", class_="form-control")}}</div>
         </div>
-        <div class="form-group" ng-init="parcel.hasWater = false;">
-          <div class="col-sm-2 control-label">{{form.hasWater.label}}</div>
-          <div class="col-xs-2">{{form.hasWater(class_="form-control form-checkbox", **{'ng-model':'parcel.hasWater'})}}</div>
+        
+        <div class="checkbox has-water" ng-init="parcel.hasWater = false;">
+          <label>
+            {{form.hasWater(class_="form-control form-checkbox", **{'ng-model':'parcel.hasWater'})}} {{form.hasWater.label}}
+          </label>
         </div>
+        
         <div class="form-group">
-          <div class="col-sm-2 control-label">{{form.water.label}} <br>(in inches)</div>
+          <div class="col-sm-2 control-label">{{form.water.label}} <br><span class="help-block">(in inches)</span></div>
           <div class="col-xs-2">{{form.water(class_="form-control", **{'ng-model':'parcel.water'})}}</div>
         </div>
+        
         <hr>
         <h3>Owner Details</h3>
         <div class="form-group">
@@ -63,7 +67,7 @@
         <input type="text" id="newParcelGeometry" name="geometry" class="ng-hide">
         <input type="text" id="newParcelCenter" name="center" class="ng-hide">
         <hr>
-        <p><span class="highlighted"><strong>Please note that property listings are aproved by City staff before being published.</strong></span></p>
+        <p><span class="highlighted"><strong>Please note that property listings are approved by City staff before being published.</strong></span></p>
         <div class="form-group parcel-submit">
           <div class="col-sm-10">
             <button class="btn btn-primary btn-lg btn-submit" type="submit" value="Post Parcel">Submit Your Property</button>

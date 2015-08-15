@@ -48,8 +48,8 @@ class ContactLandOwnerForm(Form):
 
 class NewParcel1Form(Form):
     address = TextField('Address', validators=[DataRequired()])
-    hasWater = BooleanField('Water Meter Installed')
-    water = TextField('Meter Size')
+    hasWater = BooleanField('The property has a water meter installed.')
+    water = TextField('Water Meter Size')
     size = DecimalField('Size (in acres)', validators=[DataRequired()])
     developmentPlan = TextField('Maximum Lease', validators=[DataRequired()])
     monthlyCost = IntegerField('Monthly Cost to Lease', validators=[DataRequired()])
