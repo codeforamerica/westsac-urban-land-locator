@@ -16,12 +16,20 @@ for x in range(0, 17):
 	file = open("parcels-pristine/" + filename)
 	array = json.loads(file.read())
 	for y in range(0, len(array)):
-		if 'apn' not in array[y] or 'land_type' not in array[y]:
+		if 'apn' not in array[y] or 'zoning' not in array[y]:
 			continue
 		parcel = {}
 		parcel['apn'] = int(array[y]['apn'])
-		parcel['landType'] = array[y]['land_type']
+		parcel['zoning'] = array[y]['zoning']
+		if 'land_type' in array[y]:
+			parcel['landType'] = array[y]['land_type']
+		else:
+			parcel['landType'] = '';
+		if 'land_use' in array[y]:
+			parcel['landUse'] = array[y]['land_use']
+		else:
+			parcel['landUse'] = '';
 		parcels.append(parcel)
 
 for parcel in parcels:
-	conn.execute("UPDATE parcels SET \"landType\" = '{}' WHERE apn = {}".format(parcel['landType'], parcel['apn']))
+	conn.execute("UPDATE parcels SET \"landType\" = '{}', zoning='{}', \"landUse\" = '{}' WHERE apn = {}".format(parcel['landType'], parcel['zoning'], parcel['landUse'], parcel['apn']))

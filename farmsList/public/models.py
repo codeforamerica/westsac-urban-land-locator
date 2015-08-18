@@ -28,6 +28,7 @@ class Parcel(SurrogatePK, Model):
     address = Column(db.String(400), nullable=True)
     apn = Column(db.BigInteger(), nullable=False, unique=True)
     landType = Column(db.String(80), nullable=True)
+    landUse = Column(db.String(80), nullable=True)
 
     def __init__(self, **kwargs):
         db.Model.__init__(self, **kwargs)
