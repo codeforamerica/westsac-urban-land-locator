@@ -12,6 +12,7 @@ else:
 
 conn = engine.connect()
 parcels = []
+pipeSizes = {}
 
 for x in range(0, 16):
 	filename = 'water{0:02d}.json'.format(x)
@@ -33,6 +34,11 @@ for x in range(0, 16):
 				if part != "" and part[0].isdigit():
 					# do floating point division here and add up the fractional pieces
 					decimalPipeSize += eval(compile(part, '<string>', 'eval', __future__.division.compiler_flag))
+			# if str(decimalPipeSize) not in pipeSizes:
+			# 	print str(decimalPipeSize)
+			# 	pipeSizes[str(decimalPipeSize)] = 1
+			# else:
+			# 	pipeSizes[str(decimalPipeSize)] += 1
 			flowRate += decimalPipeSize ** 2 * 28 # convert pipe size to gal/min, assuming 1/2 gives 7 gal/minute and it scales with area
 		parcel['water'] = 500 if flowRate > 500 else flowRate
 		parcels.append(parcel)
