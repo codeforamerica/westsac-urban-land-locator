@@ -70,6 +70,7 @@ def new_parcel_1():
         queryResult = db.session.query(Parcel).filter(func.ST_Contains(Parcel.geom, center)).all()
         if len(queryResult) > 0:
             knownParcel = queryResult[0]
+            soil = knownParcel.soil
             zoning = knownParcel.zoning
             if water == 0 and knownParcel.water > 0:
                 water = knownParcel.water
@@ -86,7 +87,8 @@ def new_parcel_1():
                         monthlyCost=form.monthlyCost.data,
                         geometry=geometry,
                         center=center,
-                        zoning=zoning)
+                        zoning=zoning,
+                        soil=soil)
         flash("Thank you for listing a property. It will appear here after it has been reviewed by the city.", 'info')
         # msg = Message("Review a new property on Acres", recipients=['aaronl@cityofwestsacramento.org'])
         msg = Message("Review a new property on Acres", recipients=['grantrobertsmith@gmail.com'])
