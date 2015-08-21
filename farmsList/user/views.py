@@ -92,7 +92,7 @@ def new_parcel_1():
         flash("Thank you for listing a property. It will appear here after it has been reviewed by the city.", 'info')
         # msg = Message("Review a new property on Acres", recipients=['aaronl@cityofwestsacramento.org'])
         msg = Message("Review a new property on Acres", recipients=['grantrobertsmith@gmail.com'])
-        anchorTagHtml = "<a href=\"http://" + server + "/farmland-approval/" + str(new_parcel.id) + "\">review a proerty</a>"
+        anchorTagHtml = "<a href=\"http://" + server + "/farmland-approval/" + str(new_parcel.id) + "\">review a property</a>"
         msg.html = ("<html>"
                         "<body>"
                             "<p>Please, " + anchorTagHtml + " to publish it on Acres.</p>"
