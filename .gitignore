@@ -11,3 +11,6 @@ migrations*
 # Operating System
 .DS_Store
 
+# Compiled Files
+*.pyc
+
