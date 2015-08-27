@@ -81,6 +81,9 @@ def contactLandOwner(farmlandId):
                         "</body>"
                     "</html>")
         mail.send(msg)
+        Email.create(sender=msg.sender,
+                        recipients=",".join(msg.recipients),
+                        body=msg.html)
         msg = Message("Inquiry: " + address + " Property", recipients=[form.email.data])
         msg.html = ("<html>"
                         "<body>"
