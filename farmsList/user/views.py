@@ -8,6 +8,7 @@ from flask.ext.login import login_required
 from farmsList.extensions import mail
 from flask_mail import Message
 
+from farmsList.user.models import Email
 from farmsList.public.models import Farmland,Parcel
 from farmsList.public.forms import NewParcel1Form
 from farmsList.utils import flash_errors
@@ -37,6 +38,9 @@ def approve(farmlandId):
                     "</body>"
                 "</html>")
     mail.send(msg)
+    Email.create(sender=msg.sender,
+                recipients=",".join(msg.recipients),
+                body=msg.html)
     return redirect(url_for('public.home'))
 
 @blueprint.route("/request-changes/<int:farmlandId>")
@@ -55,6 +59,9 @@ def reject(farmlandId):
                     "</body>"
                 "</html>")
     mail.send(msg)
+    Email.create(sender=msg.sender,
+                    recipients=",".join(msg.recipients),
+                    body=msg.html)
     return redirect(url_for('public.home'))
 
 @blueprint.route("/new_parcel_1/", methods=['GET', 'POST'])
@@ -64,6 +71,7 @@ def new_parcel_1():
         address = form.address.data
         water = 0 if form.water.data == '' else form.water.data
         zoning = 'Unknown'
+        soil = 'Made land'
         geometry = db.session.query(func.ST_GeomFromGeoJSON(form.geometry.data)).all()[0]
         center = db.session.query(func.ST_GeomFromGeoJSON(form.center.data)).all()[0]
         knownParcel = None
@@ -102,5 +110,8 @@ def new_parcel_1():
                         "</body>"
                     "</html>")
         mail.send(msg)
+        Email.create(sender=msg.sender,
+                        recipients=",".join(msg.recipients),
+                        body=msg.html)
         return redirect(url_for('public.home'))
     return render_template("users/new_parcel_1.html", form=form)

@@ -25,6 +25,19 @@ class Role(SurrogatePK, Model):
     def __repr__(self):
         return '<Role({name})>'.format(name=self.name)
 
+class Email(SurrogatePK, Model):
+    __tablename__ = 'emails'
+    sender = Column(db.String(80), nullable=False)
+    recipients = Column(db.String(2000), nullable=False)
+    body = Column(db.String(6250000), nullable=False)
+    time_sent = Column(db.DateTime, nullable=False, default=dt.datetime.utcnow)
+
+    def __init__(self, sender, recipients, body, **kwargs):
+        db.Model.__init__(self, sender=sender, recipients=recipients, body=body, **kwargs)
+
+    def __repr__(self):
+        return '<Email(From:{sender};To:{recipient};Body:{body})>'.format(sender=self.sender, recipient=self.recipient, body=self.body)
+
 class User(UserMixin, SurrogatePK, Model):
     __tablename__ = 'users'
     username = Column(db.String(80), unique=True, nullable=False)

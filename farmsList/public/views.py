@@ -10,6 +10,7 @@ from farmsList.user.models import User
 from farmsList.public.forms import LoginForm, ContactLandOwnerForm
 from farmsList.public.models import Farmland
 from farmsList.user.forms import RegisterForm
+from farmsList.user.models import Email
 from farmsList.utils import flash_errors
 from farmsList.database import db
 
@@ -87,7 +88,10 @@ def contactLandOwner(farmlandId):
                             "" + mainBodyContent + ""
                         "</body>"
                     "</html>")
-        mail.send(msg)        
+        mail.send(msg)
+        Email.create(sender=msg.sender,
+                        recipients=",".join(msg.recipients),
+                        body=msg.html)
         flash("Thanks for your inquiry! We sent your email for more information about the property. " + farmland.ownerName + " will follow up with you shortly.", 'info')
         return redirect(url_for('public.home'))
     else:
