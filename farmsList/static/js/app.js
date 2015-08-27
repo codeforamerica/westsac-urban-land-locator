@@ -29,6 +29,20 @@ var app = angular.module('listApp', ['angular-mapbox','leaflet-directive'])
   });
 
 app.controller('MainController', function($scope, $http, mapboxService, parcelStyles){
+  // if (navigator.geolocation) {
+  //   navigator.geolocation.getCurrentPosition(function(position) {
+  //     $scope.center = {
+  //       lat: position.coords.latitude,
+  //       lng: position.coords.longitude
+  //     };
+  //     mapboxService.getMapInstances()[0].setView(L.latLng($scope.center.lat, $scope.center.lng), 13);
+  //   });
+  // } else {
+  $scope.center = {
+    lat: 38.58024,
+    lng: -121.5305
+  };
+  //}
   var getFarm = function(farmId) {
       var _farm;
       angular.forEach($scope.farms, function(farm) {
