@@ -1,7 +1,9 @@
 from apscheduler.schedulers.blocking import BlockingScheduler
 from rq import Queue
 from worker import conn
+import logging
 
+logging.basicConfig()
 q = Queue(connection=conn)
 sched = BlockingScheduler()
 
