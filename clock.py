@@ -1,5 +1,5 @@
 from apscheduler.schedulers.blocking import BlockingScheduler
-from farmsList.imports import every_three_minutes, every_weekday_at_5pm
+from farmsList.imports import every_night_at_1am
 from rq import Queue
 from worker import conn
 import logging
@@ -8,12 +8,8 @@ logging.basicConfig()
 q = Queue(connection=conn)
 sched = BlockingScheduler()
 
-@sched.scheduled_job('interval', minutes=3)
-def timed_job():
-	q.enqueue(every_three_minutes)
-
-@sched.scheduled_job('cron', day_of_week='mon-fri', hour=17)
+@sched.scheduled_job('cron', hour=1)
 def scheduled_job():
-	q.enqueue(every_weekday_at_5pm)
+	q.enqueue(every_night_at_1am)
 
 sched.start()
