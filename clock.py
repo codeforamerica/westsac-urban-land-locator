@@ -1,5 +1,5 @@
 from apscheduler.schedulers.blocking import BlockingScheduler
-import farmsList.imports
+from farmsList.imports import every_three_minutes, every_weekday_at_5pm
 from rq import Queue
 from worker import conn
 import logging
