@@ -74,3 +74,15 @@ class AdditionalLayer(SurrogatePK, Model):
 
     def __repr__(self):
         return '<AdditionalLayer({id}, {name})>'.format(id=self.id, name=self.name)
+
+class RemoteDataset(SurrogatePK, Model):
+    __tablename__ = 'remote_datasets'
+    name = Column(db.String(400), nullable=False)
+    url = Column(db.String(2000), nullable=False)
+    lastUpdatedLocally = Column(db.DateTime, nullable=False, default=0)
+
+    def __init__(self, **kwargs):
+        db.Model.__init__(self, **kwargs)
+
+    def __repr__(self):
+        return '<RemoteDataset({name})>'.format(name=self.name)
