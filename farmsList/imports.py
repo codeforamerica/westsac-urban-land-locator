@@ -4,6 +4,7 @@
 '''
 import os
 import urllib2
+from datetime import datetime
 
 from HTMLParser import HTMLParser
 from sqlalchemy import create_engine
@@ -21,7 +22,7 @@ connection = engine.connect()
 class WestSacUpdateHTMLParser(HTMLParser):
 	foundUpdateTag = False
 	foundUpdateInstant = False
-	updateInstant = 0
+	updateInstant = datetime.min
 
 	def handle_starttag(self, tag, attrs):
 		if ('class', 'aboutUpdateDate') in attrs:
@@ -35,7 +36,7 @@ class WestSacUpdateHTMLParser(HTMLParser):
 
 class SACOGUpdateHTMLParser(HTMLParser):
 	# Assume they never update data for now. Do they have an open data portal yet?
-	updateInstant = 0
+	updateInstant = datetime.min
 
 def getToolsForDataset(name):
     return {
