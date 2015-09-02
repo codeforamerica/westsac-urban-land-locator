@@ -32,17 +32,29 @@ class WestSacUpdateHTMLParser(HTMLParser):
 			for attribute in attrs:
 				key, value = attribute
 				if (key == 'data-rawdatetime'):
-					self.updateInstant = int(value)
+					self.updateInstant = datetime.fromtimestamp(int(value))
 
-class SACOGUpdateHTMLParser(HTMLParser):
-	# Assume they never update data for now. Do they have an open data portal yet?
+class UCDavisSoilsHTMLParcer(HTMLParser):
+	soilRegionCode = ''
+	foundYoloSoil = False
+	foundUpdateInstant = False
 	updateInstant = datetime.min
+
+	def handle_data(self, data):
+		if data == self.soilRegionCode:
+			self.foundYoloSoil = True
+		elif self.foundYoloSoil and not self.foundUpdateInstant and data.strip():
+			self.updateInstant = datetime.strptime(data, '%Y-%m-%d')
+			self.foundUpdateInstant = True
+
+	def __init__(self, code):
+		self.soilRegionCode = code
 
 def getToolsForDataset(name):
     return {
         'westSacParcels': (WestSacUpdateHTMLParser(), WestSacParcelUpdater()),
         'westSacWater': (WestSacUpdateHTMLParser(), WestSacWaterUpdater()),
-        'yoloSoil': (SACOGUpdateHTMLParser(), YoloSoilUpdater())
+        'yoloSoil': (UCDavisSoilsHTMLParcer('ca113'), YoloSoilUpdater())
     }[name]
 
 def every_night_at_1am():
@@ -56,6 +68,8 @@ def every_night_at_1am():
 		responseHtml = urllib2.urlopen(dataset.url).read()
 		parser, updater = getToolsForDataset(name)
 		parser.feed(responseHtml)
+		print 'Last Updated Locally: ' + dataset.lastUpdatedLocally.strftime('%Y-%m-%d %H:%M:%S')
+		print 'Last Updated Remotely: ' + parser.updateInstant.strftime('%Y-%m-%d %H:%M:%S')
 		if parser.updateInstant > dataset.lastUpdatedLocally:
 			print 'Updating dataset: ' + name
 			updater.run()
