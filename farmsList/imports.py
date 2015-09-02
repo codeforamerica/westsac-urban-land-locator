@@ -43,7 +43,7 @@ def getToolsForDataset(name):
         'westSacParcels': (WestSacUpdateHTMLParser(), WestSacParcelUpdater()),
         'westSacWater': (WestSacUpdateHTMLParser(), WestSacWaterUpdater()),
         'yoloSoil': (SACOGUpdateHTMLParser(), YoloSoilUpdater())
-    }[x]
+    }[name]
 
 def every_night_at_1am():
 	print 'Starting the 1am job.'
