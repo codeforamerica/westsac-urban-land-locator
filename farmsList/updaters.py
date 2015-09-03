@@ -18,12 +18,17 @@ class WestSacWaterUpdater():
 	def run():
 		print 'code goes here'
 
-class YoloSoilUpdater():
-	def run():
+class SoilUpdater():
+	county = ''
+
+	def __init__(self, county):
+		self.county = county
+
+	def run(self):
 		# Figure out where this might live, again, for now, shouldn't matter because the parser always finds it's not updated
-		soilsFile = open("../parcels-pristine/yolo-soils.geojson")
-		yoloSoils = json.loads(soilsFile.read())
-		soilsArray = yoloSoils['features']
+		soilsFile = open("../parcels-pristine/{}-soils.geojson".format(self.county.lower()))
+		soils = json.loads(soilsFile.read())
+		soilsArray = soils['features']
 
 		# For now, we pretty much assume that land is correctly soiled on a first come first serve basis in terms of importing new soil data.
 		# This is based on the nature of frequency with which such data sets are updated.

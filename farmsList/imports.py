@@ -9,7 +9,7 @@ from datetime import datetime
 from HTMLParser import HTMLParser
 from sqlalchemy import create_engine
 from farmsList.settings import ProdConfig, DevConfig
-from updaters import WestSacParcelUpdater, WestSacWaterUpdater, YoloSoilUpdater
+from updaters import WestSacParcelUpdater, WestSacWaterUpdater, SoilUpdater
 
 # establish connection with the database we want to be using
 if os.environ.get("FARMSLIST_ENV") == 'prod':
@@ -50,11 +50,18 @@ class UCDavisSoilsHTMLParcer(HTMLParser):
 	def __init__(self, code):
 		self.soilRegionCode = code
 
+# for each dataset in the database, we need some special code to check for updates (parcer), and to run new updates when needed (updater)
+# this maps the dataset named in the database to a give updater and parser for maintaining the data in our database
 def getToolsForDataset(name):
     return {
+        'elDoradoSoil': (UCDavisSoilsHTMLParcer('ca624'), SoilUpdater('ElDorado')),  # ca724,ca693 are also technically required for el dorado county soil mapping
+        'placerSoil': (UCDavisSoilsHTMLParcer('ca719'), SoilUpdater('Placer')),
+        'sacramentoSoil': (UCDavisSoilsHTMLParcer('ca067'), SoilUpdater('Sacramento')),
+        'sutterSoil': (UCDavisSoilsHTMLParcer('ca101'), SutterSoilUpdater('Sutter')),
         'westSacParcels': (WestSacUpdateHTMLParser(), WestSacParcelUpdater()),
         'westSacWater': (WestSacUpdateHTMLParser(), WestSacWaterUpdater()),
-        'yoloSoil': (UCDavisSoilsHTMLParcer('ca113'), YoloSoilUpdater())
+        'yoloSoil': (UCDavisSoilsHTMLParcer('ca113'), SoilUpdater('Yolo')),
+        'yubaSoil': (UCDavisSoilsHTMLParcer('ca618'), SoilUpdater('Yuba'))
     }[name]
 
 def every_night_at_1am():
