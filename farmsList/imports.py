@@ -57,7 +57,7 @@ def getToolsForDataset(name):
         'elDoradoSoil': (UCDavisSoilsHTMLParcer('ca624'), SoilUpdater('ElDorado')),  # ca724,ca693 are also technically required for el dorado county soil mapping
         'placerSoil': (UCDavisSoilsHTMLParcer('ca719'), SoilUpdater('Placer')),
         'sacramentoSoil': (UCDavisSoilsHTMLParcer('ca067'), SoilUpdater('Sacramento')),
-        'sutterSoil': (UCDavisSoilsHTMLParcer('ca101'), SutterSoilUpdater('Sutter')),
+        'sutterSoil': (UCDavisSoilsHTMLParcer('ca101'), SoilUpdater('Sutter')),
         'westSacParcels': (WestSacUpdateHTMLParser(), WestSacParcelUpdater()),
         'westSacWater': (WestSacUpdateHTMLParser(), WestSacWaterUpdater()),
         'yoloSoil': (UCDavisSoilsHTMLParcer('ca113'), SoilUpdater('Yolo')),
