@@ -49,7 +49,7 @@ class UCDavisSoilsHTMLParcer(HTMLParser):
 
 	def __init__(self, code):
 		self.soilRegionCode = code
-		super(HTMLParser, self).__init__()
+		HTMLParser.__init__(self)
 
 # for each dataset in the database, we need some special code to check for updates (parcer), and to run new updates when needed (updater)
 # this maps the dataset named in the database to a give updater and parser for maintaining the data in our database
