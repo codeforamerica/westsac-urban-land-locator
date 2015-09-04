@@ -5,9 +5,11 @@ from farmsList.settings import ProdConfig, DevConfig
 
 if os.environ.get("FARMSLIST_ENV") == 'prod':
 	engine = create_engine(ProdConfig().SQLALCHEMY_DATABASE_URI)
+	filepath = '/app'
 	debug = False
 else:
 	engine = create_engine(DevConfig().SQLALCHEMY_DATABASE_URI)
+	filepath = '..'
 	debug = True
 
 class WestSacParcelUpdater():
@@ -26,7 +28,7 @@ class SoilUpdater():
 
 	def update(self):
 		# Figure out where this might live, again, for now, shouldn't matter because the parser always finds it's not updated
-		soilsFile = open("../parcels-pristine/{}-soils.geojson".format(self.county.lower()))
+		soilsFile = open("{}/parcels-pristine/{}-soils.geojson".format(filepath, self.county.lower()))
 		soils = json.loads(soilsFile.read())
 		soilsArray = soils['features']
 
