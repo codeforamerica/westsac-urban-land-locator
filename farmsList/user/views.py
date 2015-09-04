@@ -82,9 +82,6 @@ def new_parcel_1():
             zoning = knownParcel.zoning
             if water == 0 and knownParcel.water > 0:
                 water = knownParcel.water
-            print knownParcel.water
-            print knownParcel.zoning
-        print knownParcel
         new_parcel = Farmland.create(email=form.email.data,
                         ownerName = form.ownerName.data,
                         address=address,

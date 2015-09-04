@@ -12,19 +12,19 @@ class Config(object):
     DEBUG_TB_ENABLED = False  # Disable Debug toolbar
     DEBUG_TB_INTERCEPT_REDIRECTS = False
     CACHE_TYPE = 'simple'  # Can be "memcached", "redis", etc.
-    MAIL_SERVER = 'smtp.live.com'
+    MAIL_SERVER = os_env.get('POSTMARK_SMTP_SERVER')
     MAIL_PORT = 25
     MAIL_USE_TLS = True
     MAIL_USE_SSL = False
-    MAIL_USERNAME = 'acres.webmaster@hotmail.com'
-    MAIL_PASSWORD = 'AcresWebmaster'
-    MAIL_DEFAULT_SENDER = "Acres Webmaster <acres.webmaster@hotmail.com>"
+    MAIL_USERNAME = os_env.get('POSTMARK_API_TOKEN')
+    MAIL_PASSWORD = os_env.get('POSTMARK_API_TOKEN')
+    MAIL_DEFAULT_SENDER = "Acres Webmaster <acres.webmaster@acres.online>"
 
 class ProdConfig(Config):
     """Production configuration."""
     ENV = 'prod'
     DEBUG = False
-    SQLALCHEMY_DATABASE_URI = 'postgres://u6cd141psgburi:pfol6qf49366s85f8l56kbj3d4n@ec2-54-227-243-136.compute-1.amazonaws.com:5752/da98hsnk9qbjv0'
+    SQLALCHEMY_DATABASE_URI = os_env.get('HEROKU_POSTGRESQL_IVORY_URL')
     DEBUG_TB_ENABLED = False  # Disable Debug toolbar
     HTTP_SERVER = "acres.herokuapp.com"
 
@@ -32,6 +32,7 @@ class DevConfig(Config):
     """Development configuration."""
     ENV = 'dev'
     DEBUG = True
+    MAIL_DEBUG = True
     DB_NAME = 'dev.db'
     # Put the db file in project root
     # DB_PATH = os.path.join(Config.PROJECT_ROOT, DB_NAME)
@@ -41,6 +42,8 @@ class DevConfig(Config):
     HTTP_SERVER = "localhost:5001"
 
 class TestConfig(Config):
+    """Testing configuration"""
+    ENV = 'test'
     TESTING = True
     DEBUG = True
     SQLALCHEMY_DATABASE_URI = 'sqlite://'
