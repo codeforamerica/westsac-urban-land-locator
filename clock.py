@@ -8,7 +8,7 @@ logging.basicConfig()
 q = Queue(connection=conn)
 sched = BlockingScheduler()
 
-@sched.scheduled_job('cron', hour=21, minute=11)# hour=1)
+@sched.scheduled_job('cron', hour=21, minute=14)# hour=1)
 def scheduled_job():
 	q.enqueue(every_night_at_1am)
 
