@@ -75,12 +75,14 @@ def every_night_at_1am():
 		responseHtml = urllib2.urlopen(dataset.url).read()
 		parser, updater = getToolsForDataset(name)
 		parser.feed(responseHtml)
+		updateInstant = parser.updateInstant.strftime('%Y-%m-%d %H:%M:%S')
 		print 'Last Updated Locally: ' + dataset.lastUpdatedLocally.strftime('%Y-%m-%d %H:%M:%S')
-		print 'Last Updated Remotely: ' + parser.updateInstant.strftime('%Y-%m-%d %H:%M:%S')
+		print 'Last Updated Remotely: ' + updateInstant
 		if parser.updateInstant > dataset.lastUpdatedLocally:
 			print 'Updating dataset: ' + name
-			updater.run()
+			updater.update()
 			print 'Finished updating dataset: ' + name
+			connection.execute("UPDATE remote_datasets SET \"lastUpdatedLocally\"='{}' WHERE id={}".format(updateInstant, dataset.id))
 		else:
 			print 'No update required for dataset: ' + name
 	print 'Finished the 1am job.'

@@ -11,11 +11,11 @@ else:
 	debug = True
 
 class WestSacParcelUpdater():
-	def run():
+	def update(self):
 		print 'code goes here'
 
 class WestSacWaterUpdater():
-	def run():
+	def update(self):
 		print 'code goes here'
 
 class SoilUpdater():
@@ -24,7 +24,7 @@ class SoilUpdater():
 	def __init__(self, county):
 		self.county = county
 
-	def run(self):
+	def update(self):
 		# Figure out where this might live, again, for now, shouldn't matter because the parser always finds it's not updated
 		soilsFile = open("../parcels-pristine/{}-soils.geojson".format(self.county.lower()))
 		soils = json.loads(soilsFile.read())
