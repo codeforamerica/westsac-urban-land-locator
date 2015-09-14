@@ -7,7 +7,8 @@
 }
 
 .mapTogether {
-  position: fixed;
+  position: relative;
+  float: right;
   top: 51px;
   bottom:0;
   width:66.66666667% !important;

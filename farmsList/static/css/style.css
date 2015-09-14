@@ -12,6 +12,7 @@ body {
   padding-top: 50px;
   font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
   font-size: 16px;
+  background-color: white;
 }
 
 section {
@@ -64,8 +65,8 @@ textarea.form-control {
 
 #contact-btn {
   font-size: 15px;
-  background-color: blue;
-  border-color: blue;
+  background-color: limegreen;
+  border-color: limegreen;
   opacity: 0.75;
 }
 
@@ -122,8 +123,8 @@ ul.info-icons > li > img {
 }
 
 .parcel-submit .btn-submit {
-  background-color: blue;
-  border: 1px solid blue;
+  background-color: limegreen;
+  border: 1px solid limegreen;
   color: white;
 }
 
@@ -159,7 +160,7 @@ ul.info-icons > li > img {
   margin-top: 20px;
   font-size: 24px;
   background-color: white;
-  color: blue;
+  color: limegreen;
 }
 
 #farm-details-address {
@@ -232,24 +233,24 @@ label {
   font-size: 14px;
   color: #aaa;}
 
-h3 {    
+h3 {
   font-size: 20px;
   font-weight: bold;}
 
 .btn-primary {
-  background-color: blue;
-  border: 1px solid blue;}
+  background-color: limegreen;
+  border: 1px solid limegreen;}
 
 h1, .h1 {
   font-size: 24px;
   font-weight: bold;}
 
 a {
-    color: blue;
+    color: limegreen;
     text-decoration: none;
 }
 
-.has-water label {    
+.has-water label {
     margin-top: 5px;
     margin-bottom: 20px;}
 

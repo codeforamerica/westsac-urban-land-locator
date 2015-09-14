@@ -1,55 +1,72 @@
 {% extends "layout.html" %}
+
+{% include "header.html" %}
+
 {% block content %}
-<div ng-controller="MainController">
-  <div class="row">
-    <div class="col-md-4">
-      {% with messages = get_flashed_messages(with_categories=true) %}
-      {% if messages %}
-      <div class="row">
-        <div class="col-md-12">
-          {% for category, message in messages %}
-          <div class="alert alert-{{ category }}">
-            <a class="close" title="Close" href="#" data-dismiss="alert">&times;</a>
-           {{message}}
-          </div><!-- end .alert -->
-          {% endfor %}
-        </div><!-- end col-md -->
-      </div><!-- end row -->
-      {% endif %}
-      {% endwith %}
-      <div class="row parcel-listing" ng-click="goToFarmlandDetailsPage(farm.id)" ng-mouseover="highlightParcelOnMap(farm.id)" ng-repeat="farm in farms | filter:searchText">
+    <section id="map" class="container content-section text-center">
+      <div ng-controller="MainController">
         <div class="row">
-          <div class="col-md-8">
-            <h3 class="title">{[farm.address]}</h3>
-            <h2>{[farm.size]} acres</h2>
-            <ul class="info">
-              <li>Water: {[farm.water]}</li>
-            </ul>
-          </div>
           <div class="col-md-4">
-            <button ng-click="gotoContactForm(farm.id, $event)" id="contact-btn" class="btn btn-warning pull-right btn-contact">
-              Contact Owner
-            </button>
+            {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+            <div class="row">
+              <div class="col-md-12">
+                {% for category, message in messages %}
+                <div class="alert alert-{{ category }}">
+                  <a class="close" title="Close" href="#" data-dismiss="alert">&times;</a>
+                 {{message}}
+                </div><!-- end .alert -->
+                {% endfor %}
+              </div><!-- end col-md -->
+            </div><!-- end row -->
+            {% endif %}
+            {% endwith %}
+            <div class="row parcel-listing" ng-click="goToFarmlandDetailsPage(farm.id)" ng-mouseover="highlightParcelOnMap(farm.id)" ng-repeat="farm in farms | filter:searchText">
+              <div class="row">
+                <div class="col-md-8">
+                  <h3 class="title">{[farm.address]}</h3>
+                  <h2>{[farm.size]} acres</h2>
+                  <ul class="info">
+                    <li>Water: {[farm.water]}</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <button ng-click="gotoContactForm(farm.id, $event)" id="contact-btn" class="btn btn-warning pull-right btn-contact">
+                    Contact Owner
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 div-map">
+            <mapbox class="mapTogether" map-id="codeforamerica.m5m971km" lat="{[center.lat]}" lng="{[center.lng]}" zoom="13">
+              <div ng-repeat="farm in farms | filter:searchText">
+                <feature-layer data="{[farm.geometry]}" color="green"></featureLayer>
+                <marker lat="{[farm.center.lat]}" lng="{[farm.center.lng]}" color="green">
+                  <p><strong>{[farm.address]}</strong><br>
+                    <span>{[farm.size]} acres</span><br>
+                    <a href="#" ng-click="goToFarmlandDetailsPage(farm.id)">Additional Info</a><br>
+                    <a href="#" ng-click="gotoContactForm(farm.id, $event)">Contact Owner</a>
+                  </p>
+                  <p style="display: none">{[farm.costEstimate]}</p>
+                  <p style="display: none">{[farm.id]}</p>
+                </marker>
+              </div>
+            </mapbox>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="col-md-8 div-map">
-      <mapbox class="mapTogether" map-id="codeforamerica.m5m971km" lat="{[center.lat]}" lng="{[center.lng]}" zoom="13">
-        <div ng-repeat="farm in farms | filter:searchText">
-          <feature-layer data="{[farm.geometry]}" color="green"></featureLayer>
-          <marker lat="{[farm.center.lat]}" lng="{[farm.center.lng]}" color="green">
-            <p><strong>{[farm.address]}</strong><br>
-              <span>{[farm.size]} acres</span><br>
-              <a href="#" ng-click="goToFarmlandDetailsPage(farm.id)">Additional Info</a><br>
-              <a href="#" ng-click="gotoContactForm(farm.id, $event)">Contact Owner</a>
-            </p>
-            <p style="display: none">{[farm.costEstimate]}</p>
-            <p style="display: none">{[farm.id]}</p>
-          </marker>
         </div>
-      </mapbox>
-    </div>
-  </div>
-</div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About the Urban Farming Program</h2>
+                <hr>
+                <p>The properties listed on this website have been selected by the <a href="https://www.cityofwestsacramento.org/">City of West Sacramento</a> as locations where farming would benefit the community. Additionally, any property owned by the city can be leased for a period of at least five years at a rate of $1 per year. For additional information, or to find out how to list a property that you own, please contact <a href="mailto:aaronl@cityofwestsacramento.org">Aaron Laurel</a>, Development Coordinator for the City of West Sacramento.</p>
+            </div>
+        </div>
+    </section>
 {% endblock %}

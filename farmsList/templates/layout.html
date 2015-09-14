@@ -1,5 +1,5 @@
 {% include "head.html" %}
-<body ng-app="listApp" class="{% block body_class %}{% endblock %} ng-cloak">
+<body ng-app="listApp" class="{% block body_class %}{% endblock %} ng-cloak" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PC2XRN"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -10,21 +10,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-PC2XRN');</script>
 <!-- End Google Tag Manager -->
 {% block body %}
+
 {% with form=form  %}
+
 {% include "nav.html" %}
+
+{% block content %}{% endblock %}
+
+
 {% endwith %}
 
-<header>{% block header %}{% endblock %}</header>
 
-<div class="{% block content_class %}container-fluid{% endblock content_class %}">
-
-  <div role="main">
-    {% block content %}{% endblock %}
-  </div>
-
-</div><!-- end container -->
-
-<!--{% include "footer.html" %}-->
 
 
 
