@@ -1,17 +1,21 @@
 /* map in the add parcel template */
-
 #map {
-  height: 565px;
-  margin-top: 20px;
-  border-radius: 4px;
+  background-color: white;
+  width: 100%;
 }
 
-.mapTogether {
-  position: relative;
-  float: right;
-  top: 51px;
-  bottom:0;
-  width:66.66666667% !important;
-  height: 645px !important;
-  border-radius: 0px;
+.col-md-8.div-map {
+  background-color: transparent;
+  padding: 0px;
+  height: 100% !important;
+}
+
+.div-map .angular-mapbox-map {
+  width: 100% !important;
+  height: 100% !important;
+
+}
+
+.content-section .angular-mapbox-map {
+    padding-top: 0px;
 }

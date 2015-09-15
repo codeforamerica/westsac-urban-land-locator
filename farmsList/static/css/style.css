@@ -51,6 +51,13 @@ textarea.form-control {
           box-sizing: border-box;
 }
 
+/*intro styles section*/
+header.intro {
+  background-color: salmon;
+  background-image: url('http://montereycfb.com/uploads/images/Lettuce%20rows%202013.jpg');
+  max-width: 100%;
+}
+
 /* list row */
 .title {
   //color: DimGray;
@@ -205,20 +212,11 @@ h2 {
   border-bottom: 1px solid #eee;
 }
 
-.div-map {
-  padding: 0;
-}
-
 .page-header {
   font-size: 24px;
   font-weight: bold;
   border-bottom: 1px solid #eee;
   margin-top: 30px;}
-
-.leaflet-angular-map {
-  height: 565px;
-  width: 100%;
-  margin-top: 20px;}
 
 .required {
   color: #d6373d;}

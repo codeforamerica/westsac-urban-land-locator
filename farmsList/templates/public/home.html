@@ -3,7 +3,7 @@
 {% include "header.html" %}
 
 {% block content %}
-    <section id="map" class="container content-section text-center">
+    <section id="map" class="container content-section">
       <div ng-controller="MainController">
         <div class="row">
           <div class="col-md-4">
@@ -39,7 +39,7 @@
             </div>
           </div>
           <div class="col-md-8 div-map">
-            <mapbox class="mapTogether" map-id="codeforamerica.m5m971km" lat="{[center.lat]}" lng="{[center.lng]}" zoom="13">
+            <mapbox map-id="codeforamerica.m5m971km" lat="{[center.lat]}" lng="{[center.lng]}" zoom="13">
               <div ng-repeat="farm in farms | filter:searchText">
                 <feature-layer data="{[farm.geometry]}" color="green"></featureLayer>
                 <marker lat="{[farm.center.lat]}" lng="{[farm.center.lng]}" color="green">

@@ -100,8 +100,8 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255,255,255,.8);
-    background-color: transparent;
+    color: white;
+    background-color: tomato;
 }
 
 .navbar-custom .nav li a:focus,
@@ -115,7 +115,8 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,.3);
+    background-color: tomato;
+    color: white;
 }
 
 .navbar-custom .nav li.active a:hover {
@@ -124,7 +125,7 @@ a:focus {
 
 @media(min-width:768px) {
     .navbar-custom {
-        padding: 20px 0;
+        padding: 0px 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
@@ -135,8 +136,8 @@ a:focus {
 
     .navbar-custom.top-nav-collapse {
         padding: 0;
-        border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
+        background: white;
+        border-bottom: 2px solid tomato;
     }
 }
 
@@ -146,9 +147,9 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: black;
+    color: white;
     background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: white;
+    background-color: tomato;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -258,8 +259,15 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 200px;
+    height: 110%;
 }
+
+#map.content-section {
+    padding-top: 50px;
+
+}
+
 
 .download-section {
     width: 100%;
@@ -273,25 +281,13 @@ a:focus {
     -o-background-size: cover;
 }
 
-#map {
-    background-color: tomato;
-    min-height: 110%;
-    width: 100%;
-    padding-top: 200px;
-}
-
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        /*padding-top: 250px;*/
     }
 
     .download-section {
         padding: 100px 0;
-    }
-
-    #map {
-        /*height: 400px;
-        margin-top: 250px;*/
     }
 }
 
