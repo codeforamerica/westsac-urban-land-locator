@@ -257,3 +257,16 @@ margin-top:-5px;}
 
 .form-group.water-meter {    margin-top: -25px;
     margin-left: 26px;}
+
+.btn-danger {
+  border: 1px solid tomato;
+  background-color: white;
+  color: tomato;
+}
+
+.btn-danger:hover, .btn-danger:focus {
+    border: 1px solid tomato;
+    outline: 0px none;
+    color: white;
+    background-color: tomato;
+}

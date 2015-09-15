@@ -24,3 +24,15 @@
 }
 
 .main-nav {padding: 0 40px;}
+
+
+
+/*second navbar - nav-form styles code*/
+
+#nav-form .navbar {
+  background-color: tomato;
+}
+
+#nav-form .navbar-brand {
+  color: white;
+}
