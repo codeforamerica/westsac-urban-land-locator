@@ -9,7 +9,7 @@ from datetime import datetime
 from HTMLParser import HTMLParser
 from sqlalchemy import create_engine
 from farmsList.settings import ProdConfig, DevConfig
-from updaters import WestSacParcelUpdater, WestSacWaterUpdater, SoilUpdater
+from updaters import WestSacParcelUpdater, WestSacWaterUpdater, SoilUpdater, FoodDesertUpdater
 
 # establish connection with the database we want to be using
 if os.environ.get("FARMSLIST_ENV") == 'prod':
@@ -34,6 +34,28 @@ class WestSacUpdateHTMLParser(HTMLParser):
 				if (key == 'data-rawdatetime'):
 					self.updateInstant = datetime.fromtimestamp(int(value))
 
+# create a subclass and override the handler methods
+class USDAEconomicResearchServiceParcer(HTMLParser):
+	foundUpdateTag = False
+	foundUpdateInstant = False
+	dataBuffer = ''
+	updateInstant = datetime.min
+
+	def handle_starttag(self, tag, attrs):
+		if ('id', 'UpdateContact') in attrs:
+			self.foundUpdateTag = True
+
+	def handle_endtag(self, tag):
+		if tag == 'p' and self.foundUpdateTag and not self.foundUpdateInstant:
+			self.foundUpdateInstant = True
+			timeString = self.dataBuffer.strip()
+			self.updateInstant = datetime.strptime(timeString, '%A, %B %d, %Y')
+
+	def handle_data(self, data):
+		if self.foundUpdateTag and not self.foundUpdateInstant:
+			self.dataBuffer = data
+
+# create a subclass and override the handler methods
 class UCDavisSoilsHTMLParcer(HTMLParser):
 	soilRegionCode = ''
 	foundYoloSoil = False
@@ -56,6 +78,7 @@ class UCDavisSoilsHTMLParcer(HTMLParser):
 def getToolsForDataset(name):
     return {
         'elDoradoSoil': (UCDavisSoilsHTMLParcer('ca624'), SoilUpdater('ElDorado')),  # ca724,ca693 are also technically required for el dorado county soil mapping
+        'foodDesertSACOG': (USDAEconomicResearchServiceParcer(), FoodDesertUpdater()),
         'placerSoil': (UCDavisSoilsHTMLParcer('ca719'), SoilUpdater('Placer')),
         'sacramentoSoil': (UCDavisSoilsHTMLParcer('ca067'), SoilUpdater('Sacramento')),
         'sutterSoil': (UCDavisSoilsHTMLParcer('ca101'), SoilUpdater('Sutter')),
