@@ -195,7 +195,7 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
       }
       var taxIncentiveZones = {
         type: "Feature",
-        geometry: JSON.parse(data.geometry),
+        geometry: JSON.parse(data[0].geometry),
         properties: {
           name: data.name
         }

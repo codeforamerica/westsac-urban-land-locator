@@ -44,6 +44,9 @@ def api_farmland_by_id(farmlandId):
 @blueprint.route("/tax-incentive-zones", methods=["GET", "POST"])
 def tax_incentive_zones():
 	taxIncentiveZones = AdditionalLayer.query.filter_by(name="taxIncentive").all()
+	for taxIncentiveZone in taxIncentiveZones:
+		taxIncentiveZone.geometry = db.session.query(func.ST_AsGeoJson(taxIncentiveZone.geom)).all()[0][0]
+		db.session.close()
 	if len(taxIncentiveZones) > 0:
-		taxIncentiveZones = taxIncentiveZones[0]
+		taxIncentiveZones = [taxIncentiveZones[0]]
 	return jsonpickle.encode(taxIncentiveZones, unpicklable=False, make_refs=False)
