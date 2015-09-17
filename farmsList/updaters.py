@@ -1,5 +1,6 @@
 import os
 import json
+import urllib2
 from sqlalchemy import create_engine
 from farmsList.settings import ProdConfig, DevConfig
 
@@ -11,6 +12,10 @@ else:
 	engine = create_engine(DevConfig().SQLALCHEMY_DATABASE_URI)
 	filepath = '..'
 	debug = True
+
+def debugPrint(printString):
+	if debug:
+		print printString
 
 class WestSacParcelUpdater():
 	def getParcels():
@@ -63,7 +68,46 @@ class WestSacWaterUpdater():
 
 class FoodDesertUpdater():
 	def update(self):
-		print 'code goes here'
+		# Grab the food desert excel file from the USDA ERS website and get it into a python object we can use
+		xmlBinaryString = urllib2.urlopen('http://www.ers.usda.gov/datafiles/Food_Access_Research_Atlas/Download_the_Data/Current_Version/DataDownload.xlsx').read()
+		workbook = xlrd.open_workbook(file_contents=xmlBinaryString)
+		sheet = workbook.sheet_by_name('Food Access Research Atlas Data')
+		foodDesertCensusTracts = []
+		debugPrint('Got the USDA Data.')
+
+		# Now go through and grab all the census tracts that qualify as any of the 4 publicly atlased USDA ERS Food Desert Measures
+		for rownum in xrange(sheet.nrows):
+			if rownum == 0:
+				continue
+			rowValues = sheet.row_values(rownum)
+			if rowValues[1] == 'CA' and rowValues[2] in ['El Dorado', 'Placer', 'Sacramento', 'Sutter', 'Yolo', 'Yuba'] and 0 < sum(rowValues[3:6]):
+				foodDesertCensusTracts.append(int(rowValues[0]))
+		debugPrint('Found the food deserts in SACOG region.')
+
+		# Finally build a geojson layer from the 2010 census tract boundaries file with the tracts that are 'food deserts'
+		foodDesertLayerString = '{"type":"MultiPolygon","coordinates":['
+		for censusTract in foodDesertCensusTracts:
+			# censusTractFile = open('{}/parcels-pristine/foodDesertsCalifornia.geojson'.format(filepath), 'r')
+			censusTractFile = open('parcels-pristine/foodDesertsCalifornia.geojson', 'r')
+			censusTracts = json.loads(censusTractFile.read())
+			for tract in censusTracts['features']:
+				if int(tract['properties']['GEO_ID'].split('US')[1]) in foodDesertCensusTracts:
+					geometryType = tract['geometry']['type']
+					if geometryType == 'Polygon':
+						foodDesertLayerString += json.dumps(tract['geometry']['coordinates']) + ', '
+					elif geometryType == 'MultiPolygon':
+						for polygonCoordinateArray in tract['geometry']['coordinates']:
+							foodDesertLayerString += json.dumps(polygonCoordinateArray) + ', '
+					else:
+						print 'Something seems wrong. geometryType was neither Polygon nor MultiPolygon. Please check out this census tract: ' + json.dumps(tract)
+		foodDesertLayerString = foodDesertLayerString[:-2]
+		foodDesertLayerString += ']}'
+		debugPrint('Created a geojson string with all of the food deserts in SACOG region.')
+
+		# Add our new layer to the database, get rid of the old layer
+		with engine.connect() as conn:
+			conn.execute("DELETE FROM additional_layers WHERE name = 'foodDesert'")
+			conn.execute("INSERT INTO additional_layers (name, geom) VALUES('foodDesert',ST_GeomFromGeoJson('{}'))".format(foodDesertLayerString))
 
 class SoilUpdater():
 	county = ''
@@ -86,6 +130,6 @@ class SoilUpdater():
 				name = 'soil' + soilFeature['properties']['COMPONENT_']
 				result = conn.execute("SELECT * FROM additional_layers WHERE name LIKE 'soil%%' AND ST_Intersects(ST_GeomFromGeoJson('{}'), geom) AND (ST_Area(ST_Intersection(ST_GeomFromGeoJson('{}'), geom))/ST_Area(geom)) > .25".format(stringVersion,stringVersion)).first()
 				if result == None:
-					conn.execute("INSERT INTO additional_layers (name, geometry, geom) VALUES('{}','{}',ST_GeomFromGeoJson('{}'))".format(name,stringVersion, stringVersion))
+					conn.execute("INSERT INTO additional_layers (name, geom) VALUES('{}',ST_GeomFromGeoJson('{}'))".format(name, stringVersion))
 				elif debug:
 					print '{} intersects by more than 25%% with an existing soil geometry ({})'.format(name, result)
