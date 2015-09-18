@@ -51,3 +51,4 @@ simplejson
 # Background Jobs
 APScheduler>=3.0.0
 rq>=0.1.2
+xlrd>=0.9.1
