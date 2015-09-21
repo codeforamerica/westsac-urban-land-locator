@@ -1,5 +1,6 @@
 import os
 import json
+import xlrd
 import urllib2
 from sqlalchemy import create_engine
 from farmsList.settings import ProdConfig, DevConfig
