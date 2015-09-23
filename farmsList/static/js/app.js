@@ -149,6 +149,14 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
     });
   });
 
+  var visibleTooltipElements = [];
+  var clearTooltips = function() {
+    angular.forEach(visibleTooltipElements, function(tooltipElement) {
+      tooltipElement.style.display = 'none';
+    });
+    visibleTooltipElements = [];
+  };
+
   window.showTaxIncentiveZoneTooltip = function(event) {
     var html = "<p>Land being used for farming in this area entitles the property owner to a tax write-off in accordance with <a href=\"http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201320140AB551\" target=\"_blank\">AB551</a>.</p>";
     var mouseEnteredTooltip = false;
@@ -183,11 +191,63 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
     } else {
       var tooltipElement = $('#AB551-tooltip')[0];
     }
-    tooltipElement.style.top = event.y - 25 - $('#AB551-tooltip').height() + 'px';
-    tooltipElement.style.left = event.x - 50 + 'px';
-    tooltipElement.style.display = 'block';
+    if (tooltipElement.style.display === 'none') {
+      if (visibleTooltipElements.length > 0) {
+        clearTooltips();
+      }
+      tooltipElement.style.top = event.y - 13 - $('#AB551-tooltip').height() + 'px';
+      tooltipElement.style.left = event.x - 50 + 'px';
+      tooltipElement.style.display = 'block';
+      visibleTooltipElements.push(tooltipElement);
+    }
   };
 
+  window.showFoodDesertTooltip = function(event) {
+    var html = "<p>Food deserts are defined by the <a href=\"http://www.ers.usda.gov/data-products/food-access-research-atlas.aspx\" target=\"_blank\">USDA Economic Research Service</a>.</p>";
+    var mouseEnteredTooltip = false;
+    if ($('#ERS-tooltip')[0] === undefined) {
+      var hideFoodDesertTooltip = function(event) {
+        setTimeout(function() {
+          if (!mouseEnteredTooltip || event.target === tooltipElement) {
+            mouseEnteredTooltip = false;
+            tooltipElement.style.display = 'none';
+          }
+        }, 10);
+      },
+      tooltipElement = document.createElement('div');
+      tooltipElement.id = 'ERS-tooltip';
+      tooltipElement.innerHTML = html;
+      tooltipElement.style.display = 'none';
+      tooltipElement.style.position = 'absolute';
+      tooltipElement.style.fontSize = '10px';
+      tooltipElement.style.width = '100px';
+      tooltipElement.style.backgroundColor = 'white';
+      tooltipElement.style.zIndex = '9999';
+      tooltipElement.style.borderStyle = 'solid';
+      tooltipElement.style.borderRadius = '5px';
+      tooltipElement.style.padding = '5px';
+      var leafletKeyElement = $('.leaflet-control-layers.leaflet-control-layers-expanded.leaflet-control')[0];
+      leafletKeyElement.addEventListener('mouseleave', hideFoodDesertTooltip);
+      tooltipElement.addEventListener('mouseleave', hideFoodDesertTooltip);
+      tooltipElement.addEventListener('mouseenter', function() {
+        mouseEnteredTooltip = true;
+      });
+      document.body.appendChild(tooltipElement);
+    } else {
+      var tooltipElement = $('#ERS-tooltip')[0];
+    }
+    if (tooltipElement.style.display === 'none') {
+      if (visibleTooltipElements.length > 0) {
+        clearTooltips();
+      }
+      tooltipElement.style.top = event.y - 13 - $('#ERS-tooltip').height() + 'px';
+      tooltipElement.style.left = event.x - 50 + 'px';
+      tooltipElement.style.display = 'block';
+      visibleTooltipElements.push(tooltipElement);
+    }
+  };
+
+  var overlayControl;
   $http.get('/api/tax-incentive-zones').
     success(function(data, status, headers, config) {
       if (!data || data.length === 0) {
@@ -210,15 +270,61 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
         style: style
       });
       leafletData.getMap('list-parcels-map').then(function(map) {
-        var overlays = {
-          "<span class=\"text-green\">Urban Agriculture Tax Incentive Zones</span> <span class=\"fa fa-info-circle\" onmouseover=\"showTaxIncentiveZoneTooltip(event)\"></span>": taxIncentiveZonesLayer
+        var overlay = {
+          "<span class=\"text-green\">Tax Incentive Zones</span> <span class=\"fa fa-info-circle\" onmouseover=\"showTaxIncentiveZoneTooltip(event)\"></span>": taxIncentiveZonesLayer
         };
-        var overlayControl = L.control.layers({}, overlays, {collapsed: false, position: "bottomright"}).addTo(map);
+        if (overlayControl) {
+          for (var i in overlay) {
+            overlayControl.addOverlay(overlay[i], i);
+          }
+        } else {
+          overlayControl = L.control.layers({}, overlay, {collapsed: false, position: "bottomright"}).addTo(map);
+        }
         map.addLayer(taxIncentiveZonesLayer);
       });
     }).
     error(function(data, status, headers, config) {
       console.log('error getting parcel data from server in PublishListingsController');
+    });
+
+  $http.get('/api/food-deserts').
+    success(function(data, status, headers, config) {
+      if (!data || data.length === 0) {
+        return;
+      }
+      var foodDeserts = {
+        type: "Feature",
+        geometry: JSON.parse(data[0].geometry),
+        properties: {
+          name: data.name
+        }
+      };
+      data = {
+        type: "FeatureCollection",
+        features: [foodDeserts]
+      };
+      var style = parcelStyles.unselected;
+      style.fillColor = 'orange';
+      style.clickable = false;
+      var foodDesertsLayer = L.geoJson(data, {
+        style: style
+      });
+      leafletData.getMap('list-parcels-map').then(function(map) {
+        var overlay = {
+          "<span class=\"text-green\">Food Deserts</span> <span class=\"fa fa-info-circle\" onmouseover=\"showFoodDesertTooltip(event)\"></span>": foodDesertsLayer
+        };
+        if (overlayControl) {
+          for (var i in overlay) {
+            overlayControl.addOverlay(overlay[i], i);
+          }
+        } else {
+          overlayControl = L.control.layers({}, overlay, {collapsed: false, position: "bottomright"}).addTo(map);
+        }
+        map.addLayer(foodDesertsLayer);
+      });
+    }).
+    error(function(data, status, headers, config) {
+      console.log('error getting food desert data from server in PublishListingsController');
     });
 
   angular.extend($scope, {

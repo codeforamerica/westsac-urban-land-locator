@@ -86,7 +86,7 @@ class FoodDesertUpdater():
 		debugPrint('Found the food deserts in SACOG region.')
 
 		# Finally build a geojson layer from the 2010 census tract boundaries file with the tracts that are 'food deserts'
-		foodDesertLayerString = '{"type":"MultiPolygon","coordinates":['
+		foodDesertGeomStrings = []
 		for censusTract in foodDesertCensusTracts:
 			# censusTractFile = open('{}/parcels-pristine/foodDesertsCalifornia.geojson'.format(filepath), 'r')
 			censusTractFile = open('parcels-pristine/foodDesertsCalifornia.geojson', 'r')
@@ -95,20 +95,22 @@ class FoodDesertUpdater():
 				if int(tract['properties']['GEO_ID'].split('US')[1]) in foodDesertCensusTracts:
 					geometryType = tract['geometry']['type']
 					if geometryType == 'Polygon':
-						foodDesertLayerString += json.dumps(tract['geometry']['coordinates']) + ', '
+						foodDesertGeomString = '{"type":"Polygon","coordinates":' + json.dumps(tract['geometry']['coordinates']) + '}'
 					elif geometryType == 'MultiPolygon':
 						for polygonCoordinateArray in tract['geometry']['coordinates']:
-							foodDesertLayerString += json.dumps(polygonCoordinateArray) + ', '
+							foodDesertGeomString = '{"type":"Polygon","coordinates":' + json.dumps(tract['geometry']['coordinates']) + '}'
 					else:
 						print 'Something seems wrong. geometryType was neither Polygon nor MultiPolygon. Please check out this census tract: ' + json.dumps(tract)
-		foodDesertLayerString = foodDesertLayerString[:-2]
-		foodDesertLayerString += ']}'
-		debugPrint('Created a geojson string with all of the food deserts in SACOG region.')
+						continue
+					foodDesertGeomStrings.append(foodDesertGeomString)
+		debugPrint('Converted food desert data into a single layer.')
 
-		# Add our new layer to the database, get rid of the old layer
 		with engine.connect() as conn:
-			conn.execute("DELETE FROM additional_layers WHERE name = 'foodDesert'")
-			conn.execute("INSERT INTO additional_layers (name, geom) VALUES('foodDesert',ST_GeomFromGeoJson('{}'))".format(foodDesertLayerString))
+			conn.execute("CREATE TEMPORARY TABLE t_food_deserts(geom GEOMETRY(Polygon))")
+			for foodDesert in foodDesertGeomStrings:
+				conn.execute("INSERT INTO t_food_deserts (geom) VALUES(ST_GeomFromGeoJson('{}'))".format(foodDesert))
+			conn.execute("INSERT INTO additional_layers (name, geom) VALUES('foodDesert', (SELECT ST_Union(geom) FROM t_food_deserts))")
+			conn.execute("DROP TABLE t_food_deserts")
 
 class SoilUpdater():
 	county = ''

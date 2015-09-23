@@ -41,12 +41,18 @@ def api_farmland_by_id(farmlandId):
 	farmlandData = pre_json_encode(farmlandData)
 	return jsonpickle.encode(farmlandData, unpicklable=False, make_refs=False)
 
-@blueprint.route("/tax-incentive-zones", methods=["GET", "POST"])
+@blueprint.route("/tax-incentive-zones", methods=["GET"])
 def tax_incentive_zones():
 	taxIncentiveZones = AdditionalLayer.query.filter_by(name="taxIncentive").all()
 	for taxIncentiveZone in taxIncentiveZones:
 		taxIncentiveZone.geometry = db.session.query(func.ST_AsGeoJson(taxIncentiveZone.geom)).all()[0][0]
 		db.session.close()
-	if len(taxIncentiveZones) > 0:
-		taxIncentiveZones = [taxIncentiveZones[0]]
 	return jsonpickle.encode(taxIncentiveZones, unpicklable=False, make_refs=False)
+
+@blueprint.route("/food-deserts", methods=["GET"])
+def food_desert_zones():
+	foodDeserts = AdditionalLayer.query.filter_by(name="foodDesert").all()
+	for taxIncentiveZone in foodDeserts:
+		taxIncentiveZone.geometry = db.session.query(func.ST_AsGeoJson(taxIncentiveZone.geom)).all()[0][0]
+		db.session.close()
+	return jsonpickle.encode(foodDeserts, unpicklable=False, make_refs=False)
