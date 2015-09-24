@@ -36,3 +36,9 @@
 #nav-form .navbar-brand {
   color: white;
 }
+
+/* Nat styles */
+
+#nav-form .navbar {
+  background-color: rgb(186, 74, 68);
+}

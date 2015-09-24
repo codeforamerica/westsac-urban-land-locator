@@ -180,7 +180,7 @@ a:focus {
     }
 
     .intro .intro-body .intro-text {
-        font-size: 26px;
+        font-size: 35px;
     }
 }
 
@@ -367,4 +367,99 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+
+/* Nat styles */
+
+
+h2 {
+    text-transform: none;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    letter-spacing: 0;
+}
+
+h4 {font-size: 16px;}
+
+.btn-default {
+    border: 1px solid rgb(99, 114, 35);
+    color: #fff;
+    background-color: rgb(99, 114, 35);
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  border: 1px solid rgb(99, 114, 35);
+  color: rgb(99, 114, 35);
+    outline: 0;
+    background-color: transparent;
+}
+
+footer {
+    background-color: #eee;
+}
+
+footer p{
+  font-size: 14px;
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+a {
+    color: rgb(44, 111, 172);
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: rgb(0, 164, 228);
+}
+
+.content-section {    padding-top: 145px;}
+
+.btn-browse {
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    border: 1px solid rgb(186, 74, 68);
+    color: #fff;
+    background-color: rgb(186, 74, 68);
+    padding: 20px 30px;
+}
+
+.btn-browse:hover,
+.btn-browse:focus {
+  border: 1px solid white;
+  color: rgb(186, 74, 68);
+    outline: 0;
+    background-color: white;
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    color: white;
+    background-color: rgb(186, 74, 68);
+}
+
+.navbar-custom .nav li.active a {
+    background-color: rgb(186, 74, 68);
+    color: white;
+}
+
+
+@media(min-width:768px) {
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        background: white;
+        border-bottom: 2px solid rgb(186, 74, 68);
+    }
+}
+
+.intro {
+    background-color: rgb(186, 74, 68);
 }

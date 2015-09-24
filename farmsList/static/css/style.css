@@ -270,3 +270,18 @@ margin-top:-5px;}
     color: white;
     background-color: tomato;
 }
+
+.value-props {margin-top: 40px;}
+.value-props img {margin-bottom: 25px;}
+.value-props p {font-size: 16px;}
+.value-props h4 {margin-bottom: 15px;}
+
+footer .logos{
+  list-style-type: none;
+  margin: 0px auto;
+}
+
+footer .logos li {
+  display: inline;
+  padding: 0px 15px;
+}
