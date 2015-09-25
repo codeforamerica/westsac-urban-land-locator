@@ -54,7 +54,7 @@ textarea.form-control {
 /*intro styles section*/
 header.intro {
   background-color: salmon;
-  background-image: url('http://montereycfb.com/uploads/images/Lettuce%20rows%202013.jpg');
+  background-image: url('images/landbg.jpg');
   max-width: 100%;
 }
 
@@ -239,6 +239,10 @@ h3 {
   background-color: limegreen;
   border: 1px solid limegreen;}
 
+.btn-home {
+  width: 300px;
+}
+
 h1, .h1 {
   font-size: 24px;
   font-weight: bold;}
@@ -285,3 +289,8 @@ footer .logos li {
   display: inline;
   padding: 0px 15px;
 }
+
+.leaflet-angular-map {
+  height: 565px;
+  width: 100%;
+  margin-top: 20px;}
