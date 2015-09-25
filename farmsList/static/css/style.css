@@ -285,3 +285,8 @@ footer .logos li {
   display: inline;
   padding: 0px 15px;
 }
+
+.leaflet-angular-map {
+  height: 565px;
+  width: 100%;
+  margin-top: 20px;}

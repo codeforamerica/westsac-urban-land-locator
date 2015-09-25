@@ -66,7 +66,6 @@ association_table = Table('parcel-farmland', Base.metadata,
 class AdditionalLayer(SurrogatePK, Model):
     __tablename__ = 'additional_layers'
     name = Column(db.String(400), nullable=False)
-    geometry = Column(db.String(6250000), nullable=False)
     geom = Column(Geometry(geometry_type='MULTIPOLYGON'), nullable=False)
 
     def __init__(self, **kwargs):
