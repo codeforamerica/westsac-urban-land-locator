@@ -239,6 +239,10 @@ h3 {
   background-color: limegreen;
   border: 1px solid limegreen;}
 
+.btn-home {
+  width: 300px;
+}
+
 h1, .h1 {
   font-size: 24px;
   font-weight: bold;}
