@@ -1,3 +1,4 @@
+{% include "head.html" %}
 <body ng-app="listApp" class="{% block body_class %}{% endblock %} ng-cloak" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PC2XRN"
@@ -12,15 +13,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 {% with form=form  %}
 
-
 {% block content %}{% endblock %}
 
-
 {% endwith %}
-
-
-
-
 
 {% include "footer.html"%}
 <!-- JavaScript at the bottom for fast page loading -->
