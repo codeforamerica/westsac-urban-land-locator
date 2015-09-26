@@ -23,7 +23,7 @@ js = Bundle(
     "js/angular-mapbox.js",  # <-- use this while we need customizations, delete comments and this file otherwise
     "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js",
     "libs/bootstrap/dist/js/bootstrap.min.js",
-    # "https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js",
+    "js/jquery_easing.js",
     "js/grayscale.js",
     "js/plugins.js",
     "js/app.js",
