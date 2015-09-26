@@ -358,6 +358,21 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
 
 .controller('FarmlandDetailsController', function($scope, $http, leafletData, $location, parcelStyles){
   $scope.farmland = {};
+  angular.extend($scope, {
+    layers: {
+      baselayers: {
+        xyz: {
+          name: 'OpenStreetMap (XYZ)',
+          url: 'http://{s}.tiles.mapbox.com/v4/codeforamerica.m5m971km/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q',
+          type: 'xyz',
+          layerOptions: {
+            attribution: 'Mapbox | OpenStreetMap',
+            showOnSelector: false
+          }
+        }
+      }
+    }
+  });
   $scope.listIconClass = function(check) {
     var iconClass = 'fa fa-li ';
     iconClass += check ? ' fa-check green' : 'fa-close';
@@ -411,19 +426,4 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
     error(function(data, status, headers, config) {
       console.log('error getting farmland data from server in FarmlandDetailsController');
     });
-  angular.extend($scope, {
-    layers: {
-      baselayers: {
-        xyz: {
-          name: 'OpenStreetMap (XYZ)',
-          url: 'http://{s}.tiles.mapbox.com/v4/codeforamerica.m5m971km/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q',
-          type: 'xyz',
-          layerOptions: {
-            attribution: 'Mapbox | OpenStreetMap',
-            showOnSelector: false
-          }
-        }
-      }
-    }
-  });
 });
