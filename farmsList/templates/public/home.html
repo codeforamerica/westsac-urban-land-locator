@@ -1,55 +1,37 @@
 {% extends "layout.html" %}
+
+{% include "nav.html" %}
+
+{% include "header.html" %}
+
 {% block content %}
-<div ng-controller="MainController">
-  <div class="row">
-    <div class="col-md-4">
-      {% with messages = get_flashed_messages(with_categories=true) %}
-      {% if messages %}
-      <div class="row">
-        <div class="col-md-12">
-          {% for category, message in messages %}
-          <div class="alert alert-{{ category }}">
-            <a class="close" title="Close" href="#" data-dismiss="alert">&times;</a>
-           {{message}}
-          </div><!-- end .alert -->
-          {% endfor %}
-        </div><!-- end col-md -->
-      </div><!-- end row -->
-      {% endif %}
-      {% endwith %}
-      <div class="row parcel-listing" ng-click="goToFarmlandDetailsPage(farm.id)" ng-mouseover="highlightParcelOnMap(farm.id)" ng-repeat="farm in farms | filter:searchText">
-        <div class="row">
-          <div class="col-md-8">
-            <h3 class="title">{[farm.address]}</h3>
-            <h2>{[farm.size]} acres</h2>
-            <ul class="info">
-              <li>Water: {[farm.water]}</li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <button ng-click="gotoContactForm(farm.id, $event)" id="contact-btn" class="btn btn-warning pull-right btn-contact">
-              Contact Owner
-            </button>
-          </div>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+
+        <h2>Acres is the best way to find, list, and analyze land for urban farming.</h2>
+
+        <hr>
+
+        <div class="row value-props">
+            <div class="col-md-4">
+                <h4>For Farmers</h4>
+                <img src="../static/public/images/for-farmers.png" width="140px">
+                <p>Find farmable lots of land perfect for your urban farm.</p>
+                <a class="btn btn-default" href="/find-land" role="button">Browse Property</a>
+            </div>
+            <div class="col-md-4">
+                <h4>For Property Owners</h4>
+                <img src="../static/public/images/for-property-owners.png" width="140px">
+                <p>Prime an area for future development with an urban farm.</p>
+                <a class="btn btn-default" href="#" role="button">List Property</a>
+            </div>
+            <div class="col-md-4">
+                <h4>For Cities</h4>
+                <img src="../static/public/images/for-cities.png" width="140px">
+                <p>Identify food deserts to make better decisions about urban agriculture.</p>
+                <a class="btn btn-default" href="http://github.com/codeforamerica/westsac-urban-land-locator" role="button">Redeploy</a>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="col-md-8 div-map">
-      <mapbox class="mapTogether" map-id="codeforamerica.m5m971km" lat="{[center.lat]}" lng="{[center.lng]}" zoom="13">
-        <div ng-repeat="farm in farms | filter:searchText">
-          <feature-layer data="{[farm.geometry]}" color="green"></featureLayer>
-          <marker lat="{[farm.center.lat]}" lng="{[farm.center.lng]}" color="green">
-            <p><strong>{[farm.address]}</strong><br>
-              <span>{[farm.size]} acres</span><br>
-              <a href="#" ng-click="goToFarmlandDetailsPage(farm.id)">Additional Info</a><br>
-              <a href="#" ng-click="gotoContactForm(farm.id, $event)">Contact Owner</a>
-            </p>
-            <p style="display: none">{[farm.costEstimate]}</p>
-            <p style="display: none">{[farm.id]}</p>
-          </marker>
-        </div>
-      </mapbox>
-    </div>
-  </div>
-</div>
+    </section>
 {% endblock %}

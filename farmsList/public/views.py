@@ -109,7 +109,16 @@ def farmlandDetails(farmlandId):
 def farmlandApproval(farmlandId):
     return render_template("public/farmland-approval.html")
 
-@blueprint.route("/about/")
-def about():
+@blueprint.route("/find-land/")
+def find_land():
     form = LoginForm(request.form)
-    return render_template("public/about.html", form=form)
+    # Handle logging in
+    if request.method == 'POST':
+        if form.validate_on_submit():
+            login_user(form.user)
+            flash("You are logged in.", 'success')
+            redirect_url = request.args.get("next") or url_for("user.members")
+            return redirect(redirect_url)
+        else:
+            flash_errors(form)
+    return render_template("public/find_land.html", form=form)

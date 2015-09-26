@@ -401,16 +401,17 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
         equipment: farmland.equipment,
         pesticides: farmland.pesticides
       });
+      leafletData.getMap('farmland-details-map').then(function(map) {
+        map.setView(new L.LatLng($scope.center.lat, $scope.center.lng), $scope.center.zoom);
+      });
+      leafletData.getMap('farmland-approval-map').then(function(map) {
+        map.setView(new L.LatLng($scope.center.lat, $scope.center.lng), $scope.center.zoom);
+      });
     }).
     error(function(data, status, headers, config) {
       console.log('error getting farmland data from server in FarmlandDetailsController');
     });
   angular.extend($scope, {
-    center: {
-      lat: 38.58024,
-      lng: -121.5305,
-      zoom: 14
-    },
     layers: {
       baselayers: {
         xyz: {

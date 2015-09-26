@@ -12,6 +12,7 @@ body {
   padding-top: 50px;
   font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
   font-size: 16px;
+  background-color: white;
 }
 
 section {
@@ -50,6 +51,13 @@ textarea.form-control {
           box-sizing: border-box;
 }
 
+/*intro styles section*/
+header.intro {
+  background-color: salmon;
+  background-image: url('images/landbg.jpg');
+  max-width: 100%;
+}
+
 /* list row */
 .title {
   //color: DimGray;
@@ -64,8 +72,8 @@ textarea.form-control {
 
 #contact-btn {
   font-size: 15px;
-  background-color: blue;
-  border-color: blue;
+  background-color: limegreen;
+  border-color: limegreen;
   opacity: 0.75;
 }
 
@@ -122,8 +130,8 @@ ul.info-icons > li > img {
 }
 
 .parcel-submit .btn-submit {
-  background-color: blue;
-  border: 1px solid blue;
+  background-color: limegreen;
+  border: 1px solid limegreen;
   color: white;
 }
 
@@ -159,7 +167,7 @@ ul.info-icons > li > img {
   margin-top: 20px;
   font-size: 24px;
   background-color: white;
-  color: blue;
+  color: limegreen;
 }
 
 #farm-details-address {
@@ -204,20 +212,11 @@ h2 {
   border-bottom: 1px solid #eee;
 }
 
-.div-map {
-  padding: 0;
-}
-
 .page-header {
   font-size: 24px;
   font-weight: bold;
   border-bottom: 1px solid #eee;
   margin-top: 30px;}
-
-.leaflet-angular-map {
-  height: 565px;
-  width: 100%;
-  margin-top: 20px;}
 
 .required {
   color: #d6373d;}
@@ -232,24 +231,28 @@ label {
   font-size: 14px;
   color: #aaa;}
 
-h3 {    
+h3 {
   font-size: 20px;
   font-weight: bold;}
 
 .btn-primary {
-  background-color: blue;
-  border: 1px solid blue;}
+  background-color: limegreen;
+  border: 1px solid limegreen;}
+
+.btn-home {
+  width: 300px;
+}
 
 h1, .h1 {
   font-size: 24px;
   font-weight: bold;}
 
 a {
-    color: blue;
+    color: limegreen;
     text-decoration: none;
 }
 
-.has-water label {    
+.has-water label {
     margin-top: 5px;
     margin-bottom: 20px;}
 
@@ -258,3 +261,36 @@ margin-top:-5px;}
 
 .form-group.water-meter {    margin-top: -25px;
     margin-left: 26px;}
+
+.btn-danger {
+  border: 1px solid tomato;
+  background-color: white;
+  color: tomato;
+}
+
+.btn-danger:hover, .btn-danger:focus {
+    border: 1px solid tomato;
+    outline: 0px none;
+    color: white;
+    background-color: tomato;
+}
+
+.value-props {margin-top: 40px;}
+.value-props img {margin-bottom: 25px;}
+.value-props p {font-size: 16px;}
+.value-props h4 {margin-bottom: 15px;}
+
+footer .logos{
+  list-style-type: none;
+  margin: 0px auto;
+}
+
+footer .logos li {
+  display: inline;
+  padding: 0px 15px;
+}
+
+.leaflet-angular-map {
+  height: 565px;
+  width: 100%;
+  margin-top: 20px;}
