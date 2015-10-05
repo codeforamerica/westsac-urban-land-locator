@@ -75,6 +75,7 @@ header.intro {
   background-color: limegreen;
   border-color: limegreen;
   opacity: 0.75;
+  margin-bottom: 15px;
 }
 
 .farm-image {
@@ -164,13 +165,14 @@ ul.info-icons > li > img {
 
 #farmland-details-back-btn {
   margin-left: -40px;
-  margin-top: 20px;
+  margin-top: 19px;
   font-size: 24px;
   background-color: white;
   color: limegreen;
 }
 
 #farm-details-address {
+  margin-top: -62px;
   font-size: 18px;
 }
 

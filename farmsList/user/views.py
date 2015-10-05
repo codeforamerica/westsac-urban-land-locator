@@ -64,8 +64,8 @@ def reject(farmlandId):
                     body=msg.html)
     return redirect(url_for('public.home'))
 
-@blueprint.route("/new_parcel_1/", methods=['GET', 'POST'])
-def new_parcel_1():
+@blueprint.route("/list-farmland", methods=['GET', 'POST'])
+def list_farmland():
     form = NewParcel1Form(request.form)
     if form.validate_on_submit():
         address = form.address.data
@@ -93,22 +93,7 @@ def new_parcel_1():
                         geometry=geometry,
                         center=center,
                         zoning=zoning,
-                        soil=soil)
-        flash("Thank you for listing a property. It will appear here after it has been reviewed by the city.", 'info')
-        # msg = Message("Review a new property on Acres", recipients=['aaronl@cityofwestsacramento.org'])
-        msg = Message("Review a new property on Acres", recipients=['grantrobertsmith@gmail.com'])
-        anchorTagHtml = "<a href=\"http://" + server + "/farmland-approval/" + str(new_parcel.id) + "\">review a property</a>"
-        msg.html = ("<html>"
-                        "<body>"
-                            "<p>Please, " + anchorTagHtml + " to publish it on Acres.</p>"
-                            "<p>Thanks,<br>"
-                                "Acres"
-                            "</p>"
-                        "</body>"
-                    "</html>")
-        mail.send(msg)
-        Email.create(sender=msg.sender,
-                        recipients=",".join(msg.recipients),
-                        body=msg.html)
+                        soil=soil,
+                        public=True)
         return redirect(url_for('public.home'))
-    return render_template("users/new_parcel_1.html", form=form)
+    return render_template("users/list-farmland.html", form=form)
