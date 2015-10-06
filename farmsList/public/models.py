@@ -27,6 +27,7 @@ class Parcel(SurrogatePK, Model):
     restrictions = Column(db.String(400), nullable=True)
     address = Column(db.String(400), nullable=True)
     apn = Column(db.BigInteger(), nullable=False, unique=True)
+    jurisdiction = Column(db.String(400))
     landType = Column(db.String(80), nullable=True)
     landUse = Column(db.String(80), nullable=True)
 
