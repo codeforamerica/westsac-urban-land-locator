@@ -25,6 +25,7 @@ js = Bundle(
     "libs/bootstrap/dist/js/bootstrap.min.js",
     "js/jquery_easing.js",
     "js/grayscale.js",
+    "js/SimpleAjaxUploader.min.js",
     "js/plugins.js",
     "js/app.js",
     filters='jsmin',

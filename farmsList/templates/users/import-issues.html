@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% include "nav-form.html" %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <pre>Issues: {{ issues }}</pre>
+      {% if review %}
+      <form method="POST" action="/users/import-parcels?verified=True" role="form">
+        <button class="btn btn-primary btn-lg btn-submit" type="submit">Accept Changes</button>
+      </form>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}

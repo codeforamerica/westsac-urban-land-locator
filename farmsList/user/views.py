@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 import os
+import json
 from sqlalchemy import func
 from farmsList.settings import ProdConfig, DevConfig
 
-from flask import Blueprint, render_template, request, redirect, url_for, flash
+from flask import Blueprint, render_template, session, request, redirect, url_for, flash
 from flask.ext.login import login_required
 from farmsList.extensions import mail
 from flask_mail import Message
@@ -13,6 +14,9 @@ from farmsList.public.models import Farmland,Parcel
 from farmsList.public.forms import NewParcel1Form
 from farmsList.utils import flash_errors
 from farmsList.database import db
+
+from farmsList.modules.importCheckers import jsonImportChecker
+from farmsList.modules.importers import importer
 
 if os.environ.get("FARMSLIST_ENV") == 'prod':
     server = ProdConfig().HTTP_SERVER
@@ -97,3 +101,34 @@ def list_farmland():
                         public=True)
         return redirect(url_for('public.home'))
     return render_template("users/list-farmland.html", form=form)
+
+@blueprint.route("/import-parcels", methods=['GET', 'POST'])
+def import_parcels():
+    if request.method == 'POST':
+        userVerified = False
+        if 'verified' in request.args:
+            userVerified = request.args['verified']
+            parcels = session['import-data']
+        else:
+            parcels = json.loads(request.files['importFile'].read())
+        if not userVerified:
+            session['import-data'] = parcels
+            session.modified = True
+        review = False
+        if userVerified:
+            importer().importParcels(parcels)
+            issues = 'No issues! Content imported successfully!'
+            session.pop('import-data', None)
+        else:
+            importChecker = jsonImportChecker()
+            issues = importChecker.validateParcels(parcels)
+            if issues == 'No issues!':
+                issues = importChecker.findUpdates(parcels)
+            if issues == 'No issues!':
+                importer().importParcels(parcels)
+                issues = 'No issues! Content imported successfully!'
+                session.pop('import-data', None)
+            else:
+                review = True
+        return render_template("users/import-issues.html", issues=issues, review=review)
+    return render_template("users/import-parcels.html")

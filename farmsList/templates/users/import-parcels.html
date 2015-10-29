@@ -1,0 +1,70 @@
+{% extends "layout.html" %}
+
+{% include "nav-form.html" %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <p></p>
+      <p>
+        <button id="upload-btn">Select and Upload File</button>
+      </p>
+      <p id='progress-bar' style="display:none;">Running...</p>
+      <p>This will take significant time (a few minutes to a few days, depending on the number of geometries being added).</p>
+      <p>Please let this run and check back periodically.</p>
+    </div>
+    <div class="col-md-12" style="height:178px;">
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  var innerFunction,
+  forceApply = function(appliedFunction, frequency, attempts) {
+    innerFunction = innerFunction || function() {
+      forceApply(appliedFunction, frequency, --attempts);
+    }
+    if (attempts !==0 && (!attempts || attempts < 0)) {
+      attempts = 10;
+    }
+    if (!frequency || frequency <= 0) {
+      frequency = 100;
+    }
+    try {
+      appliedFunction();
+    } catch(e) {
+      if (attempts > 0) {
+        setTimeout(innerFunction, frequency);
+      } else {
+        throw e;
+      }
+    }
+  },
+  initializePage = function() {
+    var uploader = new ss.SimpleUpload({
+      button: 'upload-btn', // HTML element used as upload button
+      url: "{{ url_for('user.import_parcels') }}", // URL of server-side upload handler
+      name: 'importFile', // Parameter name of the uploaded file
+      multipart: true, // This is required for large files
+      onSubmit: function() {
+        document.getElementById('progress-bar').style.display = 'block';
+      },
+      onComplete: function(filename, response) { // Instead of eating the response, actually render the HTML
+        if (!response) {
+              alert(filename + 'upload failed');
+              return false;
+        } else {
+          document.documentElement.innerHTML = response;
+          document.body.className = document.body.className.replace(/\bng-cloak\b/,'');  // We need to make sure the ng-cloak is undone
+          return true;
+        }
+      },
+      onError: function(filename, type, status, statusText, response, uploadBtn, size) {
+        document.getElementById('progress-bar').style.display = 'none';
+        alert('An error occurred: ' + statusText);
+      }
+    });
+  };
+  forceApply(initializePage);
+</script>
+{% endblock %}

@@ -1,0 +1,132 @@
+[{
+	"jurisdiction": "West Sacramento, CA, USA",
+	"id": "8010023000",
+	"address": "123 Alpha St"
+},{
+	"jurisdiction": "West Sacramento, CA, USA",
+	"id": "8010025000",
+	"address": "452 Beta Ave"
+},{
+	"jurisdiction": "West Sacramento, CA, USA",
+	"id": "8010026000",
+	"address": "789 Gamma Ln"
+},{
+	"jurisdiction": "West Sacramento, CA, USA",
+	"id": "8010027000"
+},{
+	"jurisdiction": "West Sacramento, CA, USA",
+	"id": "8010031000",
+	"geometry": {
+		"type": "MultiPolygon",
+		"coordinates": [
+			[
+				[
+					[
+						-122.53994560241699,
+						38.5423922816319
+					],
+					[
+						-122.54088973999022,
+						38.53561160520003
+					],
+					[
+						-122.53307914733888,
+						38.53547732792567
+					],
+					[
+						-122.5333366394043,
+						38.540445420153254
+					],
+					[
+						-122.53573989868164,
+						38.54313073254508
+					],
+					[
+						-122.53994560241699,
+						38.5423922816319
+					]
+				]
+			],
+			[
+				[
+					[
+						-122.55651092529295,
+						38.541318157677715
+					],
+					[
+						-122.56045913696288,
+						38.53212031461063
+					],
+					[
+						-122.54973030090332,
+						38.532321739826905
+					],
+					[
+						-122.54415130615233,
+						38.53668581437226
+					],
+					[
+						-122.54895782470703,
+						38.54373491401628
+					],
+					[
+						-122.55651092529295,
+						38.541318157677715
+					]
+				]
+			]
+		]
+	}
+},{
+	"jurisdiction": "West Sacramento, CA, USA",
+	"id": "8010032000",
+	"geometry": {
+		"type": "MultiPolygon",
+		"coordinates": [
+			[
+				[
+					[
+						-123.56457901000975,
+						38.543869175876154
+					],
+					[
+						-123.52638435363768,
+						38.534000261365655
+					],
+					[
+						-123.54904365539551,
+						38.52527152173656
+					],
+					[
+						-123.56457901000975,
+						38.543869175876154
+					]
+				]
+			]
+		]
+	}
+},{
+	"jurisdiction": "West Sacramento, CA, USA",
+	"id": "8010033000"
+},{
+	"jurisdiction": "West Sacramento, CA, USA",
+	"id": "8010034000"
+},{
+	"jurisdiction": "West Sacramento, CA, USA",
+	"id": "8020003000"
+},{
+	"jurisdiction": "West Sacramento, CA, USA",
+	"id": "8020004000"
+},{
+	"jurisdiction": "West Sacramento, CA, USA",
+	"id": "8020022000"
+},{
+	"jurisdiction": "West Sacramento, CA, USA",
+	"id": "8020024000"
+},{
+	"jurisdiction": "West Sacramento, CA, USA",
+	"id": "8020026000"
+},{
+	"jurisdiction": "West Sacramento, CA, USA",
+	"id": "8020027000"
+}]
