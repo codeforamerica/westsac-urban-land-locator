@@ -15,13 +15,13 @@
     <div class="gray">${[farmland.monthlyCost]} per month</div>
     <hr />
     <h3>Zoning</h3>
-    <p>This property is zoned for <b>{[farmland.zoning]}</b>. This means:</p>
+    <p>This property is zoned as <b>{[farmland.zoning]}</b>. This means:</p>
     <ul class="fa-ul">
       <li ng-class="{gray: !farmstands}"><span ng-class="listIconClass(farmstands)"></span>Commercial farm stands {[farmstands ? 'permitted' : 'restricted']}</li>
       <li ng-class="{gray: !parking}"><span ng-class="listIconClass(parking)"></span>Parking {[parking ? 'permitted' : 'restricted']}</li>
       <li ng-class="{gray: !events}"><span ng-class="listIconClass(events)"></span>Events {[events ? 'permitted' : 'restricted']}</li>
       <li ng-class="{gray: !equipment}"><span ng-class="listIconClass(equipment)"></span>Tractors and other large equipment {[equipment ? 'permitted' : 'restricted']}</li>
-      <li ng-class="{gray: !pesticides}"><span ng-class="listIconClass(pesticides)"></span>Pesticide use restricted {[pesticides ? 'permitted' : 'restricted']}</li>
+      <!-- <li ng-class="{gray: !pesticides}"><span ng-class="listIconClass(pesticides)"></span>Pesticide use restricted {[pesticides ? 'permitted' : 'restricted']}</li> -->
     </ul>
     <hr />
     <h3>Details</h3>

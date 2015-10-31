@@ -379,12 +379,26 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
     return iconClass;
   };
   var processZoningData = function(data) {
+    var urbanAgZonings = ['A-1', 'BP', 'C-1', 'C-2', 'C-3', 'M-1', 'M-2', 'M-3', 'POS', 'R1-A', 'R1-B', 'R-2', 'R-3', 'R-4', 'RE', 'RP', 'RRA'];
     var farmland = angular.extend({}, data);
-    farmland.farmstands = farmland.zoning === 'Commercial' || farmland.zoning === 'Mixed Use';
-    farmland.parking = true;
-    farmland.events = true;
-    farmland.equipment = false;
-    farmland.pesticides = false;
+    var approved = false;
+    angular.forEach(farmland.zoning.split(','), function(subZoning) {
+      subZoning = subZoning.trim();
+      if (urbanAgZonings.indexOf(subZoning) !== -1) {
+        farmland.farmstands = true;
+        farmland.parking = true;
+        farmland.events = true;
+        farmland.equipment = true;
+        farmland.pesticides = true;
+        approved = true;
+      } else if (!approved){
+        farmland.farmstands = false;
+        farmland.parking = false;
+        farmland.events = false;
+        farmland.equipment = false;
+        farmland.pesticides = false;
+      }
+    });
     return farmland;
   },
     path = $location.absUrl(),
