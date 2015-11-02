@@ -80,16 +80,6 @@ To run all tests, run ::
 Migrations
 ----------
 
-Whenever a database migration needs to be made. Run the following commmands:
-::
-
-    python manage.py db migrate
-
-This will generate a new migration script. Then run:
-::
-
-    python manage.py db upgrade
-
-To apply the migration.
+Whenever a database migration needs to be made. Refer to `this document <https://docs.google.com/document/d/16Jv7O9yW8iPfMswYMPU2_xSG5qVDY7ckyMZHlSGa01k/>`_. Using the postgis extension in postgres complicates the sqlalchemy migration and upgrade process.
 
 For a full migration command reference, run ``python manage.py db --help``.
