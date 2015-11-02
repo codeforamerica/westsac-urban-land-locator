@@ -40,7 +40,7 @@ Now, you'll need to `install the virtualenv tool <https://virtualenv.pypa.io/en/
     pip install -r requirements/dev.txt
 
 
-Finally, you'll want to initialize the database and start the server. We have to modify the upgrade file after it's created because we are using postgis. Between steps two and three, you'll have to follow `these steps <https://docs.google.com/document/d/1KPrTyPMVI-w1ILHd5NDzeD6XYTO9RQUfMSzrRrw-62g>`_:
+Finally, you'll want to initialize the database and start the server. We have to modify the upgrade file after it's created because we are using postgis. Between steps two and three (migrate and upgrade), you'll have to follow `these steps <https://docs.google.com/document/d/1KPrTyPMVI-w1ILHd5NDzeD6XYTO9RQUfMSzrRrw-62g>`_:
 
 ::
 
