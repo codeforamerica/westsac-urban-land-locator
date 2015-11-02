@@ -83,3 +83,9 @@ Migrations
 Whenever a database migration needs to be made. Refer to `this document <https://docs.google.com/document/d/16Jv7O9yW8iPfMswYMPU2_xSG5qVDY7ckyMZHlSGa01k/>`_. Using the postgis extension in postgres complicates the sqlalchemy migration and upgrade process. To add new geometry columns, you'll also need to reference `these steps <https://docs.google.com/document/d/1KPrTyPMVI-w1ILHd5NDzeD6XYTO9RQUfMSzrRrw-62g>`_.
 
 For a full migration command reference, run ``python manage.py db --help``.
+
+
+Importing Data
+--------------
+
+To add underlying parcel data to your development environment, you can use the `parcel import tool <http://localhost:5001/users/import-parcels>`_ . (This link is for your local environment; it assumes you are running acres on port 5001.) The documentation for which is in a google document: `import documentation <https://docs.google.com/document/d/1PgRqpIJtAka-Af3rePalYEi5SoBJJOXjYgDvHVWrMmc/>`_.
