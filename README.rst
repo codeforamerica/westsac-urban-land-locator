@@ -5,7 +5,7 @@ Farms List
 Getting Started
 ----------------
 
-You will need to have Postgres SQL Installed on your machine (`You can get it here <http://www.postgresql.org/download/>`_.) and you will need to have it started and create a farmslistadmin user with priviledges:
+You will need to have Postgres SQL Installed on your machine (`You can get it here <http://www.postgresql.org/download/>`_.) and you will need to have it started and create a farmslistadmin user with priviledges. You will also have to add the postgis extension to the database:
 
 ::
 
@@ -17,6 +17,7 @@ You will need to have Postgres SQL Installed on your machine (`You can get it he
     # CREATE USER urbanlandlocatoradmin;
     # CREATE DATABASE urban_land_locator;
     # ALTER DATABASE urban_land_locator OWNER TO urbanlandlocatoradmin;
+    # CREATE EXTENSION postgis;
     # \q
 
 
@@ -39,7 +40,7 @@ Now, you'll need to `install the virtualenv tool <https://virtualenv.pypa.io/en/
     pip install -r requirements/dev.txt
 
 
-Finally, you'll want to initialize the database and start the server:
+Finally, you'll want to initialize the database and start the server. We have to modify the upgrade file after it's created because we are using postgis. Between steps two and three, you'll have to follow `these steps <https://docs.google.com/document/d/1KPrTyPMVI-w1ILHd5NDzeD6XYTO9RQUfMSzrRrw-62g>`_:
 
 ::
 
