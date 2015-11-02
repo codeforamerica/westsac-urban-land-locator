@@ -29,7 +29,7 @@ Then run the following commands to bootstrap your environment:
     cd westsac-urban-land-locator/
 
 
-Now, you'll need to install the virtualenv tool and then setup the environment:
+Now, you'll need to `install the virtualenv tool <https://virtualenv.pypa.io/en/latest/installation.html>`_ and then setup the environment:
 
 
 ::
