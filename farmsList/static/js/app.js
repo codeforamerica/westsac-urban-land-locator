@@ -418,6 +418,7 @@ app.controller('MainController', function($scope, $http, mapboxService, parcelSt
         lng: center[0],
         zoom: 16
       };
+      console.log(farmland);
       angular.extend($scope, {
         farmland: farmland,
         geojson: {

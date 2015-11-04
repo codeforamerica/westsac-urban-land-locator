@@ -53,7 +53,7 @@
 
         <div class="form-group">
           <div class="col-sm-2 control-label">
-            <span class="nowrap">{{form.monthlyCost.label}} {% if form.developmentPlan.flags.required %}<span class="required">*</span>{% endif %}</span>
+            <span class="nowrap">{{form.monthlyCost.label}} {% if form.monthlyCost.flags.required %}<span class="required">*</span>{% endif %}</span>
           </div>
           <div class="col-sm-2">
             <div class="input-group">
@@ -61,6 +61,31 @@
               {{form.monthlyCost(placeholder="", class_="form-control")}}
               </div>
             </div>
+        </div>
+
+        <div class="checkbox has-water" ng-init="parcel.hasWater = false;">   
+          <label>    
+            {{form.hasWater(class_="form-control form-checkbox", **{'ng-model':'parcel.hasWater'})}} {{form.hasWater.label}}   
+          </label>   
+        </div>   
+   
+        <div class="form-group water-meter">   
+          <div class="col-sm-2 control-label">{{form.water.label}}</div>   
+          <div class="col-xs-2">   
+            <div class="input-group">    
+              {{form.water(class_="form-control", **{'ng-model':'parcel.water'})}}   
+              <div class="input-group-addon">inches</div>    
+            </div>   
+            </div>   
+        </div>
+
+        <div class="form-group">
+          <div class="col-sm-2 control-label">
+            <span class="nowrap">{{form.knownPriorUses.label}} {% if form.knownPriorUses.flags.required %}<span class="required">*</span>{% endif %}</span>
+          </div>
+          <div class="col-sm-6">
+            {{form.knownPriorUses(placeholder="Warehousing, gas station, etc.", class_="form-control", **{'ng-model':'parcel.knownPriorUses'})}}
+          </div>
         </div>
 
         <hr>

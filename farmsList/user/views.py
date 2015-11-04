@@ -98,6 +98,7 @@ def list_farmland():
                         center=center,
                         zoning=zoning,
                         soil=soil,
+                        priorUses=form.knownPriorUses.data,
                         public=True)
         return redirect(url_for('public.home'))
     return render_template("users/list-farmland.html", form=form)
