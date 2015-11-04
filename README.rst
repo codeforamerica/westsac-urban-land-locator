@@ -2,6 +2,11 @@
 Farms List
 ===============================
 
+Context
+-------
+
+`Acres <http://acres.online>`_ is an online hub for posting and finding vacant, available land, specifically urban farmland. It was built originally in collaboration with the City of West Sacramento and the Sacramento Area Council of Government (SACOG) as a 2015 Code for America Fellowship project. For further background information please refer to stories about `project as a whole <https://docs.google.com/presentation/d/1vog0oDCvmF77wK7cSfr4_XwYcGTbQUxVinDZUUgrEkI/edit?usp=sharing>`_ or the `early concept exprimentation and design iterations <http://codeforamerica.github.io/westsac-mid-year-report-draft/>`_.
+
 Getting Started
 ----------------
 
